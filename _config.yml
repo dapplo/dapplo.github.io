@@ -1,0 +1,19 @@
+# Site settings
+title: dapplo .NET
+email: info@dapplo.net
+description: "dapplo .NET is an application & framework for running and developing small .NET applications without the fuss."
+baseurl: ""
+url: "http://www.dapplo.net"
+twitter_username: dapplo
+github_username:  lakritzator
+
+# Build settings
+markdown: redcarpet
+permalink: pretty
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']
+
+kramdown:
+ input: GFM
+
+redcarpet:
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "hard_wrap"]
