@@ -12,6 +12,9 @@ markdown: redcarpet
 permalink: pretty
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']
 
+gems:
+  - jemoji
+
 kramdown:
  input: GFM
 
