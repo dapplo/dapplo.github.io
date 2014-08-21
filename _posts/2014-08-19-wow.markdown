@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Wow!"
+date:   2014-08-19 11:11:11
+categories: example two
+---
+Wow
