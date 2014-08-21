@@ -6,9 +6,5 @@ categories: example
 ---
 :one:
 :two:
-:three:
-:three:
-:three:
-:three:
-:three:
+
 :rocket:
