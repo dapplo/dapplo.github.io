@@ -3,21 +3,18 @@ layout: page
 title: blog
 permalink: /blog/
 ---
-
-<div class="home">
-
+<div class="container">
   <h1>Posts</h1>
 
-  <ul class="posts">
+  <ul>
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		{{ post.content | truncatewords:50 }}
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>

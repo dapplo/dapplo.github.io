@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: page
 permalink: /
+title: dappo.NET
 ---
-
-Welcome to {{site.title}}!
-
+{{ site.description }}
