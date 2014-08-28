@@ -13,10 +13,10 @@ This imprint also accounts for:
 * our Twitter page at [http://twitter.com/dapplo](http://twitter.com/dapplo).
 
 dapplo and dapplo.net are brought to you by Robin Krom, represented by: 
-> Robin Krom
-> Erich-Kästner-Weg 69
-> 90513 Zirndorf
-
+<p class="well">Robin Krom
+Erich-Kästner-Weg 69
+90513 Zirndorf
+</p>
 
 Support
 -------
@@ -28,9 +28,10 @@ Contact:
 E-Mail: info@dapplo.net (Note: if you are looking for support, you should rather use the links above.)
 
 Responsible for content according to § 55 paragraph 2 RStV (Interstate Broadcasting Treaty – Germany)
-> Robin Krom
-> Erich-Kästner-Weg 69
-> 90513 Zirndorf
+<p class="well">Robin Krom
+Erich-Kästner-Weg 69
+90513 Zirndorf
+</p>
 
 Liability exclusion:
 --------------------

@@ -1,22 +1,18 @@
-<nav class="navbar navbar-default navbar-fixed-bottom">
+<nav class="navbar navbar-default navbar-fixed-bottom nav-justified">
 	<div class="container">
-		<div class="navbar-collapse collapse" id="navbar-main">
-		  <ul class="nav navbar-nav">
+		<div class="navbar-collapse collapse">
+		  <ul class="nav navbar-nav nav-justified">
 			<li>
-				<a href="mailto:{{ site.email }}"><i class="glyphicon glyphicon-envelope"></i> {{ site.email }}</a></li>
+				<a href="mailto:{{ site.email }}"><i class="glyphicon glyphicon-envelope"></i> {{ site.email }}</a>
 			</li>
 			{% if site.github_username %}
 			<li>
-			  <a href="https://github.com/{{ site.github_username }}">
-				<span>{{ site.github_username }} @ github</span>
-			  </a>
+				<a href="https://github.com/{{ site.github_username }}"><img src="/assets/github.svg" width="16px" height="16px"> {{ site.github_username }}</a>
 			</li>
 			{% endif %}
 			{% if site.twitter_username %}
 			<li>
-			  <a href="https://twitter.com/{{ site.twitter_username }}">
-				<span>{{ site.twitter_username }} @ twitter</span>
-			  </a>
+			  <a href="https://twitter.com/{{ site.twitter_username }}"><img src="/assets/twitter.svg" width="16px" height="16px">{{ site.twitter_username }}</a>
 			</li>
 			{% endif %}
 		  </ul>
