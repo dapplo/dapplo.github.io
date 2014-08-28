@@ -5,7 +5,7 @@ description: "dapplo .NET is an application & framework for running and developi
 baseurl: ""
 url: "http://www.dapplo.net"
 twitter_username: dapplo
-github_username:  lakritzator
+github_username:  dapplo
 
 # Build settings
 markdown: redcarpet

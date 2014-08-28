@@ -14,7 +14,7 @@
 	<div class="navbar-collapse collapse">
 		<ul class="nav navbar-nav navbar-right">
 			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<span class="caret"></span></a>
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">blog<span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					{% for post in site.posts %}
 					  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
@@ -22,7 +22,10 @@
 				</ul>
 			</li>
 			<li>
-				<a href="../help/">Help</a>
+				<a href="/about">about</a>
+			</li>
+			<li>
+				<a href="/impressum">impressum</a>
 			</li>
 		</ul>
 	</div>
