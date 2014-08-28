@@ -1,6 +1,6 @@
 ---
 layout: page
 permalink: /
-title: dappo.NET
+title: dapplo.NET
 ---
 {{ site.description }}
