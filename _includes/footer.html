@@ -1,6 +1,9 @@
 <nav class="navbar navbar-default navbar-fixed-bottom nav-justified">
 	<div class="container">
-		<div class="navbar-collapse collapse">
+		<button class="btn navbar-toggle" data-toggle="collapse" data-target="#footer-bar">
+			<span class="glyphicon glyphicon-chevron-up"/>
+		</button>
+		<div class="navbar-collapse collapse" id="footer-bar">
 		  <ul class="nav navbar-nav nav-justified">
 			<li style="float: none;">
 				<a href="mailto:{{ site.email }}"><i class="glyphicon glyphicon-envelope"></i> {{ site.email }}</a>
@@ -16,9 +19,6 @@
 			</li>
 			{% endif %}
 		  </ul>
-		</div>
-		<div class="col-md-12">
-		  <p class="text-center">{{ site.description }}</p>
 		</div>
 	</div>
 </nav>
