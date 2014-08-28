@@ -27,6 +27,11 @@
 			  <a href="https://www.google.com/+{{ site.googleplus }}"><i class="fa fa-google fa-lg"></i> Google+</a>
 			</li>
 			{% endif %}
+			{% if site.openhub_project %}
+			<li style="float: none;">
+			  <a href="https://www.openhub.net/p/{{ site.openhub_project }}">OpenHUB</a>
+			</li>
+			{% endif %}
 		</ul>
 	</div>
 </nav>
