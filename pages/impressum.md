@@ -13,10 +13,12 @@ This imprint also accounts for:
 * our Twitter page at [http://twitter.com/dapplo](http://twitter.com/dapplo).
 
 dapplo and dapplo.net are brought to you by Robin Krom, represented by: 
-<p class="well">Robin Krom
+<div class="row">
+<div class="well col-md-3 col-md-offset-1">Robin Krom
 Erich-Kästner-Weg 69
 90513 Zirndorf
-</p>
+</div>
+</div>
 
 Support
 -------
@@ -28,34 +30,67 @@ Contact:
 E-Mail: info@dapplo.net (Note: if you are looking for support, you should rather use the links above.)
 
 Responsible for content according to § 55 paragraph 2 RStV (Interstate Broadcasting Treaty – Germany)
-<p class="well">Robin Krom
+<div class="row">
+<div class="well col-md-3 col-md-offset-1">Robin Krom
 Erich-Kästner-Weg 69
 90513 Zirndorf
-</p>
+</div>
+</div>
 
 Liability exclusion:
 --------------------
-### Liability for content
 
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Liability for content</h3>
+</div>
+<div class="panel-body">
 The content of this website has been created with care. However, we cannot guarantee correctness, completeness and currentness of content. In accordance with $7 paragraph 1 TMP we are responsible for all proprietary content of this website according to general law. However, according to §§ 8 to 10 TMG we are not obliged to monitor transferred or stored information of third parties or to research possible unlawful actions. Obligations to the removal or blockage of the use of information according to the general laws remains untouched from this. Any liability in this respect is, however, only incurred from the moment that knowledge of the specific breach of law is obtained. As soon as we become aware of corresponding infringements of the law we shall remove this content immediately.
+</div>
+</div>
 
-### Liability for links
-
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Liability for links</h3>
+</div>
+<div class="panel-body">
 Our offer contains links to third-party websites, on whose contents we do not have influence. Therefore we cannot guarantee for these foreign contents. The relevant supplier or operator of the linked web pages is always responsible for the content of such pages. The linked pages were checked for any legal irregularities at the time of the establishment of the link and no illegal contents were recognizable at that point of time. Moreover, a permanent control of the contents of the linked websites shall not be considered reasonable without a concrete indication for a violation of the law and will not be carried out. As soon as we become aware of a legal violation we will remove such contents immediately.
+</div>
+</div>
 
-### Copyright
-
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Copyright</h3>
+</div>
+<div class="panel-body">
 The contents and works on these websites prepared by the operator of the websites shall be subject to German copyright law. Copying, processing, distributing and any kind of use outside the limits of copyright law require the written approval of the particular author, respectively compiler. Downloads and copies of this side are permitted only for private use, not for commercial use. As far as the content of this page was not created by the publisher and/or operator of this website, the third party copyrights are respected. In particular the content of third parties is identified as such. Nevertheless if you should become aware of a copyright violation we request that you notify us accordingly. As soon as we become aware of a legal violation we will remove such contents immediately.
+</div>
+</div>
 
-### Privacy
-
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Privacy</h3>
+</div>
+<div class="panel-body">
 Using this web site is usually possible without specifying personal information. Insofar as personal data are collected on our site (e.g. name, address or e-mail addresses), then this will be on a preferably voluntary basis as much as possible. We point out explicitly that data transfer over the Internet (such as communication by e-mail) can be subject to security vulnerabilities. Data protection against access through third parties is not possible without security gaps.
 We hereby explicitly prohibit the use of the contact data published as part of our duty to publish an imprint for the purpose of sending us any advertising or informational material. The operators of this website reserve the express right to take legal action in the case of the unsolicited receipt of advertising, for example through spam e-mails.
+</div>
+</div>
 
-### Google Analytics
-
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Google Analytics</h3>
+</div>
+<div class="panel-body">
 This website uses Google Analytics, a web analytics service provided by Google Inc. (“Google”). Google Analytics uses “cookies”, text files that are stored on your computer, to analyze the use of the website. The information generated by the cookie about your use of this website (including your IP address) is transmitted to a Google server in the USA and stored there. Google will use this information to evaluate your use of the website, compiling reports on website activity for website operators and providing other with website and internet related services. Google may also transfer this information to third parties unless required by law, or where such third parties process these data on behalf of Google. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser, however, we point out that in this case you may not be able to use all features of this website. By using this website you agree to the processing of data about you by Google in the manner described and for the aforementioned purpose.
+</div>
+</div>
 
-### Google AdSense
-
-This website uses Google Analytics, a web analytics service provided by Google, Inc., USA (“Google”). Google Adsense uses “cookies” (text files) that are stored on your computer, to analyze the use of the website. Google Adsense also uses so-called “web beacons” (small invisible images) to collect information. Through the use of Web beacons simple actions such as the traffic on the website will be recorded and collected. The information generated by the cookie and / or web beacon information about your use of this website (including your IP address) is transmitted to a Google server in the USA and stored there. Google will use this information to evaluate your use of the site in terms of ads, compiling reports on website activity for website operators and providing other with website and internet related services. Google may also transfer this information to third parties unless required by law, or where such third parties process these data on behalf of Google. Google will not associate your IP address with any other data held by Google. You can prevent the saving of cookies on your hard drive and the display of web beacons by selecting “block all cookies” in your browser settings (select in MS Internet Explorer under “Tools > Internet Options > Privacy > Settings” , in Firefox under “Tools > Options > Privacy > Cookies”), we would point out, however, that in this case you may not be able to use all features of this website. By using this website you agree to the processing of data about you by Google in the manner described and for the aforementioned purpose.
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Google AdSense</h3>
+</div>
+<div class="panel-body">
+This website uses Google Adsense, a web advertising service provided by Google Inc, USA (“Google”). Google Adsense uses “cookies” (text files) that are stored on your computer, to analyze the use of the website. Google Adsense also uses so-called “web beacons” (small invisible images) to collect information. Through the use of Web beacons simple actions such as the traffic on the website will be recorded and collected. The information generated by the cookie and / or web beacon information about your use of this website (including your IP address) is transmitted to a Google server in the USA and stored there. Google will use this information to evaluate your use of the site in terms of ads, compiling reports on website activity for website operators and providing other with website and internet related services. Google may also transfer this information to third parties unless required by law, or where such third parties process these data on behalf of Google. Google will not associate your IP address with any other data held by Google. You can prevent the saving of cookies on your hard drive and the display of web beacons by selecting “block all cookies” in your browser settings (select in MS Internet Explorer under “Tools > Internet Options > Privacy > Settings” , in Firefox under “Tools > Options > Privacy > Cookies”), we would point out, however, that in this case you may not be able to use all features of this website. By using this website you agree to the processing of data about you by Google in the manner described and for the aforementioned purpose.
+</div>
+</div>
