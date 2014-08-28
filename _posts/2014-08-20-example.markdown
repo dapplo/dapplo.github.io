@@ -5,6 +5,7 @@ title:  "Emoji!"
 categories: styletest
 ---
 
+Here is an example of some markdown emoticons:
 :one:
 :two:
 :three:
