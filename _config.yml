@@ -8,6 +8,7 @@ twitter_username: dapplo_net
 github_username: dapplo
 facebook:  dapplo
 #googleplus: dapplo
+openhub_project=dapplo
 
 # Build settings
 markdown: redcarpet
