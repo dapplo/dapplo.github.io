@@ -10,12 +10,12 @@
 			</li>
 			{% if site.github_username %}
 			<li style="float: none;">
-				<a href="https://github.com/{{ site.github_username }}"><img src="/assets/github.svg" onerror="this.parentNode.innerHTML='{{ site.github_username }} @ github';" width="16px" height="16px"> {{ site.github_username }}</a>
+				<a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i> {{ site.github_username }}</a>
 			</li>
 			{% endif %}
 			{% if site.twitter_username %}
 			<li style="float: none;">
-			  <a href="https://twitter.com/{{ site.twitter_username }}"><img src="/assets/twitter.svg" onerror="this.parentNode.innerHTML='{{ site.github_username }} @ twitter';" width="16px" height="16px">{{ site.twitter_username }}</a>
+			  <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-lg"></i> {{ site.twitter_username }}</a>
 			</li>
 			{% endif %}
 		  </ul>
