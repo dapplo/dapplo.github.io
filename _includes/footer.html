@@ -1,24 +1,22 @@
-<nav class="navbar navbar-default navbar-fixed-bottom nav-justified">
-	<div class="container">
-		<button class="btn navbar-toggle" data-toggle="collapse" data-target="#footer-bar">
-			<span class="glyphicon glyphicon-chevron-up"/>
-		</button>
-		<div class="navbar-collapse collapse" id="footer-bar">
-		  <ul class="nav navbar-nav nav-justified">
-			<li style="float: none;">
-				<a href="mailto:{{ site.email }}"><i class="glyphicon glyphicon-envelope"></i> {{ site.email }}</a>
-			</li>
-			{% if site.github_username %}
-			<li style="float: none;">
-				<a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i> {{ site.github_username }}</a>
-			</li>
-			{% endif %}
-			{% if site.twitter_username %}
-			<li style="float: none;">
-			  <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-lg"></i> {{ site.twitter_username }}</a>
-			</li>
-			{% endif %}
-		  </ul>
-		</div>
-	</div>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+	<ul class="nav navbar-nav nav-justified">
+		<li style="float: none;">
+			<a href="mailto:{{ site.email }}"><i class="glyphicon glyphicon-envelope"></i></a>
+		</li>
+		{% if site.github_username %}
+		<li style="float: none;">
+			<a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i></a>
+		</li>
+		{% endif %}
+		{% if site.twitter_username %}
+		<li style="float: none;">
+		  <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-lg"></i></a>
+		</li>
+		{% endif %}
+		{% if site.facebook %}
+		<li style="float: none;">
+		  <a href="https://www.facebook.com/{{ site.facebook }}"><i class="fa fa-facebook fa-lg"></i></a>
+		</li>
+		{% endif %}
+	</ul>
 </nav>

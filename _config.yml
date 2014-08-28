@@ -1,11 +1,12 @@
 # Site settings
 title: dapplo .NET
 email: info@dapplo.net
-description: "dapplo .NET is an application & framework for running and developing small .NET applications without the fuss."
+description: "dapplo .NET is an application for running & a framework for developing small .NET applications without the fuss."
 baseurl: ""
 url: "http://www.dapplo.net"
 twitter_username: dapplo
-github_username:  dapplo
+github_username: dapplo
+facebook:  dapplo
 
 # Build settings
 markdown: redcarpet

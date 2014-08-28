@@ -1,7 +1,8 @@
 ---
 layout: page
-title: impressum
+title: Impressum
 permalink: /impressum/
+tags: show_in_header_menu
 ---
 Information in accordance with §5 TMG (Telemedia Act – Germany)
 ===============================================================

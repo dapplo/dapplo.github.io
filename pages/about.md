@@ -1,7 +1,8 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
+tags: show_in_header_menu
 ---
 
 Here I will write a description of what dapplo is "all about" :)
