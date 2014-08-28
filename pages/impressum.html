@@ -4,44 +4,71 @@ title: Impressum
 permalink: /impressum/
 tags: show_in_header_menu
 ---
-Information in accordance with §5 TMG (Telemedia Act – Germany)
-===============================================================
-
-This imprint also accounts for:
--------------------------------
-* our Facebook page at [https://www.facebook.com/dapplo](https://www.facebook.com/dapplo).
-* our Google+ page at 
-* our Twitter page at [http://twitter.com/dapplo](http://twitter.com/dapplo).
-
+<h2>Information in accordance with §5 TMG (Telemedia Act – Germany)</h2>
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">This imprint also accounts for</h3>
+</div>
+<div class="panel-body">
+<ul class="list-group">
+{% if site.facebook %}
+<li class="list-group-item">
+	<i class="fa fa-facebook fa-lg"></i> Our Facebook page at: <a href="https://www.facebook.com/{{ site.facebook }}">https://www.facebook.com/{{ site.facebook }}</a>
+</li>
+{% endif %}
+{% if site.twitter_username %}
+<li class="list-group-item">
+	<i class="fa fa-twitter fa-lg"></i> Our Twitter page at: <a href="https://twitter.com/{{ site.twitter_username }}">https://twitter.com/{{ site.twitter_username }}</a>
+</li>
+{% endif %}
+{% if site.github_username %}
+<li class="list-group-item">
+	<i class="fa fa-github fa-lg"></i> Our Github page at: <a href="https://github.com/{{ site.github_username }}">https://github.com/{{ site.github_username }}</a>
+</li>
+{% endif %}
+{% if site.googleplus %}
+<li class="list-group-item">
+	<i class="fa fa-google fa-lg"></i> Our Google+ page at <a href="https://www.google.com/+{{ site.googleplus }}">https://www.google.com/+{{ site.googleplus }}</a>
+</li>
+{% endif %}
+</ul>
 dapplo and dapplo.net are brought to you by Robin Krom, represented by: 
-<div class="row">
-<div class="well col-md-3 col-md-offset-1">Robin Krom
-Erich-Kästner-Weg 69
-90513 Zirndorf
+</div>
+<div class="panel-footer">Robin Krom<br/>
+Erich-Kästner-Weg 69<br/>
+90513 Zirndorf<br/>
 </div>
 </div>
-
-Support
--------
-If you need help with dapplo, pleasce have a look at our FAQ and help pages first.
-If you still need to get in touch, you can report a bug, suggest a feature, ask for assistance or discuss with the developers and other users. (Try the search – maybe your issue has already been adressed in there.)
-
-Contact:
--------- 
-E-Mail: info@dapplo.net (Note: if you are looking for support, you should rather use the links above.)
-
-Responsible for content according to § 55 paragraph 2 RStV (Interstate Broadcasting Treaty – Germany)
-<div class="row">
-<div class="well col-md-3 col-md-offset-1">Robin Krom
-Erich-Kästner-Weg 69
-90513 Zirndorf
-</div>
-</div>
-
-Liability exclusion:
---------------------
 
 <div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Support</h3>
+</div>
+<div class="panel-body">
+If you need help with dapplo, pleasce have a look at our FAQ and help pages first.
+If you still need to get in touch, you can report a bug, suggest a feature, ask for assistance or discuss with the developers and other users. (Try the search – maybe your issue has already been adressed in there.)
+</div>
+</div>
+
+<div class="panel panel-info" >
+<div class="panel-heading">
+<h3 class="panel-title">Contact</h3>
+</div>
+<div class="panel-body">
+<div class="well">Note: if you are looking for support, you should rather use the links above.</div>
+Responsible for content according to § 55 paragraph 2 RStV (Interstate Broadcasting Treaty – Germany):
+</div>
+<div class="panel-footer">
+<i class="glyphicon glyphicon-envelope"></i> E-Mail: info@dapplo.net<br/>
+Robin Krom<br/>
+Erich-Kästner-Weg 69<br/>
+90513 Zirndorf<br/>
+</div>
+</div>
+
+<h2>Liability exclusion</h2>
+
+<div class="panel panel-danger" >
 <div class="panel-heading">
 <h3 class="panel-title">Liability for content</h3>
 </div>
@@ -50,7 +77,7 @@ The content of this website has been created with care. However, we cannot guara
 </div>
 </div>
 
-<div class="panel panel-info" >
+<div class="panel panel-danger" >
 <div class="panel-heading">
 <h3 class="panel-title">Liability for links</h3>
 </div>
@@ -59,7 +86,7 @@ Our offer contains links to third-party websites, on whose contents we do not ha
 </div>
 </div>
 
-<div class="panel panel-info" >
+<div class="panel panel-danger" >
 <div class="panel-heading">
 <h3 class="panel-title">Copyright</h3>
 </div>
@@ -68,7 +95,7 @@ The contents and works on these websites prepared by the operator of the website
 </div>
 </div>
 
-<div class="panel panel-info" >
+<div class="panel panel-danger" >
 <div class="panel-heading">
 <h3 class="panel-title">Privacy</h3>
 </div>
@@ -78,7 +105,7 @@ We hereby explicitly prohibit the use of the contact data published as part of o
 </div>
 </div>
 
-<div class="panel panel-info" >
+<div class="panel panel-danger" >
 <div class="panel-heading">
 <h3 class="panel-title">Google Analytics</h3>
 </div>
@@ -87,7 +114,7 @@ This website uses Google Analytics, a web analytics service provided by Google I
 </div>
 </div>
 
-<div class="panel panel-info" >
+<div class="panel panel-danger" >
 <div class="panel-heading">
 <h3 class="panel-title">Google AdSense</h3>
 </div>

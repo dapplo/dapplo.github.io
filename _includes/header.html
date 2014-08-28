@@ -11,14 +11,6 @@
 	</button>
 	<div class="navbar-collapse collapse" id="header-bar">
 		<ul class="nav navbar-nav navbar-right">
-			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">blog<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					{% for post in site.posts %}
-					  <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-					{% endfor %}
-				</ul>
-			</li>
 			{% for availablepage in site.pages %}
 				{% if availablepage.tags contains "show_in_header_menu" %}
 				<li {% if page.url == availablepage.url %}class="disabled"{% endif %}>
