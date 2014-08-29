@@ -1,0 +1,38 @@
+---
+layout: fullpage
+title: FAQ
+tags: show_in_header_menu
+---
+
+<div class="row-fluid">
+
+<div class="col-md-3 hidden-sm hidden-xs">
+	<div id="tocify"></div>
+</div>
+
+<div class="col-md-9">
+	{% assign sorted_pages = site.pages | sort:"sort_id" %}
+	{% for faq in sorted_pages %}
+		{% if faq.layout == "faq" %}
+		<div class="panel panel-primary" >
+			<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#{{ faq.sort_id }}">
+				<h2 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h2>
+			</div>
+			<div id="{{ faq.sort_id }}" class="panel-collapse collapse">
+				<div class="panel-body ">
+					{{ faq.content | markdownify }}
+				</div>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+</div>
+
+</div>
+
+<script>
+	$(function() {
+	  //Create the table of content
+	  $("#tocify").tocify({ scrollTo: 65, selectors: "h2,h3,h4" });
+	});
+</script>
