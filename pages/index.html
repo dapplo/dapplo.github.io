@@ -44,7 +44,7 @@ title: dapplo.NET
 </div>
 
 <div class="col-lg-3 hidden-sm hidden-xs hidden-md">
-	<div class="panel panel-info" >
+	<div class="panel panel-info affix" >
 		<div class="panel-heading">
 			<h3 class="panel-title">Most recent blog entries</h3>
 		</div>
@@ -57,7 +57,7 @@ title: dapplo.NET
 				{{ post.content | truncatewords:100 }}
 			  </li>
 			{% endfor %}
-			<a href="/blog">All entries</a>
+			<span class="label label-success"><a href="/blog">All entries</a></span>
 		  </ul>
 		</div>
 	</div>
