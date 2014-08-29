@@ -4,10 +4,11 @@ email: info@dapplo.net
 description: "dapplo .NET is an application for running & a framework for developing small .NET applications without the fuss."
 baseurl: ""
 url: "http://www.dapplo.net"
-twitter_username: dapplo
+twitter_username: dapplo_net
 github_username: dapplo
-facebook:  dapplo
-googleplus: dapplo
+facebook: dapplo
+#googleplus: dapplo
+openhub_project: dapplo
 
 # Build settings
 markdown: redcarpet
