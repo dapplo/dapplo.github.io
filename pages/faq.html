@@ -11,14 +11,15 @@ tags: show_in_header_menu
 </div>
 
 <div class="col-md-9">
+	<h2 class="text-center">For users</h2>
 	{% assign sorted_pages = site.pages | sort:"sort_id" %}
 	{% for faq in sorted_pages %}
-		{% if faq.layout == "faq" %}
+		{% if faq.layout == "faq" and faq.url contains "user" %}
 		<div class="panel panel-primary" >
-			<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#{{ faq.sort_id }}">
-				<h2 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h2>
+			<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#user_{{ faq.sort_id }}">
+				<h3 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h3>
 			</div>
-			<div id="{{ faq.sort_id }}" class="panel-collapse collapse">
+			<div id="user_{{ faq.sort_id }}" class="panel-collapse collapse">
 				<div class="panel-body ">
 					{{ faq.content | markdownify }}
 				</div>
@@ -27,6 +28,26 @@ tags: show_in_header_menu
 		{% endif %}
 	{% endfor %}
 </div>
+
+<div class="col-md-9 col-md-offset-3">
+	<h2 class="text-center">For developers</h2>
+	{% assign sorted_pages = site.pages | sort:"sort_id" %}
+	{% for faq in sorted_pages %}
+		{% if faq.layout == "faq" and faq.url contains "developer" %}
+		<div class="panel panel-primary" >
+			<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#developer_{{ faq.sort_id }}">
+				<h3 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h3>
+			</div>
+			<div id="developer_{{ faq.sort_id }}" class="panel-collapse collapse">
+				<div class="panel-body ">
+					{{ faq.content | markdownify }}
+				</div>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+</div>
+
 
 </div>
 
