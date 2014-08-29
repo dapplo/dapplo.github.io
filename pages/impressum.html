@@ -3,12 +3,25 @@ layout: page
 title: Impressum
 tags: show_in_header_menu
 ---
+
 <div class="row">
-	<h2>Information in accordance with §5 TMG (Telemedia Act – Germany)</h2>
+	<h1 class="text-center">Information in accordance with §5 TMG (Telemedia Act – Germany)</h1>
 </div>
 
-<div class="col-md-6">
-	<div class="panel panel-info" >
+<div class="col-md-3">
+	<div id="tocify">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h3 class="panel-title">Table of content</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="tocifyable">
+
+<div class="col-md-9 col-md-offset-3">
+	<div class="panel panel-primary" >
 		<div class="panel-heading">
 			<h3 class="panel-title">This imprint also accounts for</h3>
 		</div>
@@ -45,8 +58,8 @@ tags: show_in_header_menu
 	</div>
 </div>
 
-<div class="col-md-6">
-	<div class="panel panel-info" >
+<div class="col-md-9 col-md-offset-3">
+	<div class="panel panel-primary" >
 		<div class="panel-heading">
 			<h3 class="panel-title">Contact</h3>
 		</div>
@@ -63,8 +76,8 @@ tags: show_in_header_menu
 	</div>
 </div>
 
-<div class="col-md-12">
-	<div class="panel panel-info" >
+<div class="col-md-9 col-md-offset-3">
+	<div class="panel panel-primary" >
 		<div class="panel-heading">
 			<h3 class="panel-title">Support</h3>
 		</div>
@@ -75,12 +88,12 @@ tags: show_in_header_menu
 	</div>
 </div>
 
-<div class="col-md-12">
+<div class="col-md-9 col-md-offset-3">
 	<h2>Liability exclusion</h2>
 </div>
 
-<div class="col-md-12">
-	<div class="panel panel-danger" >
+<div class="col-md-9 col-md-offset-3">
+	<div class="panel panel-primary" >
 		<div class="panel-heading">
 			<h3 class="panel-title">Liability for content</h3>
 		</div>
@@ -90,8 +103,8 @@ tags: show_in_header_menu
 	</div>
 </div>
 
-<div class="col-md-12">
-<div class="panel panel-danger" >
+<div class="col-md-9 col-md-offset-3">
+<div class="panel panel-primary" >
 <div class="panel-heading">
 <h3 class="panel-title">Liability for links</h3>
 </div>
@@ -101,8 +114,8 @@ Our offer contains links to third-party websites, on whose contents we do not ha
 </div>
 </div>
 
-<div class="col-md-12">
-<div class="panel panel-danger" >
+<div class="col-md-9 col-md-offset-3">
+<div class="panel panel-primary" >
 <div class="panel-heading">
 <h3 class="panel-title">Copyright</h3>
 </div>
@@ -112,8 +125,8 @@ The contents and works on these websites prepared by the operator of the website
 </div>
 </div>
 
-<div class="col-md-12">
-<div class="panel panel-danger" >
+<div class="col-md-9 col-md-offset-3">
+<div class="panel panel-primary" >
 <div class="panel-heading">
 <h3 class="panel-title">Privacy</h3>
 </div>
@@ -124,8 +137,8 @@ We hereby explicitly prohibit the use of the contact data published as part of o
 </div>
 </div>
 
-<div class="col-md-12">
-<div class="panel panel-danger" >
+<div class="col-md-9 col-md-offset-3">
+<div class="panel panel-primary" >
 <div class="panel-heading">
 <h3 class="panel-title">Google Analytics</h3>
 </div>
@@ -135,8 +148,8 @@ This website uses Google Analytics, a web analytics service provided by Google I
 </div>
 </div>
 
-<div class="col-md-12">
-<div class="panel panel-danger" >
+<div class="col-md-9 col-md-offset-3">
+<div class="panel panel-primary" >
 <div class="panel-heading">
 <h3 class="panel-title">Google AdSense</h3>
 </div>
@@ -145,3 +158,12 @@ This website uses Google Adsense, a web advertising service provided by Google I
 </div>
 </div>
 </div>
+
+</div>
+
+<script>
+	$(function() {
+	  //Create the table of content
+	  $("#tocify").tocify({ scrollTo: 65, selectors: "h3",context : "#tocifyable", showAndHideOnScroll : false });
+	});
+</script>

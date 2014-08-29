@@ -7,10 +7,16 @@ title: dapplo.NET
 
 <div class="col-md-3 hidden-sm hidden-xs">
 	<div id="tocify">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h3 class="panel-title">Table of content</h3>
+			</div>
+		</div>
 	</div>
 </div>
 
-<div class="col-lg-6 col-md-9">
+
+<div class="col-lg-6 col-md-9" id="tocifyable">
 	<div class="panel panel-primary" >
 		<div class="panel-heading">
 			<h3 class="panel-title">New to dapplo?</h3>
@@ -62,6 +68,6 @@ title: dapplo.NET
 <script>
 	$(function() {
 	  //Create the table of content
-	  $("#tocify").tocify({ scrollTo: 42 });
+	  $("#tocify").tocify({ scrollTo: 42, context : "#tocifyable" });
 	});
 </script>
