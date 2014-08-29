@@ -8,20 +8,24 @@ tags: show_in_header_menu
 	<h1 class="text-center">Information in accordance with §5 TMG (Telemedia Act – Germany)</h1>
 </div>
 
-<div class="col-md-3">
-	<div id="tocify">
-		<div class="panel panel-info">
-			<div class="panel-heading">
-				<h3 class="panel-title">Table of content</h3>
+<div class="col-lg-3 hidden-sm hidden-xs hidden-md">
+	<div class="panel panel-info affix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Table of content</h3>
+		</div>
+		<div class="panel-body">
+			<div class="navbar nav" id="scollspy">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="#accountsfor">This imprint also accounts for</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div id="tocifyable">
-
-<div class="col-md-9 col-md-offset-3">
-	<div class="panel panel-primary" >
+<div class="col-md-9 col-md-offset-3" id="accountsfor" >
+	<div class="panel panel-primary">
 		<div class="panel-heading">
 			<h3 class="panel-title">This imprint also accounts for</h3>
 		</div>
@@ -59,7 +63,7 @@ tags: show_in_header_menu
 </div>
 
 <div class="col-md-9 col-md-offset-3">
-	<div class="panel panel-primary" >
+	<div class="panel panel-primary" id="contact" >
 		<div class="panel-heading">
 			<h3 class="panel-title">Contact</h3>
 		</div>
@@ -158,12 +162,3 @@ This website uses Google Adsense, a web advertising service provided by Google I
 </div>
 </div>
 </div>
-
-</div>
-
-<script>
-	$(function() {
-	  //Create the table of content
-	  $("#tocify").tocify({ scrollTo: 65, selectors: "h3",context : "#tocifyable", showAndHideOnScroll : false });
-	});
-</script>

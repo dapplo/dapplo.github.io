@@ -6,15 +6,21 @@ title: dapplo.NET
 <div class="row-fluid">
 
 <div class="col-md-3 hidden-sm hidden-xs">
-	<div id="tocify">
-		<div class="panel panel-info">
-			<div class="panel-heading">
-				<h3 class="panel-title">Table of content</h3>
+	<div class="panel panel-info affix">
+		<div class="panel-heading">
+			<h3 class="panel-title">Table of content</h3>
+		</div>
+		<div class="panel-body">
+			<div class="navbar nav" id="scollspy">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="#requirements">Requirements</a></li>
+					<li ><a href="#tests">Tests</a></li>
+					<li ><a href="#lorem">Lorem!!</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </div>
-
 
 <div class="col-lg-6 col-md-9" id="tocifyable">
 	<div class="panel panel-primary" >
@@ -23,9 +29,9 @@ title: dapplo.NET
 		</div>
 		<div class="panel-body">
 			{{ site.description }}
-			<h1>Requirements</h1>
+			<h1 id="requirements">Requirements</h1>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			<h1>Tests</h1>
+			<h1 id="tests">Tests</h1>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			<h2>Visual studio</h2>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -33,7 +39,7 @@ title: dapplo.NET
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			<h1>Lorem!</h1>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			<h2>Lorem!!</h2>
+			<h2 id="lorem">Lorem!!</h2>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			<h3>Lorem!!!</h3>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -64,10 +70,3 @@ title: dapplo.NET
 </div>
 
 </div>
-
-<script>
-	$(function() {
-	  //Create the table of content
-	  $("#tocify").tocify({ scrollTo: 42, context : "#tocifyable" });
-	});
-</script>
