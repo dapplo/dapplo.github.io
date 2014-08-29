@@ -13,8 +13,8 @@
 		<ul class="nav navbar-nav navbar-right">
 			{% for availablepage in site.pages %}
 				{% if availablepage.tags contains "show_in_header_menu" %}
-				<li {% if page.url == availablepage.url %}class="disabled"{% endif %}>
-					<a href="{{ availablepage.url }}">{{availablepage.title }}</a>
+				<li {% if page.url == availablepage.url %}class="active"{% endif %}>
+					<a href="{{ availablepage.url }}">{{ availablepage.title }}</a>
 				</li>
 				{% endif %}
 			{% endfor %}
