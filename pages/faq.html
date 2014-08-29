@@ -4,20 +4,20 @@ title: FAQ
 tags: show_in_header_menu
 ---
 
-<div class="row-fluid">
+<div class="row-fluid" id="tocifyable">
 
 <div class="col-md-3 hidden-sm hidden-xs">
 	<div id="tocify"></div>
 </div>
 
 <div class="col-md-9">
-	<h2 class="text-center">For users</h2>
+	<h1 class="text-center">For users</h1>
 	{% assign sorted_pages = site.pages | sort:"sort_id" %}
 	{% for faq in sorted_pages %}
 		{% if faq.layout == "faq" and faq.url contains "user" %}
 		<div class="panel panel-primary" >
 			<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#user_{{ faq.sort_id }}">
-				<h3 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h3>
+				<h2 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h2>
 			</div>
 			<div id="user_{{ faq.sort_id }}" class="panel-collapse collapse">
 				<div class="panel-body ">
@@ -30,13 +30,13 @@ tags: show_in_header_menu
 </div>
 
 <div class="col-md-9 col-md-offset-3">
-	<h2 class="text-center">For developers</h2>
+	<h1 class="text-center">For developers</h1>
 	{% assign sorted_pages = site.pages | sort:"sort_id" %}
 	{% for faq in sorted_pages %}
 		{% if faq.layout == "faq" and faq.url contains "developer" %}
 		<div class="panel panel-primary" >
 			<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#developer_{{ faq.sort_id }}">
-				<h3 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h3>
+				<h2 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h2>
 			</div>
 			<div id="developer_{{ faq.sort_id }}" class="panel-collapse collapse">
 				<div class="panel-body ">
@@ -54,6 +54,6 @@ tags: show_in_header_menu
 <script>
 	$(function() {
 	  //Create the table of content
-	  $("#tocify").tocify({ scrollTo: 65, selectors: "h2,h3,h4" });
+	  $("#tocify").tocify({ scrollTo: 65, selectors: "h1,h2,h3,h4",context : "#tocifyable", showAndHideOnScroll : false });
 	});
 </script>
