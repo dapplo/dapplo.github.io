@@ -4,72 +4,23 @@ title: FAQ
 tags: show_in_header_menu
 ---
 
-<div class="row-fluid">
-{% assign sorted_pages = site.pages | sort:"sort_id" %}
+<div class="row">
+{% assign sorted_faqs = site.faqs | sort:"sort_id" %}
 
-<div class="col-lg-3 hidden-sm hidden-xs hidden-md">
-	<div class="panel panel-info affix">
-		<div class="panel-heading">
-			<h3 class="panel-title">Table of content</h3>
-		</div>
-		<div class="panel-body">
-			<div class="navbar nav" id="scollspy">
-				<ul class="nav nav-pills nav-stacked">
-					<li class="active"><a href="#users">For users</a></li>
-					{% for faq in sorted_pages %}
-						{% if faq.layout == "faq" and faq.url contains "user" %}
-							<li style="padding-left: 30px;"><a href="#user_{{ faq.sort_id }}">{{ faq.title }}</a></li>
-						{% endif %}
-					{% endfor %}
-					<li><a href="#developers">For developers</a></li>
-					{% for faq in sorted_pages %}
-						{% if faq.layout == "faq" and faq.url contains "developer" %}
-							<li style="padding-left: 30px;"><a href="#developer_{{ faq.sort_id }}">{{ faq.title }}</a></li>
-						{% endif %}
-					{% endfor %}
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="col-md-9 col-md-offset-3">
-	<h1 class="text-center" id="users">For users</h1>
+<div class="col-md-6 col-md-offset-3">
 	<div id="user_accordion" class="panel-group">
-		{% for faq in sorted_pages %}
-			{% if faq.layout == "faq" and faq.url contains "user" %}
-			<div class="panel panel-primary" id="user_{{ faq.sort_id }}">
-				<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#body_user_{{ faq.sort_id }}">
+		{% for faq in sorted_faqs %}
+			<div class="panel panel-primary">
+				<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#faq_body_{{ forloop.index }}">
 					<h2 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h2>
 				</div>
-				<div id="body_user_{{ faq.sort_id }}" class="panel-collapse collapse">
+				<div id="faq_body_{{ forloop.index }}" class="panel-collapse collapse">
 					<div class="panel-body ">
 						{{ faq.content | markdownify }}
 					</div>
 				</div>
 			</div>
-			{% endif %}
 		{% endfor %}
-	</div>
-</div>
-
-<div class="col-md-9 col-md-offset-3">
-	<h1 class="text-center" id="developers">For developers</h1>
-	<div id="developer_accordion" class="panel-group">
-	{% for faq in sorted_pages %}
-		{% if faq.layout == "faq" and faq.url contains "developer" %}
-		<div class="panel panel-primary" id="developer_{{ faq.sort_id }}">
-			<div class="panel-heading btn btn-block" data-toggle="collapse" data-target="#body_developer_{{ faq.sort_id }}">
-				<h2 class="panel-title">{{ faq.title }}<span class="glyphicon glyphicon-chevron-down pull-right"/></h2>
-			</div>
-			<div id="body_developer_{{ faq.sort_id }}" class="panel-collapse collapse">
-				<div class="panel-body ">
-					{{ faq.content | markdownify }}
-				</div>
-			</div>
-		</div>
-		{% endif %}
-	{% endfor %}
 	</div>
 </div>
 
