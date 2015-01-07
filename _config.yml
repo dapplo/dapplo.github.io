@@ -1,7 +1,7 @@
 # Site settings
 title: dapplo .NET
 email: info@dapplo.net
-description: "dapplo .NET is an application for running & a framework for developing small .NET applications without the fuss."
+description: "dapplo - Desktop APP building bLOcks for .NET"
 baseurl: ""
 url: "http://www.dapplo.net"
 twitter_username: dapplo_net
