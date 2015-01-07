@@ -11,6 +11,7 @@ facebook: dapplo
 openhub_project: dapplo
 collections:
 - faqs
+- blocks
 
 # Build settings
 markdown: redcarpet
