@@ -5,7 +5,7 @@ sort_id : 1
 ---
 Github repository can be found [here](https://github.com/dapplo/Dapplo.Config)
 
-<div class="panel panel-default">
+<div class="panel panel-warning">
   <div class="panel-heading">
     <h3 class="panel-title">THIS IS WORK IN PROGRESS</h3>
   </div>
