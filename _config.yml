@@ -30,3 +30,30 @@ kramdown:
 
 redcarpet:
  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "hard_wrap"]
+
+prose:
+ metadata:
+  _posts:
+   - name: "title"
+     field:
+      element: "text"
+      label: "title"
+   - name: layout
+     field:
+      element: "hidden"
+      value: "blog"
+   - name: categories
+     field:
+      element: "hidden"
+      value: "blog"
+  _blocks:
+   - name: layout
+     field:
+      element: "hidden"
+      value: "block"
+   - name: sort_id
+     field:
+      element: number
+      label: "Sort value"
+      type: number
+      value: "1"
