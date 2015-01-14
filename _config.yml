@@ -37,7 +37,7 @@ prose:
    - name: "title"
      field:
       element: "text"
-      label: "title"
+      label: "Title"
    - name: layout
      field:
       element: "hidden"
@@ -47,7 +47,11 @@ prose:
       element: "hidden"
       value: "blog"
   _blocks:
-   - name: layout
+   - name: "title"
+     field:
+      element: "text"
+      label: "Title"
+  - name: layout
      field:
       element: "hidden"
       value: "block"
