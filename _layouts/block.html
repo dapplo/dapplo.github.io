@@ -2,6 +2,9 @@
 layout: default
 ---
 {% assign sorted_blocks = site.blocks | sort:"sort_id" %}
+<div class="page-header">
+	<h1 class="text-center">{{ page.title }}</h1>
+</div>
 <div class="container-fluid">
 	<div class="col-lg-3 hidden-sm hidden-xs hidden-md">
 		<div class="panel panel-info affix" >
