@@ -1,6 +1,9 @@
 # Site settings
 title: dapplo .NET
 email: info@dapplo.net
+author:
+ name: Robin Krom
+ email: robin@dapplo.net
 description: "dapplo - Desktop APP building bLOcks for .NET"
 baseurl: ""
 url: "http://www.dapplo.net"
