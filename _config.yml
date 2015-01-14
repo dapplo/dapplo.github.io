@@ -66,6 +66,7 @@ prose:
       value: "1"
  ignore:
   - .gitignore
+  - CNAME
   - .htaccess
   - _config.yml
   - favicon.ico
