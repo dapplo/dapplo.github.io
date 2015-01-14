@@ -18,7 +18,6 @@ layout: default
 				{% for block in sorted_blocks %}
 				  <li>
 					<a href="{{ block.url | prepend: site.baseurl }}">{{ block.title }}</a>
-					{{ post.content | truncatewords:100 }}
 				  </li>
 				{% endfor %}
 			  </ul>
