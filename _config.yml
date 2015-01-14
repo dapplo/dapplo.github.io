@@ -51,13 +51,13 @@ prose:
      field:
       element: "text"
       label: "Title"
-  - name: layout
+   - name: "layout"
      field:
       element: "hidden"
       value: "block"
-   - name: sort_id
+   - name: "sort_id"
      field:
-      element: number
+      element: "number"
       label: "Sort value"
-      type: number
+      type: "number"
       value: "1"
