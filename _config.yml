@@ -10,9 +10,9 @@ facebook: dapplo
 #googleplus: dapplo
 openhub_project: dapplo
 collections:
- faqs
- blocks:
-  output: true
+ - faqs
+ - blocks:
+    output: true
 
 # Build settings
 markdown: redcarpet
