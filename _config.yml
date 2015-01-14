@@ -23,6 +23,7 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']
 gems:
   - jemoji
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 kramdown:
  input: GFM
