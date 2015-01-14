@@ -64,3 +64,21 @@ prose:
       label: "Sort value"
       type: "number"
       value: "1"
+ ignore:
+  - .gitignore
+  - .htaccess
+  - _config.yml
+  - favicon.ico
+  - feed.atom
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - robots.txt
+  - 404.html
+  - /pages/index.html
+  - /_layouts
+  - /_includes
+  - /assets
+  - /css
+  - /fonts
+  - /js
