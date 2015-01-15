@@ -44,7 +44,7 @@ prose:
    - name: layout
      field:
       element: "hidden"
-      value: "blog"
+      value: "post"
    - name: categories
      field:
       element: "hidden"
