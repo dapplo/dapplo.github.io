@@ -2,14 +2,15 @@
 layout: block_overview
 ---
 <div>
-	<h1>{{page.github_project}} <a href="https://github.com/{{site.github_username}}/{{page.github_project}}"><i class="fa fa-github fa-fw"></i></a>{% if page.appveyor_id != nil %}<img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/>{% endif %}
-	</h1>
+	<h1>{{page.github_project}}</h1><br/>
+	<h2>Project link: <a href="https://github.com/{{site.github_username}}/{{page.github_project}}"><i class="fa fa-github fa-fw"> {{page.github_project}}</i></a><br/>
+	{% if page.appveyor_id != nil %}<h2>Build status: <img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/></h2><br/>{% endif %}
 </div>
 {% if page.tags contains "work_in_progress" %}
-	<div class="panel panel-warning">
-	  <div class="panel-heading">
+<div class="panel panel-warning">
+	<div class="panel-heading">
 		<h3 class="panel-title">WORK IN PROGRESS</h3>
-	  </div>
 	</div>
+</div>
 {% endif %}
 {{ content }}
