@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign sorted_blocks = site.blocks | sort:"sort_id" %}
+<div class="container-fluid">
+	<div class="col-lg-2">
+		<div class="panel panel-info affix" >
+			<div class="panel-heading">
+				<h3 class="panel-title">Dapplo blocks</h3>
+			</div>
+			<div class="panel-body">
+			  <ul>
+				{% for block in sorted_blocks %}
+				  <li>
+					<a href="{{ block.url | prepend: site.baseurl }}">{{ block.github_project }} {% if block.appveyor_id != nil %}<img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/>{% endif %}</a>
+				  </li>
+				{% endfor %}
+			  </ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-8">
+		{{ content }}
+	</div>
+</div>

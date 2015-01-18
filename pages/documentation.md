@@ -1,7 +1,7 @@
 ---
-layout: block
-title: Blocks
-permalink: /blocks/
+layout: block_overview
+title: Documentation
+permalink: /documentation/
 tags: show_in_header_menu
 ---
 

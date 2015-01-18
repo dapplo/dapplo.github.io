@@ -1,15 +1,10 @@
 ---
 layout: block
-title: Dapplo.Config
-sort_id : 1
+sort_id: 1
+github_project: Dapplo.Config
+appveyor_id: ujfvy3g49g6a1d1q
+released: false
 ---
-Github repository can be found [here](https://github.com/dapplo/Dapplo.Config)
-
-<div class="panel panel-warning">
-  <div class="panel-heading">
-    <h3 class="panel-title">THIS IS WORK IN PROGRESS</h3>
-  </div>
-</div>
 
 This repository contains a Microsoft Visual Studio project for C# .NET with a dapplo building block and test cases.
 The building block was created for containing the configuration of a .NET application with a configuration GUI in mind.
