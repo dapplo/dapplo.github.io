@@ -1,9 +1,9 @@
 ---
 layout: block_overview
 ---
-{% assign page.title = page.github_project %}
 <div>
-	<a href="https://github.com/{{site.github_username}}/{{page.github_project}}"><i class="fa fa-github fa-fw"></i> {{page.project}} repository location</a>
+	<h1>{{page.project}}</h1> 
+	<a href="https://github.com/{{site.github_username}}/{{page.github_project}}"><i class="fa fa-github fa-fw"></i> repository location</a>
 	{% if page.appveyor_id != nil %} Build status: <img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/>{% endif %}
 </div>
 {% if page.released == 'false' %}
