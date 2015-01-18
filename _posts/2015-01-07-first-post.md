@@ -8,4 +8,4 @@ After having finished Greenshot 1.2 I finally I managed to find some time to set
 
 With having the fist dapplo "block" repository in a state where it starts to be useful, I want to present this here.
 
-The Dapplo [Config](https://github.com/dapplo/Dapplo.Config) block will make it easier to have a configuration in your application. There still are many things to do, but maybe you can have a look at it.
+The [Dapplo.Config](https://github.com/{{site.github_username}}/Dapplo.Config) block will make it easier to have a configuration in your application. There still are many things to do, but maybe you can have a look at it.
