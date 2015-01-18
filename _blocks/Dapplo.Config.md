@@ -3,7 +3,7 @@ layout: block
 sort_id: 1
 github_project: Dapplo.Config
 appveyor_id: ujfvy3g49g6a1d1q
-released: false
+workinprogress: true
 ---
 
 This repository contains a Microsoft Visual Studio project for C# .NET with a dapplo building block and test cases.

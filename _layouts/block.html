@@ -2,11 +2,11 @@
 layout: block_overview
 ---
 <div>
-	<h1>{{page.project}}</h1> 
-	<a href="https://github.com/{{site.github_username}}/{{page.github_project}}"><i class="fa fa-github fa-fw"></i> repository location</a>
+	<h1>{{page.github_project}} <a href="https://github.com/{{site.github_username}}/{{page.github_project}}"><i class="fa fa-github fa-fw"></i> repository location</a>
 	{% if page.appveyor_id != nil %} Build status: <img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/>{% endif %}
+</h1>
 </div>
-{% if page.released == 'false' %}
+{% if page.workinprogress == 'true' %}
 	<div class="panel panel-warning">
 	  <div class="panel-heading">
 		<h3 class="panel-title">WORK IN PROGRESS</h3>
