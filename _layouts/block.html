@@ -3,7 +3,7 @@ layout: block_overview
 ---
 <div>
 	<h1>{{page.github_project}}</h1><br/>
-	<h2>Project link: <a href="https://github.com/{{site.github_username}}/{{page.github_project}}"><i class="fa fa-github fa-fw"> {{page.github_project}}</i></a></h2><br/>
+	<h2><i class="fa fa-github fa-fw"> Project link:</i> <a href="https://github.com/{{site.github_username}}/{{page.github_project}}">{{page.github_project}}</a></h2><br/>
 	{% if page.appveyor_id != nil %}<h2>Build status: <img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/></h2><br/>{% endif %}
 </div>
 {% if page.tags contains "work_in_progress" %}
