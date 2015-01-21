@@ -16,29 +16,29 @@ Here are some of the requirements and their current status:
 Simple
 ------
 The code needs to be simple to use, which is the case: The developer needs to write an interface with all the needed properties and extend it with interfaces for functionality.
-Status: <span class="glyphicon glyphicon-thumbs-up"/>
+Status: <span class="glyphicon glyphicon-ok"/>
 
 Basic properties
 ----------------
 The properties of the interface are stored into a dictionary, which is automatically maintained by the proxy.
-Status: <span class="glyphicon glyphicon-thumbs-up"/>
+Status: <span class="glyphicon glyphicon-ok"/>
 
 DefaultValue
 ------------
 It should be possible to define a default value, so if none is set there is a sensible value. This is done by using the DefaultValueAttribute on the property.
-Status: <span class="glyphicon glyphicon-thumbs-up"/>
+Status: <span class="glyphicon glyphicon-ok"/>
 
 Extendible
 ----------
 It should be possible to extend the proxy with new functionality, for this an interface and attribute is created:
 * IPropertyProxyExtension
 * ExtensionAttribute
-Status: <span class="glyphicon glyphicon-thumbs-up"/>
+Status: <span class="glyphicon glyphicon-ok"/>
 
 INotifyPropertyChanged
 ----------------------
 Everybody knows how much boring work it is to implement the INotifyPropertyChanged interface, especially if it needs to be possible to refactor it! With the proxy this is done automatically, just by extending the property interface with the INotifyPropertyChanged.
-Status: <span class="glyphicon glyphicon-thumbs-up"/>
+Status: <span class="glyphicon glyphicon-ok"/>
 
 ITransactionalProperties
 -------------
@@ -46,24 +46,24 @@ Usually it should be possible to *cancel* a settings GUI and have the old settin
 * StartTransaction to start "caching" the values
 * CommitTransaction to commit all cached values to the backing store
 * RollbackTransaction to throw away all the cached values
-Status: <span class="glyphicon glyphicon-thumbs-up"/>
+Status: <span class="glyphicon glyphicon-ok"/>
 
 Write protect
 -------------
 Don't allow any changes after setting a flag.
-Status: <span class="glyphicon glyphicon-thumbs-up"/>
+Status: <span class="glyphicon glyphicon-ok"/>
 
 HasValue
 --------
 Sometimes one needs a way of checking if there is a value set.
-Status: <span class="glyphicon glyphicon-thumbs-down"/>
+Status: <span class="glyphicon glyphicon-remove"/>
 
 Concurrency
 -----------
 The whole implementation should not cause exceptions or undefined states when using from multiple threads.
-Status: <span class="glyphicon glyphicon-thumbs-down"/>
+Status: <span class="glyphicon glyphicon-remove"/>
 
 Validation / Ranges
 -------------------
 Some values need to be restricted, this could be done inside the properties.
-Status: <span class="glyphicon glyphicon-thumbs-down"/>
+Status: <span class="glyphicon glyphicon-remove"/>
