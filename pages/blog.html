@@ -20,5 +20,5 @@ tags: show_in_header_menu
 		</div>
 	{% endfor %}
 
-  <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p>subscribe <a href="{{ '/feed.atom' | prepend: site.baseurl | prepend: site.url }}">via RSS</a></p>
 </div>
