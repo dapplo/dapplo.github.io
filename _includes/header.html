@@ -3,20 +3,22 @@
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WVTT3Z');</script>
 <a class="hidden-xs hidden-sm hidden-md" href="http://www.reactivemanifesto.org/"> <img style="border: 0; position: fixed; left: 0; top:0; z-index: 9000" src="//d379ifj7s9wntv.cloudfront.net/reactivemanifesto/images/ribbons/we-are-reactive-blue-left.png"> </a>
 <!-- End Google Tag Manager -->
-<nav class="navbar navbar-default" role="navigation">
-	<div class="navbar-header">
-		<a class="navbar-brand" href="/">{{ site.title }}</a>
-	</div>
-	<div class="collapse navbar-collapse">
-		<ul class="nav navbar-nav">
-			{% for availablepage in site.pages %}
-				{% if availablepage.tags contains "show_in_header_menu" %}
-				<li {% if page.url == availablepage.url %}class="active"{% endif %}>
-					<a href="{{ availablepage.url }}">{{ availablepage.title }}</a>
-				</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
+<nav class="navbar navbar-default navbar-fixed-side navbar-fixed-side-left" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">{{ site.title }}</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				{% for availablepage in site.pages %}
+					{% if availablepage.tags contains "show_in_header_menu" %}
+					<li {% if page.url == availablepage.url %}class="active"{% endif %}>
+						<a href="{{ availablepage.url }}">{{ availablepage.title }}</a>
+					</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
 	</div>
 </nav>
 <!--
