@@ -1,4 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-side navbar-fixed-side-left navbar-fill" role="navigation">
+	{% include reactivemanifesto.html %}
 	<a href="/" class="navbar-brand navbar-brand-centered">{{ site.title }}</a>
 	<div class="navbar-collapse collapse">
 		<ul class="nav navbar-nav">{% for availablepage in site.pages %}{% if availablepage.tags contains "show_in_header_menu" %}
