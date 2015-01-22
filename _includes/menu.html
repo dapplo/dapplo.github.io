@@ -1,0 +1,11 @@
+<nav class="navbar navbar-default navbar-fixed-side navbar-fixed-side-left" role="navigation">
+	<a href="/" class="navbar-brand navbar-brand-centered">{{ site.title }}</a>
+	<div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav">{% for availablepage in site.pages %}{% if availablepage.tags contains "show_in_header_menu" %}
+			<li {% if page.url == availablepage.url %}class="active"{% endif %}>
+				<a href="{{ availablepage.url }}">{{ availablepage.title }}</a>
+			</li>{% endif %}{% endfor %}
+		</ul>
+	</div>
+  </div>
+</nav>

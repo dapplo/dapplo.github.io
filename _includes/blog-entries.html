@@ -1,0 +1,17 @@
+<div class="panel panel-info affix" >
+	<div class="panel-heading">
+		<h3 class="panel-title">Most recent blog entries</h3>
+	</div>
+	<div class="panel-body">
+	  <ul>
+		{% for post in site.posts offset: 0 limit: 3 %}
+		  <li>
+			<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			{{ post.content | truncatewords:100 }}
+		  </li>
+		{% endfor %}
+		<span class="label label-success"><a href="/blog">All entries</a></span>
+	  </ul>
+	</div>
+</div>
