@@ -3,9 +3,9 @@
 {% include head.html %}
 <body>
 <div class="container-fluid">
-	<div class="col-md-2">{% include menu.html %}</div>
-	<div class="col-md-7">{{ content }}</div>
-	<div class="col-lg-3 hidden-sm hidden-xs hidden-md">{% include blog-entries.html %}</div>
+	<div class="col-md-2">{% include menu-header.html %}{% include menu.html %}</div>
+	<div class="col-md-7">{% include content-header.html %}{{ content }}</div>
+	<div class="col-lg-3 hidden-sm hidden-xs hidden-md">{% include right-header.html %}{% include blog-entries.html %}</div>
 </div>
 </body>
 {% include footer.html %}
