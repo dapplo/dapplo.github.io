@@ -20,12 +20,12 @@ Status: <span class="glyphicon glyphicon-ok"/>
 
 Basic properties
 ----------------
-The properties of the interface are stored into a dictionary, which is automatically maintained by the proxy.
+The properties of the interface are stored into a dictionary, which are automatically maintained by the proxy.
 Status: <span class="glyphicon glyphicon-ok"/>
 
 DefaultValue
 ------------
-It should be possible to define a default value, so if none is set there is a sensible value. This is done by using the DefaultValueAttribute on the property.
+It should be possible to define a default value, so if none is set there is a sensible value. This is done by using the System.ComponentModel.DefaultValueAttribute on the property.
 Status: <span class="glyphicon glyphicon-ok"/>
 
 Extendible
@@ -50,8 +50,17 @@ Status: <span class="glyphicon glyphicon-ok"/>
 
 Write protect
 -------------
-Don't allow any changes after setting a flag.
+Don't allow any changes after setting a flag. This can be done by extending your properties interface with IWriteProtectProperties<YourPropertiesInterface>, this way one can write protect properties and also check if they are write protected.
 Status: <span class="glyphicon glyphicon-ok"/>
+
+Tagging
+-------
+By having the possibility to tag properties with certain "tags", which can be checked, you can add your own functionality. An example would be to tag certain properties with "Expert", showing these in the UI only when someone enables expert features. Or tagging the properties with the needed rights to be able to change the properties.
+Status: <span class="glyphicon glyphicon-ok"/>
+
+
+
+Next there are some ideas for future extensions:
 
 HasValue
 --------
@@ -65,5 +74,5 @@ Status: <span class="glyphicon glyphicon-remove"/>
 
 Validation / Ranges
 -------------------
-Some values need to be restricted, this could be done inside the properties.
+A configuration UI should have the possibility to validate the values, by storing the possible values in attributes it should be possible use this information in the UI.
 Status: <span class="glyphicon glyphicon-remove"/>
