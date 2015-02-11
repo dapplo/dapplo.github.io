@@ -62,6 +62,14 @@ Status: <span class="glyphicon glyphicon-ok"/>
 
 Next there are some ideas for future extensions:
 
+Configuration read/write
+------------------------
+Added support for reading & writing from the registry, ini files and JSON.
+For certain types it should be possible to use the [DescriptionAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.descriptionattribute.aspx) and [CategoryAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.categoryattribute.aspx) as documentation
+Properties with the [NonSerializedAttribute](https://msdn.microsoft.com/en-us/library/system.nonserializedattribute.aspx) should be ignored, values which don't pass validation also.
+Status: <span class="glyphicon glyphicon-remove"/>
+
+
 HasValue
 --------
 Sometimes one needs a way of checking if there is a value set.
@@ -75,5 +83,5 @@ Status: <span class="glyphicon glyphicon-remove"/>
 Validation / Ranges
 -------------------
 A configuration UI should have the possibility to validate the values, by storing the possible values in attributes it should be possible use this information in the UI.
-Eventually it should be possible to use the [ValidationAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute(v=vs.110).aspx#inheritanceContinued) in the System.ComponentModel.DataAnnotations namespace, this way there is no need to create & learn new attributes.
+Eventually it should be possible to use the [ValidationAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute.aspx#inheritanceContinued) in the System.ComponentModel.DataAnnotations namespace, this way there is no need to create & learn new attributes.
 Status: <span class="glyphicon glyphicon-remove"/>
