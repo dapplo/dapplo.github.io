@@ -85,6 +85,7 @@ Validation / Ranges
 -------------------
 A configuration UI should have the possibility to validate the values, by storing the possible values in attributes it should be possible use this information in the UI.
 Eventually it should be possible to use the [ValidationAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute.aspx#inheritanceContinued) in the System.ComponentModel.DataAnnotations namespace, this way there is no need to create & learn new attributes.
+Also the [IDataErrorInfo](https://msdn.microsoft.com/en-us/library/system.componentmodel.idataerrorinfo.aspx) should be implemented so validation error information can be shown in e.g. WPF 
 Status: <span class="glyphicon glyphicon-remove"/>
 
 Converter
