@@ -75,4 +75,5 @@ Status: <span class="glyphicon glyphicon-remove"/>
 Validation / Ranges
 -------------------
 A configuration UI should have the possibility to validate the values, by storing the possible values in attributes it should be possible use this information in the UI.
+Eventually it should be possible to use the [ValidationAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute(v=vs.110).aspx#inheritanceContinued) in the System.ComponentModel.DataAnnotations namespace, this way there is no need to create & learn new attributes.
 Status: <span class="glyphicon glyphicon-remove"/>
