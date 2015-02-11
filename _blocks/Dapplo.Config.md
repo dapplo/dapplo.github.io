@@ -51,13 +51,13 @@ Status: <span class="glyphicon glyphicon-ok"/>
 Write protect
 -------------
 Don't allow any changes after setting a flag. This can be done by extending your properties interface with IWriteProtectProperties<YourPropertiesInterface>, this way one can write protect properties and also check if they are write protected.
+It is also possible to make the property read-only with the [ReadOnlyAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.readonlyattribute.aspx) which makes it unchangeable im code.
 Status: <span class="glyphicon glyphicon-ok"/>
 
 Tagging
 -------
 By having the possibility to tag properties with certain "tags", which can be checked, you can add your own functionality. An example would be to tag certain properties with "Expert", showing these in the UI only when someone enables expert features. Or tagging the properties with the needed rights to be able to change the properties.
 Status: <span class="glyphicon glyphicon-ok"/>
-
 
 
 Next there are some ideas for future extensions:
@@ -67,6 +67,7 @@ Configuration read/write
 Added support for reading & writing from the registry, ini files and JSON.
 For certain types it should be possible to use the [DescriptionAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.descriptionattribute.aspx) and [CategoryAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.categoryattribute.aspx) as documentation
 Properties with the [NonSerializedAttribute](https://msdn.microsoft.com/en-us/library/system.nonserializedattribute.aspx) should be ignored, values which don't pass validation also.
+The property can be mapped to another property in JSON, Ini or the registry by using the [DisplayNameAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.displaynameattribute.aspx)
 Status: <span class="glyphicon glyphicon-remove"/>
 
 
@@ -84,4 +85,11 @@ Validation / Ranges
 -------------------
 A configuration UI should have the possibility to validate the values, by storing the possible values in attributes it should be possible use this information in the UI.
 Eventually it should be possible to use the [ValidationAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute.aspx#inheritanceContinued) in the System.ComponentModel.DataAnnotations namespace, this way there is no need to create & learn new attributes.
+Status: <span class="glyphicon glyphicon-remove"/>
+
+Converter
+---------
+While using the properties with a .ini (or other string based configuration types) the values are converted string -> object while reading and object -> string while writing.
+As not all types can be converted without additional code it should be easy to convert certain values without changing the code of this block, it is possible to specify the converter to use.
+Specify the [TypeConverterAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverterattribute.aspx) to tell the framework what converter to use!
 Status: <span class="glyphicon glyphicon-remove"/>
