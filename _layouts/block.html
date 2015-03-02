@@ -7,6 +7,7 @@
 <div class="container-fluid">
 	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">{% include menu.html %}</div>
 	<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+	{% include content-header.html %}
 		<div class="list-group">
 			<a class="list-group-item" href="https://github.com/{{site.github_username}}/{{page.github_project}}">Github project: {{page.github_project}}</a>
 			{% if page.appveyor_id != nil %}<div class="list-group-item">Build status: <img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/></div>{% endif %}
