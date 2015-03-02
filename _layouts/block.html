@@ -21,6 +21,7 @@
 		{{ content }}
 	</div>
 	<div class="col-lg-3 hidden-sm hidden-xs hidden-md">
+		{% assign sorted_blocks = site.blocks | sort:"sort_id" %}
 		<div class="panel panel-info" >
 			<div class="panel-heading">
 				<h3 class="panel-title">Dapplo blocks</h3>
