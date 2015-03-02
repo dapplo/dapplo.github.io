@@ -18,20 +18,20 @@ tags: hide_title
 			{% for post in site.posts %}
 				{% if found == true and nextset == false %}
 					{% assign nextset = true %}
-					<li class="next"><a href="{{ post.url | prepend: site.baseurl }}">Next post &rarr;</a></li>
+					<li class="next"><a href="{{ post.url | prepend: site.baseurl }}">&larr; Previous post</a></li>
 				{% endif %}
 				{% if post.url == page.url %}
 					{% assign found = true %}
 					{% if previous != null %}
-					<li class="previous"><a href="{{ previous.url | prepend: site.baseurl }}">&larr; Previous post</a></li>
+					<li class="previous"><a href="{{ previous.url | prepend: site.baseurl }}">Next post &rarr;</a></li>
 					{% else %}
-					<li class="previous disabled"><a href="#">&larr; Previous post</a></li>
+					<li class="previous disabled"><a href="#">Next post &rarr;</a></li>
 					{% endif %}
 				{% endif %}
 				{% assign previous = post %}
 			{% endfor %}
 			{% if nextset == false %}
-				<li class="next disabled"><a href="#">Next post &rarr;</a></li>
+				<li class="next disabled"><a href="#">&larr; Previous post</a></li>
 			{% endif %}
 		</ul>
 	</div>
