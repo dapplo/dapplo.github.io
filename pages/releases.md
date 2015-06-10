@@ -10,5 +10,5 @@ tags: show_in_header_menu
 {% endfor %}
 
 {% for release in site.github.releases %}
-  * [{{ releases.name }}]({{ releases.html_url }})
+  * [{{ release.name }}]({{ release.html_url }})
 {% endfor %}
