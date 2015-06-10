@@ -2,7 +2,7 @@
 layout: default
 title: Releases
 permalink: /releases/
-tags: do_not_show_in_header_menu
+tags: show_in_header_menu
 ---
 
 {% for repository in site.github.public_repositories %}
