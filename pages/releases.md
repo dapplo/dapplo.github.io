@@ -5,4 +5,4 @@ permalink: /releases/
 tags: show_in_header_menu
 ---
 
-{{ site.github | jsonify }}
+{{ site.github.releases | jsonify }}
