@@ -5,8 +5,7 @@ permalink: /releases/
 tags: show_in_header_menu
 ---
 
-{% for release in site.github.releases %}
-* [{{ release.name }}]({{ release.html_url }})
-{{ release | jsonify }}
+{% for project_release in site.github.releases %}
+* [{{ project_release.name }}]({{ project_release.html_url }})
 {% endfor %}	
 
