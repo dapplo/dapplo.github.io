@@ -1,6 +1,6 @@
 ---
 layout: block
-sort_id: 1
+sort_id: 3
 github_project: Dapplo.Windows
 appveyor_id: n99jafhbbp74n2w7
 tags: work_in_progress
