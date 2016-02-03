@@ -15,10 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="d-applo3.svg"
-   inkscape:export-filename="C:\Users\robin\Pictures\d-applo3.png"
-   inkscape:export-xdpi="57.700001"
-   inkscape:export-ydpi="57.700001">
+   sodipodi:docname="dapplo.svg"
+   inkscape:export-filename="C:\Users\robin\Pictures\d-applo4.png"
+   inkscape:export-xdpi="57.599998"
+   inkscape:export-ydpi="57.599998">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,10 +26,10 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="146.85952"
+     inkscape:cx="96.859524"
      inkscape:cy="241.67998"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -79,9 +79,9 @@
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect4170"
-       width="49"
-       height="220"
+       width="50"
+       height="200"
        x="300"
-       y="653.36218" />
+       y="652.36218" />
   </g>
 </svg>
