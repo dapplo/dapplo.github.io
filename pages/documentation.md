@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Documentation
 permalink: /documentation/
 tags: show_in_header_menu

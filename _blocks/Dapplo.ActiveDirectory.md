@@ -1,5 +1,5 @@
 ---
-layout: block
+layout: page
 sort_id: 7
 github_project: Dapplo.ActiveDirectory
 appveyor_id: sbpswhfxasr6gm4y
