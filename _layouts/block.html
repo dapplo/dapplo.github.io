@@ -1,46 +1,15 @@
 ---
+layout: default
 ---
-<!DOCTYPE html>
-<html>
-{% include head.html %}
-<body>
-<div class="container-fluid">
-	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">{% include menu.html %}</div>
-	<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
-	{% include content-header.html %}
-		<div class="list-group">
-			<a class="list-group-item" href="https://github.com/{{site.github_username}}/{{page.github_project}}">Github project: {{page.github_project}}</a>
-			{% if page.appveyor_id != nil %}<div class="list-group-item">Build status: <img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/></div>{% endif %}
-		</div>
-		{% if page.tags contains "work_in_progress" %}
-		<div class="panel panel-warning">
-			<div class="panel-heading">
-				<h3 class="panel-title">WORK IN PROGRESS</h3>
-			</div>
-		</div>
-		{% endif %}
-		{{ content }}
-	</div>
-	<div class="col-lg-3 hidden-sm hidden-xs hidden-md">
-	{% include right-header.html %}
-		{% assign sorted_blocks = site.blocks | sort:"sort_id" %}
-		<div class="panel panel-info" >
-			<div class="panel-heading">
-				<h3 class="panel-title">Dapplo blocks</h3>
-			</div>
-			<div class="panel-body">
-			  <ul>
-				{% for block in sorted_blocks %}
-				  <li>
-					<a href="{{ block.url | prepend: site.baseurl }}">{{ block.github_project }}</a>
-				  </li>
-				{% endfor %}
-			  </ul>
-			</div>
-		</div>
+<div class="list-group">
+	<a class="list-group-item" href="https://github.com/{{site.github_username}}/{{page.github_project}}">Github project: {{page.github_project}}</a>
+	{% if page.appveyor_id != nil %}<div class="list-group-item">Build status: <img src="https://ci.appveyor.com/api/projects/status/{{page.appveyor_id}}?svg=true"/></div>{% endif %}
+</div>
+{% if page.tags contains "work_in_progress" %}
+<div class="panel panel-warning">
+	<div class="panel-heading">
+		<h3 class="panel-title">WORK IN PROGRESS</h3>
 	</div>
 </div>
-{% include footer.html %}
-</body>
-</html>
-
+{% endif %}
+{{ content }}
