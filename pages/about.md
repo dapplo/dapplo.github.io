@@ -1,9 +1,15 @@
 ---
-layout: default
+layout: page
 title: About
-permalink: /about/
-tags: show_in_header_menu
+tags: [about, dapplo]
+modified: 2014-08-08T20:53:07.573882-04:00
+comments: false
+image:
+  feature: brick_wall.jpg
+  credit: Mike Rastiell
+  creditlink: https://www.flickr.com/photos/hellamike81/3020059492/
 ---
+
 
 With the arrival of the concept of "apps", no matter if it is Apple, Google or Microsoft, developers have gotten a lot of framework and "rules & regulations" which actually make it a lot easier to write an application. Unfortunately there is nothing like such for desktop applications, here developers still need to see how their application can be downloaded and find solutions to install & update.
 

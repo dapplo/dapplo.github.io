@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: Blog
+  url: /posts/
+
+- title: Impressum
+  url: /impressum/
+  
+- title: FAQ
+  url: /FAQ/
+
+- title: Documentation
+  url: /documentation/

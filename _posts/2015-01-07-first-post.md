@@ -1,7 +1,14 @@
 ---
 layout: post
-title:  "New year, first post and first block!"
-categories: blog
+title: First!!!
+excerpt: "First post"
+modified: 2015-01-07
+tags: [post]
+comments: true
+image:
+  feature: sample-image-5.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 After having finished Greenshot 1.2 I finally I managed to find some time to setup my blog, using github pages and Jekyll!

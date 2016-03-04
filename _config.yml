@@ -1,85 +1,82 @@
-# Site settings
-title: dapplo .NET
-email: info@dapplo.net
-author:
- name: Robin Krom
- email: robin@dapplo.net
-description: "dapplo - Desktop APP building bLOcks for .NET"
-baseurl: ""
-url: "http://www.dapplo.net"
-twitter_username: dapplo_net
-github_username: dapplo
-facebook: dapplo
-#googleplus: dapplo
-openhub_project: dapplo
+# Site wide configuration
+
+title:            Dapplo
+locale:           en_US
+url: http://dapplo.net
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Collections
 collections:
  blocks:
   output: true
  faqs:
   output: false
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'CNAME']
+# Site owner
+owner:
+  name: Dapplo
+  avatar: d.svg
+  bio: "Desktop APPlicatin buiLding blOcks"
+  email: info@dapplo.net
+  disqus-shortname:
+  twitter: dapplo_net
+  facebook: dapplo
+  google:
+    plus: dapplo
+    analytics: UA-53976621-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: dapplo
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
 
-gems:
-  - jemoji
-  - jekyll-sitemap
-  - jekyll-redirect-from
-
-kramdown:
- input: GFM
-
-redcarpet:
- extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "hard_wrap"]
-
-prose:
- metadata:
-  _posts:
-   - name: "title"
-     field:
-      element: "text"
-      label: "Title"
-   - name: layout
-     field:
-      element: "hidden"
-      value: "post"
-   - name: categories
-     field:
-      element: "hidden"
-      value: "blog"
-  _blocks:
-   - name: "title"
-     field:
-      element: "text"
-      label: "Title"
-   - name: "layout"
-     field:
-      element: "hidden"
-      value: "block"
-   - name: "sort_id"
-     field:
-      element: "number"
-      label: "Sort value"
-      type: "number"
-      value: "1"
- ignore:
-  - .gitignore
-  - CNAME
-  - .htaccess
-  - _config.yml
-  - favicon.ico
-  - feed.atom
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - robots.txt
-  - 404.html
-  - /pages/index.html
-  - /_layouts
-  - /_includes
-  - /assets
-  - /css
-  - /fonts
-  - /js
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
