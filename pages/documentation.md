@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Documentation
-permalink: /documentation/
-tags: show_in_header_menu
+image:
+  feature: sample-image-5.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 Dapplo blocks are building blocks for your application, here are the currently available blocks:
