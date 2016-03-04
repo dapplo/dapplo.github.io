@@ -58,8 +58,8 @@ owner:
     plus: dapplo
     analytics: UA-53976621-2
     verify:
-    ad-client:
-    ad-slot:
+    ad-client: ca-pub-4087991549412128
+    ad-slot: 4546971497
   bing-verify:
   github: dapplo
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link

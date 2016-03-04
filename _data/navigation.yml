@@ -5,12 +5,12 @@
 
 - title: Blog
   url: /pages/posts
-
-- title: Impressum
-  url: /pages/impressum
   
 - title: FAQ
   url: /pages/faq
 
 - title: Documentation
   url: /pages/documentation
+
+- title: Impressum
+  url: /pages/impressum
