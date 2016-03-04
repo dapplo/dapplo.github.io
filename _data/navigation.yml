@@ -1,16 +1,16 @@
 # Site navigation links
 
 - title: About
-  url: /about/
+  url: /pages/about
 
 - title: Blog
-  url: /posts/
+  url: /pages/posts
 
 - title: Impressum
-  url: /impressum/
+  url: /pages/impressum
   
 - title: FAQ
-  url: /FAQ/
+  url: /pages/FAQ
 
 - title: Documentation
-  url: /documentation/
+  url: /pages/documentation
