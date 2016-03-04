@@ -1,0 +1,893 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>IHttpSettings Interface | </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="IHttpSettings Interface | ">
+    <meta name="generator" content="docfx 1.5.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div class="sidenav">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L47" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Dapplo_HttpExtensions_IHttpSettings" data-uid="Dapplo.HttpExtensions.IHttpSettings">Interface IHttpSettings</h1>
+              <div class="markdown level0 summary"><p>Interface for the global settings, as the DefaultValue attributes are set this CAN be used with Dapplo.Config.<br>
+Best example would be:
+<br><code>
+[IniSection(&quot;Network&quot;), Display(Description = &quot;Network / HTTP Settings&quot;)]<br>
+public interface IHttpConfig : IHttpSettings, IIniSection {<br>
+}
+</code><br>
+(Yes, it&#39;s can be empty, the settings are in the IHttpSettings interface) and than assign the generated instance to <a class="xref" href="Dapplo.HttpExtensions.HttpExtensionsGlobals.html#Dapplo_HttpExtensions_HttpExtensionsGlobals">HttpExtensionsGlobals</a></p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <h6><strong>Namespace</strong>:Dapplo.HttpExtensions</h6>
+              <h6><strong>Assembly</strong>:Dapplo.HttpExtensions.dll</h6>
+              <h5 id="Dapplo_HttpExtensions_IHttpSettings_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public interface IHttpSettings</code></pre>
+              </div>
+              <h3 id="properties">Properties</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_AllowAutoRedirect.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.AllowAutoRedirect%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L52">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_AllowAutoRedirect" data-uid="Dapplo.HttpExtensions.IHttpSettings.AllowAutoRedirect">AllowAutoRedirect</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.allowautoredirect.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool AllowAutoRedirect { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_AllowPipelining.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.AllowPipelining%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L58">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_AllowPipelining" data-uid="Dapplo.HttpExtensions.IHttpSettings.AllowPipelining">AllowPipelining</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.webrequesthandler.allowpipelining.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool AllowPipelining { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_AuthenticationLevel.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.AuthenticationLevel%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L66">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_AuthenticationLevel" data-uid="Dapplo.HttpExtensions.IHttpSettings.AuthenticationLevel">AuthenticationLevel</h4>
+              <div class="markdown level1 summary"><p>In mutual authentication, both the client and server present credentials to establish their identity. The MutualAuthRequired and MutualAuthRequested values are relevant for Kerberos authentication. Kerberos authentication can be supported directly, or can be used if the Negotiate security protocol is used to select the actual security protocol.
+For more information about authentication protocols, see <a href="https://msdn.microsoft.com/en-us/library/47zhdx9d.aspx">Internet Authentication</a>
+For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.webrequesthandler.authenticationlevel.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">AuthenticationLevel AuthenticationLevel { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Net.Security.AuthenticationLevel</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_ContinueTimeout.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.ContinueTimeout%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L78">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_ContinueTimeout" data-uid="Dapplo.HttpExtensions.IHttpSettings.ContinueTimeout">ContinueTimeout</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.webrequesthandler.continuetimeout.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TimeSpan ContinueTimeout { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_Credentials.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.Credentials%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L72">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_Credentials" data-uid="Dapplo.HttpExtensions.IHttpSettings.Credentials">Credentials</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.credentials.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">ICredentials Credentials { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Net.ICredentials</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_DefaultDecompressionMethods.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.DefaultDecompressionMethods%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L85">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_DefaultDecompressionMethods" data-uid="Dapplo.HttpExtensions.IHttpSettings.DefaultDecompressionMethods">DefaultDecompressionMethods</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.automaticdecompression.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">DecompressionMethods DefaultDecompressionMethods { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Net.DecompressionMethods</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_DefaultUserAgent.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.DefaultUserAgent%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L88">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_DefaultUserAgent" data-uid="Dapplo.HttpExtensions.IHttpSettings.DefaultUserAgent">DefaultUserAgent</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string DefaultUserAgent { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_Expect100Continue.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.Expect100Continue%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L194">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_Expect100Continue" data-uid="Dapplo.HttpExtensions.IHttpSettings.Expect100Continue">Expect100Continue</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool Expect100Continue { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_ImpersonationLevel.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.ImpersonationLevel%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L95">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_ImpersonationLevel" data-uid="Dapplo.HttpExtensions.IHttpSettings.ImpersonationLevel">ImpersonationLevel</h4>
+              <div class="markdown level1 summary"><p>The impersonation level determines how the server can use the client&#39;s credentials.
+For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.webrequesthandler.impersonationlevel.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TokenImpersonationLevel ImpersonationLevel { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Security.Principal.TokenImpersonationLevel</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_MaxAutomaticRedirections.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.MaxAutomaticRedirections%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L103">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_MaxAutomaticRedirections" data-uid="Dapplo.HttpExtensions.IHttpSettings.MaxAutomaticRedirections">MaxAutomaticRedirections</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.maxautomaticredirections.aspx">here</a>
+and <a href="https://msdn.microsoft.com/en-us/library/system.net.httpwebrequest.allowautoredirect.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">int MaxAutomaticRedirections { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_MaxRequestContentBufferSize.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.MaxRequestContentBufferSize%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L109">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_MaxRequestContentBufferSize" data-uid="Dapplo.HttpExtensions.IHttpSettings.MaxRequestContentBufferSize">MaxRequestContentBufferSize</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.maxrequestcontentbuffersize.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">long MaxRequestContentBufferSize { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int64</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_MaxResponseContentBufferSize.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.MaxResponseContentBufferSize%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L115">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_MaxResponseContentBufferSize" data-uid="Dapplo.HttpExtensions.IHttpSettings.MaxResponseContentBufferSize">MaxResponseContentBufferSize</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclient.maxresponsecontentbuffersize.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">long MaxResponseContentBufferSize { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int64</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_MaxResponseHeadersLength.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.MaxResponseHeadersLength%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L122">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_MaxResponseHeadersLength" data-uid="Dapplo.HttpExtensions.IHttpSettings.MaxResponseHeadersLength">MaxResponseHeadersLength</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.webrequesthandler.maxresponseheaderslength.aspx">here</a>
+Default would have been 64, this is increased to 256</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">int MaxResponseHeadersLength { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_PreAuthenticate.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.PreAuthenticate%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L160">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_PreAuthenticate" data-uid="Dapplo.HttpExtensions.IHttpSettings.PreAuthenticate">PreAuthenticate</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.preauthenticate.aspx">here</a>
+And <a href="http://weblog.west-wind.com/posts/2010/Feb/18/NET-WebRequestPreAuthenticate-not-quite-what-it-sounds-like">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool PreAuthenticate { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_ProxyBypassList.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.ProxyBypassList%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L153">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_ProxyBypassList" data-uid="Dapplo.HttpExtensions.IHttpSettings.ProxyBypassList">ProxyBypassList</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.webproxy.bypassarraylist.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string[] ProxyBypassList { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_ProxyBypassOnLocal.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.ProxyBypassOnLocal%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L147">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_ProxyBypassOnLocal" data-uid="Dapplo.HttpExtensions.IHttpSettings.ProxyBypassOnLocal">ProxyBypassOnLocal</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.webproxy.bypassproxyonlocal.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool ProxyBypassOnLocal { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_ProxyCredentials.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.ProxyCredentials%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L141">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_ProxyCredentials" data-uid="Dapplo.HttpExtensions.IHttpSettings.ProxyCredentials">ProxyCredentials</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.webproxy.credentials.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">ICredentials ProxyCredentials { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Net.ICredentials</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_ProxyUri.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.ProxyUri%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L135">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_ProxyUri" data-uid="Dapplo.HttpExtensions.IHttpSettings.ProxyUri">ProxyUri</h4>
+              <div class="markdown level1 summary"><p>The Uri for the proxy to use, when the UseDefaultProxy is set to false</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Uri ProxyUri { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_ReadWriteTimeout.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.ReadWriteTimeout%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L172">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_ReadWriteTimeout" data-uid="Dapplo.HttpExtensions.IHttpSettings.ReadWriteTimeout">ReadWriteTimeout</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.webrequesthandler.readwritetimeout.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">int ReadWriteTimeout { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_RequestCacheLevel.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.RequestCacheLevel%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L129">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_RequestCacheLevel" data-uid="Dapplo.HttpExtensions.IHttpSettings.RequestCacheLevel">RequestCacheLevel</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.cache.httprequestcachelevel.aspx">here</a>
+Default is RequestCacheLevel.Default</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">RequestCacheLevel RequestCacheLevel { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Net.Cache.RequestCacheLevel</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_RequestTimeout.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.RequestTimeout%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L166">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_RequestTimeout" data-uid="Dapplo.HttpExtensions.IHttpSettings.RequestTimeout">RequestTimeout</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclient.timeout.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TimeSpan RequestTimeout { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.TimeSpan</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_UseCookies.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.UseCookies%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L179">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_UseCookies" data-uid="Dapplo.HttpExtensions.IHttpSettings.UseCookies">UseCookies</h4>
+              <div class="markdown level1 summary"><p>For more details, click <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.usecookies.aspx">here</a>
+And <a href="https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler.cookiecontainer.aspx">here</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool UseCookies { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_UseDefaultCredentials.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.UseDefaultCredentials%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L182">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_UseDefaultCredentials" data-uid="Dapplo.HttpExtensions.IHttpSettings.UseDefaultCredentials">UseDefaultCredentials</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool UseDefaultCredentials { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_UseDefaultCredentialsForProy.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.UseDefaultCredentialsForProy%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L191">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_UseDefaultCredentialsForProy" data-uid="Dapplo.HttpExtensions.IHttpSettings.UseDefaultCredentialsForProy">UseDefaultCredentialsForProy</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool UseDefaultCredentialsForProy { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_UseDefaultProxy.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.UseDefaultProxy%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L188">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_UseDefaultProxy" data-uid="Dapplo.HttpExtensions.IHttpSettings.UseDefaultProxy">UseDefaultProxy</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool UseDefaultProxy { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_IHttpSettings_UseProxy.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.IHttpSettings.UseProxy%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/IHttpSettings.cs/#L185">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_IHttpSettings_UseProxy" data-uid="Dapplo.HttpExtensions.IHttpSettings.UseProxy">UseProxy</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool UseProxy { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>docfx</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

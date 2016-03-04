@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dapplo.HttpExtensions.Support Namespace | </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dapplo.HttpExtensions.Support Namespace | ">
+    <meta name="generator" content="docfx 1.5.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div class="sidenav">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_Support.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.Support%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/Support/SimpleJsonSerializer.cs/#L26" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Dapplo_HttpExtensions_Support" data-uid="Dapplo.HttpExtensions.Support">Namespace Dapplo.HttpExtensions.Support
+              </h1>
+              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="markdown level0 remarks"></div>
+                <h3 id="classes">Classes</h3>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.AsyncLock.html#Dapplo_HttpExtensions_Support_AsyncLock">AsyncLock</a></h4>
+                  <section><p>A simple class to make it possible to lock a resource while waiting</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.DelegatingStringEncryptionTypeConverter.html#Dapplo_HttpExtensions_Support_DelegatingStringEncryptionTypeConverter">DelegatingStringEncryptionTypeConverter</a></h4>
+                  <section><p>This converter wraps the Dapplo.Config.Converters.StringEncryptionTypeConverter
+As it is used in the IOAuth2Token as TypeConverter attribute, which is only used from the Dapplo.Config framework</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.DelegatingTypeConverter.html#Dapplo_HttpExtensions_Support_DelegatingTypeConverter">DelegatingTypeConverter</a></h4>
+                  <section><p>Use this to delegate to an not yet existing TypeConverter
+Example: DelegatingStringEncryptionTypeConverter</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.HttpAttribute.html#Dapplo_HttpExtensions_Support_HttpAttribute">HttpAttribute</a></h4>
+                  <section><p>This attribute marks a property as &quot;http content&quot;</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.HttpSettings.html#Dapplo_HttpExtensions_Support_HttpSettings">HttpSettings</a></h4>
+                  <section><p>This class contains the default settings for the proxy / httpclient
+These can be modified, are on a global &quot;application&quot; scale.
+Most have their normal defaults, which would also normally be used, some have special settings
+The default values and the property descriptions are in the IHttpSettings (which can be used by Dapplo.Config)</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.ProgressStreamContent.html#Dapplo_HttpExtensions_Support_ProgressStreamContent">ProgressStreamContent</a></h4>
+                  <section><p>The ProgressStreamContent makes it possible to track the progress of a http-post for a stream</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.SimpleJsonSerializer.html#Dapplo_HttpExtensions_Support_SimpleJsonSerializer">SimpleJsonSerializer</a></h4>
+                  <section><p>This defines the default way how Json is de-/serialized.</p>
+</section>
+                <h3 id="enums">Enums</h3>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.HttpParts.html#Dapplo_HttpExtensions_Support_HttpParts">HttpParts</a></h4>
+                  <section><p>Marker for the response</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.MediaTypes.html#Dapplo_HttpExtensions_Support_MediaTypes">MediaTypes</a></h4>
+                  <section><p>Use this enum for the creating the accept header or checking the content-type</p>
+</section>
+                  <h4><a class="xref" href="Dapplo.HttpExtensions.Support.ProgressStreamContent.UploadStates.html#Dapplo_HttpExtensions_Support_ProgressStreamContent_UploadStates">ProgressStreamContent.UploadStates</a></h4>
+                  <section><p>Enum which specifies the current upload state</p>
+</section>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>docfx</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

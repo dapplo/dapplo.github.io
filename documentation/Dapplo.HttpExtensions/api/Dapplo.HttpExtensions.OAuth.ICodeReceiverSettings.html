@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ICodeReceiverSettings Interface | </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ICodeReceiverSettings Interface | ">
+    <meta name="generator" content="docfx 1.5.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div class="sidenav">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L32" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings">Interface ICodeReceiverSettings</h1>
+              <div class="markdown level0 summary"><p>Settings interface the OAuth (2) protocol</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <h6><strong>Namespace</strong>:Dapplo.HttpExtensions.OAuth</h6>
+              <h6><strong>Assembly</strong>:Dapplo.HttpExtensions.dll</h6>
+              <h5 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public interface ICodeReceiverSettings</code></pre>
+              </div>
+              <h3 id="properties">Properties</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_AuthorizationUri.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.AuthorizationUri%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L63">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_AuthorizationUri" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.AuthorizationUri">AuthorizationUri</h4>
+              <div class="markdown level1 summary"><p>The autorization Uri where the values of this class will be &quot;injected&quot;
+Example how this can be created:
+<code>
+new Uri(&quot;http://server&quot;).AppendSegments(&quot;auth&quot;).Query(&quot;client_id&quot;, &quot;{ClientId}&quot;);
+</code></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Uri AuthorizationUri { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_ClientId.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.ClientId%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L42">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_ClientId" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.ClientId">ClientId</h4>
+              <div class="markdown level1 summary"><p>The OAuth (2) client id / consumer key</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string ClientId { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_ClientSecret.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.ClientSecret%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L47">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_ClientSecret" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.ClientSecret">ClientSecret</h4>
+              <div class="markdown level1 summary"><p>The OAuth (2) client secret / consumer secret</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string ClientSecret { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_CloudServiceName.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.CloudServiceName%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L37">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_CloudServiceName" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.CloudServiceName">CloudServiceName</h4>
+              <div class="markdown level1 summary"><p>Specify the name of the cloud service, so it can be used in window titles, logs etc</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string CloudServiceName { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_EmbeddedBrowserHeight.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.EmbeddedBrowserHeight%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L83">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_EmbeddedBrowserHeight" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.EmbeddedBrowserHeight">EmbeddedBrowserHeight</h4>
+              <div class="markdown level1 summary"><p>The height of the embedded browser</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">int EmbeddedBrowserHeight { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_EmbeddedBrowserWidth.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.EmbeddedBrowserWidth%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L78">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_EmbeddedBrowserWidth" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.EmbeddedBrowserWidth">EmbeddedBrowserWidth</h4>
+              <div class="markdown level1 summary"><p>The width of the embedded browser, default</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">int EmbeddedBrowserWidth { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_RedirectUrl.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.RedirectUrl%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L73">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_RedirectUrl" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.RedirectUrl">RedirectUrl</h4>
+              <div class="markdown level1 summary"><p>This is the redirect URL, in some implementations this is automatically set (LocalServerCodeReceiver)
+In some implementations this could be e.g. urn:ietf:wg:oauth:2.0:oob or urn:ietf:wg:oauth:2.0:oob:auto</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string RedirectUrl { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_State.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.State%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/OAuth/ICodeReceiverSettings.cs/#L54">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_ICodeReceiverSettings_State" data-uid="Dapplo.HttpExtensions.OAuth.ICodeReceiverSettings.State">State</h4>
+              <div class="markdown level1 summary"><p>The OAuth (2) state, this is something that is passed to the server, is not processed but returned back to the client.
+e.g. a correlation ID
+Default this is filled with a new Guid</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string State { get; set; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>docfx</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

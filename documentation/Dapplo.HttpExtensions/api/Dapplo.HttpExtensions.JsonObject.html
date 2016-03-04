@@ -1,0 +1,1207 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>JsonObject Class | </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="JsonObject Class | ">
+    <meta name="generator" content="docfx 1.5.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div class="sidenav">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L113" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Dapplo_HttpExtensions_JsonObject" data-uid="Dapplo.HttpExtensions.JsonObject">Class JsonObject</h1>
+              <div class="markdown level0 summary"><p>Represents the json object.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">System.Dynamic.DynamicObject</span></div>
+                  <div class="level2"><span class="xref">JsonObject</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:Dapplo.HttpExtensions</h6>
+              <h6><strong>Assembly</strong>:Dapplo.HttpExtensions.dll</h6>
+              <h5 id="Dapplo_HttpExtensions_JsonObject_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class JsonObject : DynamicObject, IDynamicMetaObjectProvider, IDictionary&lt;string, object&gt;, ICollection&lt;KeyValuePair&lt;string, object&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, object&gt;&gt;, IEnumerable</code></pre>
+              </div>
+              <h3 id="constructors">Constructors</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject__ctor.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.%23ctor%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L135">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject__ctor" data-uid="Dapplo.HttpExtensions.JsonObject.#ctor">JsonObject()</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="Dapplo.HttpExtensions.JsonObject.html#Dapplo_HttpExtensions_JsonObject">JsonObject</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public JsonObject()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject__ctor_System_Collections_Generic_IEqualityComparer_System_String__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.%23ctor(System.Collections.Generic.IEqualityComparer%7BSystem.String%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L144">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject__ctor_System_Collections_Generic_IEqualityComparer_System_String__" data-uid="Dapplo.HttpExtensions.JsonObject.#ctor(System.Collections.Generic.IEqualityComparer{System.String})">JsonObject(IEqualityComparer&lt;String&gt;)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="Dapplo.HttpExtensions.JsonObject.html#Dapplo_HttpExtensions_JsonObject">JsonObject</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public JsonObject(IEqualityComparer&lt;string&gt; comparer)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>comparer</em></td>
+                    <td><p>The <span class="xref">System.Collections.Generic.IEqualityComparer`1</span> implementation to use when comparing keys, or null to use the default <span class="xref">System.Collections.Generic.EqualityComparer`1</span> for the type of the key.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Count.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Count%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L291">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Count" data-uid="Dapplo.HttpExtensions.JsonObject.Count">Count</h4>
+              <div class="markdown level1 summary"><p>Gets the count.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_IsReadOnly.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.IsReadOnly%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L302">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_IsReadOnly" data-uid="Dapplo.HttpExtensions.JsonObject.IsReadOnly">IsReadOnly</h4>
+              <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is read only.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Item_System_Int32_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Item(System.Int32)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L153">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Item_System_Int32_" data-uid="Dapplo.HttpExtensions.JsonObject.Item(System.Int32)">Item[Int32]</h4>
+              <div class="markdown level1 summary"><p>Gets the <span class="xref">System.Object</span> at the specified index.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public object this[int index] { get; }</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>index</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Item_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Item(System.String)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L235">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Item_System_String_" data-uid="Dapplo.HttpExtensions.JsonObject.Item(System.String)">Item[String]</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">System.Object</span> with the specified key.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public object this[string key] { get; set; }</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>key</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Keys.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Keys%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L196">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Keys" data-uid="Dapplo.HttpExtensions.JsonObject.Keys">Keys</h4>
+              <div class="markdown level1 summary"><p>Gets the keys.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ICollection&lt;string&gt; Keys { get; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Values.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Values%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L226">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Values" data-uid="Dapplo.HttpExtensions.JsonObject.Values">Values</h4>
+              <div class="markdown level1 summary"><p>Gets the values.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ICollection&lt;object&gt; Values { get; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Add(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L245">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Add_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Dapplo.HttpExtensions.JsonObject.Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Add(KeyValuePair&lt;String, Object&gt;)</h4>
+              <div class="markdown level1 summary"><p>Adds the specified item.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Add(KeyValuePair&lt;string, object&gt; item)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><em>item</em></td>
+                    <td><p>The item.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Add_System_String_System_Object_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Add(System.String%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L175">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Add_System_String_System_Object_" data-uid="Dapplo.HttpExtensions.JsonObject.Add(System.String,System.Object)">Add(String, Object)</h4>
+              <div class="markdown level1 summary"><p>Adds the specified key.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Add(string key, object value)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>key</em></td>
+                    <td><p>The key.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>value</em></td>
+                    <td><p>The value.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Clear.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Clear%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L253">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Clear" data-uid="Dapplo.HttpExtensions.JsonObject.Clear">Clear()</h4>
+              <div class="markdown level1 summary"><p>Clears this instance.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Contains(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L265">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Contains_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Dapplo.HttpExtensions.JsonObject.Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Contains(KeyValuePair&lt;String, Object&gt;)</h4>
+              <div class="markdown level1 summary"><p>Determines whether [contains] [the specified item].</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Contains(KeyValuePair&lt;string, object&gt; item)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><em>item</em></td>
+                    <td><p>The item.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><pre><code>&lt;c&gt;true&lt;/c&gt; if [contains] [the specified item]; otherwise, &lt;c&gt;false&lt;/c&gt;.
+</code></pre></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_ContainsKey_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.ContainsKey(System.String)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L187">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_ContainsKey_System_String_" data-uid="Dapplo.HttpExtensions.JsonObject.ContainsKey(System.String)">ContainsKey(String)</h4>
+              <div class="markdown level1 summary"><p>Determines whether the specified key contains key.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool ContainsKey(string key)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>key</em></td>
+                    <td><p>The key.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><pre><code>&lt;c&gt;true&lt;/c&gt; if the specified key contains key; otherwise, &lt;c&gt;false&lt;/c&gt;.
+</code></pre></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Object____System_Int32_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.CopyTo(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D%5B%5D%2CSystem.Int32)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L275">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_CopyTo_System_Collections_Generic_KeyValuePair_System_String_System_Object____System_Int32_" data-uid="Dapplo.HttpExtensions.JsonObject.CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)">CopyTo(KeyValuePair&lt;String, Object&gt;[], Int32)</h4>
+              <div class="markdown level1 summary"><p>Copies to.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void CopyTo(KeyValuePair&lt;string, object&gt;[] array, int arrayIndex)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+                    <td><em>array</em></td>
+                    <td><p>The array.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>arrayIndex</em></td>
+                    <td><p>Index of the array.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_GetDynamicMemberNames.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.GetDynamicMemberNames%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L478">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_GetDynamicMemberNames" data-uid="Dapplo.HttpExtensions.JsonObject.GetDynamicMemberNames">GetDynamicMemberNames()</h4>
+              <div class="markdown level1 summary"><p>Returns the enumeration of all dynamic member names.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override IEnumerable&lt;string&gt; GetDynamicMemberNames()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><p>A sequence that contains dynamic member names.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_GetEnumerator.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.GetEnumerator%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L321">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_GetEnumerator" data-uid="Dapplo.HttpExtensions.JsonObject.GetEnumerator">GetEnumerator()</h4>
+              <div class="markdown level1 summary"><p>Gets the enumerator.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;string, object&gt;&gt; GetEnumerator()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Remove(System.Collections.Generic.KeyValuePair%7BSystem.String%2CSystem.Object%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L312">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Remove_System_Collections_Generic_KeyValuePair_System_String_System_Object__" data-uid="Dapplo.HttpExtensions.JsonObject.Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})">Remove(KeyValuePair&lt;String, Object&gt;)</h4>
+              <div class="markdown level1 summary"><p>Removes the specified item.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Remove(KeyValuePair&lt;string, object&gt; item)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><em>item</em></td>
+                    <td><p>The item.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_Remove_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.Remove(System.String)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L206">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_Remove_System_String_" data-uid="Dapplo.HttpExtensions.JsonObject.Remove(System.String)">Remove(String)</h4>
+              <div class="markdown level1 summary"><p>Removes the specified key.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Remove(string key)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>key</em></td>
+                    <td><p>The key.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.System%23Collections%23IEnumerable%23GetEnumerator%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L332">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_System_Collections_IEnumerable_GetEnumerator" data-uid="Dapplo.HttpExtensions.JsonObject.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+              <div class="markdown level1 summary"><p>Returns an enumerator that iterates through a collection.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.IEnumerator</span></td>
+                    <td><p>An <span class="xref">System.Collections.IEnumerator</span> object that can be used to iterate through the collection.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_ToString.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.ToString%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L343">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_ToString" data-uid="Dapplo.HttpExtensions.JsonObject.ToString">ToString()</h4>
+              <div class="markdown level1 summary"><p>Returns a json <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>A json <span class="xref">System.String</span> that represents the current <span class="xref">System.Object</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_TryConvert_System_Dynamic_ConvertBinder_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.TryConvert(System.Dynamic.ConvertBinder%2CSystem.Object%40)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L357">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_TryConvert_System_Dynamic_ConvertBinder_System_Object__" data-uid="Dapplo.HttpExtensions.JsonObject.TryConvert(System.Dynamic.ConvertBinder,System.Object@)">TryConvert(ConvertBinder, out Object)</h4>
+              <div class="markdown level1 summary"><p>Provides implementation for type conversion operations. Classes derived from the <span class="xref">System.Dynamic.DynamicObject</span> class can override this method to specify dynamic behavior for operations that convert an object from one type to another.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override bool TryConvert(ConvertBinder binder, out object result)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Dynamic.ConvertBinder</span></td>
+                    <td><em>binder</em></td>
+                    <td><p>Provides information about the conversion operation. The binder.Type property provides the type to which the object must be converted. For example, for the statement (String)sampleObject in C# (CType(sampleObject, Type) in Visual Basic), where sampleObject is an instance of the class derived from the <span class="xref">System.Dynamic.DynamicObject</span> class, binder.Type returns the <span class="xref">System.String</span> type. The binder.Explicit property provides information about the kind of conversion that occurs. It returns true for explicit conversion and false for implicit conversion.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>result</em></td>
+                    <td><p>The result of the type conversion operation.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Alwasy returns true.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_TryDeleteMember_System_Dynamic_DeleteMemberBinder_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.TryDeleteMember(System.Dynamic.DeleteMemberBinder)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L384">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_TryDeleteMember_System_Dynamic_DeleteMemberBinder_" data-uid="Dapplo.HttpExtensions.JsonObject.TryDeleteMember(System.Dynamic.DeleteMemberBinder)">TryDeleteMember(DeleteMemberBinder)</h4>
+              <div class="markdown level1 summary"><p>Provides the implementation for operations that delete an object member. This method is not intended for use in C# or Visual Basic.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override bool TryDeleteMember(DeleteMemberBinder binder)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Dynamic.DeleteMemberBinder</span></td>
+                    <td><em>binder</em></td>
+                    <td><p>Provides information about the deletion.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Alwasy returns true.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_TryGetIndex_System_Dynamic_GetIndexBinder_System_Object___System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.TryGetIndex(System.Dynamic.GetIndexBinder%2CSystem.Object%5B%5D%2CSystem.Object%40)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L402">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_TryGetIndex_System_Dynamic_GetIndexBinder_System_Object___System_Object__" data-uid="Dapplo.HttpExtensions.JsonObject.TryGetIndex(System.Dynamic.GetIndexBinder,System.Object[],System.Object@)">TryGetIndex(GetIndexBinder, Object[], out Object)</h4>
+              <div class="markdown level1 summary"><p>Provides the implementation for operations that get a value by index. Classes derived from the <span class="xref">System.Dynamic.DynamicObject</span> class can override this method to specify dynamic behavior for indexing operations.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override bool TryGetIndex(GetIndexBinder binder, object[] indexes, out object result)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Dynamic.GetIndexBinder</span></td>
+                    <td><em>binder</em></td>
+                    <td><p>Provides information about the operation.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span>[]</td>
+                    <td><em>indexes</em></td>
+                    <td><p>The indexes that are used in the operation. For example, for the sampleObject[3] operation in C# (sampleObject(3) in Visual Basic), where sampleObject is derived from the DynamicObject class, <em>indexes</em> is equal to 3.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>result</em></td>
+                    <td><p>The result of the index operation.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Alwasy returns true.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_TryGetMember_System_Dynamic_GetMemberBinder_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.TryGetMember(System.Dynamic.GetMemberBinder%2CSystem.Object%40)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L422">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_TryGetMember_System_Dynamic_GetMemberBinder_System_Object__" data-uid="Dapplo.HttpExtensions.JsonObject.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)">TryGetMember(GetMemberBinder, out Object)</h4>
+              <div class="markdown level1 summary"><p>Provides the implementation for operations that get member values. Classes derived from the <span class="xref">System.Dynamic.DynamicObject</span> class can override this method to specify dynamic behavior for operations such as getting a value for a property.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override bool TryGetMember(GetMemberBinder binder, out object result)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Dynamic.GetMemberBinder</span></td>
+                    <td><em>binder</em></td>
+                    <td><p>Provides information about the object that called the dynamic operation. The binder.Name property provides the name of the member on which the dynamic operation is performed. For example, for the Console.WriteLine(sampleObject.SampleProperty) statement, where sampleObject is an instance of the class derived from the <span class="xref">System.Dynamic.DynamicObject</span> class, binder.Name returns &quot;SampleProperty&quot;. The binder.IgnoreCase property specifies whether the member name is case-sensitive.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>result</em></td>
+                    <td><p>The result of the get operation. For example, if the method is called for a property, you can assign the property value to <em>result</em>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Alwasy returns true.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_TryGetValue_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.TryGetValue(System.String%2CSystem.Object%40)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L217">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_TryGetValue_System_String_System_Object__" data-uid="Dapplo.HttpExtensions.JsonObject.TryGetValue(System.String,System.Object@)">TryGetValue(String, out Object)</h4>
+              <div class="markdown level1 summary"><p>Tries the get value.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool TryGetValue(string key, out object value)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>key</em></td>
+                    <td><p>The key.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>value</em></td>
+                    <td><p>The value.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_TrySetIndex_System_Dynamic_SetIndexBinder_System_Object___System_Object_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.TrySetIndex(System.Dynamic.SetIndexBinder%2CSystem.Object%5B%5D%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L443">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_TrySetIndex_System_Dynamic_SetIndexBinder_System_Object___System_Object_" data-uid="Dapplo.HttpExtensions.JsonObject.TrySetIndex(System.Dynamic.SetIndexBinder,System.Object[],System.Object)">TrySetIndex(SetIndexBinder, Object[], Object)</h4>
+              <div class="markdown level1 summary"><p>Provides the implementation for operations that set a value by index. Classes derived from the <span class="xref">System.Dynamic.DynamicObject</span> class can override this method to specify dynamic behavior for operations that access objects by a specified index.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override bool TrySetIndex(SetIndexBinder binder, object[] indexes, object value)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Dynamic.SetIndexBinder</span></td>
+                    <td><em>binder</em></td>
+                    <td><p>Provides information about the operation.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span>[]</td>
+                    <td><em>indexes</em></td>
+                    <td><p>The indexes that are used in the operation. For example, for the sampleObject[3] = 10 operation in C# (sampleObject(3) = 10 in Visual Basic), where sampleObject is derived from the <span class="xref">System.Dynamic.DynamicObject</span> class, <em>indexes</em> is equal to 3.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>value</em></td>
+                    <td><p>The value to set to the object that has the specified index. For example, for the sampleObject[3] = 10 operation in C# (sampleObject(3) = 10 in Visual Basic), where sampleObject is derived from the <span class="xref">System.Dynamic.DynamicObject</span> class, <em>value</em> is equal to 10.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>true if the operation is successful; otherwise, false. If this method returns false, the run-time binder of the language determines the behavior. (In most cases, a language-specific run-time exception is thrown.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_JsonObject_TrySetMember_System_Dynamic_SetMemberBinder_System_Object_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.JsonObject.TrySetMember(System.Dynamic.SetMemberBinder%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions.Shared/SimpleJson.cs/#L462">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_JsonObject_TrySetMember_System_Dynamic_SetMemberBinder_System_Object_" data-uid="Dapplo.HttpExtensions.JsonObject.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)">TrySetMember(SetMemberBinder, Object)</h4>
+              <div class="markdown level1 summary"><p>Provides the implementation for operations that set member values. Classes derived from the <span class="xref">System.Dynamic.DynamicObject</span> class can override this method to specify dynamic behavior for operations such as setting a value for a property.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override bool TrySetMember(SetMemberBinder binder, object value)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Dynamic.SetMemberBinder</span></td>
+                    <td><em>binder</em></td>
+                    <td><p>Provides information about the object that called the dynamic operation. The binder.Name property provides the name of the member to which the value is being assigned. For example, for the statement sampleObject.SampleProperty = &quot;Test&quot;, where sampleObject is an instance of the class derived from the <span class="xref">System.Dynamic.DynamicObject</span> class, binder.Name returns &quot;SampleProperty&quot;. The binder.IgnoreCase property specifies whether the member name is case-sensitive.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>value</em></td>
+                    <td><p>The value to set to the member. For example, for sampleObject.SampleProperty = &quot;Test&quot;, where sampleObject is an instance of the class derived from the <span class="xref">System.Dynamic.DynamicObject</span> class, the <em>value</em> is &quot;Test&quot;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>true if the operation is successful; otherwise, false. If this method returns false, the run-time binder of the language determines the behavior. (In most cases, a language-specific run-time exception is thrown.)</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>docfx</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>OAuth1UriActions Class | </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="OAuth1UriActions Class | ">
+    <meta name="generator" content="docfx 1.5.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div class="sidenav">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1UriActions.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1UriActions%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1UriActions.cs/#L14" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Dapplo_HttpExtensions_OAuth_OAuth1UriActions" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1UriActions">Class OAuth1UriActions</h1>
+              <div class="markdown level0 summary"><p>Due to the complexity of the Oauth requests, these extensions are supplied.
+For Oauth 2.0 there is no need to have special extensions</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">OAuth1UriActions</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:Dapplo.HttpExtensions.OAuth</h6>
+              <h6><strong>Assembly</strong>:Dapplo.HttpExtensions.dll</h6>
+              <h5 id="Dapplo_HttpExtensions_OAuth_OAuth1UriActions_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class OAuth1UriActions</code></pre>
+              </div>
+              <h3 id="methods">Methods</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1GetAsAsync__1_System_Uri_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1GetAsAsync%60%601(System.Uri%2CSystem.Threading.CancellationToken)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1UriActions.cs/#L23">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1GetAsAsync__1_System_Uri_System_Threading_CancellationToken_" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1GetAsAsync``1(System.Uri,System.Threading.CancellationToken)">OAuth1GetAsAsync&lt;TResponse&gt;(Uri, CancellationToken)</h4>
+              <div class="markdown level1 summary"><p>Make an OAuth GET, returns the response as the specified type</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Task&lt;TResponse&gt; OAuth1GetAsAsync&lt;TResponse&gt;(Uri uri, CancellationToken cancellationToken = null)where TResponse : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td><em>uri</em></td>
+                    <td><p>An Uri to specify the download location</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Threading.CancellationToken</span></td>
+                    <td><em>cancellationToken</em></td>
+                    <td><p>CancellationToken</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResponse&gt;</td>
+                    <td><p>TResponse</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1GetAsAsync__2_System_Uri_System_Collections_Generic_IDictionary_System_String___1__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1GetAsAsync%60%602(System.Uri%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2C%60%601%7D%2CSystem.Threading.CancellationToken)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1UriActions.cs/#L45">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1GetAsAsync__2_System_Uri_System_Collections_Generic_IDictionary_System_String___1__System_Threading_CancellationToken_" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1GetAsAsync``2(System.Uri,System.Collections.Generic.IDictionary{System.String,``1},System.Threading.CancellationToken)">OAuth1GetAsAsync&lt;TResponse, T&gt;(Uri, IDictionary&lt;String, T&gt;, CancellationToken)</h4>
+              <div class="markdown level1 summary"><p>Make an OAuth GET, returns the response as the specified type</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Task&lt;TResponse&gt; OAuth1GetAsAsync&lt;TResponse, T&gt;(Uri uri, IDictionary&lt;string, T&gt; properties, CancellationToken cancellationToken = null)where TResponse : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td><em>uri</em></td>
+                    <td><p>An Uri to specify the download location</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, T&gt;</td>
+                    <td><em>properties</em></td>
+                    <td><p>Properties for the OAuth request</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Threading.CancellationToken</span></td>
+                    <td><em>cancellationToken</em></td>
+                    <td><p>CancellationToken</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResponse&gt;</td>
+                    <td><p>TResponse</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1PostAsync__1_System_Uri_System_Collections_Generic_IDictionary_System_String_System_Object__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1PostAsync%60%601(System.Uri%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.Threading.CancellationToken)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1UriActions.cs/#L105">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1PostAsync__1_System_Uri_System_Collections_Generic_IDictionary_System_String_System_Object__System_Threading_CancellationToken_" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1PostAsync``1(System.Uri,System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)">OAuth1PostAsync&lt;TResponse&gt;(Uri, IDictionary&lt;String, Object&gt;, CancellationToken)</h4>
+              <div class="markdown level1 summary"><p>Make an OAuth POST, returns the response as the specified type</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Task&lt;TResponse&gt; OAuth1PostAsync&lt;TResponse&gt;(Uri uri, IDictionary&lt;string, object&gt; properties = null, CancellationToken cancellationToken = null)where TResponse : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td><em>uri</em></td>
+                    <td><p>Uri to post to</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><em>properties</em></td>
+                    <td><p>properties to post</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Threading.CancellationToken</span></td>
+                    <td><em>cancellationToken</em></td>
+                    <td><p>CancellationToken</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResponse&gt;</td>
+                    <td><p>TResponse</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1PostAsync__1_System_Uri_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1PostAsync%60%601(System.Uri%2CSystem.Object%2CSystem.Collections.Generic.IDictionary%7BSystem.String%2CSystem.Object%7D%2CSystem.Threading.CancellationToken)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1UriActions.cs/#L75">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1UriActions_OAuth1PostAsync__1_System_Uri_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__System_Threading_CancellationToken_" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1UriActions.OAuth1PostAsync``1(System.Uri,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)">OAuth1PostAsync&lt;TResponse&gt;(Uri, Object, IDictionary&lt;String, Object&gt;, CancellationToken)</h4>
+              <div class="markdown level1 summary"><p>Make an OAuth POST, returns the response as the specified type</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Task&lt;TResponse&gt; OAuth1PostAsync&lt;TResponse&gt;(Uri uri, object content, IDictionary&lt;string, object&gt; properties = null, CancellationToken cancellationToken = null)where TResponse : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td><em>uri</em></td>
+                    <td><p>Uri to post to</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>content</em></td>
+                    <td><p>Content to post</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><em>properties</em></td>
+                    <td><p>properties to post</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Threading.CancellationToken</span></td>
+                    <td><em>cancellationToken</em></td>
+                    <td><p>CancellationToken</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;TResponse&gt;</td>
+                    <td><p>TResponse</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>docfx</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

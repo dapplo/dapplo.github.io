@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>OAuth1HttpMessageHandler Class | </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="OAuth1HttpMessageHandler Class | ">
+    <meta name="generator" content="docfx 1.5.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div class="sidenav">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1HttpMessageHandler.cs/#L43" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler">Class OAuth1HttpMessageHandler</h1>
+              <div class="markdown level0 summary"><p>This DelegatingHandler handles the OAuth specific stuff and delegates the &quot;final&quot; SendAsync to the InnerHandler</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">System.Net.Http.HttpMessageHandler</span></div>
+                  <div class="level2"><span class="xref">System.Net.Http.DelegatingHandler</span></div>
+                  <div class="level3"><span class="xref">OAuth1HttpMessageHandler</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:Dapplo.HttpExtensions.OAuth</h6>
+              <h6><strong>Assembly</strong>:Dapplo.HttpExtensions.dll</h6>
+              <h5 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class OAuth1HttpMessageHandler : DelegatingHandler, IDisposable</code></pre>
+              </div>
+              <h3 id="constructors">Constructors</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler__ctor_Dapplo_HttpExtensions_OAuth_OAuth1Settings_Dapplo_HttpExtensions_OAuth_OAuth1HttpBehaviour_System_Net_Http_HttpMessageHandler_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.%23ctor(Dapplo.HttpExtensions.OAuth.OAuth1Settings%2CDapplo.HttpExtensions.OAuth.OAuth1HttpBehaviour%2CSystem.Net.Http.HttpMessageHandler)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1HttpMessageHandler.cs/#L89">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler__ctor_Dapplo_HttpExtensions_OAuth_OAuth1Settings_Dapplo_HttpExtensions_OAuth_OAuth1HttpBehaviour_System_Net_Http_HttpMessageHandler_" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.#ctor(Dapplo.HttpExtensions.OAuth.OAuth1Settings,Dapplo.HttpExtensions.OAuth.OAuth1HttpBehaviour,System.Net.Http.HttpMessageHandler)">OAuth1HttpMessageHandler(OAuth1Settings, OAuth1HttpBehaviour, HttpMessageHandler)</h4>
+              <div class="markdown level1 summary"><p>Create a HttpMessageHandler which handles the OAuth communication for you</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public OAuth1HttpMessageHandler(OAuth1Settings oAuth1Settings, OAuth1HttpBehaviour oAuth1HttpBehaviour, HttpMessageHandler innerHandler)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.HttpExtensions.OAuth.OAuth1Settings.html#Dapplo_HttpExtensions_OAuth_OAuth1Settings">OAuth1Settings</a></td>
+                    <td><em>oAuth1Settings</em></td>
+                    <td><p>OAuth1Settings</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.HttpExtensions.OAuth.OAuth1HttpBehaviour.html#Dapplo_HttpExtensions_OAuth_OAuth1HttpBehaviour">OAuth1HttpBehaviour</a></td>
+                    <td><em>oAuth1HttpBehaviour</em></td>
+                    <td><p>OAuth1HttpBehaviour</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Net.Http.HttpMessageHandler</span></td>
+                    <td><em>innerHandler</em></td>
+                    <td><p>HttpMessageHandler</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_CodeReceivers.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.CodeReceivers%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1HttpMessageHandler.cs/#L57">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_CodeReceivers" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.CodeReceivers">CodeReceivers</h4>
+              <div class="markdown level1 summary"><p>Register your special OAuth handler for the AuthorizeMode here
+Default the AuthorizeModes.LocalServer is registered.
+Your implementation is a function which returns a Task with a IDictionary string,string.
+It receives the OAuthSettings and a CancellationToken.
+The return value should be that which the OAuth server gives as return values, no processing.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IDictionary&lt;AuthorizeModes, IOAuthCodeReceiver&gt; CodeReceivers { get; }</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<a class="xref" href="Dapplo.HttpExtensions.OAuth.AuthorizeModes.html#Dapplo_HttpExtensions_OAuth_AuthorizeModes">AuthorizeModes</a>, <a class="xref" href="Dapplo.HttpExtensions.OAuth.IOAuthCodeReceiver.html#Dapplo_HttpExtensions_OAuth_IOAuthCodeReceiver">IOAuthCodeReceiver</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods</h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_ComputeHash_System_Security_Cryptography_HashAlgorithm_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.ComputeHash(System.Security.Cryptography.HashAlgorithm%2CSystem.String)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1HttpMessageHandler.cs/#L416">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_ComputeHash_System_Security_Cryptography_HashAlgorithm_System_String_" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.ComputeHash(System.Security.Cryptography.HashAlgorithm,System.String)">ComputeHash(HashAlgorithm, String)</h4>
+              <div class="markdown level1 summary"><p>Helper function to compute a hash value</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string ComputeHash(HashAlgorithm hashAlgorithm, string data)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Security.Cryptography.HashAlgorithm</span></td>
+                    <td><em>hashAlgorithm</em></td>
+                    <td><p>The hashing algorithm used. If that algorithm needs some initialization, like HMAC and its derivatives, they should be initialized prior to passing it to this function</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>data</em></td>
+                    <td><p>The data to hash</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>a Base64 string of the hash value</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_GenerateNonce.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.GenerateNonce%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1HttpMessageHandler.cs/#L393">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_GenerateNonce" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.GenerateNonce">GenerateNonce()</h4>
+              <div class="markdown level1 summary"><p>Generate a nonce</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string GenerateNonce()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_GenerateTimeStamp.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.GenerateTimeStamp%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1HttpMessageHandler.cs/#L403">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_GenerateTimeStamp" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.GenerateTimeStamp">GenerateTimeStamp()</h4>
+              <div class="markdown level1 summary"><p>Generate the timestamp for the signature        </p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string GenerateTimeStamp()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/new/master/Dapplo.HttpExtensions/apispec/new?filename=Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage%2CSystem.Threading.CancellationToken)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.HttpExtensions/blob/master/Dapplo.HttpExtensions/OAuth/OAuth1HttpMessageHandler.cs/#L440">View Source</a>
+              </span>
+              <h4 id="Dapplo_HttpExtensions_OAuth_OAuth1HttpMessageHandler_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_" data-uid="Dapplo.HttpExtensions.OAuth.OAuth1HttpMessageHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">SendAsync(HttpRequestMessage, CancellationToken)</h4>
+              <div class="markdown level1 summary"><p>Check the HttpRequestMessage if all OAuth setting are there, if not make this available.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected override Task&lt;HttpResponseMessage&gt; SendAsync(HttpRequestMessage httpRequestMessage, CancellationToken cancellationToken)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Net.Http.HttpRequestMessage</span></td>
+                    <td><em>httpRequestMessage</em></td>
+                    <td><p>HttpRequestMessage</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Threading.CancellationToken</span></td>
+                    <td><em>cancellationToken</em></td>
+                    <td><p>CancellationToken</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Net.Http.HttpResponseMessage</span>&gt;</td>
+                    <td><p>HttpResponseMessage</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>docfx</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
