@@ -21,5 +21,6 @@ Uri Extentions
 Dapplo.HttpExtensions adds extensions for different use cases to the Uri, examples are adding a Query-parameter or path segment, and directly retrieving a JSON from the server behind the Uri.
 Status: <span class="glyphicon glyphicon-ok"/>
 
-
-For the API Documentation, look [here](http://www.dapplo.net/documentation/Dapplo.HttpExtensions/api/Dapplo.HttpExtensions.html)
+API Documentation
+----------------
+For the generated API Documentation, look [here](http://www.dapplo.net/documentation/Dapplo.HttpExtensions/api/Dapplo.HttpExtensions.html)
