@@ -1,12 +1,12 @@
 ---
 layout: block
 sort_id: 0
-github_project: Dapplo.LogFacade
-appveyor_id: 3ocr4r55ne8yiji0
+github_project: Dapplo.Log
+appveyor_id: 5s97m6ha9niupt1y
 tags: work_in_progress
 ---
 
-# Dapplo.LogFacade
+# Dapplo.Log
 Glue code which allows your framework/library to log without a logger.
 
 Ever written a framework? Well... I did, and one of the biggest problems I had was deciding on a logger framework.
@@ -18,7 +18,7 @@ It makes it possible to add log statements which do nothing untill a logger is d
 To you this, you add the nuget package.
 Add the using statement to your class:
 ```
-using Dapplo.LogFacade;
+using Dapplo.Log;
 ```
 
 Include a static one-liner in your class:
