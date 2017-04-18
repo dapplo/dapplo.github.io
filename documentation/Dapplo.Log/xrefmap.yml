@@ -1,0 +1,1549 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Dapplo.Log
+  name: Dapplo.Log
+  href: api/Dapplo.Log.html
+  commentId: N:Dapplo.Log
+  fullName: Dapplo.Log
+  nameWithType: Dapplo.Log
+- uid: Dapplo.Log.AbstractLogger
+  name: AbstractLogger
+  href: api/Dapplo.Log.AbstractLogger.html
+  commentId: T:Dapplo.Log.AbstractLogger
+  fullName: Dapplo.Log.AbstractLogger
+  nameWithType: AbstractLogger
+- uid: Dapplo.Log.AbstractLogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  name: Configure(ILoggerConfiguration)
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Configure_Dapplo_Log_ILoggerConfiguration_
+  commentId: M:Dapplo.Log.AbstractLogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  fullName: Dapplo.Log.AbstractLogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  nameWithType: AbstractLogger.Configure(ILoggerConfiguration)
+- uid: Dapplo.Log.AbstractLogger.Configure*
+  name: Configure
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Configure_
+  commentId: Overload:Dapplo.Log.AbstractLogger.Configure
+  fullName: Dapplo.Log.AbstractLogger.Configure
+  nameWithType: AbstractLogger.Configure
+- uid: Dapplo.Log.AbstractLogger.DateTimeFormat
+  name: DateTimeFormat
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_DateTimeFormat
+  commentId: P:Dapplo.Log.AbstractLogger.DateTimeFormat
+  fullName: Dapplo.Log.AbstractLogger.DateTimeFormat
+  nameWithType: AbstractLogger.DateTimeFormat
+- uid: Dapplo.Log.AbstractLogger.DateTimeFormat*
+  name: DateTimeFormat
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_DateTimeFormat_
+  commentId: Overload:Dapplo.Log.AbstractLogger.DateTimeFormat
+  fullName: Dapplo.Log.AbstractLogger.DateTimeFormat
+  nameWithType: AbstractLogger.DateTimeFormat
+- uid: Dapplo.Log.AbstractLogger.Format(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Format(LogInfo, String, Object[])
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Format_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.AbstractLogger.Format(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Format(LogInfo, String, Object())
+  fullName: Dapplo.Log.AbstractLogger.Format(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.AbstractLogger.Format(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: AbstractLogger.Format(LogInfo, String, Object[])
+  nameWithType.vb: AbstractLogger.Format(LogInfo, String, Object())
+- uid: Dapplo.Log.AbstractLogger.Format*
+  name: Format
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Format_
+  commentId: Overload:Dapplo.Log.AbstractLogger.Format
+  fullName: Dapplo.Log.AbstractLogger.Format
+  nameWithType: AbstractLogger.Format
+- uid: Dapplo.Log.AbstractLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  name: IsLogLevelEnabled(LogLevels, LogSource)
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_IsLogLevelEnabled_Dapplo_Log_LogLevels_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.AbstractLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.AbstractLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels, Dapplo.Log.LogSource)
+  nameWithType: AbstractLogger.IsLogLevelEnabled(LogLevels, LogSource)
+- uid: Dapplo.Log.AbstractLogger.IsLogLevelEnabled*
+  name: IsLogLevelEnabled
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_IsLogLevelEnabled_
+  commentId: Overload:Dapplo.Log.AbstractLogger.IsLogLevelEnabled
+  fullName: Dapplo.Log.AbstractLogger.IsLogLevelEnabled
+  nameWithType: AbstractLogger.IsLogLevelEnabled
+- uid: Dapplo.Log.AbstractLogger.LogLevel
+  name: LogLevel
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_LogLevel
+  commentId: P:Dapplo.Log.AbstractLogger.LogLevel
+  fullName: Dapplo.Log.AbstractLogger.LogLevel
+  nameWithType: AbstractLogger.LogLevel
+- uid: Dapplo.Log.AbstractLogger.LogLevel*
+  name: LogLevel
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_LogLevel_
+  commentId: Overload:Dapplo.Log.AbstractLogger.LogLevel
+  fullName: Dapplo.Log.AbstractLogger.LogLevel
+  nameWithType: AbstractLogger.LogLevel
+- uid: Dapplo.Log.AbstractLogger.LogLineFormat
+  name: LogLineFormat
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_LogLineFormat
+  commentId: P:Dapplo.Log.AbstractLogger.LogLineFormat
+  fullName: Dapplo.Log.AbstractLogger.LogLineFormat
+  nameWithType: AbstractLogger.LogLineFormat
+- uid: Dapplo.Log.AbstractLogger.LogLineFormat*
+  name: LogLineFormat
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_LogLineFormat_
+  commentId: Overload:Dapplo.Log.AbstractLogger.LogLineFormat
+  fullName: Dapplo.Log.AbstractLogger.LogLineFormat
+  nameWithType: AbstractLogger.LogLineFormat
+- uid: Dapplo.Log.AbstractLogger.ReplacedWith(Dapplo.Log.ILogger)
+  name: ReplacedWith(ILogger)
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_ReplacedWith_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.AbstractLogger.ReplacedWith(Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.AbstractLogger.ReplacedWith(Dapplo.Log.ILogger)
+  nameWithType: AbstractLogger.ReplacedWith(ILogger)
+- uid: Dapplo.Log.AbstractLogger.ReplacedWith*
+  name: ReplacedWith
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_ReplacedWith_
+  commentId: Overload:Dapplo.Log.AbstractLogger.ReplacedWith
+  fullName: Dapplo.Log.AbstractLogger.ReplacedWith
+  nameWithType: AbstractLogger.ReplacedWith
+- uid: Dapplo.Log.AbstractLogger.UseShortSource
+  name: UseShortSource
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_UseShortSource
+  commentId: P:Dapplo.Log.AbstractLogger.UseShortSource
+  fullName: Dapplo.Log.AbstractLogger.UseShortSource
+  nameWithType: AbstractLogger.UseShortSource
+- uid: Dapplo.Log.AbstractLogger.UseShortSource*
+  name: UseShortSource
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_UseShortSource_
+  commentId: Overload:Dapplo.Log.AbstractLogger.UseShortSource
+  fullName: Dapplo.Log.AbstractLogger.UseShortSource
+  nameWithType: AbstractLogger.UseShortSource
+- uid: Dapplo.Log.AbstractLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.AbstractLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.AbstractLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.AbstractLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: AbstractLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: AbstractLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.AbstractLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Write_
+  commentId: Overload:Dapplo.Log.AbstractLogger.Write
+  fullName: Dapplo.Log.AbstractLogger.Write
+  nameWithType: AbstractLogger.Write
+- uid: Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo,System.Exception,System.String,System.Object[])
+  name: WriteLine(LogInfo, Exception, String, Object[])
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_WriteLine_Dapplo_Log_LogInfo_System_Exception_System_String_System_Object___
+  commentId: M:Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo,System.Exception,System.String,System.Object[])
+  name.vb: WriteLine(LogInfo, Exception, String, Object())
+  fullName: Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo, System.Exception, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo, System.Exception, System.String, System.Object())
+  nameWithType: AbstractLogger.WriteLine(LogInfo, Exception, String, Object[])
+  nameWithType.vb: AbstractLogger.WriteLine(LogInfo, Exception, String, Object())
+- uid: Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: WriteLine(LogInfo, String, Object[])
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_WriteLine_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: WriteLine(LogInfo, String, Object())
+  fullName: Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.AbstractLogger.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: AbstractLogger.WriteLine(LogInfo, String, Object[])
+  nameWithType.vb: AbstractLogger.WriteLine(LogInfo, String, Object())
+- uid: Dapplo.Log.AbstractLogger.WriteLine*
+  name: WriteLine
+  href: api/Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_WriteLine_
+  commentId: Overload:Dapplo.Log.AbstractLogger.WriteLine
+  fullName: Dapplo.Log.AbstractLogger.WriteLine
+  nameWithType: AbstractLogger.WriteLine
+- uid: Dapplo.Log.ILogger
+  name: ILogger
+  href: api/Dapplo.Log.ILogger.html
+  commentId: T:Dapplo.Log.ILogger
+  fullName: Dapplo.Log.ILogger
+  nameWithType: ILogger
+- uid: Dapplo.Log.ILogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  name: Configure(ILoggerConfiguration)
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_Configure_Dapplo_Log_ILoggerConfiguration_
+  commentId: M:Dapplo.Log.ILogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  fullName: Dapplo.Log.ILogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  nameWithType: ILogger.Configure(ILoggerConfiguration)
+- uid: Dapplo.Log.ILogger.Configure*
+  name: Configure
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_Configure_
+  commentId: Overload:Dapplo.Log.ILogger.Configure
+  fullName: Dapplo.Log.ILogger.Configure
+  nameWithType: ILogger.Configure
+- uid: Dapplo.Log.ILogger.Format(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Format(LogInfo, String, Object[])
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_Format_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.ILogger.Format(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Format(LogInfo, String, Object())
+  fullName: Dapplo.Log.ILogger.Format(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.ILogger.Format(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: ILogger.Format(LogInfo, String, Object[])
+  nameWithType.vb: ILogger.Format(LogInfo, String, Object())
+- uid: Dapplo.Log.ILogger.Format*
+  name: Format
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_Format_
+  commentId: Overload:Dapplo.Log.ILogger.Format
+  fullName: Dapplo.Log.ILogger.Format
+  nameWithType: ILogger.Format
+- uid: Dapplo.Log.ILogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  name: IsLogLevelEnabled(LogLevels, LogSource)
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_IsLogLevelEnabled_Dapplo_Log_LogLevels_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.ILogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.ILogger.IsLogLevelEnabled(Dapplo.Log.LogLevels, Dapplo.Log.LogSource)
+  nameWithType: ILogger.IsLogLevelEnabled(LogLevels, LogSource)
+- uid: Dapplo.Log.ILogger.IsLogLevelEnabled*
+  name: IsLogLevelEnabled
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_IsLogLevelEnabled_
+  commentId: Overload:Dapplo.Log.ILogger.IsLogLevelEnabled
+  fullName: Dapplo.Log.ILogger.IsLogLevelEnabled
+  nameWithType: ILogger.IsLogLevelEnabled
+- uid: Dapplo.Log.ILogger.ReplacedWith(Dapplo.Log.ILogger)
+  name: ReplacedWith(ILogger)
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_ReplacedWith_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.ILogger.ReplacedWith(Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.ILogger.ReplacedWith(Dapplo.Log.ILogger)
+  nameWithType: ILogger.ReplacedWith(ILogger)
+- uid: Dapplo.Log.ILogger.ReplacedWith*
+  name: ReplacedWith
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_ReplacedWith_
+  commentId: Overload:Dapplo.Log.ILogger.ReplacedWith
+  fullName: Dapplo.Log.ILogger.ReplacedWith
+  nameWithType: ILogger.ReplacedWith
+- uid: Dapplo.Log.ILogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.ILogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.ILogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.ILogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: ILogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: ILogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.ILogger.Write*
+  name: Write
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_Write_
+  commentId: Overload:Dapplo.Log.ILogger.Write
+  fullName: Dapplo.Log.ILogger.Write
+  nameWithType: ILogger.Write
+- uid: Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo,System.Exception,System.String,System.Object[])
+  name: WriteLine(LogInfo, Exception, String, Object[])
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_WriteLine_Dapplo_Log_LogInfo_System_Exception_System_String_System_Object___
+  commentId: M:Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo,System.Exception,System.String,System.Object[])
+  name.vb: WriteLine(LogInfo, Exception, String, Object())
+  fullName: Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo, System.Exception, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo, System.Exception, System.String, System.Object())
+  nameWithType: ILogger.WriteLine(LogInfo, Exception, String, Object[])
+  nameWithType.vb: ILogger.WriteLine(LogInfo, Exception, String, Object())
+- uid: Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: WriteLine(LogInfo, String, Object[])
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_WriteLine_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: WriteLine(LogInfo, String, Object())
+  fullName: Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.ILogger.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: ILogger.WriteLine(LogInfo, String, Object[])
+  nameWithType.vb: ILogger.WriteLine(LogInfo, String, Object())
+- uid: Dapplo.Log.ILogger.WriteLine*
+  name: WriteLine
+  href: api/Dapplo.Log.ILogger.html#Dapplo_Log_ILogger_WriteLine_
+  commentId: Overload:Dapplo.Log.ILogger.WriteLine
+  fullName: Dapplo.Log.ILogger.WriteLine
+  nameWithType: ILogger.WriteLine
+- uid: Dapplo.Log.ILoggerConfiguration
+  name: ILoggerConfiguration
+  href: api/Dapplo.Log.ILoggerConfiguration.html
+  commentId: T:Dapplo.Log.ILoggerConfiguration
+  fullName: Dapplo.Log.ILoggerConfiguration
+  nameWithType: ILoggerConfiguration
+- uid: Dapplo.Log.ILoggerConfiguration.DateTimeFormat
+  name: DateTimeFormat
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_DateTimeFormat
+  commentId: P:Dapplo.Log.ILoggerConfiguration.DateTimeFormat
+  fullName: Dapplo.Log.ILoggerConfiguration.DateTimeFormat
+  nameWithType: ILoggerConfiguration.DateTimeFormat
+- uid: Dapplo.Log.ILoggerConfiguration.DateTimeFormat*
+  name: DateTimeFormat
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_DateTimeFormat_
+  commentId: Overload:Dapplo.Log.ILoggerConfiguration.DateTimeFormat
+  fullName: Dapplo.Log.ILoggerConfiguration.DateTimeFormat
+  nameWithType: ILoggerConfiguration.DateTimeFormat
+- uid: Dapplo.Log.ILoggerConfiguration.LogLevel
+  name: LogLevel
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_LogLevel
+  commentId: P:Dapplo.Log.ILoggerConfiguration.LogLevel
+  fullName: Dapplo.Log.ILoggerConfiguration.LogLevel
+  nameWithType: ILoggerConfiguration.LogLevel
+- uid: Dapplo.Log.ILoggerConfiguration.LogLevel*
+  name: LogLevel
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_LogLevel_
+  commentId: Overload:Dapplo.Log.ILoggerConfiguration.LogLevel
+  fullName: Dapplo.Log.ILoggerConfiguration.LogLevel
+  nameWithType: ILoggerConfiguration.LogLevel
+- uid: Dapplo.Log.ILoggerConfiguration.LogLineFormat
+  name: LogLineFormat
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_LogLineFormat
+  commentId: P:Dapplo.Log.ILoggerConfiguration.LogLineFormat
+  fullName: Dapplo.Log.ILoggerConfiguration.LogLineFormat
+  nameWithType: ILoggerConfiguration.LogLineFormat
+- uid: Dapplo.Log.ILoggerConfiguration.LogLineFormat*
+  name: LogLineFormat
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_LogLineFormat_
+  commentId: Overload:Dapplo.Log.ILoggerConfiguration.LogLineFormat
+  fullName: Dapplo.Log.ILoggerConfiguration.LogLineFormat
+  nameWithType: ILoggerConfiguration.LogLineFormat
+- uid: Dapplo.Log.ILoggerConfiguration.UseShortSource
+  name: UseShortSource
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_UseShortSource
+  commentId: P:Dapplo.Log.ILoggerConfiguration.UseShortSource
+  fullName: Dapplo.Log.ILoggerConfiguration.UseShortSource
+  nameWithType: ILoggerConfiguration.UseShortSource
+- uid: Dapplo.Log.ILoggerConfiguration.UseShortSource*
+  name: UseShortSource
+  href: api/Dapplo.Log.ILoggerConfiguration.html#Dapplo_Log_ILoggerConfiguration_UseShortSource_
+  commentId: Overload:Dapplo.Log.ILoggerConfiguration.UseShortSource
+  fullName: Dapplo.Log.ILoggerConfiguration.UseShortSource
+  nameWithType: ILoggerConfiguration.UseShortSource
+- uid: Dapplo.Log.LogFile
+  name: Dapplo.Log.LogFile
+  href: api/Dapplo.Log.LogFile.html
+  commentId: N:Dapplo.Log.LogFile
+  fullName: Dapplo.Log.LogFile
+  nameWithType: Dapplo.Log.LogFile
+- uid: Dapplo.Log.LogFile.FileLogger
+  name: FileLogger
+  href: api/Dapplo.Log.LogFile.FileLogger.html
+  commentId: T:Dapplo.Log.LogFile.FileLogger
+  fullName: Dapplo.Log.LogFile.FileLogger
+  nameWithType: FileLogger
+- uid: Dapplo.Log.LogFile.FileLogger.#ctor
+  name: FileLogger()
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger__ctor
+  commentId: M:Dapplo.Log.LogFile.FileLogger.#ctor
+  fullName: Dapplo.Log.LogFile.FileLogger.FileLogger()
+  nameWithType: FileLogger.FileLogger()
+- uid: Dapplo.Log.LogFile.FileLogger.#ctor*
+  name: FileLogger
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger__ctor_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.#ctor
+  fullName: Dapplo.Log.LogFile.FileLogger.FileLogger
+  nameWithType: FileLogger.FileLogger
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveCompress
+  name: ArchiveCompress
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveCompress
+  commentId: P:Dapplo.Log.LogFile.FileLogger.ArchiveCompress
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveCompress
+  nameWithType: FileLogger.ArchiveCompress
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveCompress*
+  name: ArchiveCompress
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveCompress_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.ArchiveCompress
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveCompress
+  nameWithType: FileLogger.ArchiveCompress
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveCount
+  name: ArchiveCount
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveCount
+  commentId: P:Dapplo.Log.LogFile.FileLogger.ArchiveCount
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveCount
+  nameWithType: FileLogger.ArchiveCount
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveCount*
+  name: ArchiveCount
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveCount_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.ArchiveCount
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveCount
+  nameWithType: FileLogger.ArchiveCount
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath
+  name: ArchiveDirectoryPath
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveDirectoryPath
+  commentId: P:Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath
+  nameWithType: FileLogger.ArchiveDirectoryPath
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath*
+  name: ArchiveDirectoryPath
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveDirectoryPath_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath
+  nameWithType: FileLogger.ArchiveDirectoryPath
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveExtension
+  name: ArchiveExtension
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveExtension
+  commentId: P:Dapplo.Log.LogFile.FileLogger.ArchiveExtension
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveExtension
+  nameWithType: FileLogger.ArchiveExtension
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveExtension*
+  name: ArchiveExtension
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveExtension_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.ArchiveExtension
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveExtension
+  nameWithType: FileLogger.ArchiveExtension
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern
+  name: ArchiveFilenamePattern
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveFilenamePattern
+  commentId: P:Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern
+  nameWithType: FileLogger.ArchiveFilenamePattern
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern*
+  name: ArchiveFilenamePattern
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveFilenamePattern_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern
+  nameWithType: FileLogger.ArchiveFilenamePattern
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveHistory
+  name: ArchiveHistory
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveHistory
+  commentId: P:Dapplo.Log.LogFile.FileLogger.ArchiveHistory
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveHistory
+  nameWithType: FileLogger.ArchiveHistory
+- uid: Dapplo.Log.LogFile.FileLogger.ArchiveHistory*
+  name: ArchiveHistory
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_ArchiveHistory_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.ArchiveHistory
+  fullName: Dapplo.Log.LogFile.FileLogger.ArchiveHistory
+  nameWithType: FileLogger.ArchiveHistory
+- uid: Dapplo.Log.LogFile.FileLogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  name: Configure(ILoggerConfiguration)
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Configure_Dapplo_Log_ILoggerConfiguration_
+  commentId: M:Dapplo.Log.LogFile.FileLogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  fullName: Dapplo.Log.LogFile.FileLogger.Configure(Dapplo.Log.ILoggerConfiguration)
+  nameWithType: FileLogger.Configure(ILoggerConfiguration)
+- uid: Dapplo.Log.LogFile.FileLogger.Configure*
+  name: Configure
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Configure_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.Configure
+  fullName: Dapplo.Log.LogFile.FileLogger.Configure
+  nameWithType: FileLogger.Configure
+- uid: Dapplo.Log.LogFile.FileLogger.DirectoryPath
+  name: DirectoryPath
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_DirectoryPath
+  commentId: P:Dapplo.Log.LogFile.FileLogger.DirectoryPath
+  fullName: Dapplo.Log.LogFile.FileLogger.DirectoryPath
+  nameWithType: FileLogger.DirectoryPath
+- uid: Dapplo.Log.LogFile.FileLogger.DirectoryPath*
+  name: DirectoryPath
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_DirectoryPath_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.DirectoryPath
+  fullName: Dapplo.Log.LogFile.FileLogger.DirectoryPath
+  nameWithType: FileLogger.DirectoryPath
+- uid: Dapplo.Log.LogFile.FileLogger.Extension
+  name: Extension
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Extension
+  commentId: P:Dapplo.Log.LogFile.FileLogger.Extension
+  fullName: Dapplo.Log.LogFile.FileLogger.Extension
+  nameWithType: FileLogger.Extension
+- uid: Dapplo.Log.LogFile.FileLogger.Extension*
+  name: Extension
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Extension_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.Extension
+  fullName: Dapplo.Log.LogFile.FileLogger.Extension
+  nameWithType: FileLogger.Extension
+- uid: Dapplo.Log.LogFile.FileLogger.FilenamePattern
+  name: FilenamePattern
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_FilenamePattern
+  commentId: P:Dapplo.Log.LogFile.FileLogger.FilenamePattern
+  fullName: Dapplo.Log.LogFile.FileLogger.FilenamePattern
+  nameWithType: FileLogger.FilenamePattern
+- uid: Dapplo.Log.LogFile.FileLogger.FilenamePattern*
+  name: FilenamePattern
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_FilenamePattern_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.FilenamePattern
+  fullName: Dapplo.Log.LogFile.FileLogger.FilenamePattern
+  nameWithType: FileLogger.FilenamePattern
+- uid: Dapplo.Log.LogFile.FileLogger.MaxBufferSize
+  name: MaxBufferSize
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_MaxBufferSize
+  commentId: P:Dapplo.Log.LogFile.FileLogger.MaxBufferSize
+  fullName: Dapplo.Log.LogFile.FileLogger.MaxBufferSize
+  nameWithType: FileLogger.MaxBufferSize
+- uid: Dapplo.Log.LogFile.FileLogger.MaxBufferSize*
+  name: MaxBufferSize
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_MaxBufferSize_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.MaxBufferSize
+  fullName: Dapplo.Log.LogFile.FileLogger.MaxBufferSize
+  nameWithType: FileLogger.MaxBufferSize
+- uid: Dapplo.Log.LogFile.FileLogger.Preformat
+  name: Preformat
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Preformat
+  commentId: P:Dapplo.Log.LogFile.FileLogger.Preformat
+  fullName: Dapplo.Log.LogFile.FileLogger.Preformat
+  nameWithType: FileLogger.Preformat
+- uid: Dapplo.Log.LogFile.FileLogger.Preformat*
+  name: Preformat
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Preformat_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.Preformat
+  fullName: Dapplo.Log.LogFile.FileLogger.Preformat
+  nameWithType: FileLogger.Preformat
+- uid: Dapplo.Log.LogFile.FileLogger.Processname
+  name: Processname
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Processname
+  commentId: P:Dapplo.Log.LogFile.FileLogger.Processname
+  fullName: Dapplo.Log.LogFile.FileLogger.Processname
+  nameWithType: FileLogger.Processname
+- uid: Dapplo.Log.LogFile.FileLogger.Processname*
+  name: Processname
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Processname_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.Processname
+  fullName: Dapplo.Log.LogFile.FileLogger.Processname
+  nameWithType: FileLogger.Processname
+- uid: Dapplo.Log.LogFile.FileLogger.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_System_IDisposable_Dispose
+  commentId: M:Dapplo.Log.LogFile.FileLogger.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: Dapplo.Log.LogFile.FileLogger.System.IDisposable.Dispose()
+  nameWithType: FileLogger.IDisposable.Dispose()
+  nameWithType.vb: FileLogger.System.IDisposable.Dispose()
+- uid: Dapplo.Log.LogFile.FileLogger.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_System_IDisposable_Dispose_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose
+  fullName: Dapplo.Log.LogFile.FileLogger.System.IDisposable.Dispose
+  nameWithType: FileLogger.IDisposable.Dispose
+  nameWithType.vb: FileLogger.System.IDisposable.Dispose
+- uid: Dapplo.Log.LogFile.FileLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.LogFile.FileLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.LogFile.FileLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.LogFile.FileLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: FileLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: FileLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.LogFile.FileLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_Write_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.Write
+  fullName: Dapplo.Log.LogFile.FileLogger.Write
+  nameWithType: FileLogger.Write
+- uid: Dapplo.Log.LogFile.FileLogger.WriteInterval
+  name: WriteInterval
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_WriteInterval
+  commentId: P:Dapplo.Log.LogFile.FileLogger.WriteInterval
+  fullName: Dapplo.Log.LogFile.FileLogger.WriteInterval
+  nameWithType: FileLogger.WriteInterval
+- uid: Dapplo.Log.LogFile.FileLogger.WriteInterval*
+  name: WriteInterval
+  href: api/Dapplo.Log.LogFile.FileLogger.html#Dapplo_Log_LogFile_FileLogger_WriteInterval_
+  commentId: Overload:Dapplo.Log.LogFile.FileLogger.WriteInterval
+  fullName: Dapplo.Log.LogFile.FileLogger.WriteInterval
+  nameWithType: FileLogger.WriteInterval
+- uid: Dapplo.Log.LogFile.ForwardingLogger
+  name: ForwardingLogger
+  href: api/Dapplo.Log.LogFile.ForwardingLogger.html
+  commentId: T:Dapplo.Log.LogFile.ForwardingLogger
+  fullName: Dapplo.Log.LogFile.ForwardingLogger
+  nameWithType: ForwardingLogger
+- uid: Dapplo.Log.LogFile.ForwardingLogger.Dispose
+  name: Dispose()
+  href: api/Dapplo.Log.LogFile.ForwardingLogger.html#Dapplo_Log_LogFile_ForwardingLogger_Dispose
+  commentId: M:Dapplo.Log.LogFile.ForwardingLogger.Dispose
+  fullName: Dapplo.Log.LogFile.ForwardingLogger.Dispose()
+  nameWithType: ForwardingLogger.Dispose()
+- uid: Dapplo.Log.LogFile.ForwardingLogger.Dispose*
+  name: Dispose
+  href: api/Dapplo.Log.LogFile.ForwardingLogger.html#Dapplo_Log_LogFile_ForwardingLogger_Dispose_
+  commentId: Overload:Dapplo.Log.LogFile.ForwardingLogger.Dispose
+  fullName: Dapplo.Log.LogFile.ForwardingLogger.Dispose
+  nameWithType: ForwardingLogger.Dispose
+- uid: Dapplo.Log.LogFile.ForwardingLogger.ReplacedWith(Dapplo.Log.ILogger)
+  name: ReplacedWith(ILogger)
+  href: api/Dapplo.Log.LogFile.ForwardingLogger.html#Dapplo_Log_LogFile_ForwardingLogger_ReplacedWith_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LogFile.ForwardingLogger.ReplacedWith(Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.LogFile.ForwardingLogger.ReplacedWith(Dapplo.Log.ILogger)
+  nameWithType: ForwardingLogger.ReplacedWith(ILogger)
+- uid: Dapplo.Log.LogFile.ForwardingLogger.ReplacedWith*
+  name: ReplacedWith
+  href: api/Dapplo.Log.LogFile.ForwardingLogger.html#Dapplo_Log_LogFile_ForwardingLogger_ReplacedWith_
+  commentId: Overload:Dapplo.Log.LogFile.ForwardingLogger.ReplacedWith
+  fullName: Dapplo.Log.LogFile.ForwardingLogger.ReplacedWith
+  nameWithType: ForwardingLogger.ReplacedWith
+- uid: Dapplo.Log.LogFile.ForwardingLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.LogFile.ForwardingLogger.html#Dapplo_Log_LogFile_ForwardingLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.LogFile.ForwardingLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.LogFile.ForwardingLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.LogFile.ForwardingLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: ForwardingLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: ForwardingLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.LogFile.ForwardingLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.LogFile.ForwardingLogger.html#Dapplo_Log_LogFile_ForwardingLogger_Write_
+  commentId: Overload:Dapplo.Log.LogFile.ForwardingLogger.Write
+  fullName: Dapplo.Log.LogFile.ForwardingLogger.Write
+  nameWithType: ForwardingLogger.Write
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration
+  name: IFileLoggerConfiguration
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html
+  commentId: T:Dapplo.Log.LogFile.IFileLoggerConfiguration
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration
+  nameWithType: IFileLoggerConfiguration
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCompress
+  name: ArchiveCompress
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveCompress
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCompress
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCompress
+  nameWithType: IFileLoggerConfiguration.ArchiveCompress
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCompress*
+  name: ArchiveCompress
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveCompress_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCompress
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCompress
+  nameWithType: IFileLoggerConfiguration.ArchiveCompress
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCount
+  name: ArchiveCount
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveCount
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCount
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCount
+  nameWithType: IFileLoggerConfiguration.ArchiveCount
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCount*
+  name: ArchiveCount
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveCount_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCount
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveCount
+  nameWithType: IFileLoggerConfiguration.ArchiveCount
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveDirectoryPath
+  name: ArchiveDirectoryPath
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveDirectoryPath
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveDirectoryPath
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveDirectoryPath
+  nameWithType: IFileLoggerConfiguration.ArchiveDirectoryPath
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveDirectoryPath*
+  name: ArchiveDirectoryPath
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveDirectoryPath_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveDirectoryPath
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveDirectoryPath
+  nameWithType: IFileLoggerConfiguration.ArchiveDirectoryPath
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveExtension
+  name: ArchiveExtension
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveExtension
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveExtension
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveExtension
+  nameWithType: IFileLoggerConfiguration.ArchiveExtension
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveExtension*
+  name: ArchiveExtension
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveExtension_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveExtension
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveExtension
+  nameWithType: IFileLoggerConfiguration.ArchiveExtension
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveFilenamePattern
+  name: ArchiveFilenamePattern
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveFilenamePattern
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveFilenamePattern
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveFilenamePattern
+  nameWithType: IFileLoggerConfiguration.ArchiveFilenamePattern
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveFilenamePattern*
+  name: ArchiveFilenamePattern
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveFilenamePattern_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveFilenamePattern
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveFilenamePattern
+  nameWithType: IFileLoggerConfiguration.ArchiveFilenamePattern
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveHistory
+  name: ArchiveHistory
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveHistory
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveHistory
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveHistory
+  nameWithType: IFileLoggerConfiguration.ArchiveHistory
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveHistory*
+  name: ArchiveHistory
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveHistory_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveHistory
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.ArchiveHistory
+  nameWithType: IFileLoggerConfiguration.ArchiveHistory
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.DirectoryPath
+  name: DirectoryPath
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_DirectoryPath
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.DirectoryPath
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.DirectoryPath
+  nameWithType: IFileLoggerConfiguration.DirectoryPath
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.DirectoryPath*
+  name: DirectoryPath
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_DirectoryPath_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.DirectoryPath
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.DirectoryPath
+  nameWithType: IFileLoggerConfiguration.DirectoryPath
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.Extension
+  name: Extension
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Extension
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.Extension
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.Extension
+  nameWithType: IFileLoggerConfiguration.Extension
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.Extension*
+  name: Extension
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Extension_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.Extension
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.Extension
+  nameWithType: IFileLoggerConfiguration.Extension
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.FilenamePattern
+  name: FilenamePattern
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_FilenamePattern
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.FilenamePattern
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.FilenamePattern
+  nameWithType: IFileLoggerConfiguration.FilenamePattern
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.FilenamePattern*
+  name: FilenamePattern
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_FilenamePattern_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.FilenamePattern
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.FilenamePattern
+  nameWithType: IFileLoggerConfiguration.FilenamePattern
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.MaxBufferSize
+  name: MaxBufferSize
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_MaxBufferSize
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.MaxBufferSize
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.MaxBufferSize
+  nameWithType: IFileLoggerConfiguration.MaxBufferSize
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.MaxBufferSize*
+  name: MaxBufferSize
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_MaxBufferSize_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.MaxBufferSize
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.MaxBufferSize
+  nameWithType: IFileLoggerConfiguration.MaxBufferSize
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.Preformat
+  name: Preformat
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Preformat
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.Preformat
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.Preformat
+  nameWithType: IFileLoggerConfiguration.Preformat
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.Preformat*
+  name: Preformat
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Preformat_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.Preformat
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.Preformat
+  nameWithType: IFileLoggerConfiguration.Preformat
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.Processname
+  name: Processname
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Processname
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.Processname
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.Processname
+  nameWithType: IFileLoggerConfiguration.Processname
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.Processname*
+  name: Processname
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Processname_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.Processname
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.Processname
+  nameWithType: IFileLoggerConfiguration.Processname
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.WriteInterval
+  name: WriteInterval
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_WriteInterval
+  commentId: P:Dapplo.Log.LogFile.IFileLoggerConfiguration.WriteInterval
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.WriteInterval
+  nameWithType: IFileLoggerConfiguration.WriteInterval
+- uid: Dapplo.Log.LogFile.IFileLoggerConfiguration.WriteInterval*
+  name: WriteInterval
+  href: api/Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_WriteInterval_
+  commentId: Overload:Dapplo.Log.LogFile.IFileLoggerConfiguration.WriteInterval
+  fullName: Dapplo.Log.LogFile.IFileLoggerConfiguration.WriteInterval
+  nameWithType: IFileLoggerConfiguration.WriteInterval
+- uid: Dapplo.Log.LoggerMapper
+  name: LoggerMapper
+  href: api/Dapplo.Log.LoggerMapper.html
+  commentId: T:Dapplo.Log.LoggerMapper
+  fullName: Dapplo.Log.LoggerMapper
+  nameWithType: LoggerMapper
+- uid: Dapplo.Log.LoggerMapper.DeregisterLoggerFor(Dapplo.Log.LogSource,Dapplo.Log.ILogger)
+  name: DeregisterLoggerFor(LogSource, ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_DeregisterLoggerFor_Dapplo_Log_LogSource_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.DeregisterLoggerFor(Dapplo.Log.LogSource,Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.LoggerMapper.DeregisterLoggerFor(Dapplo.Log.LogSource, Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.DeregisterLoggerFor(LogSource, ILogger)
+- uid: Dapplo.Log.LoggerMapper.DeregisterLoggerFor(System.String,Dapplo.Log.ILogger)
+  name: DeregisterLoggerFor(String, ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_DeregisterLoggerFor_System_String_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.DeregisterLoggerFor(System.String,Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.LoggerMapper.DeregisterLoggerFor(System.String, Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.DeregisterLoggerFor(String, ILogger)
+- uid: Dapplo.Log.LoggerMapper.DeregisterLoggerFor(System.Type,Dapplo.Log.ILogger)
+  name: DeregisterLoggerFor(Type, ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_DeregisterLoggerFor_System_Type_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.DeregisterLoggerFor(System.Type,Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.LoggerMapper.DeregisterLoggerFor(System.Type, Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.DeregisterLoggerFor(Type, ILogger)
+- uid: Dapplo.Log.LoggerMapper.DeregisterLoggerFor*
+  name: DeregisterLoggerFor
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_DeregisterLoggerFor_
+  commentId: Overload:Dapplo.Log.LoggerMapper.DeregisterLoggerFor
+  fullName: Dapplo.Log.LoggerMapper.DeregisterLoggerFor
+  nameWithType: LoggerMapper.DeregisterLoggerFor
+- uid: Dapplo.Log.LoggerMapper.DeregisterLoggerFor``1(Dapplo.Log.ILogger)
+  name: DeregisterLoggerFor<TType>(ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_DeregisterLoggerFor__1_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.DeregisterLoggerFor``1(Dapplo.Log.ILogger)
+  name.vb: DeregisterLoggerFor(Of TType)(ILogger)
+  fullName: Dapplo.Log.LoggerMapper.DeregisterLoggerFor<TType>(Dapplo.Log.ILogger)
+  fullName.vb: Dapplo.Log.LoggerMapper.DeregisterLoggerFor(Of TType)(Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.DeregisterLoggerFor<TType>(ILogger)
+  nameWithType.vb: LoggerMapper.DeregisterLoggerFor(Of TType)(ILogger)
+- uid: Dapplo.Log.LoggerMapper.Loggers(Dapplo.Log.LogSource)
+  name: Loggers(LogSource)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_Loggers_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.LoggerMapper.Loggers(Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.LoggerMapper.Loggers(Dapplo.Log.LogSource)
+  nameWithType: LoggerMapper.Loggers(LogSource)
+- uid: Dapplo.Log.LoggerMapper.Loggers*
+  name: Loggers
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_Loggers_
+  commentId: Overload:Dapplo.Log.LoggerMapper.Loggers
+  fullName: Dapplo.Log.LoggerMapper.Loggers
+  nameWithType: LoggerMapper.Loggers
+- uid: Dapplo.Log.LoggerMapper.LogTo(Dapplo.Log.LogSource,Dapplo.Log.ILogger)
+  name: LogTo(LogSource, ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_LogTo_Dapplo_Log_LogSource_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.LogTo(Dapplo.Log.LogSource,Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.LoggerMapper.LogTo(Dapplo.Log.LogSource, Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.LogTo(LogSource, ILogger)
+- uid: Dapplo.Log.LoggerMapper.LogTo*
+  name: LogTo
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_LogTo_
+  commentId: Overload:Dapplo.Log.LoggerMapper.LogTo
+  fullName: Dapplo.Log.LoggerMapper.LogTo
+  nameWithType: LoggerMapper.LogTo
+- uid: Dapplo.Log.LoggerMapper.RegisterLoggerFor(System.String,Dapplo.Log.ILogger)
+  name: RegisterLoggerFor(String, ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_RegisterLoggerFor_System_String_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.RegisterLoggerFor(System.String,Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.LoggerMapper.RegisterLoggerFor(System.String, Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.RegisterLoggerFor(String, ILogger)
+- uid: Dapplo.Log.LoggerMapper.RegisterLoggerFor(System.Type,Dapplo.Log.ILogger)
+  name: RegisterLoggerFor(Type, ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_RegisterLoggerFor_System_Type_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.RegisterLoggerFor(System.Type,Dapplo.Log.ILogger)
+  fullName: Dapplo.Log.LoggerMapper.RegisterLoggerFor(System.Type, Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.RegisterLoggerFor(Type, ILogger)
+- uid: Dapplo.Log.LoggerMapper.RegisterLoggerFor*
+  name: RegisterLoggerFor
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_RegisterLoggerFor_
+  commentId: Overload:Dapplo.Log.LoggerMapper.RegisterLoggerFor
+  fullName: Dapplo.Log.LoggerMapper.RegisterLoggerFor
+  nameWithType: LoggerMapper.RegisterLoggerFor
+- uid: Dapplo.Log.LoggerMapper.RegisterLoggerFor``1(Dapplo.Log.ILogger)
+  name: RegisterLoggerFor<TType>(ILogger)
+  href: api/Dapplo.Log.LoggerMapper.html#Dapplo_Log_LoggerMapper_RegisterLoggerFor__1_Dapplo_Log_ILogger_
+  commentId: M:Dapplo.Log.LoggerMapper.RegisterLoggerFor``1(Dapplo.Log.ILogger)
+  name.vb: RegisterLoggerFor(Of TType)(ILogger)
+  fullName: Dapplo.Log.LoggerMapper.RegisterLoggerFor<TType>(Dapplo.Log.ILogger)
+  fullName.vb: Dapplo.Log.LoggerMapper.RegisterLoggerFor(Of TType)(Dapplo.Log.ILogger)
+  nameWithType: LoggerMapper.RegisterLoggerFor<TType>(ILogger)
+  nameWithType.vb: LoggerMapper.RegisterLoggerFor(Of TType)(ILogger)
+- uid: Dapplo.Log.Loggers
+  name: Dapplo.Log.Loggers
+  href: api/Dapplo.Log.Loggers.html
+  commentId: N:Dapplo.Log.Loggers
+  fullName: Dapplo.Log.Loggers
+  nameWithType: Dapplo.Log.Loggers
+- uid: Dapplo.Log.Loggers.ColorConsoleLogger
+  name: ColorConsoleLogger
+  href: api/Dapplo.Log.Loggers.ColorConsoleLogger.html
+  commentId: T:Dapplo.Log.Loggers.ColorConsoleLogger
+  fullName: Dapplo.Log.Loggers.ColorConsoleLogger
+  nameWithType: ColorConsoleLogger
+- uid: Dapplo.Log.Loggers.ColorConsoleLogger.BackgroundColors
+  name: BackgroundColors
+  href: api/Dapplo.Log.Loggers.ColorConsoleLogger.html#Dapplo_Log_Loggers_ColorConsoleLogger_BackgroundColors
+  commentId: P:Dapplo.Log.Loggers.ColorConsoleLogger.BackgroundColors
+  fullName: Dapplo.Log.Loggers.ColorConsoleLogger.BackgroundColors
+  nameWithType: ColorConsoleLogger.BackgroundColors
+- uid: Dapplo.Log.Loggers.ColorConsoleLogger.BackgroundColors*
+  name: BackgroundColors
+  href: api/Dapplo.Log.Loggers.ColorConsoleLogger.html#Dapplo_Log_Loggers_ColorConsoleLogger_BackgroundColors_
+  commentId: Overload:Dapplo.Log.Loggers.ColorConsoleLogger.BackgroundColors
+  fullName: Dapplo.Log.Loggers.ColorConsoleLogger.BackgroundColors
+  nameWithType: ColorConsoleLogger.BackgroundColors
+- uid: Dapplo.Log.Loggers.ColorConsoleLogger.ForegroundColors
+  name: ForegroundColors
+  href: api/Dapplo.Log.Loggers.ColorConsoleLogger.html#Dapplo_Log_Loggers_ColorConsoleLogger_ForegroundColors
+  commentId: P:Dapplo.Log.Loggers.ColorConsoleLogger.ForegroundColors
+  fullName: Dapplo.Log.Loggers.ColorConsoleLogger.ForegroundColors
+  nameWithType: ColorConsoleLogger.ForegroundColors
+- uid: Dapplo.Log.Loggers.ColorConsoleLogger.ForegroundColors*
+  name: ForegroundColors
+  href: api/Dapplo.Log.Loggers.ColorConsoleLogger.html#Dapplo_Log_Loggers_ColorConsoleLogger_ForegroundColors_
+  commentId: Overload:Dapplo.Log.Loggers.ColorConsoleLogger.ForegroundColors
+  fullName: Dapplo.Log.Loggers.ColorConsoleLogger.ForegroundColors
+  nameWithType: ColorConsoleLogger.ForegroundColors
+- uid: Dapplo.Log.Loggers.ColorConsoleLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.Loggers.ColorConsoleLogger.html#Dapplo_Log_Loggers_ColorConsoleLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.Loggers.ColorConsoleLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.Loggers.ColorConsoleLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.Loggers.ColorConsoleLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: ColorConsoleLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: ColorConsoleLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.Loggers.ColorConsoleLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.Loggers.ColorConsoleLogger.html#Dapplo_Log_Loggers_ColorConsoleLogger_Write_
+  commentId: Overload:Dapplo.Log.Loggers.ColorConsoleLogger.Write
+  fullName: Dapplo.Log.Loggers.ColorConsoleLogger.Write
+  nameWithType: ColorConsoleLogger.Write
+- uid: Dapplo.Log.Loggers.ConsoleLogger
+  name: ConsoleLogger
+  href: api/Dapplo.Log.Loggers.ConsoleLogger.html
+  commentId: T:Dapplo.Log.Loggers.ConsoleLogger
+  fullName: Dapplo.Log.Loggers.ConsoleLogger
+  nameWithType: ConsoleLogger
+- uid: Dapplo.Log.Loggers.ConsoleLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.Loggers.ConsoleLogger.html#Dapplo_Log_Loggers_ConsoleLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.Loggers.ConsoleLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.Loggers.ConsoleLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.Loggers.ConsoleLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: ConsoleLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: ConsoleLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.Loggers.ConsoleLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.Loggers.ConsoleLogger.html#Dapplo_Log_Loggers_ConsoleLogger_Write_
+  commentId: Overload:Dapplo.Log.Loggers.ConsoleLogger.Write
+  fullName: Dapplo.Log.Loggers.ConsoleLogger.Write
+  nameWithType: ConsoleLogger.Write
+- uid: Dapplo.Log.Loggers.DebugLogger
+  name: DebugLogger
+  href: api/Dapplo.Log.Loggers.DebugLogger.html
+  commentId: T:Dapplo.Log.Loggers.DebugLogger
+  fullName: Dapplo.Log.Loggers.DebugLogger
+  nameWithType: DebugLogger
+- uid: Dapplo.Log.Loggers.DebugLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.Loggers.DebugLogger.html#Dapplo_Log_Loggers_DebugLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.Loggers.DebugLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.Loggers.DebugLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.Loggers.DebugLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: DebugLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: DebugLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.Loggers.DebugLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.Loggers.DebugLogger.html#Dapplo_Log_Loggers_DebugLogger_Write_
+  commentId: Overload:Dapplo.Log.Loggers.DebugLogger.Write
+  fullName: Dapplo.Log.Loggers.DebugLogger.Write
+  nameWithType: DebugLogger.Write
+- uid: Dapplo.Log.Loggers.StringWriterLogger
+  name: StringWriterLogger
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html
+  commentId: T:Dapplo.Log.Loggers.StringWriterLogger
+  fullName: Dapplo.Log.Loggers.StringWriterLogger
+  nameWithType: StringWriterLogger
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Clear
+  name: Clear()
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Clear
+  commentId: M:Dapplo.Log.Loggers.StringWriterLogger.Clear
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Clear()
+  nameWithType: StringWriterLogger.Clear()
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Clear*
+  name: Clear
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Clear_
+  commentId: Overload:Dapplo.Log.Loggers.StringWriterLogger.Clear
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Clear
+  nameWithType: StringWriterLogger.Clear
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Dispose
+  name: Dispose()
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Dispose
+  commentId: M:Dapplo.Log.Loggers.StringWriterLogger.Dispose
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Dispose()
+  nameWithType: StringWriterLogger.Dispose()
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Dispose*
+  name: Dispose
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Dispose_
+  commentId: Overload:Dapplo.Log.Loggers.StringWriterLogger.Dispose
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Dispose
+  nameWithType: StringWriterLogger.Dispose
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Output
+  name: Output
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Output
+  commentId: P:Dapplo.Log.Loggers.StringWriterLogger.Output
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Output
+  nameWithType: StringWriterLogger.Output
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Output*
+  name: Output
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Output_
+  commentId: Overload:Dapplo.Log.Loggers.StringWriterLogger.Output
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Output
+  nameWithType: StringWriterLogger.Output
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.Loggers.StringWriterLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.Loggers.StringWriterLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: StringWriterLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: StringWriterLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.Loggers.StringWriterLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.Loggers.StringWriterLogger.html#Dapplo_Log_Loggers_StringWriterLogger_Write_
+  commentId: Overload:Dapplo.Log.Loggers.StringWriterLogger.Write
+  fullName: Dapplo.Log.Loggers.StringWriterLogger.Write
+  nameWithType: StringWriterLogger.Write
+- uid: Dapplo.Log.Loggers.TraceLogger
+  name: TraceLogger
+  href: api/Dapplo.Log.Loggers.TraceLogger.html
+  commentId: T:Dapplo.Log.Loggers.TraceLogger
+  fullName: Dapplo.Log.Loggers.TraceLogger
+  nameWithType: TraceLogger
+- uid: Dapplo.Log.Loggers.TraceLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.Loggers.TraceLogger.html#Dapplo_Log_Loggers_TraceLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.Loggers.TraceLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.Loggers.TraceLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.Loggers.TraceLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: TraceLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: TraceLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.Loggers.TraceLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.Loggers.TraceLogger.html#Dapplo_Log_Loggers_TraceLogger_Write_
+  commentId: Overload:Dapplo.Log.Loggers.TraceLogger.Write
+  fullName: Dapplo.Log.Loggers.TraceLogger.Write
+  nameWithType: TraceLogger.Write
+- uid: Dapplo.Log.LogInfo
+  name: LogInfo
+  href: api/Dapplo.Log.LogInfo.html
+  commentId: T:Dapplo.Log.LogInfo
+  fullName: Dapplo.Log.LogInfo
+  nameWithType: LogInfo
+- uid: Dapplo.Log.LogInfo.Line
+  name: Line
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Line
+  commentId: P:Dapplo.Log.LogInfo.Line
+  fullName: Dapplo.Log.LogInfo.Line
+  nameWithType: LogInfo.Line
+- uid: Dapplo.Log.LogInfo.Line*
+  name: Line
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Line_
+  commentId: Overload:Dapplo.Log.LogInfo.Line
+  fullName: Dapplo.Log.LogInfo.Line
+  nameWithType: LogInfo.Line
+- uid: Dapplo.Log.LogInfo.LogLevel
+  name: LogLevel
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_LogLevel
+  commentId: P:Dapplo.Log.LogInfo.LogLevel
+  fullName: Dapplo.Log.LogInfo.LogLevel
+  nameWithType: LogInfo.LogLevel
+- uid: Dapplo.Log.LogInfo.LogLevel*
+  name: LogLevel
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_LogLevel_
+  commentId: Overload:Dapplo.Log.LogInfo.LogLevel
+  fullName: Dapplo.Log.LogInfo.LogLevel
+  nameWithType: LogInfo.LogLevel
+- uid: Dapplo.Log.LogInfo.Method
+  name: Method
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Method
+  commentId: P:Dapplo.Log.LogInfo.Method
+  fullName: Dapplo.Log.LogInfo.Method
+  nameWithType: LogInfo.Method
+- uid: Dapplo.Log.LogInfo.Method*
+  name: Method
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Method_
+  commentId: Overload:Dapplo.Log.LogInfo.Method
+  fullName: Dapplo.Log.LogInfo.Method
+  nameWithType: LogInfo.Method
+- uid: Dapplo.Log.LogInfo.Source
+  name: Source
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Source
+  commentId: P:Dapplo.Log.LogInfo.Source
+  fullName: Dapplo.Log.LogInfo.Source
+  nameWithType: LogInfo.Source
+- uid: Dapplo.Log.LogInfo.Source*
+  name: Source
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Source_
+  commentId: Overload:Dapplo.Log.LogInfo.Source
+  fullName: Dapplo.Log.LogInfo.Source
+  nameWithType: LogInfo.Source
+- uid: Dapplo.Log.LogInfo.Timestamp
+  name: Timestamp
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Timestamp
+  commentId: P:Dapplo.Log.LogInfo.Timestamp
+  fullName: Dapplo.Log.LogInfo.Timestamp
+  nameWithType: LogInfo.Timestamp
+- uid: Dapplo.Log.LogInfo.Timestamp*
+  name: Timestamp
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_Timestamp_
+  commentId: Overload:Dapplo.Log.LogInfo.Timestamp
+  fullName: Dapplo.Log.LogInfo.Timestamp
+  nameWithType: LogInfo.Timestamp
+- uid: Dapplo.Log.LogInfo.ToString
+  name: ToString()
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_ToString
+  commentId: M:Dapplo.Log.LogInfo.ToString
+  fullName: Dapplo.Log.LogInfo.ToString()
+  nameWithType: LogInfo.ToString()
+- uid: Dapplo.Log.LogInfo.ToString*
+  name: ToString
+  href: api/Dapplo.Log.LogInfo.html#Dapplo_Log_LogInfo_ToString_
+  commentId: Overload:Dapplo.Log.LogInfo.ToString
+  fullName: Dapplo.Log.LogInfo.ToString
+  nameWithType: LogInfo.ToString
+- uid: Dapplo.Log.LogInfoExtensions
+  name: LogInfoExtensions
+  href: api/Dapplo.Log.LogInfoExtensions.html
+  commentId: T:Dapplo.Log.LogInfoExtensions
+  fullName: Dapplo.Log.LogInfoExtensions
+  nameWithType: LogInfoExtensions
+- uid: Dapplo.Log.LogInfoExtensions.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.LogInfoExtensions.html#Dapplo_Log_LogInfoExtensions_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.LogInfoExtensions.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.LogInfoExtensions.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.LogInfoExtensions.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: LogInfoExtensions.Write(LogInfo, String, Object[])
+  nameWithType.vb: LogInfoExtensions.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.LogInfoExtensions.Write*
+  name: Write
+  href: api/Dapplo.Log.LogInfoExtensions.html#Dapplo_Log_LogInfoExtensions_Write_
+  commentId: Overload:Dapplo.Log.LogInfoExtensions.Write
+  fullName: Dapplo.Log.LogInfoExtensions.Write
+  nameWithType: LogInfoExtensions.Write
+- uid: Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo,System.Exception,System.String,System.Object[])
+  name: WriteLine(LogInfo, Exception, String, Object[])
+  href: api/Dapplo.Log.LogInfoExtensions.html#Dapplo_Log_LogInfoExtensions_WriteLine_Dapplo_Log_LogInfo_System_Exception_System_String_System_Object___
+  commentId: M:Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo,System.Exception,System.String,System.Object[])
+  name.vb: WriteLine(LogInfo, Exception, String, Object())
+  fullName: Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo, System.Exception, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo, System.Exception, System.String, System.Object())
+  nameWithType: LogInfoExtensions.WriteLine(LogInfo, Exception, String, Object[])
+  nameWithType.vb: LogInfoExtensions.WriteLine(LogInfo, Exception, String, Object())
+- uid: Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: WriteLine(LogInfo, String, Object[])
+  href: api/Dapplo.Log.LogInfoExtensions.html#Dapplo_Log_LogInfoExtensions_WriteLine_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: WriteLine(LogInfo, String, Object())
+  fullName: Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.LogInfoExtensions.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: LogInfoExtensions.WriteLine(LogInfo, String, Object[])
+  nameWithType.vb: LogInfoExtensions.WriteLine(LogInfo, String, Object())
+- uid: Dapplo.Log.LogInfoExtensions.WriteLine*
+  name: WriteLine
+  href: api/Dapplo.Log.LogInfoExtensions.html#Dapplo_Log_LogInfoExtensions_WriteLine_
+  commentId: Overload:Dapplo.Log.LogInfoExtensions.WriteLine
+  fullName: Dapplo.Log.LogInfoExtensions.WriteLine
+  nameWithType: LogInfoExtensions.WriteLine
+- uid: Dapplo.Log.LogLevels
+  name: LogLevels
+  href: api/Dapplo.Log.LogLevels.html
+  commentId: T:Dapplo.Log.LogLevels
+  fullName: Dapplo.Log.LogLevels
+  nameWithType: LogLevels
+- uid: Dapplo.Log.LogLevels.Debug
+  name: Debug
+  href: api/Dapplo.Log.LogLevels.html#Dapplo_Log_LogLevels_Debug
+  commentId: F:Dapplo.Log.LogLevels.Debug
+  fullName: Dapplo.Log.LogLevels.Debug
+  nameWithType: LogLevels.Debug
+- uid: Dapplo.Log.LogLevels.Error
+  name: Error
+  href: api/Dapplo.Log.LogLevels.html#Dapplo_Log_LogLevels_Error
+  commentId: F:Dapplo.Log.LogLevels.Error
+  fullName: Dapplo.Log.LogLevels.Error
+  nameWithType: LogLevels.Error
+- uid: Dapplo.Log.LogLevels.Fatal
+  name: Fatal
+  href: api/Dapplo.Log.LogLevels.html#Dapplo_Log_LogLevels_Fatal
+  commentId: F:Dapplo.Log.LogLevels.Fatal
+  fullName: Dapplo.Log.LogLevels.Fatal
+  nameWithType: LogLevels.Fatal
+- uid: Dapplo.Log.LogLevels.Info
+  name: Info
+  href: api/Dapplo.Log.LogLevels.html#Dapplo_Log_LogLevels_Info
+  commentId: F:Dapplo.Log.LogLevels.Info
+  fullName: Dapplo.Log.LogLevels.Info
+  nameWithType: LogLevels.Info
+- uid: Dapplo.Log.LogLevels.None
+  name: None
+  href: api/Dapplo.Log.LogLevels.html#Dapplo_Log_LogLevels_None
+  commentId: F:Dapplo.Log.LogLevels.None
+  fullName: Dapplo.Log.LogLevels.None
+  nameWithType: LogLevels.None
+- uid: Dapplo.Log.LogLevels.Verbose
+  name: Verbose
+  href: api/Dapplo.Log.LogLevels.html#Dapplo_Log_LogLevels_Verbose
+  commentId: F:Dapplo.Log.LogLevels.Verbose
+  fullName: Dapplo.Log.LogLevels.Verbose
+  nameWithType: LogLevels.Verbose
+- uid: Dapplo.Log.LogLevels.Warn
+  name: Warn
+  href: api/Dapplo.Log.LogLevels.html#Dapplo_Log_LogLevels_Warn
+  commentId: F:Dapplo.Log.LogLevels.Warn
+  fullName: Dapplo.Log.LogLevels.Warn
+  nameWithType: LogLevels.Warn
+- uid: Dapplo.Log.LogSettings
+  name: LogSettings
+  href: api/Dapplo.Log.LogSettings.html
+  commentId: T:Dapplo.Log.LogSettings
+  fullName: Dapplo.Log.LogSettings
+  nameWithType: LogSettings
+- uid: Dapplo.Log.LogSettings.DefaultLogger
+  name: DefaultLogger
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_DefaultLogger
+  commentId: P:Dapplo.Log.LogSettings.DefaultLogger
+  fullName: Dapplo.Log.LogSettings.DefaultLogger
+  nameWithType: LogSettings.DefaultLogger
+- uid: Dapplo.Log.LogSettings.DefaultLogger*
+  name: DefaultLogger
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_DefaultLogger_
+  commentId: Overload:Dapplo.Log.LogSettings.DefaultLogger
+  fullName: Dapplo.Log.LogSettings.DefaultLogger
+  nameWithType: LogSettings.DefaultLogger
+- uid: Dapplo.Log.LogSettings.DefaultLoggerConfiguration
+  name: DefaultLoggerConfiguration
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_DefaultLoggerConfiguration
+  commentId: P:Dapplo.Log.LogSettings.DefaultLoggerConfiguration
+  fullName: Dapplo.Log.LogSettings.DefaultLoggerConfiguration
+  nameWithType: LogSettings.DefaultLoggerConfiguration
+- uid: Dapplo.Log.LogSettings.DefaultLoggerConfiguration*
+  name: DefaultLoggerConfiguration
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_DefaultLoggerConfiguration_
+  commentId: Overload:Dapplo.Log.LogSettings.DefaultLoggerConfiguration
+  fullName: Dapplo.Log.LogSettings.DefaultLoggerConfiguration
+  nameWithType: LogSettings.DefaultLoggerConfiguration
+- uid: Dapplo.Log.LogSettings.LoggerLookup
+  name: LoggerLookup
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_LoggerLookup
+  commentId: P:Dapplo.Log.LogSettings.LoggerLookup
+  fullName: Dapplo.Log.LogSettings.LoggerLookup
+  nameWithType: LogSettings.LoggerLookup
+- uid: Dapplo.Log.LogSettings.LoggerLookup*
+  name: LoggerLookup
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_LoggerLookup_
+  commentId: Overload:Dapplo.Log.LogSettings.LoggerLookup
+  fullName: Dapplo.Log.LogSettings.LoggerLookup
+  nameWithType: LogSettings.LoggerLookup
+- uid: Dapplo.Log.LogSettings.RegisterDefaultLogger*
+  name: RegisterDefaultLogger
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_RegisterDefaultLogger_
+  commentId: Overload:Dapplo.Log.LogSettings.RegisterDefaultLogger
+  fullName: Dapplo.Log.LogSettings.RegisterDefaultLogger
+  nameWithType: LogSettings.RegisterDefaultLogger
+- uid: Dapplo.Log.LogSettings.RegisterDefaultLogger``1(Dapplo.Log.ILoggerConfiguration,System.Object[])
+  name: RegisterDefaultLogger<TLogger>(ILoggerConfiguration, Object[])
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_RegisterDefaultLogger__1_Dapplo_Log_ILoggerConfiguration_System_Object___
+  commentId: M:Dapplo.Log.LogSettings.RegisterDefaultLogger``1(Dapplo.Log.ILoggerConfiguration,System.Object[])
+  name.vb: RegisterDefaultLogger(Of TLogger)(ILoggerConfiguration, Object())
+  fullName: Dapplo.Log.LogSettings.RegisterDefaultLogger<TLogger>(Dapplo.Log.ILoggerConfiguration, System.Object[])
+  fullName.vb: Dapplo.Log.LogSettings.RegisterDefaultLogger(Of TLogger)(Dapplo.Log.ILoggerConfiguration, System.Object())
+  nameWithType: LogSettings.RegisterDefaultLogger<TLogger>(ILoggerConfiguration, Object[])
+  nameWithType.vb: LogSettings.RegisterDefaultLogger(Of TLogger)(ILoggerConfiguration, Object())
+- uid: Dapplo.Log.LogSettings.RegisterDefaultLogger``1(Dapplo.Log.LogLevels,System.Object[])
+  name: RegisterDefaultLogger<TLogger>(LogLevels, Object[])
+  href: api/Dapplo.Log.LogSettings.html#Dapplo_Log_LogSettings_RegisterDefaultLogger__1_Dapplo_Log_LogLevels_System_Object___
+  commentId: M:Dapplo.Log.LogSettings.RegisterDefaultLogger``1(Dapplo.Log.LogLevels,System.Object[])
+  name.vb: RegisterDefaultLogger(Of TLogger)(LogLevels, Object())
+  fullName: Dapplo.Log.LogSettings.RegisterDefaultLogger<TLogger>(Dapplo.Log.LogLevels, System.Object[])
+  fullName.vb: Dapplo.Log.LogSettings.RegisterDefaultLogger(Of TLogger)(Dapplo.Log.LogLevels, System.Object())
+  nameWithType: LogSettings.RegisterDefaultLogger<TLogger>(LogLevels, Object[])
+  nameWithType.vb: LogSettings.RegisterDefaultLogger(Of TLogger)(LogLevels, Object())
+- uid: Dapplo.Log.LogSource
+  name: LogSource
+  href: api/Dapplo.Log.LogSource.html
+  commentId: T:Dapplo.Log.LogSource
+  fullName: Dapplo.Log.LogSource
+  nameWithType: LogSource
+- uid: Dapplo.Log.LogSource.#ctor(System.String)
+  name: LogSource(String)
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource__ctor_System_String_
+  commentId: M:Dapplo.Log.LogSource.#ctor(System.String)
+  fullName: Dapplo.Log.LogSource.LogSource(System.String)
+  nameWithType: LogSource.LogSource(String)
+- uid: Dapplo.Log.LogSource.#ctor(System.Type)
+  name: LogSource(Type)
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource__ctor_System_Type_
+  commentId: M:Dapplo.Log.LogSource.#ctor(System.Type)
+  fullName: Dapplo.Log.LogSource.LogSource(System.Type)
+  nameWithType: LogSource.LogSource(Type)
+- uid: Dapplo.Log.LogSource.#ctor*
+  name: LogSource
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource__ctor_
+  commentId: Overload:Dapplo.Log.LogSource.#ctor
+  fullName: Dapplo.Log.LogSource.LogSource
+  nameWithType: LogSource.LogSource
+- uid: Dapplo.Log.LogSource.ForCustomSource(System.String)
+  name: ForCustomSource(String)
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_ForCustomSource_System_String_
+  commentId: M:Dapplo.Log.LogSource.ForCustomSource(System.String)
+  fullName: Dapplo.Log.LogSource.ForCustomSource(System.String)
+  nameWithType: LogSource.ForCustomSource(String)
+- uid: Dapplo.Log.LogSource.ForCustomSource*
+  name: ForCustomSource
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_ForCustomSource_
+  commentId: Overload:Dapplo.Log.LogSource.ForCustomSource
+  fullName: Dapplo.Log.LogSource.ForCustomSource
+  nameWithType: LogSource.ForCustomSource
+- uid: Dapplo.Log.LogSource.ShortSource
+  name: ShortSource
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_ShortSource
+  commentId: P:Dapplo.Log.LogSource.ShortSource
+  fullName: Dapplo.Log.LogSource.ShortSource
+  nameWithType: LogSource.ShortSource
+- uid: Dapplo.Log.LogSource.ShortSource*
+  name: ShortSource
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_ShortSource_
+  commentId: Overload:Dapplo.Log.LogSource.ShortSource
+  fullName: Dapplo.Log.LogSource.ShortSource
+  nameWithType: LogSource.ShortSource
+- uid: Dapplo.Log.LogSource.Source
+  name: Source
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_Source
+  commentId: P:Dapplo.Log.LogSource.Source
+  fullName: Dapplo.Log.LogSource.Source
+  nameWithType: LogSource.Source
+- uid: Dapplo.Log.LogSource.Source*
+  name: Source
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_Source_
+  commentId: Overload:Dapplo.Log.LogSource.Source
+  fullName: Dapplo.Log.LogSource.Source
+  nameWithType: LogSource.Source
+- uid: Dapplo.Log.LogSource.SourceType
+  name: SourceType
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_SourceType
+  commentId: P:Dapplo.Log.LogSource.SourceType
+  fullName: Dapplo.Log.LogSource.SourceType
+  nameWithType: LogSource.SourceType
+- uid: Dapplo.Log.LogSource.SourceType*
+  name: SourceType
+  href: api/Dapplo.Log.LogSource.html#Dapplo_Log_LogSource_SourceType_
+  commentId: Overload:Dapplo.Log.LogSource.SourceType
+  fullName: Dapplo.Log.LogSource.SourceType
+  nameWithType: LogSource.SourceType
+- uid: Dapplo.Log.LogSourceExtensions
+  name: LogSourceExtensions
+  href: api/Dapplo.Log.LogSourceExtensions.html
+  commentId: T:Dapplo.Log.LogSourceExtensions
+  fullName: Dapplo.Log.LogSourceExtensions
+  nameWithType: LogSourceExtensions
+- uid: Dapplo.Log.LogSourceExtensions.Debug(Dapplo.Log.LogSource,System.Int32,System.String)
+  name: Debug(LogSource, Int32, String)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Debug_Dapplo_Log_LogSource_System_Int32_System_String_
+  commentId: M:Dapplo.Log.LogSourceExtensions.Debug(Dapplo.Log.LogSource,System.Int32,System.String)
+  fullName: Dapplo.Log.LogSourceExtensions.Debug(Dapplo.Log.LogSource, System.Int32, System.String)
+  nameWithType: LogSourceExtensions.Debug(LogSource, Int32, String)
+- uid: Dapplo.Log.LogSourceExtensions.Debug*
+  name: Debug
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Debug_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.Debug
+  fullName: Dapplo.Log.LogSourceExtensions.Debug
+  nameWithType: LogSourceExtensions.Debug
+- uid: Dapplo.Log.LogSourceExtensions.Error(Dapplo.Log.LogSource,System.Int32,System.String)
+  name: Error(LogSource, Int32, String)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Error_Dapplo_Log_LogSource_System_Int32_System_String_
+  commentId: M:Dapplo.Log.LogSourceExtensions.Error(Dapplo.Log.LogSource,System.Int32,System.String)
+  fullName: Dapplo.Log.LogSourceExtensions.Error(Dapplo.Log.LogSource, System.Int32, System.String)
+  nameWithType: LogSourceExtensions.Error(LogSource, Int32, String)
+- uid: Dapplo.Log.LogSourceExtensions.Error*
+  name: Error
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Error_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.Error
+  fullName: Dapplo.Log.LogSourceExtensions.Error
+  nameWithType: LogSourceExtensions.Error
+- uid: Dapplo.Log.LogSourceExtensions.Fatal(Dapplo.Log.LogSource,System.Int32,System.String)
+  name: Fatal(LogSource, Int32, String)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Fatal_Dapplo_Log_LogSource_System_Int32_System_String_
+  commentId: M:Dapplo.Log.LogSourceExtensions.Fatal(Dapplo.Log.LogSource,System.Int32,System.String)
+  fullName: Dapplo.Log.LogSourceExtensions.Fatal(Dapplo.Log.LogSource, System.Int32, System.String)
+  nameWithType: LogSourceExtensions.Fatal(LogSource, Int32, String)
+- uid: Dapplo.Log.LogSourceExtensions.Fatal*
+  name: Fatal
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Fatal_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.Fatal
+  fullName: Dapplo.Log.LogSourceExtensions.Fatal
+  nameWithType: LogSourceExtensions.Fatal
+- uid: Dapplo.Log.LogSourceExtensions.Info(Dapplo.Log.LogSource,System.Int32,System.String)
+  name: Info(LogSource, Int32, String)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Info_Dapplo_Log_LogSource_System_Int32_System_String_
+  commentId: M:Dapplo.Log.LogSourceExtensions.Info(Dapplo.Log.LogSource,System.Int32,System.String)
+  fullName: Dapplo.Log.LogSourceExtensions.Info(Dapplo.Log.LogSource, System.Int32, System.String)
+  nameWithType: LogSourceExtensions.Info(LogSource, Int32, String)
+- uid: Dapplo.Log.LogSourceExtensions.Info*
+  name: Info
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Info_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.Info
+  fullName: Dapplo.Log.LogSourceExtensions.Info
+  nameWithType: LogSourceExtensions.Info
+- uid: Dapplo.Log.LogSourceExtensions.IsDebugEnabled(Dapplo.Log.LogSource)
+  name: IsDebugEnabled(LogSource)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsDebugEnabled_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.LogSourceExtensions.IsDebugEnabled(Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.LogSourceExtensions.IsDebugEnabled(Dapplo.Log.LogSource)
+  nameWithType: LogSourceExtensions.IsDebugEnabled(LogSource)
+- uid: Dapplo.Log.LogSourceExtensions.IsDebugEnabled*
+  name: IsDebugEnabled
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsDebugEnabled_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.IsDebugEnabled
+  fullName: Dapplo.Log.LogSourceExtensions.IsDebugEnabled
+  nameWithType: LogSourceExtensions.IsDebugEnabled
+- uid: Dapplo.Log.LogSourceExtensions.IsErrorEnabled(Dapplo.Log.LogSource)
+  name: IsErrorEnabled(LogSource)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsErrorEnabled_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.LogSourceExtensions.IsErrorEnabled(Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.LogSourceExtensions.IsErrorEnabled(Dapplo.Log.LogSource)
+  nameWithType: LogSourceExtensions.IsErrorEnabled(LogSource)
+- uid: Dapplo.Log.LogSourceExtensions.IsErrorEnabled*
+  name: IsErrorEnabled
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsErrorEnabled_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.IsErrorEnabled
+  fullName: Dapplo.Log.LogSourceExtensions.IsErrorEnabled
+  nameWithType: LogSourceExtensions.IsErrorEnabled
+- uid: Dapplo.Log.LogSourceExtensions.IsFatalEnabled(Dapplo.Log.LogSource)
+  name: IsFatalEnabled(LogSource)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsFatalEnabled_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.LogSourceExtensions.IsFatalEnabled(Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.LogSourceExtensions.IsFatalEnabled(Dapplo.Log.LogSource)
+  nameWithType: LogSourceExtensions.IsFatalEnabled(LogSource)
+- uid: Dapplo.Log.LogSourceExtensions.IsFatalEnabled*
+  name: IsFatalEnabled
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsFatalEnabled_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.IsFatalEnabled
+  fullName: Dapplo.Log.LogSourceExtensions.IsFatalEnabled
+  nameWithType: LogSourceExtensions.IsFatalEnabled
+- uid: Dapplo.Log.LogSourceExtensions.IsInfoEnabled(Dapplo.Log.LogSource)
+  name: IsInfoEnabled(LogSource)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsInfoEnabled_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.LogSourceExtensions.IsInfoEnabled(Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.LogSourceExtensions.IsInfoEnabled(Dapplo.Log.LogSource)
+  nameWithType: LogSourceExtensions.IsInfoEnabled(LogSource)
+- uid: Dapplo.Log.LogSourceExtensions.IsInfoEnabled*
+  name: IsInfoEnabled
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsInfoEnabled_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.IsInfoEnabled
+  fullName: Dapplo.Log.LogSourceExtensions.IsInfoEnabled
+  nameWithType: LogSourceExtensions.IsInfoEnabled
+- uid: Dapplo.Log.LogSourceExtensions.IsVerboseEnabled(Dapplo.Log.LogSource)
+  name: IsVerboseEnabled(LogSource)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsVerboseEnabled_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.LogSourceExtensions.IsVerboseEnabled(Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.LogSourceExtensions.IsVerboseEnabled(Dapplo.Log.LogSource)
+  nameWithType: LogSourceExtensions.IsVerboseEnabled(LogSource)
+- uid: Dapplo.Log.LogSourceExtensions.IsVerboseEnabled*
+  name: IsVerboseEnabled
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsVerboseEnabled_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.IsVerboseEnabled
+  fullName: Dapplo.Log.LogSourceExtensions.IsVerboseEnabled
+  nameWithType: LogSourceExtensions.IsVerboseEnabled
+- uid: Dapplo.Log.LogSourceExtensions.IsWarnEnabled(Dapplo.Log.LogSource)
+  name: IsWarnEnabled(LogSource)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsWarnEnabled_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.LogSourceExtensions.IsWarnEnabled(Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.LogSourceExtensions.IsWarnEnabled(Dapplo.Log.LogSource)
+  nameWithType: LogSourceExtensions.IsWarnEnabled(LogSource)
+- uid: Dapplo.Log.LogSourceExtensions.IsWarnEnabled*
+  name: IsWarnEnabled
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_IsWarnEnabled_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.IsWarnEnabled
+  fullName: Dapplo.Log.LogSourceExtensions.IsWarnEnabled
+  nameWithType: LogSourceExtensions.IsWarnEnabled
+- uid: Dapplo.Log.LogSourceExtensions.Verbose(Dapplo.Log.LogSource,System.Int32,System.String)
+  name: Verbose(LogSource, Int32, String)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Verbose_Dapplo_Log_LogSource_System_Int32_System_String_
+  commentId: M:Dapplo.Log.LogSourceExtensions.Verbose(Dapplo.Log.LogSource,System.Int32,System.String)
+  fullName: Dapplo.Log.LogSourceExtensions.Verbose(Dapplo.Log.LogSource, System.Int32, System.String)
+  nameWithType: LogSourceExtensions.Verbose(LogSource, Int32, String)
+- uid: Dapplo.Log.LogSourceExtensions.Verbose*
+  name: Verbose
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Verbose_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.Verbose
+  fullName: Dapplo.Log.LogSourceExtensions.Verbose
+  nameWithType: LogSourceExtensions.Verbose
+- uid: Dapplo.Log.LogSourceExtensions.Warn(Dapplo.Log.LogSource,System.Int32,System.String)
+  name: Warn(LogSource, Int32, String)
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Warn_Dapplo_Log_LogSource_System_Int32_System_String_
+  commentId: M:Dapplo.Log.LogSourceExtensions.Warn(Dapplo.Log.LogSource,System.Int32,System.String)
+  fullName: Dapplo.Log.LogSourceExtensions.Warn(Dapplo.Log.LogSource, System.Int32, System.String)
+  nameWithType: LogSourceExtensions.Warn(LogSource, Int32, String)
+- uid: Dapplo.Log.LogSourceExtensions.Warn*
+  name: Warn
+  href: api/Dapplo.Log.LogSourceExtensions.html#Dapplo_Log_LogSourceExtensions_Warn_
+  commentId: Overload:Dapplo.Log.LogSourceExtensions.Warn
+  fullName: Dapplo.Log.LogSourceExtensions.Warn
+  nameWithType: LogSourceExtensions.Warn
+- uid: Dapplo.Log.NullLogger
+  name: NullLogger
+  href: api/Dapplo.Log.NullLogger.html
+  commentId: T:Dapplo.Log.NullLogger
+  fullName: Dapplo.Log.NullLogger
+  nameWithType: NullLogger
+- uid: Dapplo.Log.NullLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  name: IsLogLevelEnabled(LogLevels, LogSource)
+  href: api/Dapplo.Log.NullLogger.html#Dapplo_Log_NullLogger_IsLogLevelEnabled_Dapplo_Log_LogLevels_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.NullLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.NullLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels, Dapplo.Log.LogSource)
+  nameWithType: NullLogger.IsLogLevelEnabled(LogLevels, LogSource)
+- uid: Dapplo.Log.NullLogger.IsLogLevelEnabled*
+  name: IsLogLevelEnabled
+  href: api/Dapplo.Log.NullLogger.html#Dapplo_Log_NullLogger_IsLogLevelEnabled_
+  commentId: Overload:Dapplo.Log.NullLogger.IsLogLevelEnabled
+  fullName: Dapplo.Log.NullLogger.IsLogLevelEnabled
+  nameWithType: NullLogger.IsLogLevelEnabled
+- uid: Dapplo.Log.XUnit
+  name: Dapplo.Log.XUnit
+  href: api/Dapplo.Log.XUnit.html
+  commentId: N:Dapplo.Log.XUnit
+  fullName: Dapplo.Log.XUnit
+  nameWithType: Dapplo.Log.XUnit
+- uid: Dapplo.Log.XUnit.XUnitLogger
+  name: XUnitLogger
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html
+  commentId: T:Dapplo.Log.XUnit.XUnitLogger
+  fullName: Dapplo.Log.XUnit.XUnitLogger
+  nameWithType: XUnitLogger
+- uid: Dapplo.Log.XUnit.XUnitLogger.#ctor(Xunit.Abstractions.ITestOutputHelper)
+  name: XUnitLogger(ITestOutputHelper)
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger__ctor_Xunit_Abstractions_ITestOutputHelper_
+  commentId: M:Dapplo.Log.XUnit.XUnitLogger.#ctor(Xunit.Abstractions.ITestOutputHelper)
+  fullName: Dapplo.Log.XUnit.XUnitLogger.XUnitLogger(Xunit.Abstractions.ITestOutputHelper)
+  nameWithType: XUnitLogger.XUnitLogger(ITestOutputHelper)
+- uid: Dapplo.Log.XUnit.XUnitLogger.#ctor*
+  name: XUnitLogger
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger__ctor_
+  commentId: Overload:Dapplo.Log.XUnit.XUnitLogger.#ctor
+  fullName: Dapplo.Log.XUnit.XUnitLogger.XUnitLogger
+  nameWithType: XUnitLogger.XUnitLogger
+- uid: Dapplo.Log.XUnit.XUnitLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  name: IsLogLevelEnabled(LogLevels, LogSource)
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_IsLogLevelEnabled_Dapplo_Log_LogLevels_Dapplo_Log_LogSource_
+  commentId: M:Dapplo.Log.XUnit.XUnitLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels,Dapplo.Log.LogSource)
+  fullName: Dapplo.Log.XUnit.XUnitLogger.IsLogLevelEnabled(Dapplo.Log.LogLevels, Dapplo.Log.LogSource)
+  nameWithType: XUnitLogger.IsLogLevelEnabled(LogLevels, LogSource)
+- uid: Dapplo.Log.XUnit.XUnitLogger.IsLogLevelEnabled*
+  name: IsLogLevelEnabled
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_IsLogLevelEnabled_
+  commentId: Overload:Dapplo.Log.XUnit.XUnitLogger.IsLogLevelEnabled
+  fullName: Dapplo.Log.XUnit.XUnitLogger.IsLogLevelEnabled
+  nameWithType: XUnitLogger.IsLogLevelEnabled
+- uid: Dapplo.Log.XUnit.XUnitLogger.LogLevel
+  name: LogLevel
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_LogLevel
+  commentId: P:Dapplo.Log.XUnit.XUnitLogger.LogLevel
+  fullName: Dapplo.Log.XUnit.XUnitLogger.LogLevel
+  nameWithType: XUnitLogger.LogLevel
+- uid: Dapplo.Log.XUnit.XUnitLogger.LogLevel*
+  name: LogLevel
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_LogLevel_
+  commentId: Overload:Dapplo.Log.XUnit.XUnitLogger.LogLevel
+  fullName: Dapplo.Log.XUnit.XUnitLogger.LogLevel
+  nameWithType: XUnitLogger.LogLevel
+- uid: Dapplo.Log.XUnit.XUnitLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: Write(LogInfo, String, Object[])
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.XUnit.XUnitLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: Write(LogInfo, String, Object())
+  fullName: Dapplo.Log.XUnit.XUnitLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.XUnit.XUnitLogger.Write(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: XUnitLogger.Write(LogInfo, String, Object[])
+  nameWithType.vb: XUnitLogger.Write(LogInfo, String, Object())
+- uid: Dapplo.Log.XUnit.XUnitLogger.Write*
+  name: Write
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_Write_
+  commentId: Overload:Dapplo.Log.XUnit.XUnitLogger.Write
+  fullName: Dapplo.Log.XUnit.XUnitLogger.Write
+  nameWithType: XUnitLogger.Write
+- uid: Dapplo.Log.XUnit.XUnitLogger.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name: WriteLine(LogInfo, String, Object[])
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_WriteLine_Dapplo_Log_LogInfo_System_String_System_Object___
+  commentId: M:Dapplo.Log.XUnit.XUnitLogger.WriteLine(Dapplo.Log.LogInfo,System.String,System.Object[])
+  name.vb: WriteLine(LogInfo, String, Object())
+  fullName: Dapplo.Log.XUnit.XUnitLogger.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object[])
+  fullName.vb: Dapplo.Log.XUnit.XUnitLogger.WriteLine(Dapplo.Log.LogInfo, System.String, System.Object())
+  nameWithType: XUnitLogger.WriteLine(LogInfo, String, Object[])
+  nameWithType.vb: XUnitLogger.WriteLine(LogInfo, String, Object())
+- uid: Dapplo.Log.XUnit.XUnitLogger.WriteLine*
+  name: WriteLine
+  href: api/Dapplo.Log.XUnit.XUnitLogger.html#Dapplo_Log_XUnit_XUnitLogger_WriteLine_
+  commentId: Overload:Dapplo.Log.XUnit.XUnitLogger.WriteLine
+  fullName: Dapplo.Log.XUnit.XUnitLogger.WriteLine
+  nameWithType: XUnitLogger.WriteLine

@@ -1,0 +1,844 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FileLogger
+   | Dapplo.Log </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FileLogger
+   | Dapplo.Log ">
+    <meta name="generator" content="docfx 2.16.0.499">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/d.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="">
+                    <a href="../articles/intro.html" title="Articles" class="">Articles</a>
+                  </li>
+                  <li class="active">
+                    <a href="../api/index.html" title="Api Documentation" class="active">Api Documentation</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Log.html" title="Dapplo.Log" class="">Dapplo.Log</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Log.AbstractLogger.html" title="AbstractLogger" class="">AbstractLogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.ILogger.html" title="ILogger" class="">ILogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.ILoggerConfiguration.html" title="ILoggerConfiguration" class="">ILoggerConfiguration</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LoggerMapper.html" title="LoggerMapper" class="">LoggerMapper</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogInfo.html" title="LogInfo" class="">LogInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogInfoExtensions.html" title="LogInfoExtensions" class="">LogInfoExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogLevels.html" title="LogLevels" class="">LogLevels</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogSettings.html" title="LogSettings" class="">LogSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogSource.html" title="LogSource" class="">LogSource</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogSourceExtensions.html" title="LogSourceExtensions" class="">LogSourceExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.NullLogger.html" title="NullLogger" class="">NullLogger</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Log.LogFile.html" title="Dapplo.Log.LogFile" class="">Dapplo.Log.LogFile</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="Dapplo.Log.LogFile.FileLogger.html" title="FileLogger" class="active">FileLogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogFile.ForwardingLogger.html" title="ForwardingLogger" class="">ForwardingLogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html" title="IFileLoggerConfiguration" class="">IFileLoggerConfiguration</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Log.Loggers.html" title="Dapplo.Log.Loggers" class="">Dapplo.Log.Loggers</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Log.Loggers.ColorConsoleLogger.html" title="ColorConsoleLogger" class="">ColorConsoleLogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.Loggers.ConsoleLogger.html" title="ConsoleLogger" class="">ConsoleLogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.Loggers.DebugLogger.html" title="DebugLogger" class="">DebugLogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.Loggers.StringWriterLogger.html" title="StringWriterLogger" class="">StringWriterLogger</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Log.Loggers.TraceLogger.html" title="TraceLogger" class="">TraceLogger</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Log.XUnit.html" title="Dapplo.Log.XUnit" class="">Dapplo.Log.XUnit</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Log.XUnit.XUnitLogger.html" title="XUnitLogger" class="">XUnitLogger</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Dapplo_Log_LogFile_FileLogger" data-uid="Dapplo.Log.LogFile.FileLogger">Class FileLogger
+              </h1>
+              <div class="markdown level0 summary"><p>This implements a logger which writes to a log file in the background
+Filename and directory are configurable, also rolling filename and compression can be activated</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><a class="xref" href="Dapplo.Log.AbstractLogger.html">AbstractLogger</a></div>
+                  <div class="level2"><span class="xref">FileLogger</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Format_Dapplo_Log_LogInfo_System_String_System_Object___">AbstractLogger.Format(LogInfo, String, Object[])</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_LogLevel">AbstractLogger.LogLevel</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_UseShortSource">AbstractLogger.UseShortSource</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_DateTimeFormat">AbstractLogger.DateTimeFormat</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_LogLineFormat">AbstractLogger.LogLineFormat</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_IsLogLevelEnabled_Dapplo_Log_LogLevels_Dapplo_Log_LogSource_">AbstractLogger.IsLogLevelEnabled(LogLevels, LogSource)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_ReplacedWith_Dapplo_Log_ILogger_">AbstractLogger.ReplacedWith(ILogger)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_WriteLine_Dapplo_Log_LogInfo_System_String_System_Object___">AbstractLogger.WriteLine(LogInfo, String, Object[])</a>
+                </div>
+                <div>
+                  <a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_WriteLine_Dapplo_Log_LogInfo_System_Exception_System_String_System_Object___">AbstractLogger.WriteLine(LogInfo, Exception, String, Object[])</a>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Dapplo.Log.LogFile</h6>
+              <h6><strong>Assembly</strong>:Dapplo.Log.LogFile.dll</h6>
+              <h5 id="Dapplo_Log_LogFile_FileLogger_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class FileLogger : AbstractLogger, ILogger, IDisposable, IFileLoggerConfiguration, ILoggerConfiguration</code></pre>
+              </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger__ctor.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L74">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger__ctor_" data-uid="Dapplo.Log.LogFile.FileLogger.#ctor*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger__ctor" data-uid="Dapplo.Log.LogFile.FileLogger.#ctor">FileLogger()</h4>
+              <div class="markdown level1 summary"><p>default Constructor which starts the background task</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public FileLogger()</code></pre>
+              </div>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_ArchiveCompress.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.ArchiveCompress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L195">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_ArchiveCompress_" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveCompress*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_ArchiveCompress" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveCompress">ArchiveCompress</h4>
+              <div class="markdown level1 summary"><p>Compress the archive</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool ArchiveCompress { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveCompress">IFileLoggerConfiguration.ArchiveCompress</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_ArchiveCount.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.ArchiveCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L200">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_ArchiveCount_" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveCount*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_ArchiveCount" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveCount">ArchiveCount</h4>
+              <div class="markdown level1 summary"><p>The amount of archived files which are allowed. The oldest is removed.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int ArchiveCount { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveCount">IFileLoggerConfiguration.ArchiveCount</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_ArchiveDirectoryPath.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L184">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_ArchiveDirectoryPath_" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_ArchiveDirectoryPath" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveDirectoryPath">ArchiveDirectoryPath</h4>
+              <div class="markdown level1 summary"><p>The path of the archived file</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string ArchiveDirectoryPath { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveDirectoryPath">IFileLoggerConfiguration.ArchiveDirectoryPath</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_ArchiveExtension.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.ArchiveExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L190">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_ArchiveExtension_" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveExtension*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_ArchiveExtension" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveExtension">ArchiveExtension</h4>
+              <div class="markdown level1 summary"><p>The extension of archived file, default this is &quot;.log.gz&quot;</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string ArchiveExtension { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveExtension">IFileLoggerConfiguration.ArchiveExtension</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_ArchiveFilenamePattern.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L176">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_ArchiveFilenamePattern_" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_ArchiveFilenamePattern" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveFilenamePattern">ArchiveFilenamePattern</h4>
+              <div class="markdown level1 summary"><p>Change the format for the archived filename</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string ArchiveFilenamePattern { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveFilenamePattern">IFileLoggerConfiguration.ArchiveFilenamePattern</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_ArchiveHistory.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.ArchiveHistory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L205">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_ArchiveHistory_" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveHistory*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_ArchiveHistory" data-uid="Dapplo.Log.LogFile.FileLogger.ArchiveHistory">ArchiveHistory</h4>
+              <div class="markdown level1 summary"><p>The history of archived files, this could e.g. be stored in a configuration</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IList&lt;string&gt; ArchiveHistory { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_ArchiveHistory">IFileLoggerConfiguration.ArchiveHistory</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_DirectoryPath.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.DirectoryPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L170">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_DirectoryPath_" data-uid="Dapplo.Log.LogFile.FileLogger.DirectoryPath*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_DirectoryPath" data-uid="Dapplo.Log.LogFile.FileLogger.DirectoryPath">DirectoryPath</h4>
+              <div class="markdown level1 summary"><p>Change the format for the filename, the possible arguments are documented in the .
+Environment variablen are also expanded.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string DirectoryPath { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_DirectoryPath">IFileLoggerConfiguration.DirectoryPath</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_Extension.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.Extension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L156">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_Extension_" data-uid="Dapplo.Log.LogFile.FileLogger.Extension*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_Extension" data-uid="Dapplo.Log.LogFile.FileLogger.Extension">Extension</h4>
+              <div class="markdown level1 summary"><p>The extension of log file, default this is &quot;.log&quot;</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Extension { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Extension">IFileLoggerConfiguration.Extension</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_FilenamePattern.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.FilenamePattern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L161">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_FilenamePattern_" data-uid="Dapplo.Log.LogFile.FileLogger.FilenamePattern*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_FilenamePattern" data-uid="Dapplo.Log.LogFile.FileLogger.FilenamePattern">FilenamePattern</h4>
+              <div class="markdown level1 summary"><p>Change the format for the filename, as soon as the filename changes, the previous is archived.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string FilenamePattern { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_FilenamePattern">IFileLoggerConfiguration.FilenamePattern</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_MaxBufferSize.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.MaxBufferSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L141">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_MaxBufferSize_" data-uid="Dapplo.Log.LogFile.FileLogger.MaxBufferSize*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_MaxBufferSize" data-uid="Dapplo.Log.LogFile.FileLogger.MaxBufferSize">MaxBufferSize</h4>
+              <div class="markdown level1 summary"><p>Limit the internal stringbuilder size,</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int MaxBufferSize { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_MaxBufferSize">IFileLoggerConfiguration.MaxBufferSize</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_Preformat.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.Preformat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L136">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_Preformat_" data-uid="Dapplo.Log.LogFile.FileLogger.Preformat*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_Preformat" data-uid="Dapplo.Log.LogFile.FileLogger.Preformat">Preformat</h4>
+              <div class="markdown level1 summary"><p>Setting this to true will format the message in the context of the write call.
+If this is set to false, the default, the formatting is done when writing to the file.
+First makes the call slower, last could introduce problems with UI owned objects.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Preformat { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Preformat">IFileLoggerConfiguration.Preformat</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_Processname.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.Processname%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L151">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_Processname_" data-uid="Dapplo.Log.LogFile.FileLogger.Processname*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_Processname" data-uid="Dapplo.Log.LogFile.FileLogger.Processname">Processname</h4>
+              <div class="markdown level1 summary"><p>Name of the application, if null it will be created</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Processname { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_Processname">IFileLoggerConfiguration.Processname</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_WriteInterval.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.WriteInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L146">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_WriteInterval_" data-uid="Dapplo.Log.LogFile.FileLogger.WriteInterval*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_WriteInterval" data-uid="Dapplo.Log.LogFile.FileLogger.WriteInterval">WriteInterval</h4>
+              <div class="markdown level1 summary"><p>Specify how long the background task can wait until it starts writing log entries</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int WriteInterval { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Log.LogFile.IFileLoggerConfiguration.html#Dapplo_Log_LogFile_IFileLoggerConfiguration_WriteInterval">IFileLoggerConfiguration.WriteInterval</a></div>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_Configure_Dapplo_Log_ILoggerConfiguration_.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.Configure(Dapplo.Log.ILoggerConfiguration)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L94">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_Configure_" data-uid="Dapplo.Log.LogFile.FileLogger.Configure*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_Configure_Dapplo_Log_ILoggerConfiguration_" data-uid="Dapplo.Log.LogFile.FileLogger.Configure(Dapplo.Log.ILoggerConfiguration)">Configure(ILoggerConfiguration)</h4>
+              <div class="markdown level1 summary"><p>Configure this logger</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override void Configure(ILoggerConfiguration configuration)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Log.ILoggerConfiguration.html">ILoggerConfiguration</a></td>
+                    <td><span class="parametername">configuration</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Configure_Dapplo_Log_ILoggerConfiguration_">AbstractLogger.Configure(ILoggerConfiguration)</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.Write(Dapplo.Log.LogInfo%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L215">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_Write_" data-uid="Dapplo.Log.LogFile.FileLogger.Write*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___" data-uid="Dapplo.Log.LogFile.FileLogger.Write(Dapplo.Log.LogInfo,System.String,System.Object[])">Write(LogInfo, String, Object[])</h4>
+              <div class="markdown level1 summary"><p>Enqueue the current information so it can be written to the file, formatting is done later.. (improves performance
+for the UI)
+Preferably do NOT pass huge objects which need to be garbage collected</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override void Write(LogInfo logInfo, string messageTemplate, params object[] logParameters)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Log.LogInfo.html">LogInfo</a></td>
+                    <td><span class="parametername">logInfo</span></td>
+                    <td><p>LogInfo</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">messageTemplate</span></td>
+                    <td><p>string</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span>[]</td>
+                    <td><span class="parametername">logParameters</span></td>
+                    <td><p>params</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><a class="xref" href="Dapplo.Log.AbstractLogger.html#Dapplo_Log_AbstractLogger_Write_Dapplo_Log_LogInfo_System_String_System_Object___">AbstractLogger.Write(LogInfo, String, Object[])</a></div>
+              <h3 id="eii">Explicit Interface Implementations
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger_System_IDisposable_Dispose.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger.System%23IDisposable%23Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L503">View Source</a>
+              </span>
+              <a id="Dapplo_Log_LogFile_FileLogger_System_IDisposable_Dispose_" data-uid="Dapplo.Log.LogFile.FileLogger.System#IDisposable#Dispose*"></a>
+              <h4 id="Dapplo_Log_LogFile_FileLogger_System_IDisposable_Dispose" data-uid="Dapplo.Log.LogFile.FileLogger.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void IDisposable.Dispose()</code></pre>
+              </div>
+              <h5 class="implements">Implements</h5>
+                  <div><span class="xref">System.IDisposable.Dispose()</span></div>
+                        </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Log/new/master/apiSpec/new?filename=Dapplo_Log_LogFile_FileLogger.md&amp;value=---%0Auid%3A%20Dapplo.Log.LogFile.FileLogger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Log/blob/master/src/Dapplo.Log.LogFile/FileLogger.cs/#L47" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2017 Dapplo
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
