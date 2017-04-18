@@ -1,0 +1,1276 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class JiraClient
+   | Dapplo.Jira </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class JiraClient
+   | Dapplo.Jira ">
+    <meta name="generator" content="docfx 2.16.0.499">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/d.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="">
+                    <a href="../articles/intro.html" title="Articles" class="">Articles</a>
+                  </li>
+                  <li class="active">
+                    <a href="../api/index.html" title="Api Documentation" class="active">Api Documentation</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Jira.html" title="Dapplo.Jira" class="">Dapplo.Jira</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Jira.AgileExtensions.html" title="AgileExtensions" class="">AgileExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.AttachmentExtensions.html" title="AttachmentExtensions" class="">AttachmentExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.FilterExtensions.html" title="FilterExtensions" class="">FilterExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.IJiraClient.html" title="IJiraClient" class="">IJiraClient</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.IssueExtensions.html" title="IssueExtensions" class="">IssueExtensions</a>
+                          </li>
+                          <li class="active">
+                            <a href="Dapplo.Jira.JiraClient.html" title="JiraClient" class="active">JiraClient</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.JiraConfig.html" title="JiraConfig" class="">JiraConfig</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.JiraException.html" title="JiraException" class="">JiraException</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.ProjectExtensions.html" title="ProjectExtensions" class="">ProjectExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.ServerExtensions.html" title="ServerExtensions" class="">ServerExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.SessionExtensions.html" title="SessionExtensions" class="">SessionExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.TimeSpanExtensions.html" title="TimeSpanExtensions" class="">TimeSpanExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.UserExtensions.html" title="UserExtensions" class="">UserExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.WorkExtensions.html" title="WorkExtensions" class="">WorkExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Jira.Domains.html" title="Dapplo.Jira.Domains" class="">Dapplo.Jira.Domains</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IAgileDomain.html" title="IAgileDomain" class="">IAgileDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IAttachmentDomain.html" title="IAttachmentDomain" class="">IAttachmentDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IFilterDomain.html" title="IFilterDomain" class="">IFilterDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IIssueDomain.html" title="IIssueDomain" class="">IIssueDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IJiraDomain.html" title="IJiraDomain" class="">IJiraDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IProjectDomain.html" title="IProjectDomain" class="">IProjectDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IServerDomain.html" title="IServerDomain" class="">IServerDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.ISessionDomain.html" title="ISessionDomain" class="">ISessionDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IUserDomain.html" title="IUserDomain" class="">IUserDomain</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Domains.IWorkDomain.html" title="IWorkDomain" class="">IWorkDomain</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Jira.Entities.html" title="Dapplo.Jira.Entities" class="">Dapplo.Jira.Entities</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.AgileIssue.html" title="AgileIssue" class="">AgileIssue</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.AgileIssueFields.html" title="AgileIssueFields" class="">AgileIssueFields</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.AllowedValue.html" title="AllowedValue" class="">AllowedValue</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Attachment.html" title="Attachment" class="">Attachment</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.AttachmentContainer-1.html" title="AttachmentContainer&lt;T&gt;" class="">AttachmentContainer&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.AvatarUrls.html" title="AvatarUrls" class="">AvatarUrls</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.BaseId-1.html" title="BaseId&lt;TId&gt;" class="">BaseId&lt;TId&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.BaseProperties-1.html" title="BaseProperties&lt;TId&gt;" class="">BaseProperties&lt;TId&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Board.html" title="Board" class="">Board</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.BoardConfiguration.html" title="BoardConfiguration" class="">BoardConfiguration</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Column.html" title="Column" class="">Column</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.ColumnConfig.html" title="ColumnConfig" class="">ColumnConfig</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Comment.html" title="Comment" class="">Comment</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Comments.html" title="Comments" class="">Comments</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Component.html" title="Component" class="">Component</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.ComponentDigest.html" title="ComponentDigest" class="">ComponentDigest</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Configuration.html" title="Configuration" class="">Configuration</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Epic.html" title="Epic" class="">Epic</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.EpicColor.html" title="EpicColor" class="">EpicColor</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Error.html" title="Error" class="">Error</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.EstimationCustomFieldInfo.html" title="EstimationCustomFieldInfo" class="">EstimationCustomFieldInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.EstimationFieldInfo.html" title="EstimationFieldInfo" class="">EstimationFieldInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Field.html" title="Field" class="">Field</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Filter.html" title="Filter" class="">Filter</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Issue.html" title="Issue" class="">Issue</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.IssueBase.html" title="IssueBase" class="">IssueBase</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.IssueFields.html" title="IssueFields" class="">IssueFields</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.IssueType.html" title="IssueType" class="">IssueType</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.IssueWithFields-1.html" title="IssueWithFields&lt;TFields&gt;" class="">IssueWithFields&lt;TFields&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.LoginInfo.html" title="LoginInfo" class="">LoginInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Pageable.html" title="Pageable" class="">Pageable</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.PageableResult.html" title="PageableResult" class="">PageableResult</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.PossibleField.html" title="PossibleField" class="">PossibleField</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Priority.html" title="Priority" class="">Priority</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.ProgressInfo.html" title="ProgressInfo" class="">ProgressInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Project.html" title="Project" class="">Project</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.ProjectCategory.html" title="ProjectCategory" class="">ProjectCategory</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.ProjectDigest.html" title="ProjectDigest" class="">ProjectDigest</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.RankingCustomFieldInfo.html" title="RankingCustomFieldInfo" class="">RankingCustomFieldInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Resolution.html" title="Resolution" class="">Resolution</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Results-1.html" title="Results&lt;TResultType&gt;" class="">Results&lt;TResultType&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Schema.html" title="Schema" class="">Schema</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Search.html" title="Search" class="">Search</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.SearchResult-1.html" title="SearchResult&lt;TIssue&gt;" class="">SearchResult&lt;TIssue&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.ServerInfo.html" title="ServerInfo" class="">ServerInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.SharePermission.html" title="SharePermission" class="">SharePermission</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Sprint.html" title="Sprint" class="">Sprint</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Status.html" title="Status" class="">Status</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.StatusCategory.html" title="StatusCategory" class="">StatusCategory</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Subscription.html" title="Subscription" class="">Subscription</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Subscriptions.html" title="Subscriptions" class="">Subscriptions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.TimeTracking.html" title="TimeTracking" class="">TimeTracking</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.TimeTrackingConfiguration.html" title="TimeTrackingConfiguration" class="">TimeTrackingConfiguration</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Transition.html" title="Transition" class="">Transition</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Transitions.html" title="Transitions" class="">Transitions</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.User.html" title="User" class="">User</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Version.html" title="Version" class="">Version</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Visibility.html" title="Visibility" class="">Visibility</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.VoteInfo.html" title="VoteInfo" class="">VoteInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Watches.html" title="Watches" class="">Watches</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Worklog.html" title="Worklog" class="">Worklog</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Entities.Worklogs.html" title="Worklogs" class="">Worklogs</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Jira.Enums.html" title="Dapplo.Jira.Enums" class="">Dapplo.Jira.Enums</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Jira.Enums.AdjustEstimate.html" title="AdjustEstimate" class="">AdjustEstimate</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Enums.AvatarSizes.html" title="AvatarSizes" class="">AvatarSizes</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Enums.BoardTypes.html" title="BoardTypes" class="">BoardTypes</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Jira.Json.html" title="Dapplo.Jira.Json" class="">Dapplo.Jira.Json</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Jira.Json.CustomDateTimeOffsetConverter.html" title="CustomDateTimeOffsetConverter" class="">CustomDateTimeOffsetConverter</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Jira.Query.html" title="Dapplo.Jira.Query" class="">Dapplo.Jira.Query</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.DatetimeClause.html" title="DatetimeClause" class="">DatetimeClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.Fields.html" title="Fields" class="">Fields</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IDatetimeClause.html" title="IDatetimeClause" class="">IDatetimeClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IDatetimeClauseWithoutValue.html" title="IDatetimeClauseWithoutValue" class="">IDatetimeClauseWithoutValue</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IFinalClause.html" title="IFinalClause" class="">IFinalClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IIssueClause.html" title="IIssueClause" class="">IIssueClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IProjectClause.html" title="IProjectClause" class="">IProjectClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.ISimpleValueClause.html" title="ISimpleValueClause" class="">ISimpleValueClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IssueClause.html" title="IssueClause" class="">IssueClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.ITextClause.html" title="ITextClause" class="">ITextClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.ITypeClause.html" title="ITypeClause" class="">ITypeClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IUserClause.html" title="IUserClause" class="">IUserClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.IVersionClause.html" title="IVersionClause" class="">IVersionClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.Operators.html" title="Operators" class="">Operators</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.ProjectClause.html" title="ProjectClause" class="">ProjectClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.SimpleValueClause.html" title="SimpleValueClause" class="">SimpleValueClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.TextClause.html" title="TextClause" class="">TextClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.TypeClause.html" title="TypeClause" class="">TypeClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.UserClause.html" title="UserClause" class="">UserClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.VersionClause.html" title="VersionClause" class="">VersionClause</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Jira.Query.Where.html" title="Where" class="">Where</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Dapplo_Jira_JiraClient" data-uid="Dapplo.Jira.JiraClient">Class JiraClient
+              </h1>
+              <div class="markdown level0 summary"><p>A client for accessing the Atlassian JIRA Api via REST, using Dapplo.HttpExtensions</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">JiraClient</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Dapplo.Jira</h6>
+              <h6><strong>Assembly</strong>:Dapplo.Jira.dll</h6>
+              <h5 id="Dapplo_Jira_JiraClient_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class JiraClient : IProjectDomain, IWorkDomain, IUserDomain, ISessionDomain, IIssueDomain, IFilterDomain, IAttachmentDomain, IServerDomain, IAgileDomain, IJiraDomain, IJiraClient</code></pre>
+              </div>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Agile.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Agile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L231">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Agile_" data-uid="Dapplo.Jira.JiraClient.Agile*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Agile" data-uid="Dapplo.Jira.JiraClient.Agile">Agile</h4>
+              <div class="markdown level1 summary"><p>Agile domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IAgileDomain Agile { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IAgileDomain.html">IAgileDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Agile">IJiraClient.Agile</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Attachment.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Attachment%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L195">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Attachment_" data-uid="Dapplo.Jira.JiraClient.Attachment*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Attachment" data-uid="Dapplo.Jira.JiraClient.Attachment">Attachment</h4>
+              <div class="markdown level1 summary"><p>Attachment domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IAttachmentDomain Attachment { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IAttachmentDomain.html">IAttachmentDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Attachment">IJiraClient.Attachment</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Behaviour.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Behaviour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L58">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Behaviour_" data-uid="Dapplo.Jira.JiraClient.Behaviour*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Behaviour" data-uid="Dapplo.Jira.JiraClient.Behaviour">Behaviour</h4>
+              <div class="markdown level1 summary"><p>Store the specific HttpBehaviour, which contains a IHttpSettings and also some additional logic for making a
+HttpClient which works with Jira</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IHttpBehaviour Behaviour { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Dapplo.HttpExtensions.IHttpBehaviour</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Behaviour">IJiraClient.Behaviour</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Filter.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Filter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L215">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Filter_" data-uid="Dapplo.Jira.JiraClient.Filter*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Filter" data-uid="Dapplo.Jira.JiraClient.Filter">Filter</h4>
+              <div class="markdown level1 summary"><p>Filter domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IFilterDomain Filter { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IFilterDomain.html">IFilterDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Filter">IJiraClient.Filter</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Issue.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Issue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L190">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Issue_" data-uid="Dapplo.Jira.JiraClient.Issue*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Issue" data-uid="Dapplo.Jira.JiraClient.Issue">Issue</h4>
+              <div class="markdown level1 summary"><p>Issue domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IIssueDomain Issue { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IIssueDomain.html">IIssueDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Issue">IJiraClient.Issue</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_JiraAgileRestUri.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.JiraAgileRestUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L169">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_JiraAgileRestUri_" data-uid="Dapplo.Jira.JiraClient.JiraAgileRestUri*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_JiraAgileRestUri" data-uid="Dapplo.Jira.JiraClient.JiraAgileRestUri">JiraAgileRestUri</h4>
+              <div class="markdown level1 summary"><p>The agile rest URI for your JIRA server</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Uri JiraAgileRestUri { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.Domains.IJiraDomain.html#Dapplo_Jira_Domains_IJiraDomain_JiraAgileRestUri">IJiraDomain.JiraAgileRestUri</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_JiraAuthUri.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.JiraAuthUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L174">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_JiraAuthUri_" data-uid="Dapplo.Jira.JiraClient.JiraAuthUri*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_JiraAuthUri" data-uid="Dapplo.Jira.JiraClient.JiraAuthUri">JiraAuthUri</h4>
+              <div class="markdown level1 summary"><p>The base URI for JIRA auth api</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Uri JiraAuthUri { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.Domains.IJiraDomain.html#Dapplo_Jira_Domains_IJiraDomain_JiraAuthUri">IJiraDomain.JiraAuthUri</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_JiraBaseUri.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.JiraBaseUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L158">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_JiraBaseUri_" data-uid="Dapplo.Jira.JiraClient.JiraBaseUri*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_JiraBaseUri" data-uid="Dapplo.Jira.JiraClient.JiraBaseUri">JiraBaseUri</h4>
+              <div class="markdown level1 summary"><p>The base URI for your JIRA server</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Uri JiraBaseUri { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_JiraBaseUri">IJiraClient.JiraBaseUri</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_JiraRestUri.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.JiraRestUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L163">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_JiraRestUri_" data-uid="Dapplo.Jira.JiraClient.JiraRestUri*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_JiraRestUri" data-uid="Dapplo.Jira.JiraClient.JiraRestUri">JiraRestUri</h4>
+              <div class="markdown level1 summary"><p>The rest URI for your JIRA server</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Uri JiraRestUri { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.Domains.IJiraDomain.html#Dapplo_Jira_Domains_IJiraDomain_JiraRestUri">IJiraDomain.JiraRestUri</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Project.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Project%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L200">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Project_" data-uid="Dapplo.Jira.JiraClient.Project*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Project" data-uid="Dapplo.Jira.JiraClient.Project">Project</h4>
+              <div class="markdown level1 summary"><p>Project domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IProjectDomain Project { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IProjectDomain.html">IProjectDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Project">IJiraClient.Project</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Server.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Server%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L225">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Server_" data-uid="Dapplo.Jira.JiraClient.Server*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Server" data-uid="Dapplo.Jira.JiraClient.Server">Server</h4>
+              <div class="markdown level1 summary"><p>Server domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IServerDomain Server { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IServerDomain.html">IServerDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Server">IJiraClient.Server</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Session.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Session%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L210">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Session_" data-uid="Dapplo.Jira.JiraClient.Session*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Session" data-uid="Dapplo.Jira.JiraClient.Session">Session</h4>
+              <div class="markdown level1 summary"><p>Session domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ISessionDomain Session { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.ISessionDomain.html">ISessionDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Session">IJiraClient.Session</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_User.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.User%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L205">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_User_" data-uid="Dapplo.Jira.JiraClient.User*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_User" data-uid="Dapplo.Jira.JiraClient.User">User</h4>
+              <div class="markdown level1 summary"><p>User domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IUserDomain User { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IUserDomain.html">IUserDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_User">IJiraClient.User</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Work.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Work%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L220">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Work_" data-uid="Dapplo.Jira.JiraClient.Work*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Work" data-uid="Dapplo.Jira.JiraClient.Work">Work</h4>
+              <div class="markdown level1 summary"><p>Work domain</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IWorkDomain Work { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.Domains.IWorkDomain.html">IWorkDomain</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_Work">IJiraClient.Work</a></div>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_Create_System_Uri_Dapplo_HttpExtensions_IHttpSettings_.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.Create(System.Uri%2CDapplo.HttpExtensions.IHttpSettings)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L63">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_Create_" data-uid="Dapplo.Jira.JiraClient.Create*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_Create_System_Uri_Dapplo_HttpExtensions_IHttpSettings_" data-uid="Dapplo.Jira.JiraClient.Create(System.Uri,Dapplo.HttpExtensions.IHttpSettings)">Create(Uri, IHttpSettings)</h4>
+              <div class="markdown level1 summary"><p>Factory method to create the jira client</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IJiraClient Create(Uri baseUri, IHttpSettings httpSettings = null)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Uri</span></td>
+                    <td><span class="parametername">baseUri</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">Dapplo.HttpExtensions.IHttpSettings</span></td>
+                    <td><span class="parametername">httpSettings</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Dapplo.Jira.IJiraClient.html">IJiraClient</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient_SetBasicAuthentication_System_String_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient.SetBasicAuthentication(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L181">View Source</a>
+              </span>
+              <a id="Dapplo_Jira_JiraClient_SetBasicAuthentication_" data-uid="Dapplo.Jira.JiraClient.SetBasicAuthentication*"></a>
+              <h4 id="Dapplo_Jira_JiraClient_SetBasicAuthentication_System_String_System_String_" data-uid="Dapplo.Jira.JiraClient.SetBasicAuthentication(System.String,System.String)">SetBasicAuthentication(String, String)</h4>
+              <div class="markdown level1 summary"><p>Set Basic Authentication for the current client</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void SetBasicAuthentication(string user, string password)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">user</span></td>
+                    <td><p>username</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">password</span></td>
+                    <td><p>password</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><a class="xref" href="Dapplo.Jira.IJiraClient.html#Dapplo_Jira_IJiraClient_SetBasicAuthentication_System_String_System_String_">IJiraClient.SetBasicAuthentication(String, String)</a></div>
+              <h3 id="extensionmethods">Extension Methods</h3>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetIssueAsync_Dapplo_Jira_Domains_IAgileDomain_System_String_System_Threading_CancellationToken_">AgileExtensions.GetIssueAsync(IAgileDomain, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetSprintsAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_System_String_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetSprintsAsync(IAgileDomain, Int64, String, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetBacklogAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetBacklogAsync(IAgileDomain, Int64, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetIssuesOnBoardAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetIssuesOnBoardAsync(IAgileDomain, Int64, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetIssuesInSprintAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_System_Int64_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetIssuesInSprintAsync(IAgileDomain, Int64, Int64, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetBoardConfigurationAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_System_Threading_CancellationToken_">AgileExtensions.GetBoardConfigurationAsync(IAgileDomain, Int64, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetBoardAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_System_Threading_CancellationToken_">AgileExtensions.GetBoardAsync(IAgileDomain, Int64, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_CreateBoardAsync_Dapplo_Jira_Domains_IAgileDomain_Dapplo_Jira_Entities_Board_System_Threading_CancellationToken_">AgileExtensions.CreateBoardAsync(IAgileDomain, Board, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_DeleteBoardAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_System_Threading_CancellationToken_">AgileExtensions.DeleteBoardAsync(IAgileDomain, Int64, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetBoardsAsync_Dapplo_Jira_Domains_IAgileDomain_System_String_System_String_System_String_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetBoardsAsync(IAgileDomain, String, String, String, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetEpicsAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetEpicsAsync(IAgileDomain, Int64, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetIssuesForEpicAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_System_Int64_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetIssuesForEpicAsync(IAgileDomain, Int64, Int64, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetIssuesForEpicAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetIssuesForEpicAsync(IAgileDomain, Int64, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetEpicAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_System_Threading_CancellationToken_">AgileExtensions.GetEpicAsync(IAgileDomain, Int64, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_UpdateEpicAsync_Dapplo_Jira_Domains_IAgileDomain_Dapplo_Jira_Entities_Epic_System_Threading_CancellationToken_">AgileExtensions.UpdateEpicAsync(IAgileDomain, Epic, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AgileExtensions.html#Dapplo_Jira_AgileExtensions_GetIssuesWithoutEpicAsync_Dapplo_Jira_Domains_IAgileDomain_System_Int64_Dapplo_Jira_Entities_Pageable_System_Threading_CancellationToken_">AgileExtensions.GetIssuesWithoutEpicAsync(IAgileDomain, Int64, Pageable, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AttachmentExtensions.html#Dapplo_Jira_AttachmentExtensions_AttachAsync__1_Dapplo_Jira_Domains_IAttachmentDomain_System_String___0_System_String_System_String_System_Threading_CancellationToken_">AttachmentExtensions.AttachAsync&lt;TContent&gt;(IAttachmentDomain, String, TContent, String, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AttachmentExtensions.html#Dapplo_Jira_AttachmentExtensions_DeleteAsync_Dapplo_Jira_Domains_IAttachmentDomain_Dapplo_Jira_Entities_Attachment_System_Threading_CancellationToken_">AttachmentExtensions.DeleteAsync(IAttachmentDomain, Attachment, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AttachmentExtensions.html#Dapplo_Jira_AttachmentExtensions_DeleteAsync_Dapplo_Jira_Domains_IAttachmentDomain_System_Int64_System_Threading_CancellationToken_">AttachmentExtensions.DeleteAsync(IAttachmentDomain, Int64, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AttachmentExtensions.html#Dapplo_Jira_AttachmentExtensions_GetContentAsAsync__1_Dapplo_Jira_Domains_IAttachmentDomain_Dapplo_Jira_Entities_Attachment_System_Threading_CancellationToken_">AttachmentExtensions.GetContentAsAsync&lt;TResponse&gt;(IAttachmentDomain, Attachment, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.AttachmentExtensions.html#Dapplo_Jira_AttachmentExtensions_GetThumbnailAsAsync__1_Dapplo_Jira_Domains_IAttachmentDomain_Dapplo_Jira_Entities_Attachment_System_Threading_CancellationToken_">AttachmentExtensions.GetThumbnailAsAsync&lt;TResponse&gt;(IAttachmentDomain, Attachment, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.FilterExtensions.html#Dapplo_Jira_FilterExtensions_GetFavoritesAsync_Dapplo_Jira_Domains_IFilterDomain_System_Threading_CancellationToken_">FilterExtensions.GetFavoritesAsync(IFilterDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.FilterExtensions.html#Dapplo_Jira_FilterExtensions_GetFiltersAsync_Dapplo_Jira_Domains_IFilterDomain_System_Threading_CancellationToken_">FilterExtensions.GetFiltersAsync(IFilterDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.FilterExtensions.html#Dapplo_Jira_FilterExtensions_GetAsync_Dapplo_Jira_Domains_IFilterDomain_System_Int64_System_Threading_CancellationToken_">FilterExtensions.GetAsync(IFilterDomain, Int64, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.FilterExtensions.html#Dapplo_Jira_FilterExtensions_CreateAsync_Dapplo_Jira_Domains_IFilterDomain_Dapplo_Jira_Entities_Filter_System_Threading_CancellationToken_">FilterExtensions.CreateAsync(IFilterDomain, Filter, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.FilterExtensions.html#Dapplo_Jira_FilterExtensions_UpdateAsync_Dapplo_Jira_Domains_IFilterDomain_Dapplo_Jira_Entities_Filter_System_Threading_CancellationToken_">FilterExtensions.UpdateAsync(IFilterDomain, Filter, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.FilterExtensions.html#Dapplo_Jira_FilterExtensions_DeleteAsync_Dapplo_Jira_Domains_IFilterDomain_Dapplo_Jira_Entities_Filter_System_Threading_CancellationToken_">FilterExtensions.DeleteAsync(IFilterDomain, Filter, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_AddCommentAsync_Dapplo_Jira_Domains_IIssueDomain_System_String_System_String_System_String_System_Threading_CancellationToken_">IssueExtensions.AddCommentAsync(IIssueDomain, String, String, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_GetAsync__2_Dapplo_Jira_Domains_IIssueDomain_System_String_System_Threading_CancellationToken_">IssueExtensions.GetAsync&lt;TIssue, TFields&gt;(IIssueDomain, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_GetAsync_Dapplo_Jira_Domains_IIssueDomain_System_String_System_Threading_CancellationToken_">IssueExtensions.GetAsync(IIssueDomain, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_GetPossibleTransitionsAsync_Dapplo_Jira_Domains_IIssueDomain_System_String_System_Threading_CancellationToken_">IssueExtensions.GetPossibleTransitionsAsync(IIssueDomain, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_SearchAsync_Dapplo_Jira_Domains_IIssueDomain_Dapplo_Jira_Query_IFinalClause_System_Int32_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_">IssueExtensions.SearchAsync(IIssueDomain, IFinalClause, Int32, IEnumerable&lt;String&gt;, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_SearchAsync_Dapplo_Jira_Domains_IIssueDomain_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_">IssueExtensions.SearchAsync(IIssueDomain, String, Int32, IEnumerable&lt;String&gt;, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_UpdateCommentAsync_Dapplo_Jira_Domains_IIssueDomain_System_String_Dapplo_Jira_Entities_Comment_System_Threading_CancellationToken_">IssueExtensions.UpdateCommentAsync(IIssueDomain, String, Comment, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_GetIssueTypesAsync_Dapplo_Jira_Domains_IIssueDomain_System_Threading_CancellationToken_">IssueExtensions.GetIssueTypesAsync(IIssueDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_CreateAsync__1_Dapplo_Jira_Domains_IIssueDomain_Dapplo_Jira_Entities_IssueWithFields___0__System_Threading_CancellationToken_">IssueExtensions.CreateAsync&lt;TFields&gt;(IIssueDomain, IssueWithFields&lt;TFields&gt;, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_UpdateAsync__1_Dapplo_Jira_Domains_IIssueDomain_Dapplo_Jira_Entities_IssueWithFields___0__System_Boolean_System_Boolean_System_Boolean_System_Threading_CancellationToken_">IssueExtensions.UpdateAsync&lt;TFields&gt;(IIssueDomain, IssueWithFields&lt;TFields&gt;, Boolean, Boolean, Boolean, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_DeleteAsync_Dapplo_Jira_Domains_IIssueDomain_System_String_System_Boolean_System_Threading_CancellationToken_">IssueExtensions.DeleteAsync(IIssueDomain, String, Boolean, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.IssueExtensions.html#Dapplo_Jira_IssueExtensions_AssignAsync_Dapplo_Jira_Domains_IIssueDomain_System_String_Dapplo_Jira_Entities_User_System_Threading_CancellationToken_">IssueExtensions.AssignAsync(IIssueDomain, String, User, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ProjectExtensions.html#Dapplo_Jira_ProjectExtensions_GetAsync_Dapplo_Jira_Domains_IProjectDomain_System_String_System_Threading_CancellationToken_">ProjectExtensions.GetAsync(IProjectDomain, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ProjectExtensions.html#Dapplo_Jira_ProjectExtensions_GetAllAsync_Dapplo_Jira_Domains_IProjectDomain_System_Nullable_System_Int32__System_Threading_CancellationToken_">ProjectExtensions.GetAllAsync(IProjectDomain, Nullable&lt;Int32&gt;, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ServerExtensions.html#Dapplo_Jira_ServerExtensions_GetUriContentAsync__1_Dapplo_Jira_Domains_IServerDomain_System_Uri_System_Threading_CancellationToken_">ServerExtensions.GetUriContentAsync&lt;TResponse&gt;(IServerDomain, Uri, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ServerExtensions.html#Dapplo_Jira_ServerExtensions_GetAvatarAsync__1_Dapplo_Jira_Domains_IServerDomain_Dapplo_Jira_Entities_AvatarUrls_Dapplo_Jira_Enums_AvatarSizes_System_Threading_CancellationToken_">ServerExtensions.GetAvatarAsync&lt;TResponse&gt;(IServerDomain, AvatarUrls, AvatarSizes, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ServerExtensions.html#Dapplo_Jira_ServerExtensions_GetFieldsAsync_Dapplo_Jira_Domains_IServerDomain_System_Threading_CancellationToken_">ServerExtensions.GetFieldsAsync(IServerDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ServerExtensions.html#Dapplo_Jira_ServerExtensions_GetInfoAsync_Dapplo_Jira_Domains_IServerDomain_System_Threading_CancellationToken_">ServerExtensions.GetInfoAsync(IServerDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ServerExtensions.html#Dapplo_Jira_ServerExtensions_GetConfigurationAsync_Dapplo_Jira_Domains_IServerDomain_System_Threading_CancellationToken_">ServerExtensions.GetConfigurationAsync(IServerDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ServerExtensions.html#Dapplo_Jira_ServerExtensions_GetTimeTrackingConfigurationAsync_Dapplo_Jira_Domains_IServerDomain_System_Threading_CancellationToken_">ServerExtensions.GetTimeTrackingConfigurationAsync(IServerDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.ServerExtensions.html#Dapplo_Jira_ServerExtensions_SetTimeTrackingConfigurationAsync_Dapplo_Jira_Domains_IServerDomain_Dapplo_Jira_Entities_TimeTrackingConfiguration_System_Threading_CancellationToken_">ServerExtensions.SetTimeTrackingConfigurationAsync(IServerDomain, TimeTrackingConfiguration, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.SessionExtensions.html#Dapplo_Jira_SessionExtensions_StartAsync_Dapplo_Jira_Domains_ISessionDomain_System_String_System_String_System_Threading_CancellationToken_">SessionExtensions.StartAsync(ISessionDomain, String, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.SessionExtensions.html#Dapplo_Jira_SessionExtensions_EndAsync_Dapplo_Jira_Domains_ISessionDomain_System_Threading_CancellationToken_">SessionExtensions.EndAsync(ISessionDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.UserExtensions.html#Dapplo_Jira_UserExtensions_GetAsync_Dapplo_Jira_Domains_IUserDomain_System_String_System_Threading_CancellationToken_">UserExtensions.GetAsync(IUserDomain, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.UserExtensions.html#Dapplo_Jira_UserExtensions_SearchAsync_Dapplo_Jira_Domains_IUserDomain_System_String_System_Boolean_System_Boolean_System_Int32_System_Int32_System_Threading_CancellationToken_">UserExtensions.SearchAsync(IUserDomain, String, Boolean, Boolean, Int32, Int32, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.UserExtensions.html#Dapplo_Jira_UserExtensions_GetMyselfAsync_Dapplo_Jira_Domains_IUserDomain_System_Threading_CancellationToken_">UserExtensions.GetMyselfAsync(IUserDomain, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.WorkExtensions.html#Dapplo_Jira_WorkExtensions_GetAsync_Dapplo_Jira_Domains_IWorkDomain_System_String_System_Threading_CancellationToken_">WorkExtensions.GetAsync(IWorkDomain, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.WorkExtensions.html#Dapplo_Jira_WorkExtensions_CreateAsync_Dapplo_Jira_Domains_IWorkDomain_System_String_Dapplo_Jira_Entities_Worklog_Dapplo_Jira_Enums_AdjustEstimate_System_String_System_Threading_CancellationToken_">WorkExtensions.CreateAsync(IWorkDomain, String, Worklog, AdjustEstimate, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.WorkExtensions.html#Dapplo_Jira_WorkExtensions_UpdateAsync_Dapplo_Jira_Domains_IWorkDomain_System_String_Dapplo_Jira_Entities_Worklog_Dapplo_Jira_Enums_AdjustEstimate_System_String_System_Threading_CancellationToken_">WorkExtensions.UpdateAsync(IWorkDomain, String, Worklog, AdjustEstimate, String, CancellationToken)</a>
+              </div>
+              <div>
+                  <a class="xref" href="Dapplo.Jira.WorkExtensions.html#Dapplo_Jira_WorkExtensions_DeleteAsync_Dapplo_Jira_Domains_IWorkDomain_System_String_Dapplo_Jira_Entities_Worklog_Dapplo_Jira_Enums_AdjustEstimate_System_String_System_Threading_CancellationToken_">WorkExtensions.DeleteAsync(IWorkDomain, String, Worklog, AdjustEstimate, String, CancellationToken)</a>
+              </div>
+                        </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Jira/new/master/apiSpec/new?filename=Dapplo_Jira_JiraClient.md&amp;value=---%0Auid%3A%20Dapplo.Jira.JiraClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Jira/blob/master/src/Dapplo.Jira/JiraClient.cs/#L49" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2017 Dapplo
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
