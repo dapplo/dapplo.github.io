@@ -1,0 +1,2274 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CompositionBootstrapper
+   | Dapplo.Addons </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CompositionBootstrapper
+   | Dapplo.Addons ">
+    <meta name="generator" content="docfx 2.17.5.12">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/d.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="">
+                    <a href="../articles/intro.html" title="Articles" class="">Articles</a>
+                  </li>
+                  <li class="active">
+                    <a href="../api/index.html" title="Api Documentation" class="active">Api Documentation</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Addons.html" title="Dapplo.Addons" class="">Dapplo.Addons</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Addons.IAction.html" title="IAction" class="">IAction</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IApplicationBootstrapper.html" title="IApplicationBootstrapper" class="">IApplicationBootstrapper</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IAsyncShutdownAction.html" title="IAsyncShutdownAction" class="">IAsyncShutdownAction</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IAsyncStartupAction.html" title="IAsyncStartupAction" class="">IAsyncStartupAction</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IBootstrapper.html" title="IBootstrapper" class="">IBootstrapper</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IDependencyProvider.html" title="IDependencyProvider" class="">IDependencyProvider</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IMefServiceLocator.html" title="IMefServiceLocator" class="">IMefServiceLocator</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IModule.html" title="IModule" class="">IModule</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IServiceExporter.html" title="IServiceExporter" class="">IServiceExporter</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IServiceRepository.html" title="IServiceRepository" class="">IServiceRepository</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IShutdownAction.html" title="IShutdownAction" class="">IShutdownAction</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IShutdownMetadata.html" title="IShutdownMetadata" class="">IShutdownMetadata</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IShutdownModule.html" title="IShutdownModule" class="">IShutdownModule</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IStartupAction.html" title="IStartupAction" class="">IStartupAction</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IStartupMetadata.html" title="IStartupMetadata" class="">IStartupMetadata</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.IStartupModule.html" title="IStartupModule" class="">IStartupModule</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.ModuleAttribute.html" title="ModuleAttribute" class="">ModuleAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.ShutdownActionAttribute.html" title="ShutdownActionAttribute" class="">ShutdownActionAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.StartupActionAttribute.html" title="StartupActionAttribute" class="">StartupActionAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.StartupException.html" title="StartupException" class="">StartupException</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Addons.Bootstrapper.html" title="Dapplo.Addons.Bootstrapper" class="">Dapplo.Addons.Bootstrapper</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html" title="ApplicationBootstrapper" class="">ApplicationBootstrapper</a>
+                          </li>
+                          <li class="active">
+                            <a href="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html" title="CompositionBootstrapper" class="active">CompositionBootstrapper</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.ResourceMutex.html" title="ResourceMutex" class="">ResourceMutex</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html" title="StartupShutdownBootstrapper" class="">StartupShutdownBootstrapper</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Addons.Bootstrapper.Internal.html" title="Dapplo.Addons.Bootstrapper.Internal" class="">Dapplo.Addons.Bootstrapper.Internal</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.html" title="CompressionTypes" class="">CompressionTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.html" title="StreamExtensions" class="">StreamExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Addons.Bootstrapper.Resolving.html" title="Dapplo.Addons.Bootstrapper.Resolving" class="">Dapplo.Addons.Bootstrapper.Resolving</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html" title="AssemblyResolver" class="">AssemblyResolver</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html" title="EmbeddedResources" class="">EmbeddedResources</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html" title="FileLocations" class="">FileLocations</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.Bootstrapper.Resolving.FileTools.html" title="FileTools" class="">FileTools</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Addons.NuGet.html" title="Dapplo.Addons.NuGet" class="">Dapplo.Addons.NuGet</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Addons.NuGet.AppDomainExtensions.html" title="AppDomainExtensions" class="">AppDomainExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Dapplo.Addons.TestAddon.html" title="Dapplo.Addons.TestAddon" class="">Dapplo.Addons.TestAddon</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Dapplo.Addons.TestAddon.AnotherAddon.html" title="AnotherAddon" class="">AnotherAddon</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.TestAddon.IThisIsConfiguration.html" title="IThisIsConfiguration" class="">IThisIsConfiguration</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.TestAddon.IThisIsSubConfiguration.html" title="IThisIsSubConfiguration" class="">IThisIsSubConfiguration</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.TestAddon.SomeAddon.html" title="SomeAddon" class="">SomeAddon</a>
+                          </li>
+                          <li class="">
+                            <a href="Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.html" title="StartupExceptionThrowingAddon" class="">StartupExceptionThrowingAddon</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper">
+  
+  
+  <h1 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper">Class CompositionBootstrapper
+  </h1>
+  <div class="markdown level0 summary"><p>A bootstrapper for making it possible to load Addons to Dapplo applications.
+This uses MEF for loading and managing the Addons.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CompositionBootstrapper</span></div>
+  </div>
+      <div class="level2"><a class="xref" href="Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html">StartupShutdownBootstrapper</a></div>
+  <h6><strong>Namespace</strong>:Dapplo.Addons.Bootstrapper</h6>
+  <h6><strong>Assembly</strong>:Dapplo.Addons.Bootstrapper.dll</h6>
+  <h5 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CompositionBootstrapper : object, IBootstrapper, IServiceLocator, IMefServiceLocator, IServiceExporter, IServiceRepository, IDependencyProvider, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper__ctor.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L88">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper__ctor_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.#ctor*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper__ctor" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.#ctor">CompositionBootstrapper()</h4>
+  <div class="markdown level1 summary"><p>Make sure the assembly resolver is active as soon as the Bootstrapper is initialized.
+Tthis makes sure assemblies which are embedded or in a subdirectory can be found.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CompositionBootstrapper()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AggregateCatalog.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L62">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AggregateCatalog_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AggregateCatalog" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog">AggregateCatalog</h4>
+  <div class="markdown level1 summary"><p>The AggregateCatalog contains all the catalogs with the assemblies in it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AggregateCatalog AggregateCatalog { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AggregateCatalog</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_CompositionOptionFlags.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L67">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_CompositionOptionFlags_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_CompositionOptionFlags" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags">CompositionOptionFlags</h4>
+  <div class="markdown level1 summary"><p>Specify how the composition is made, is used in the Run()</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CompositionOptions CompositionOptionFlags { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CompositionOptions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Container.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L72">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Container_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Container" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container">Container</h4>
+  <div class="markdown level1 summary"><p>The CompositionContainer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CompositionContainer Container { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CompositionContainer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ExportProviders.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L77">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ExportProviders_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ExportProviders" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders">ExportProviders</h4>
+  <div class="markdown level1 summary"><p>List of ExportProviders</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;ExportProvider&gt; ExportProviders { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<span class="xref">ExportProvider</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsAggregateCatalogConfigured.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L82">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsAggregateCatalogConfigured_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsAggregateCatalogConfigured" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured">IsAggregateCatalogConfigured</h4>
+  <div class="markdown level1 summary"><p>Specify if the Aggregate Catalog is configured</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsAggregateCatalogConfigured { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsInitialized.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L661">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsInitialized_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsInitialized" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized">IsInitialized</h4>
+  <div class="markdown level1 summary"><p>Is this initialized?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInitialized { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownAssemblies.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L143">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownAssemblies_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownAssemblies" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies">KnownAssemblies</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISet&lt;string&gt; KnownAssemblies { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownFiles.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L147">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownFiles_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownFiles" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles">KnownFiles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; KnownFiles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_Assembly_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Assembly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L166">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_Assembly_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Assembly)">Add(Assembly)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_AssemblyCatalog_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(AssemblyCatalog)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L183">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_AssemblyCatalog_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(AssemblyCatalog)">Add(AssemblyCatalog)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(AssemblyCatalog assemblyCatalog)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AssemblyCatalog</span></td>
+        <td><span class="parametername">assemblyCatalog</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_ExportProvider_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(ExportProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L347">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_ExportProvider_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(ExportProvider)">Add(ExportProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(ExportProvider exportProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ExportProvider</span></td>
+        <td><span class="parametername">exportProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_Type_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L336">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_Type_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Type)">Add(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectories_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories(IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L157">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectories_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectories_IEnumerable_System_String__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories(IEnumerable{System.String})">AddScanDirectories(IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddScanDirectories(IEnumerable&lt;string&gt; directories)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">directories</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectory_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L151">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectory_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectory_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory(System.String)">AddScanDirectory(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddScanDirectory(string directory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">directory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Configure.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L108">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Configure_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Configure" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure">Configure()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Configure()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L774">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Implement IDisposable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L743">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose_System_Boolean_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Implementation of the dispose pattern</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p>bool</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_Type_System_Object_IDictionary_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type%2CSystem.Object%2CIDictionary%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L537">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_Type_System_Object_IDictionary_System_String_System_Object__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type,System.Object,IDictionary{System.String,System.Object})">Export(Type, Object, IDictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Export an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComposablePart Export(Type type, object obj, IDictionary&lt;string, object&gt; metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type to export</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>object to add</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">metadata</span></td>
+        <td><p>Metadata for the export</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ComposablePart</span></td>
+        <td><p>ComposablePart, this can be used to remove the export later</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_Type_System_String_System_Object_IDictionary_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type%2CSystem.String%2CSystem.Object%2CIDictionary%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L564">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_Type_System_String_System_Object_IDictionary_System_String_System_Object__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type,System.String,System.Object,IDictionary{System.String,System.Object})">Export(Type, String, Object, IDictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Export an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComposablePart Export(Type type, string contractName, object obj, IDictionary&lt;string, object&gt; metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type to export</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractName</span></td>
+        <td><p>contractName under which the object of Type T is registered</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>object to add</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">metadata</span></td>
+        <td><p>Metadata for the export</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ComposablePart</span></td>
+        <td><p>ComposablePart, this can be used to remove the export later</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export__1___0_IDictionary_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export%60%601(%60%600%2CIDictionary%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L524">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export__1___0_IDictionary_System_String_System_Object__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export``1(``0,IDictionary{System.String,System.Object})">Export&lt;T&gt;(T, IDictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Export an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComposablePart Export&lt;T&gt;(T obj, IDictionary&lt;string, object&gt; metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>object to add</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">metadata</span></td>
+        <td><p>Metadata for the export</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ComposablePart</span></td>
+        <td><p>ComposablePart, this can be used to remove the export later</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type to export</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export__1_System_String___0_IDictionary_System_String_System_Object__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export%60%601(System.String%2C%60%600%2CIDictionary%7BSystem.String%2CSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L551">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export__1_System_String___0_IDictionary_System_String_System_Object__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export``1(System.String,``0,IDictionary{System.String,System.Object})">Export&lt;T&gt;(String, T, IDictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Export an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComposablePart Export&lt;T&gt;(string contractName, T obj, IDictionary&lt;string, object&gt; metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractName</span></td>
+        <td><p>contractName under which the object of Type T is registered</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>object to add</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">metadata</span></td>
+        <td><p>Metadata for the export</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ComposablePart</span></td>
+        <td><p>ComposablePart, this can be used to remove the export later</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type to export</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_IEnumerable_System_String__Regex_System_Boolean_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable%7BSystem.String%7D%2CRegex%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L287">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_IEnumerable_System_String__Regex_System_Boolean_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable{System.String},Regex,System.Boolean)">FindAndLoadAssemblies(IEnumerable&lt;String&gt;, Regex, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindAndLoadAssemblies(IEnumerable&lt;string&gt; directories, Regex pattern, bool loadEmbedded = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">directories</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Regex</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loadEmbedded</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_System_String_System_Boolean_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(System.String%2CSystem.Boolean%2CIEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L252">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_System_String_System_Boolean_IEnumerable_System_String__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(System.String,System.Boolean,IEnumerable{System.String})">FindAndLoadAssemblies(String, Boolean, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindAndLoadAssemblies(string pattern = &quot;*&quot;, bool loadEmbedded = true, IEnumerable&lt;string&gt; extensions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loadEmbedded</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">extensions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_System_String_Regex_System_Boolean_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String%2CRegex%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L274">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_System_String_Regex_System_Boolean_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String,Regex,System.Boolean)">FindAndLoadAssembliesFromDirectory(String, Regex, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindAndLoadAssembliesFromDirectory(string directory, Regex pattern = null, bool loadEmbedded = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">directory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Regex</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loadEmbedded</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_System_String_System_String_System_Boolean_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String%2CSystem.String%2CSystem.Boolean%2CIEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L263">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_System_String_System_String_System_Boolean_IEnumerable_System_String__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String,System.String,System.Boolean,IEnumerable{System.String})">FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindAndLoadAssembliesFromDirectory(string directory, string pattern = &quot;*&quot;, bool loadEmbedded = true, IEnumerable&lt;string&gt; extensions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">directory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loadEmbedded</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">extensions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembly_System_String_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly(System.String%2CIEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L226">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembly_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembly_System_String_IEnumerable_System_String__" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly(System.String,IEnumerable{System.String})">FindAndLoadAssembly(String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FindAndLoadAssembly(string assemblyName, IEnumerable&lt;string&gt; extensions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">assemblyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">extensions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances_Type_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L489">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances_Type_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances(Type)">GetAllInstances(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;object&gt; GetAllInstances(Type serviceType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">serviceType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances__1.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L507">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances__1" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances``1">GetAllInstances&lt;TService&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TService&gt; GetAllInstances&lt;TService&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;TService&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport_Type_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport(Type%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L416">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport_Type_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport(Type,System.String)">GetExport(Type, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetExport(Type type, string contractname = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport__1_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L387">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport__1_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport``1(System.String)">GetExport&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Lazy&lt;T&gt; GetExport&lt;T&gt;(string contractname = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Lazy</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport__2_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport%60%602(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L401">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport__2_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport``2(System.String)">GetExport&lt;T, TMetaData&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Lazy&lt;T, TMetaData&gt; GetExport&lt;T, TMetaData&gt;(string contractname = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Lazy</span>&lt;T, TMetaData&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TMetaData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports_Type_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports(Type%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L445">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports_Type_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports(Type,System.String)">GetExports(Type, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Lazy&lt;object&gt;&gt; GetExports(Type type, string contractname = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Lazy</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports__1_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L431">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports__1_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports``1(System.String)">GetExports&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Lazy&lt;T&gt;&gt; GetExports&lt;T&gt;(string contractname = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Lazy</span>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports__2_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports%60%602(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L459">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports__2_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports``2(System.String)">GetExports&lt;T, TMetaData&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Lazy&lt;T, TMetaData&gt;&gt; GetExports&lt;T, TMetaData&gt;(string contractname = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contractname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Lazy</span>&lt;T, TMetaData&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TMetaData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_Type_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L477">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_Type_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type)">GetInstance(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetInstance(Type serviceType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">serviceType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_Type_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L483">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_Type_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type,System.String)">GetInstance(Type, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetInstance(Type serviceType, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">serviceType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance__1.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L495">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance__1" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance``1">GetInstance&lt;TService&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TService GetInstance&lt;TService&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance__1_System_String_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L501">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance__1_System_String_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance``1(System.String)">GetInstance&lt;TService&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TService GetInstance&lt;TService&gt;(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetService_Type_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService(Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L96">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetService_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetService_Type_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService(Type)">GetService(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object GetService(Type serviceType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">serviceType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_InitializeAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L666">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_InitializeAsync_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_InitializeAsync_CancellationToken_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync(CancellationToken)">InitializeAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Initialize the bootstrapper</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; InitializeAsync(CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ProvideDependencies_System_Object_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L366">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ProvideDependencies_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ProvideDependencies_System_Object_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies(System.Object)">ProvideDependencies(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ProvideDependencies(object objectWithDependencies)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">objectWithDependencies</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RegisterForDisposal_IDisposable_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal(IDisposable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L781">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RegisterForDisposal_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RegisterForDisposal_IDisposable_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal(IDisposable)">RegisterForDisposal(IDisposable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterForDisposal(IDisposable disposable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDisposable</span></td>
+        <td><span class="parametername">disposable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Release_ComposablePart_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release(ComposablePart)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L632">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Release_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Release_ComposablePart_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release(ComposablePart)">Release(ComposablePart)</h4>
+  <div class="markdown level1 summary"><p>Release an export which was previously added with the Export method</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Release(ComposablePart part)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ComposablePart</span></td>
+        <td><span class="parametername">part</span></td>
+        <td><p>ComposablePart from Export call</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RunAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L699">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RunAsync_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RunAsync_CancellationToken_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync(CancellationToken)">RunAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Start the bootstrapper, initialize if needed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; RunAsync(CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_StopAsync_CancellationToken_.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync(CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L717">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_StopAsync_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_StopAsync_CancellationToken_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync(CancellationToken)">StopAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Stop the bootstrapper</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;bool&gt; StopAsync(CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Unconfigure.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L126">View Source</a>
+  </span>
+  <a id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Unconfigure_" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure*"></a>
+  <h4 id="Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Unconfigure" data-uid="Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure">Unconfigure()</h4>
+  <div class="markdown level1 summary"><p>Unconfigure the AggregateCatalog</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Unconfigure()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Addons/new/master/apiSpec/new?filename=Dapplo_Addons_Bootstrapper_CompositionBootstrapper.md&amp;value=---%0Auid%3A%20Dapplo.Addons.Bootstrapper.CompositionBootstrapper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Addons/blob/master/src/Dapplo.Addons.Bootstrapper/CompositionBootstrapper.cs/#L52" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2017 Dapplo
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

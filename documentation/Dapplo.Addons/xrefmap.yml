@@ -1,0 +1,2139 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Dapplo.Addons
+  name: Dapplo.Addons
+  href: api/Dapplo.Addons.html
+  commentId: N:Dapplo.Addons
+  fullName: Dapplo.Addons
+  nameWithType: Dapplo.Addons
+- uid: Dapplo.Addons.Bootstrapper
+  name: Dapplo.Addons.Bootstrapper
+  href: api/Dapplo.Addons.Bootstrapper.html
+  commentId: N:Dapplo.Addons.Bootstrapper
+  fullName: Dapplo.Addons.Bootstrapper
+  nameWithType: Dapplo.Addons.Bootstrapper
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper
+  name: ApplicationBootstrapper
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html
+  commentId: T:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper
+  nameWithType: ApplicationBootstrapper
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.#ctor(System.String,System.String,System.Boolean)
+  name: ApplicationBootstrapper(String, String, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper__ctor_System_String_System_String_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.#ctor(System.String,System.String,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationBootstrapper(System.String, System.String, System.Boolean)
+  nameWithType: ApplicationBootstrapper.ApplicationBootstrapper(String, String, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.#ctor*
+  name: ApplicationBootstrapper
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper__ctor_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.#ctor
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationBootstrapper
+  nameWithType: ApplicationBootstrapper.ApplicationBootstrapper
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationName
+  name: ApplicationName
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_ApplicationName
+  commentId: P:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationName
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationName
+  nameWithType: ApplicationBootstrapper.ApplicationName
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationName*
+  name: ApplicationName
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_ApplicationName_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationName
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.ApplicationName
+  nameWithType: ApplicationBootstrapper.ApplicationName
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_Dispose_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.Dispose(System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.Dispose(System.Boolean)
+  nameWithType: ApplicationBootstrapper.Dispose(Boolean)
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.Dispose*
+  name: Dispose
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_Dispose_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.Dispose
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.Dispose
+  nameWithType: ApplicationBootstrapper.Dispose
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.InitializeAsync(CancellationToken)
+  name: InitializeAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_InitializeAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.InitializeAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.InitializeAsync(CancellationToken)
+  nameWithType: ApplicationBootstrapper.InitializeAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.InitializeAsync*
+  name: InitializeAsync
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_InitializeAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.InitializeAsync
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.InitializeAsync
+  nameWithType: ApplicationBootstrapper.InitializeAsync
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.IsMutexLocked
+  name: IsMutexLocked
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_IsMutexLocked
+  commentId: P:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.IsMutexLocked
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.IsMutexLocked
+  nameWithType: ApplicationBootstrapper.IsMutexLocked
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.IsMutexLocked*
+  name: IsMutexLocked
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_IsMutexLocked_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.IsMutexLocked
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.IsMutexLocked
+  nameWithType: ApplicationBootstrapper.IsMutexLocked
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.RunAsync(CancellationToken)
+  name: RunAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_RunAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.RunAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.RunAsync(CancellationToken)
+  nameWithType: ApplicationBootstrapper.RunAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.RunAsync*
+  name: RunAsync
+  href: api/Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.html#Dapplo_Addons_Bootstrapper_ApplicationBootstrapper_RunAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.RunAsync
+  fullName: Dapplo.Addons.Bootstrapper.ApplicationBootstrapper.RunAsync
+  nameWithType: ApplicationBootstrapper.RunAsync
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper
+  name: CompositionBootstrapper
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html
+  commentId: T:Dapplo.Addons.Bootstrapper.CompositionBootstrapper
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper
+  nameWithType: CompositionBootstrapper
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.#ctor
+  name: CompositionBootstrapper()
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper__ctor
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.#ctor
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionBootstrapper()
+  nameWithType: CompositionBootstrapper.CompositionBootstrapper()
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.#ctor*
+  name: CompositionBootstrapper
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper__ctor_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.#ctor
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionBootstrapper
+  nameWithType: CompositionBootstrapper.CompositionBootstrapper
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Assembly)
+  name: Add(Assembly)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_Assembly_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Assembly)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Assembly)
+  nameWithType: CompositionBootstrapper.Add(Assembly)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(AssemblyCatalog)
+  name: Add(AssemblyCatalog)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_AssemblyCatalog_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(AssemblyCatalog)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(AssemblyCatalog)
+  nameWithType: CompositionBootstrapper.Add(AssemblyCatalog)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(ExportProvider)
+  name: Add(ExportProvider)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_ExportProvider_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(ExportProvider)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(ExportProvider)
+  nameWithType: CompositionBootstrapper.Add(ExportProvider)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Type)
+  name: Add(Type)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_Type_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Type)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add(Type)
+  nameWithType: CompositionBootstrapper.Add(Type)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add*
+  name: Add
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Add_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Add
+  nameWithType: CompositionBootstrapper.Add
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories(IEnumerable{System.String})
+  name: AddScanDirectories(IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectories_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories(IEnumerable{System.String})
+  name.vb: AddScanDirectories(IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories(IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories(IEnumerable(Of System.String))
+  nameWithType: CompositionBootstrapper.AddScanDirectories(IEnumerable<String>)
+  nameWithType.vb: CompositionBootstrapper.AddScanDirectories(IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories*
+  name: AddScanDirectories
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectories_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectories
+  nameWithType: CompositionBootstrapper.AddScanDirectories
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory(System.String)
+  name: AddScanDirectory(String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectory_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory(System.String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory(System.String)
+  nameWithType: CompositionBootstrapper.AddScanDirectory(String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory*
+  name: AddScanDirectory
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AddScanDirectory_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AddScanDirectory
+  nameWithType: CompositionBootstrapper.AddScanDirectory
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog
+  name: AggregateCatalog
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AggregateCatalog
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog
+  nameWithType: CompositionBootstrapper.AggregateCatalog
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog*
+  name: AggregateCatalog
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_AggregateCatalog_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.AggregateCatalog
+  nameWithType: CompositionBootstrapper.AggregateCatalog
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags
+  name: CompositionOptionFlags
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_CompositionOptionFlags
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags
+  nameWithType: CompositionBootstrapper.CompositionOptionFlags
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags*
+  name: CompositionOptionFlags
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_CompositionOptionFlags_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.CompositionOptionFlags
+  nameWithType: CompositionBootstrapper.CompositionOptionFlags
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure
+  name: Configure()
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Configure
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure()
+  nameWithType: CompositionBootstrapper.Configure()
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure*
+  name: Configure
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Configure_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Configure
+  nameWithType: CompositionBootstrapper.Configure
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container
+  name: Container
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Container
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container
+  nameWithType: CompositionBootstrapper.Container
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container*
+  name: Container
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Container_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Container
+  nameWithType: CompositionBootstrapper.Container
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose
+  name: Dispose()
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose()
+  nameWithType: CompositionBootstrapper.Dispose()
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose(System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose(System.Boolean)
+  nameWithType: CompositionBootstrapper.Dispose(Boolean)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose*
+  name: Dispose
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Dispose_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Dispose
+  nameWithType: CompositionBootstrapper.Dispose
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type,System.Object,IDictionary{System.String,System.Object})
+  name: Export(Type, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_Type_System_Object_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type,System.Object,IDictionary{System.String,System.Object})
+  name.vb: Export(Type, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type, System.Object, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type, System.Object, IDictionary(Of System.String, System.Object))
+  nameWithType: CompositionBootstrapper.Export(Type, Object, IDictionary<String, Object>)
+  nameWithType.vb: CompositionBootstrapper.Export(Type, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type,System.String,System.Object,IDictionary{System.String,System.Object})
+  name: Export(Type, String, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_Type_System_String_System_Object_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type,System.String,System.Object,IDictionary{System.String,System.Object})
+  name.vb: Export(Type, String, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type, System.String, System.Object, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Type, System.String, System.Object, IDictionary(Of System.String, System.Object))
+  nameWithType: CompositionBootstrapper.Export(Type, String, Object, IDictionary<String, Object>)
+  nameWithType.vb: CompositionBootstrapper.Export(Type, String, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export*
+  name: Export
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export
+  nameWithType: CompositionBootstrapper.Export
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export``1(``0,IDictionary{System.String,System.Object})
+  name: Export<T>(T, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export__1___0_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export``1(``0,IDictionary{System.String,System.Object})
+  name.vb: Export(Of T)(T, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export<T>(T, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Of T)(T, IDictionary(Of System.String, System.Object))
+  nameWithType: CompositionBootstrapper.Export<T>(T, IDictionary<String, Object>)
+  nameWithType.vb: CompositionBootstrapper.Export(Of T)(T, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export``1(System.String,``0,IDictionary{System.String,System.Object})
+  name: Export<T>(String, T, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Export__1_System_String___0_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export``1(System.String,``0,IDictionary{System.String,System.Object})
+  name.vb: Export(Of T)(String, T, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export<T>(System.String, T, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Export(Of T)(System.String, T, IDictionary(Of System.String, System.Object))
+  nameWithType: CompositionBootstrapper.Export<T>(String, T, IDictionary<String, Object>)
+  nameWithType.vb: CompositionBootstrapper.Export(Of T)(String, T, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders
+  name: ExportProviders
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ExportProviders
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders
+  nameWithType: CompositionBootstrapper.ExportProviders
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders*
+  name: ExportProviders
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ExportProviders_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ExportProviders
+  nameWithType: CompositionBootstrapper.ExportProviders
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable{System.String},Regex,System.Boolean)
+  name: FindAndLoadAssemblies(IEnumerable<String>, Regex, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_IEnumerable_System_String__Regex_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable{System.String},Regex,System.Boolean)
+  name.vb: FindAndLoadAssemblies(IEnumerable(Of String), Regex, Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable<System.String>, Regex, System.Boolean)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable(Of System.String), Regex, System.Boolean)
+  nameWithType: CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable<String>, Regex, Boolean)
+  nameWithType.vb: CompositionBootstrapper.FindAndLoadAssemblies(IEnumerable(Of String), Regex, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(System.String,System.Boolean,IEnumerable{System.String})
+  name: FindAndLoadAssemblies(String, Boolean, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_System_String_System_Boolean_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(System.String,System.Boolean,IEnumerable{System.String})
+  name.vb: FindAndLoadAssemblies(String, Boolean, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(System.String, System.Boolean, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies(System.String, System.Boolean, IEnumerable(Of System.String))
+  nameWithType: CompositionBootstrapper.FindAndLoadAssemblies(String, Boolean, IEnumerable<String>)
+  nameWithType.vb: CompositionBootstrapper.FindAndLoadAssemblies(String, Boolean, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies*
+  name: FindAndLoadAssemblies
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssemblies_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssemblies
+  nameWithType: CompositionBootstrapper.FindAndLoadAssemblies
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String,Regex,System.Boolean)
+  name: FindAndLoadAssembliesFromDirectory(String, Regex, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_System_String_Regex_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String,Regex,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String, Regex, System.Boolean)
+  nameWithType: CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(String, Regex, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String,System.String,System.Boolean,IEnumerable{System.String})
+  name: FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_System_String_System_String_System_Boolean_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String,System.String,System.Boolean,IEnumerable{System.String})
+  name.vb: FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String, System.String, System.Boolean, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(System.String, System.String, System.Boolean, IEnumerable(Of System.String))
+  nameWithType: CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable<String>)
+  nameWithType.vb: CompositionBootstrapper.FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory*
+  name: FindAndLoadAssembliesFromDirectory
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembliesFromDirectory_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembliesFromDirectory
+  nameWithType: CompositionBootstrapper.FindAndLoadAssembliesFromDirectory
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly(System.String,IEnumerable{System.String})
+  name: FindAndLoadAssembly(String, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembly_System_String_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly(System.String,IEnumerable{System.String})
+  name.vb: FindAndLoadAssembly(String, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly(System.String, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly(System.String, IEnumerable(Of System.String))
+  nameWithType: CompositionBootstrapper.FindAndLoadAssembly(String, IEnumerable<String>)
+  nameWithType.vb: CompositionBootstrapper.FindAndLoadAssembly(String, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly*
+  name: FindAndLoadAssembly
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_FindAndLoadAssembly_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.FindAndLoadAssembly
+  nameWithType: CompositionBootstrapper.FindAndLoadAssembly
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances(Type)
+  name: GetAllInstances(Type)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances_Type_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances(Type)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances(Type)
+  nameWithType: CompositionBootstrapper.GetAllInstances(Type)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances*
+  name: GetAllInstances
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances
+  nameWithType: CompositionBootstrapper.GetAllInstances
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances``1
+  name: GetAllInstances<TService>()
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetAllInstances__1
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances``1
+  name.vb: GetAllInstances(Of TService)()
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances<TService>()
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetAllInstances(Of TService)()
+  nameWithType: CompositionBootstrapper.GetAllInstances<TService>()
+  nameWithType.vb: CompositionBootstrapper.GetAllInstances(Of TService)()
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport(Type,System.String)
+  name: GetExport(Type, String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport_Type_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport(Type,System.String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport(Type, System.String)
+  nameWithType: CompositionBootstrapper.GetExport(Type, String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport*
+  name: GetExport
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport
+  nameWithType: CompositionBootstrapper.GetExport
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport``1(System.String)
+  name: GetExport<T>(String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport__1_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport``1(System.String)
+  name.vb: GetExport(Of T)(String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport<T>(System.String)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport(Of T)(System.String)
+  nameWithType: CompositionBootstrapper.GetExport<T>(String)
+  nameWithType.vb: CompositionBootstrapper.GetExport(Of T)(String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport``2(System.String)
+  name: GetExport<T, TMetaData>(String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExport__2_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport``2(System.String)
+  name.vb: GetExport(Of T, TMetaData)(String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport<T, TMetaData>(System.String)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExport(Of T, TMetaData)(System.String)
+  nameWithType: CompositionBootstrapper.GetExport<T, TMetaData>(String)
+  nameWithType.vb: CompositionBootstrapper.GetExport(Of T, TMetaData)(String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports(Type,System.String)
+  name: GetExports(Type, String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports_Type_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports(Type,System.String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports(Type, System.String)
+  nameWithType: CompositionBootstrapper.GetExports(Type, String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports*
+  name: GetExports
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports
+  nameWithType: CompositionBootstrapper.GetExports
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports``1(System.String)
+  name: GetExports<T>(String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports__1_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports``1(System.String)
+  name.vb: GetExports(Of T)(String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports<T>(System.String)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports(Of T)(System.String)
+  nameWithType: CompositionBootstrapper.GetExports<T>(String)
+  nameWithType.vb: CompositionBootstrapper.GetExports(Of T)(String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports``2(System.String)
+  name: GetExports<T, TMetaData>(String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetExports__2_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports``2(System.String)
+  name.vb: GetExports(Of T, TMetaData)(String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports<T, TMetaData>(System.String)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetExports(Of T, TMetaData)(System.String)
+  nameWithType: CompositionBootstrapper.GetExports<T, TMetaData>(String)
+  nameWithType.vb: CompositionBootstrapper.GetExports(Of T, TMetaData)(String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type)
+  name: GetInstance(Type)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_Type_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type)
+  nameWithType: CompositionBootstrapper.GetInstance(Type)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type,System.String)
+  name: GetInstance(Type, String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_Type_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type,System.String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Type, System.String)
+  nameWithType: CompositionBootstrapper.GetInstance(Type, String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance*
+  name: GetInstance
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance
+  nameWithType: CompositionBootstrapper.GetInstance
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance``1
+  name: GetInstance<TService>()
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance__1
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance``1
+  name.vb: GetInstance(Of TService)()
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance<TService>()
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Of TService)()
+  nameWithType: CompositionBootstrapper.GetInstance<TService>()
+  nameWithType.vb: CompositionBootstrapper.GetInstance(Of TService)()
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance``1(System.String)
+  name: GetInstance<TService>(String)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetInstance__1_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance``1(System.String)
+  name.vb: GetInstance(Of TService)(String)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance<TService>(System.String)
+  fullName.vb: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetInstance(Of TService)(System.String)
+  nameWithType: CompositionBootstrapper.GetInstance<TService>(String)
+  nameWithType.vb: CompositionBootstrapper.GetInstance(Of TService)(String)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService(Type)
+  name: GetService(Type)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetService_Type_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService(Type)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService(Type)
+  nameWithType: CompositionBootstrapper.GetService(Type)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService*
+  name: GetService
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_GetService_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.GetService
+  nameWithType: CompositionBootstrapper.GetService
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync(CancellationToken)
+  name: InitializeAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_InitializeAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync(CancellationToken)
+  nameWithType: CompositionBootstrapper.InitializeAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync*
+  name: InitializeAsync
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_InitializeAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.InitializeAsync
+  nameWithType: CompositionBootstrapper.InitializeAsync
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured
+  name: IsAggregateCatalogConfigured
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsAggregateCatalogConfigured
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured
+  nameWithType: CompositionBootstrapper.IsAggregateCatalogConfigured
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured*
+  name: IsAggregateCatalogConfigured
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsAggregateCatalogConfigured_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsAggregateCatalogConfigured
+  nameWithType: CompositionBootstrapper.IsAggregateCatalogConfigured
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized
+  name: IsInitialized
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsInitialized
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized
+  nameWithType: CompositionBootstrapper.IsInitialized
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized*
+  name: IsInitialized
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_IsInitialized_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.IsInitialized
+  nameWithType: CompositionBootstrapper.IsInitialized
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies
+  name: KnownAssemblies
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownAssemblies
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies
+  nameWithType: CompositionBootstrapper.KnownAssemblies
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies*
+  name: KnownAssemblies
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownAssemblies_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownAssemblies
+  nameWithType: CompositionBootstrapper.KnownAssemblies
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles
+  name: KnownFiles
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownFiles
+  commentId: P:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles
+  nameWithType: CompositionBootstrapper.KnownFiles
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles*
+  name: KnownFiles
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_KnownFiles_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.KnownFiles
+  nameWithType: CompositionBootstrapper.KnownFiles
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies(System.Object)
+  name: ProvideDependencies(Object)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ProvideDependencies_System_Object_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies(System.Object)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies(System.Object)
+  nameWithType: CompositionBootstrapper.ProvideDependencies(Object)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies*
+  name: ProvideDependencies
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_ProvideDependencies_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.ProvideDependencies
+  nameWithType: CompositionBootstrapper.ProvideDependencies
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal(IDisposable)
+  name: RegisterForDisposal(IDisposable)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RegisterForDisposal_IDisposable_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal(IDisposable)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal(IDisposable)
+  nameWithType: CompositionBootstrapper.RegisterForDisposal(IDisposable)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal*
+  name: RegisterForDisposal
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RegisterForDisposal_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RegisterForDisposal
+  nameWithType: CompositionBootstrapper.RegisterForDisposal
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release(ComposablePart)
+  name: Release(ComposablePart)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Release_ComposablePart_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release(ComposablePart)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release(ComposablePart)
+  nameWithType: CompositionBootstrapper.Release(ComposablePart)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release*
+  name: Release
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Release_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Release
+  nameWithType: CompositionBootstrapper.Release
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync(CancellationToken)
+  name: RunAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RunAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync(CancellationToken)
+  nameWithType: CompositionBootstrapper.RunAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync*
+  name: RunAsync
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_RunAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.RunAsync
+  nameWithType: CompositionBootstrapper.RunAsync
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync(CancellationToken)
+  name: StopAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_StopAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync(CancellationToken)
+  nameWithType: CompositionBootstrapper.StopAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync*
+  name: StopAsync
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_StopAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.StopAsync
+  nameWithType: CompositionBootstrapper.StopAsync
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure
+  name: Unconfigure()
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Unconfigure
+  commentId: M:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure()
+  nameWithType: CompositionBootstrapper.Unconfigure()
+- uid: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure*
+  name: Unconfigure
+  href: api/Dapplo.Addons.Bootstrapper.CompositionBootstrapper.html#Dapplo_Addons_Bootstrapper_CompositionBootstrapper_Unconfigure_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure
+  fullName: Dapplo.Addons.Bootstrapper.CompositionBootstrapper.Unconfigure
+  nameWithType: CompositionBootstrapper.Unconfigure
+- uid: Dapplo.Addons.Bootstrapper.Internal
+  name: Dapplo.Addons.Bootstrapper.Internal
+  href: api/Dapplo.Addons.Bootstrapper.Internal.html
+  commentId: N:Dapplo.Addons.Bootstrapper.Internal
+  fullName: Dapplo.Addons.Bootstrapper.Internal
+  nameWithType: Dapplo.Addons.Bootstrapper.Internal
+- uid: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes
+  name: CompressionTypes
+  href: api/Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.html
+  commentId: T:Dapplo.Addons.Bootstrapper.Internal.CompressionTypes
+  fullName: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes
+  nameWithType: CompressionTypes
+- uid: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.Deflate
+  name: Deflate
+  href: api/Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.html#Dapplo_Addons_Bootstrapper_Internal_CompressionTypes_Deflate
+  commentId: F:Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.Deflate
+  fullName: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.Deflate
+  nameWithType: CompressionTypes.Deflate
+- uid: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.Gzip
+  name: Gzip
+  href: api/Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.html#Dapplo_Addons_Bootstrapper_Internal_CompressionTypes_Gzip
+  commentId: F:Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.Gzip
+  fullName: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.Gzip
+  nameWithType: CompressionTypes.Gzip
+- uid: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.None
+  name: None
+  href: api/Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.html#Dapplo_Addons_Bootstrapper_Internal_CompressionTypes_None
+  commentId: F:Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.None
+  fullName: Dapplo.Addons.Bootstrapper.Internal.CompressionTypes.None
+  nameWithType: CompressionTypes.None
+- uid: Dapplo.Addons.Bootstrapper.Internal.StreamExtensions
+  name: StreamExtensions
+  href: api/Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.html
+  commentId: T:Dapplo.Addons.Bootstrapper.Internal.StreamExtensions
+  fullName: Dapplo.Addons.Bootstrapper.Internal.StreamExtensions
+  nameWithType: StreamExtensions
+- uid: Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.ToByteArray(Stream)
+  name: ToByteArray(Stream)
+  href: api/Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.html#Dapplo_Addons_Bootstrapper_Internal_StreamExtensions_ToByteArray_Stream_
+  commentId: M:Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.ToByteArray(Stream)
+  fullName: Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.ToByteArray(Stream)
+  nameWithType: StreamExtensions.ToByteArray(Stream)
+- uid: Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.ToByteArray*
+  name: ToByteArray
+  href: api/Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.html#Dapplo_Addons_Bootstrapper_Internal_StreamExtensions_ToByteArray_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.ToByteArray
+  fullName: Dapplo.Addons.Bootstrapper.Internal.StreamExtensions.ToByteArray
+  nameWithType: StreamExtensions.ToByteArray
+- uid: Dapplo.Addons.Bootstrapper.Resolving
+  name: Dapplo.Addons.Bootstrapper.Resolving
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.html
+  commentId: N:Dapplo.Addons.Bootstrapper.Resolving
+  fullName: Dapplo.Addons.Bootstrapper.Resolving
+  nameWithType: Dapplo.Addons.Bootstrapper.Resolving
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver
+  name: AssemblyResolver
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html
+  commentId: T:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver
+  nameWithType: AssemblyResolver
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AddDirectory(System.String)
+  name: AddDirectory(String)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_AddDirectory_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AddDirectory(System.String)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AddDirectory(System.String)
+  nameWithType: AssemblyResolver.AddDirectory(String)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AddDirectory*
+  name: AddDirectory
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_AddDirectory_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AddDirectory
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AddDirectory
+  nameWithType: AssemblyResolver.AddDirectory
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AssemblyCache
+  name: AssemblyCache
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_AssemblyCache
+  commentId: P:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AssemblyCache
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AssemblyCache
+  nameWithType: AssemblyResolver.AssemblyCache
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AssemblyCache*
+  name: AssemblyCache
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_AssemblyCache_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AssemblyCache
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.AssemblyCache
+  nameWithType: AssemblyResolver.AssemblyCache
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.CheckEmbeddedResourceNameAgainstCache
+  name: CheckEmbeddedResourceNameAgainstCache
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_CheckEmbeddedResourceNameAgainstCache
+  commentId: P:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.CheckEmbeddedResourceNameAgainstCache
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.CheckEmbeddedResourceNameAgainstCache
+  nameWithType: AssemblyResolver.CheckEmbeddedResourceNameAgainstCache
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.CheckEmbeddedResourceNameAgainstCache*
+  name: CheckEmbeddedResourceNameAgainstCache
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_CheckEmbeddedResourceNameAgainstCache_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.CheckEmbeddedResourceNameAgainstCache
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.CheckEmbeddedResourceNameAgainstCache
+  nameWithType: AssemblyResolver.CheckEmbeddedResourceNameAgainstCache
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Directories
+  name: Directories
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_Directories
+  commentId: P:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Directories
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Directories
+  nameWithType: AssemblyResolver.Directories
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Directories*
+  name: Directories
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_Directories_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Directories
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Directories
+  nameWithType: AssemblyResolver.Directories
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Extensions
+  name: Extensions
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_Extensions
+  commentId: P:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Extensions
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Extensions
+  nameWithType: AssemblyResolver.Extensions
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Extensions*
+  name: Extensions
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_Extensions_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Extensions
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Extensions
+  nameWithType: AssemblyResolver.Extensions
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssemblies(IEnumerable{System.String},IEnumerable{System.String})
+  name: FindAssemblies(IEnumerable<String>, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_FindAssemblies_IEnumerable_System_String__IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssemblies(IEnumerable{System.String},IEnumerable{System.String})
+  name.vb: FindAssemblies(IEnumerable(Of String), IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssemblies(IEnumerable<System.String>, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssemblies(IEnumerable(Of System.String), IEnumerable(Of System.String))
+  nameWithType: AssemblyResolver.FindAssemblies(IEnumerable<String>, IEnumerable<String>)
+  nameWithType.vb: AssemblyResolver.FindAssemblies(IEnumerable(Of String), IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssemblies*
+  name: FindAssemblies
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_FindAssemblies_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssemblies
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssemblies
+  nameWithType: AssemblyResolver.FindAssemblies
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssembly(System.String,IEnumerable{System.String})
+  name: FindAssembly(String, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_FindAssembly_System_String_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssembly(System.String,IEnumerable{System.String})
+  name.vb: FindAssembly(String, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssembly(System.String, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssembly(System.String, IEnumerable(Of System.String))
+  nameWithType: AssemblyResolver.FindAssembly(String, IEnumerable<String>)
+  nameWithType.vb: AssemblyResolver.FindAssembly(String, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssembly*
+  name: FindAssembly
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_FindAssembly_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssembly
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.FindAssembly
+  nameWithType: AssemblyResolver.FindAssembly
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFile(System.String)
+  name: LoadAssemblyFromFile(String)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadAssemblyFromFile_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFile(System.String)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFile(System.String)
+  nameWithType: AssemblyResolver.LoadAssemblyFromFile(String)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFile*
+  name: LoadAssemblyFromFile
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadAssemblyFromFile_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFile
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFile
+  nameWithType: AssemblyResolver.LoadAssemblyFromFile
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(IEnumerable{System.String},System.String,IEnumerable{System.String})
+  name: LoadAssemblyFromFileSystem(IEnumerable<String>, String, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadAssemblyFromFileSystem_IEnumerable_System_String__System_String_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(IEnumerable{System.String},System.String,IEnumerable{System.String})
+  name.vb: LoadAssemblyFromFileSystem(IEnumerable(Of String), String, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(IEnumerable<System.String>, System.String, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(IEnumerable(Of System.String), System.String, IEnumerable(Of System.String))
+  nameWithType: AssemblyResolver.LoadAssemblyFromFileSystem(IEnumerable<String>, String, IEnumerable<String>)
+  nameWithType.vb: AssemblyResolver.LoadAssemblyFromFileSystem(IEnumerable(Of String), String, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(System.String,IEnumerable{System.String})
+  name: LoadAssemblyFromFileSystem(String, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadAssemblyFromFileSystem_System_String_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(System.String,IEnumerable{System.String})
+  name.vb: LoadAssemblyFromFileSystem(String, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(System.String, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem(System.String, IEnumerable(Of System.String))
+  nameWithType: AssemblyResolver.LoadAssemblyFromFileSystem(String, IEnumerable<String>)
+  nameWithType.vb: AssemblyResolver.LoadAssemblyFromFileSystem(String, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem*
+  name: LoadAssemblyFromFileSystem
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadAssemblyFromFileSystem_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromFileSystem
+  nameWithType: AssemblyResolver.LoadAssemblyFromFileSystem
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromStream(Stream,Dapplo.Addons.Bootstrapper.Internal.CompressionTypes,System.Boolean)
+  name: LoadAssemblyFromStream(Stream, CompressionTypes, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadAssemblyFromStream_Stream_Dapplo_Addons_Bootstrapper_Internal_CompressionTypes_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromStream(Stream,Dapplo.Addons.Bootstrapper.Internal.CompressionTypes,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromStream(Stream, Dapplo.Addons.Bootstrapper.Internal.CompressionTypes, System.Boolean)
+  nameWithType: AssemblyResolver.LoadAssemblyFromStream(Stream, CompressionTypes, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromStream*
+  name: LoadAssemblyFromStream
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadAssemblyFromStream_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromStream
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadAssemblyFromStream
+  nameWithType: AssemblyResolver.LoadAssemblyFromStream
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly(Assembly,System.String)
+  name: LoadEmbeddedAssembly(Assembly, String)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadEmbeddedAssembly_Assembly_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly(Assembly,System.String)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly(Assembly, System.String)
+  nameWithType: AssemblyResolver.LoadEmbeddedAssembly(Assembly, String)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly(System.String,IEnumerable{System.String})
+  name: LoadEmbeddedAssembly(String, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadEmbeddedAssembly_System_String_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly(System.String,IEnumerable{System.String})
+  name.vb: LoadEmbeddedAssembly(String, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly(System.String, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly(System.String, IEnumerable(Of System.String))
+  nameWithType: AssemblyResolver.LoadEmbeddedAssembly(String, IEnumerable<String>)
+  nameWithType.vb: AssemblyResolver.LoadEmbeddedAssembly(String, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly*
+  name: LoadEmbeddedAssembly
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_LoadEmbeddedAssembly_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.LoadEmbeddedAssembly
+  nameWithType: AssemblyResolver.LoadEmbeddedAssembly
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Register(Assembly,System.String)
+  name: Register(Assembly, String)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_Register_Assembly_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Register(Assembly,System.String)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Register(Assembly, System.String)
+  nameWithType: AssemblyResolver.Register(Assembly, String)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Register*
+  name: Register
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_Register_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Register
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.Register
+  nameWithType: AssemblyResolver.Register
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve
+  name: RegisterAssemblyResolve()
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_RegisterAssemblyResolve
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve()
+  nameWithType: AssemblyResolver.RegisterAssemblyResolve()
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve(AppDomain)
+  name: RegisterAssemblyResolve(AppDomain)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_RegisterAssemblyResolve_AppDomain_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve(AppDomain)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve(AppDomain)
+  nameWithType: AssemblyResolver.RegisterAssemblyResolve(AppDomain)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve*
+  name: RegisterAssemblyResolve
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_RegisterAssemblyResolve_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.RegisterAssemblyResolve
+  nameWithType: AssemblyResolver.RegisterAssemblyResolve
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.ResolveEmbeddedBeforeFiles
+  name: ResolveEmbeddedBeforeFiles
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_ResolveEmbeddedBeforeFiles
+  commentId: P:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.ResolveEmbeddedBeforeFiles
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.ResolveEmbeddedBeforeFiles
+  nameWithType: AssemblyResolver.ResolveEmbeddedBeforeFiles
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.ResolveEmbeddedBeforeFiles*
+  name: ResolveEmbeddedBeforeFiles
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_ResolveEmbeddedBeforeFiles_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.ResolveEmbeddedBeforeFiles
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.ResolveEmbeddedBeforeFiles
+  nameWithType: AssemblyResolver.ResolveEmbeddedBeforeFiles
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve
+  name: UnregisterAssemblyResolve()
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_UnregisterAssemblyResolve
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve()
+  nameWithType: AssemblyResolver.UnregisterAssemblyResolve()
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve(AppDomain)
+  name: UnregisterAssemblyResolve(AppDomain)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_UnregisterAssemblyResolve_AppDomain_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve(AppDomain)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve(AppDomain)
+  nameWithType: AssemblyResolver.UnregisterAssemblyResolve(AppDomain)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve*
+  name: UnregisterAssemblyResolve
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.html#Dapplo_Addons_Bootstrapper_Resolving_AssemblyResolver_UnregisterAssemblyResolve_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.AssemblyResolver.UnregisterAssemblyResolve
+  nameWithType: AssemblyResolver.UnregisterAssemblyResolve
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources
+  name: EmbeddedResources
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html
+  commentId: T:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources
+  nameWithType: EmbeddedResources
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.EmbeddedResourceExists(Uri,System.Boolean)
+  name: EmbeddedResourceExists(Uri, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_EmbeddedResourceExists_Uri_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.EmbeddedResourceExists(Uri,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.EmbeddedResourceExists(Uri, System.Boolean)
+  nameWithType: EmbeddedResources.EmbeddedResourceExists(Uri, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.EmbeddedResourceExists*
+  name: EmbeddedResourceExists
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_EmbeddedResourceExists_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.EmbeddedResourceExists
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.EmbeddedResourceExists
+  nameWithType: EmbeddedResources.EmbeddedResourceExists
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(AppDomain,System.String,RegexOptions)
+  name: FindEmbeddedResources(AppDomain, String, RegexOptions)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_AppDomain_System_String_RegexOptions_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(AppDomain,System.String,RegexOptions)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(AppDomain, System.String, RegexOptions)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(AppDomain, String, RegexOptions)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Assembly,Regex)
+  name: FindEmbeddedResources(Assembly, Regex)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_Assembly_Regex_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Assembly,Regex)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Assembly, Regex)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(Assembly, Regex)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Assembly,System.String,RegexOptions)
+  name: FindEmbeddedResources(Assembly, String, RegexOptions)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_Assembly_System_String_RegexOptions_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Assembly,System.String,RegexOptions)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Assembly, System.String, RegexOptions)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(Assembly, String, RegexOptions)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable{Assembly},Regex)
+  name: FindEmbeddedResources(IEnumerable<Assembly>, Regex)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_IEnumerable_Assembly__Regex_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable{Assembly},Regex)
+  name.vb: FindEmbeddedResources(IEnumerable(Of Assembly), Regex)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable<Assembly>, Regex)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable(Of Assembly), Regex)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(IEnumerable<Assembly>, Regex)
+  nameWithType.vb: EmbeddedResources.FindEmbeddedResources(IEnumerable(Of Assembly), Regex)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable{Assembly},System.String,RegexOptions)
+  name: FindEmbeddedResources(IEnumerable<Assembly>, String, RegexOptions)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_IEnumerable_Assembly__System_String_RegexOptions_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable{Assembly},System.String,RegexOptions)
+  name.vb: FindEmbeddedResources(IEnumerable(Of Assembly), String, RegexOptions)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable<Assembly>, System.String, RegexOptions)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(IEnumerable(Of Assembly), System.String, RegexOptions)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(IEnumerable<Assembly>, String, RegexOptions)
+  nameWithType.vb: EmbeddedResources.FindEmbeddedResources(IEnumerable(Of Assembly), String, RegexOptions)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(System.String,RegexOptions)
+  name: FindEmbeddedResources(String, RegexOptions)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_System_String_RegexOptions_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(System.String,RegexOptions)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(System.String, RegexOptions)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(String, RegexOptions)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Type,Regex)
+  name: FindEmbeddedResources(Type, Regex)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_Type_Regex_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Type,Regex)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Type, Regex)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(Type, Regex)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Type,System.String,RegexOptions)
+  name: FindEmbeddedResources(Type, String, RegexOptions)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_Type_System_String_RegexOptions_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Type,System.String,RegexOptions)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources(Type, System.String, RegexOptions)
+  nameWithType: EmbeddedResources.FindEmbeddedResources(Type, String, RegexOptions)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources*
+  name: FindEmbeddedResources
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_FindEmbeddedResources_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.FindEmbeddedResources
+  nameWithType: EmbeddedResources.FindEmbeddedResources
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(Assembly,System.String,System.Boolean)
+  name: GetEmbeddedResourceAsStream(Assembly, String, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_GetEmbeddedResourceAsStream_Assembly_System_String_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(Assembly,System.String,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(Assembly, System.String, System.Boolean)
+  nameWithType: EmbeddedResources.GetEmbeddedResourceAsStream(Assembly, String, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(System.String,System.Boolean)
+  name: GetEmbeddedResourceAsStream(String, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_GetEmbeddedResourceAsStream_System_String_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(System.String,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(System.String, System.Boolean)
+  nameWithType: EmbeddedResources.GetEmbeddedResourceAsStream(String, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(Uri)
+  name: GetEmbeddedResourceAsStream(Uri)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_GetEmbeddedResourceAsStream_Uri_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(Uri)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream(Uri)
+  nameWithType: EmbeddedResources.GetEmbeddedResourceAsStream(Uri)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream*
+  name: GetEmbeddedResourceAsStream
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_GetEmbeddedResourceAsStream_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.GetEmbeddedResourceAsStream
+  nameWithType: EmbeddedResources.GetEmbeddedResourceAsStream
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasEmbeddedDotResourcesResource(Assembly,System.String,System.Boolean)
+  name: HasEmbeddedDotResourcesResource(Assembly, String, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_HasEmbeddedDotResourcesResource_Assembly_System_String_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasEmbeddedDotResourcesResource(Assembly,System.String,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasEmbeddedDotResourcesResource(Assembly, System.String, System.Boolean)
+  nameWithType: EmbeddedResources.HasEmbeddedDotResourcesResource(Assembly, String, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasEmbeddedDotResourcesResource*
+  name: HasEmbeddedDotResourcesResource
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_HasEmbeddedDotResourcesResource_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasEmbeddedDotResourcesResource
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasEmbeddedDotResourcesResource
+  nameWithType: EmbeddedResources.HasEmbeddedDotResourcesResource
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasResource(Assembly,Regex)
+  name: HasResource(Assembly, Regex)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_HasResource_Assembly_Regex_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasResource(Assembly,Regex)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasResource(Assembly, Regex)
+  nameWithType: EmbeddedResources.HasResource(Assembly, Regex)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasResource*
+  name: HasResource
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_HasResource_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasResource
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.HasResource
+  nameWithType: EmbeddedResources.HasResource
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.PackUriMatch(Uri)
+  name: PackUriMatch(Uri)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_PackUriMatch_Uri_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.PackUriMatch(Uri)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.PackUriMatch(Uri)
+  nameWithType: EmbeddedResources.PackUriMatch(Uri)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.PackUriMatch*
+  name: PackUriMatch
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.html#Dapplo_Addons_Bootstrapper_Resolving_EmbeddedResources_PackUriMatch_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.PackUriMatch
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.EmbeddedResources.PackUriMatch
+  nameWithType: EmbeddedResources.PackUriMatch
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations
+  name: FileLocations
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html
+  commentId: T:Dapplo.Addons.Bootstrapper.Resolving.FileLocations
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations
+  nameWithType: FileLocations
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.DirectoriesFor(System.String,System.Boolean)
+  name: DirectoriesFor(String, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_DirectoriesFor_System_String_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.DirectoriesFor(System.String,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.DirectoriesFor(System.String, System.Boolean)
+  nameWithType: FileLocations.DirectoriesFor(String, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.DirectoriesFor*
+  name: DirectoriesFor
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_DirectoriesFor_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.DirectoriesFor
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.DirectoriesFor
+  nameWithType: FileLocations.DirectoriesFor
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.RoamingAppDataDirectory(System.String)
+  name: RoamingAppDataDirectory(String)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_RoamingAppDataDirectory_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.RoamingAppDataDirectory(System.String)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.RoamingAppDataDirectory(System.String)
+  nameWithType: FileLocations.RoamingAppDataDirectory(String)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.RoamingAppDataDirectory*
+  name: RoamingAppDataDirectory
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_RoamingAppDataDirectory_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.RoamingAppDataDirectory
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.RoamingAppDataDirectory
+  nameWithType: FileLocations.RoamingAppDataDirectory
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable{System.String},Regex,SearchOption)
+  name: Scan(IEnumerable<String>, Regex, SearchOption)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_Scan_IEnumerable_System_String__Regex_SearchOption_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable{System.String},Regex,SearchOption)
+  name.vb: Scan(IEnumerable(Of String), Regex, SearchOption)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable<System.String>, Regex, SearchOption)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable(Of System.String), Regex, SearchOption)
+  nameWithType: FileLocations.Scan(IEnumerable<String>, Regex, SearchOption)
+  nameWithType.vb: FileLocations.Scan(IEnumerable(Of String), Regex, SearchOption)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable{System.String},System.String,SearchOption)
+  name: Scan(IEnumerable<String>, String, SearchOption)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_Scan_IEnumerable_System_String__System_String_SearchOption_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable{System.String},System.String,SearchOption)
+  name.vb: Scan(IEnumerable(Of String), String, SearchOption)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable<System.String>, System.String, SearchOption)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan(IEnumerable(Of System.String), System.String, SearchOption)
+  nameWithType: FileLocations.Scan(IEnumerable<String>, String, SearchOption)
+  nameWithType.vb: FileLocations.Scan(IEnumerable(Of String), String, SearchOption)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan*
+  name: Scan
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_Scan_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.Scan
+  nameWithType: FileLocations.Scan
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.StartupDirectory
+  name: StartupDirectory
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_StartupDirectory
+  commentId: P:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.StartupDirectory
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.StartupDirectory
+  nameWithType: FileLocations.StartupDirectory
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.StartupDirectory*
+  name: StartupDirectory
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileLocations.html#Dapplo_Addons_Bootstrapper_Resolving_FileLocations_StartupDirectory_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.FileLocations.StartupDirectory
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileLocations.StartupDirectory
+  nameWithType: FileLocations.StartupDirectory
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileTools
+  name: FileTools
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileTools.html
+  commentId: T:Dapplo.Addons.Bootstrapper.Resolving.FileTools
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileTools
+  nameWithType: FileTools
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileTools.FilenameToRegex(System.String,IEnumerable{System.String},System.Boolean,System.String)
+  name: FilenameToRegex(String, IEnumerable<String>, Boolean, String)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileTools.html#Dapplo_Addons_Bootstrapper_Resolving_FileTools_FilenameToRegex_System_String_IEnumerable_System_String__System_Boolean_System_String_
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.FileTools.FilenameToRegex(System.String,IEnumerable{System.String},System.Boolean,System.String)
+  name.vb: FilenameToRegex(String, IEnumerable(Of String), Boolean, String)
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileTools.FilenameToRegex(System.String, IEnumerable<System.String>, System.Boolean, System.String)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.FileTools.FilenameToRegex(System.String, IEnumerable(Of System.String), System.Boolean, System.String)
+  nameWithType: FileTools.FilenameToRegex(String, IEnumerable<String>, Boolean, String)
+  nameWithType.vb: FileTools.FilenameToRegex(String, IEnumerable(Of String), Boolean, String)
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileTools.FilenameToRegex*
+  name: FilenameToRegex
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileTools.html#Dapplo_Addons_Bootstrapper_Resolving_FileTools_FilenameToRegex_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.FileTools.FilenameToRegex
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileTools.FilenameToRegex
+  nameWithType: FileTools.FilenameToRegex
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileTools.RemoveExtensions(System.String,IEnumerable{System.String})
+  name: RemoveExtensions(String, IEnumerable<String>)
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileTools.html#Dapplo_Addons_Bootstrapper_Resolving_FileTools_RemoveExtensions_System_String_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.Bootstrapper.Resolving.FileTools.RemoveExtensions(System.String,IEnumerable{System.String})
+  name.vb: RemoveExtensions(String, IEnumerable(Of String))
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileTools.RemoveExtensions(System.String, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.Bootstrapper.Resolving.FileTools.RemoveExtensions(System.String, IEnumerable(Of System.String))
+  nameWithType: FileTools.RemoveExtensions(String, IEnumerable<String>)
+  nameWithType.vb: FileTools.RemoveExtensions(String, IEnumerable(Of String))
+- uid: Dapplo.Addons.Bootstrapper.Resolving.FileTools.RemoveExtensions*
+  name: RemoveExtensions
+  href: api/Dapplo.Addons.Bootstrapper.Resolving.FileTools.html#Dapplo_Addons_Bootstrapper_Resolving_FileTools_RemoveExtensions_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.Resolving.FileTools.RemoveExtensions
+  fullName: Dapplo.Addons.Bootstrapper.Resolving.FileTools.RemoveExtensions
+  nameWithType: FileTools.RemoveExtensions
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex
+  name: ResourceMutex
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html
+  commentId: T:Dapplo.Addons.Bootstrapper.ResourceMutex
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex
+  nameWithType: ResourceMutex
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.Create(System.String,System.String,System.Boolean)
+  name: Create(String, String, Boolean)
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_Create_System_String_System_String_System_Boolean_
+  commentId: M:Dapplo.Addons.Bootstrapper.ResourceMutex.Create(System.String,System.String,System.Boolean)
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.Create(System.String, System.String, System.Boolean)
+  nameWithType: ResourceMutex.Create(String, String, Boolean)
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.Create*
+  name: Create
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_Create_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ResourceMutex.Create
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.Create
+  nameWithType: ResourceMutex.Create
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.Dispose
+  name: Dispose()
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_Dispose
+  commentId: M:Dapplo.Addons.Bootstrapper.ResourceMutex.Dispose
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.Dispose()
+  nameWithType: ResourceMutex.Dispose()
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.Dispose*
+  name: Dispose
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_Dispose_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ResourceMutex.Dispose
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.Dispose
+  nameWithType: ResourceMutex.Dispose
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.IsLocked
+  name: IsLocked
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_IsLocked
+  commentId: P:Dapplo.Addons.Bootstrapper.ResourceMutex.IsLocked
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.IsLocked
+  nameWithType: ResourceMutex.IsLocked
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.IsLocked*
+  name: IsLocked
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_IsLocked_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ResourceMutex.IsLocked
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.IsLocked
+  nameWithType: ResourceMutex.IsLocked
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.Lock
+  name: Lock()
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_Lock
+  commentId: M:Dapplo.Addons.Bootstrapper.ResourceMutex.Lock
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.Lock()
+  nameWithType: ResourceMutex.Lock()
+- uid: Dapplo.Addons.Bootstrapper.ResourceMutex.Lock*
+  name: Lock
+  href: api/Dapplo.Addons.Bootstrapper.ResourceMutex.html#Dapplo_Addons_Bootstrapper_ResourceMutex_Lock_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.ResourceMutex.Lock
+  fullName: Dapplo.Addons.Bootstrapper.ResourceMutex.Lock
+  nameWithType: ResourceMutex.Lock
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper
+  name: StartupShutdownBootstrapper
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html
+  commentId: T:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper
+  nameWithType: StartupShutdownBootstrapper
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoShutdown
+  name: AutoShutdown
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_AutoShutdown
+  commentId: P:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoShutdown
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoShutdown
+  nameWithType: StartupShutdownBootstrapper.AutoShutdown
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoShutdown*
+  name: AutoShutdown
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_AutoShutdown_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoShutdown
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoShutdown
+  nameWithType: StartupShutdownBootstrapper.AutoShutdown
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoStartup
+  name: AutoStartup
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_AutoStartup
+  commentId: P:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoStartup
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoStartup
+  nameWithType: StartupShutdownBootstrapper.AutoStartup
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoStartup*
+  name: AutoStartup
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_AutoStartup_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoStartup
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.AutoStartup
+  nameWithType: StartupShutdownBootstrapper.AutoStartup
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.RunAsync(CancellationToken)
+  name: RunAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_RunAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.RunAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.RunAsync(CancellationToken)
+  nameWithType: StartupShutdownBootstrapper.RunAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.RunAsync*
+  name: RunAsync
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_RunAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.RunAsync
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.RunAsync
+  nameWithType: StartupShutdownBootstrapper.RunAsync
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.ShutdownAsync(CancellationToken)
+  name: ShutdownAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_ShutdownAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.ShutdownAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.ShutdownAsync(CancellationToken)
+  nameWithType: StartupShutdownBootstrapper.ShutdownAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.ShutdownAsync*
+  name: ShutdownAsync
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_ShutdownAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.ShutdownAsync
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.ShutdownAsync
+  nameWithType: StartupShutdownBootstrapper.ShutdownAsync
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StartupAsync(CancellationToken)
+  name: StartupAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_StartupAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StartupAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StartupAsync(CancellationToken)
+  nameWithType: StartupShutdownBootstrapper.StartupAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StartupAsync*
+  name: StartupAsync
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_StartupAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StartupAsync
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StartupAsync
+  nameWithType: StartupShutdownBootstrapper.StartupAsync
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StopAsync(CancellationToken)
+  name: StopAsync(CancellationToken)
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_StopAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StopAsync(CancellationToken)
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StopAsync(CancellationToken)
+  nameWithType: StartupShutdownBootstrapper.StopAsync(CancellationToken)
+- uid: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StopAsync*
+  name: StopAsync
+  href: api/Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.html#Dapplo_Addons_Bootstrapper_StartupShutdownBootstrapper_StopAsync_
+  commentId: Overload:Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StopAsync
+  fullName: Dapplo.Addons.Bootstrapper.StartupShutdownBootstrapper.StopAsync
+  nameWithType: StartupShutdownBootstrapper.StopAsync
+- uid: Dapplo.Addons.IAction
+  name: IAction
+  href: api/Dapplo.Addons.IAction.html
+  commentId: T:Dapplo.Addons.IAction
+  fullName: Dapplo.Addons.IAction
+  nameWithType: IAction
+- uid: Dapplo.Addons.IAction.ExecuteAsync(CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/Dapplo.Addons.IAction.html#Dapplo_Addons_IAction_ExecuteAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.IAction.ExecuteAsync(CancellationToken)
+  fullName: Dapplo.Addons.IAction.ExecuteAsync(CancellationToken)
+  nameWithType: IAction.ExecuteAsync(CancellationToken)
+- uid: Dapplo.Addons.IAction.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Dapplo.Addons.IAction.html#Dapplo_Addons_IAction_ExecuteAsync_
+  commentId: Overload:Dapplo.Addons.IAction.ExecuteAsync
+  fullName: Dapplo.Addons.IAction.ExecuteAsync
+  nameWithType: IAction.ExecuteAsync
+- uid: Dapplo.Addons.IApplicationBootstrapper
+  name: IApplicationBootstrapper
+  href: api/Dapplo.Addons.IApplicationBootstrapper.html
+  commentId: T:Dapplo.Addons.IApplicationBootstrapper
+  fullName: Dapplo.Addons.IApplicationBootstrapper
+  nameWithType: IApplicationBootstrapper
+- uid: Dapplo.Addons.IApplicationBootstrapper.ApplicationName
+  name: ApplicationName
+  href: api/Dapplo.Addons.IApplicationBootstrapper.html#Dapplo_Addons_IApplicationBootstrapper_ApplicationName
+  commentId: P:Dapplo.Addons.IApplicationBootstrapper.ApplicationName
+  fullName: Dapplo.Addons.IApplicationBootstrapper.ApplicationName
+  nameWithType: IApplicationBootstrapper.ApplicationName
+- uid: Dapplo.Addons.IApplicationBootstrapper.ApplicationName*
+  name: ApplicationName
+  href: api/Dapplo.Addons.IApplicationBootstrapper.html#Dapplo_Addons_IApplicationBootstrapper_ApplicationName_
+  commentId: Overload:Dapplo.Addons.IApplicationBootstrapper.ApplicationName
+  fullName: Dapplo.Addons.IApplicationBootstrapper.ApplicationName
+  nameWithType: IApplicationBootstrapper.ApplicationName
+- uid: Dapplo.Addons.IApplicationBootstrapper.IsMutexLocked
+  name: IsMutexLocked
+  href: api/Dapplo.Addons.IApplicationBootstrapper.html#Dapplo_Addons_IApplicationBootstrapper_IsMutexLocked
+  commentId: P:Dapplo.Addons.IApplicationBootstrapper.IsMutexLocked
+  fullName: Dapplo.Addons.IApplicationBootstrapper.IsMutexLocked
+  nameWithType: IApplicationBootstrapper.IsMutexLocked
+- uid: Dapplo.Addons.IApplicationBootstrapper.IsMutexLocked*
+  name: IsMutexLocked
+  href: api/Dapplo.Addons.IApplicationBootstrapper.html#Dapplo_Addons_IApplicationBootstrapper_IsMutexLocked_
+  commentId: Overload:Dapplo.Addons.IApplicationBootstrapper.IsMutexLocked
+  fullName: Dapplo.Addons.IApplicationBootstrapper.IsMutexLocked
+  nameWithType: IApplicationBootstrapper.IsMutexLocked
+- uid: Dapplo.Addons.IAsyncShutdownAction
+  name: IAsyncShutdownAction
+  href: api/Dapplo.Addons.IAsyncShutdownAction.html
+  commentId: T:Dapplo.Addons.IAsyncShutdownAction
+  fullName: Dapplo.Addons.IAsyncShutdownAction
+  nameWithType: IAsyncShutdownAction
+- uid: Dapplo.Addons.IAsyncShutdownAction.ShutdownAsync(CancellationToken)
+  name: ShutdownAsync(CancellationToken)
+  href: api/Dapplo.Addons.IAsyncShutdownAction.html#Dapplo_Addons_IAsyncShutdownAction_ShutdownAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.IAsyncShutdownAction.ShutdownAsync(CancellationToken)
+  fullName: Dapplo.Addons.IAsyncShutdownAction.ShutdownAsync(CancellationToken)
+  nameWithType: IAsyncShutdownAction.ShutdownAsync(CancellationToken)
+- uid: Dapplo.Addons.IAsyncShutdownAction.ShutdownAsync*
+  name: ShutdownAsync
+  href: api/Dapplo.Addons.IAsyncShutdownAction.html#Dapplo_Addons_IAsyncShutdownAction_ShutdownAsync_
+  commentId: Overload:Dapplo.Addons.IAsyncShutdownAction.ShutdownAsync
+  fullName: Dapplo.Addons.IAsyncShutdownAction.ShutdownAsync
+  nameWithType: IAsyncShutdownAction.ShutdownAsync
+- uid: Dapplo.Addons.IAsyncStartupAction
+  name: IAsyncStartupAction
+  href: api/Dapplo.Addons.IAsyncStartupAction.html
+  commentId: T:Dapplo.Addons.IAsyncStartupAction
+  fullName: Dapplo.Addons.IAsyncStartupAction
+  nameWithType: IAsyncStartupAction
+- uid: Dapplo.Addons.IAsyncStartupAction.StartAsync(CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/Dapplo.Addons.IAsyncStartupAction.html#Dapplo_Addons_IAsyncStartupAction_StartAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.IAsyncStartupAction.StartAsync(CancellationToken)
+  fullName: Dapplo.Addons.IAsyncStartupAction.StartAsync(CancellationToken)
+  nameWithType: IAsyncStartupAction.StartAsync(CancellationToken)
+- uid: Dapplo.Addons.IAsyncStartupAction.StartAsync*
+  name: StartAsync
+  href: api/Dapplo.Addons.IAsyncStartupAction.html#Dapplo_Addons_IAsyncStartupAction_StartAsync_
+  commentId: Overload:Dapplo.Addons.IAsyncStartupAction.StartAsync
+  fullName: Dapplo.Addons.IAsyncStartupAction.StartAsync
+  nameWithType: IAsyncStartupAction.StartAsync
+- uid: Dapplo.Addons.IBootstrapper
+  name: IBootstrapper
+  href: api/Dapplo.Addons.IBootstrapper.html
+  commentId: T:Dapplo.Addons.IBootstrapper
+  fullName: Dapplo.Addons.IBootstrapper
+  nameWithType: IBootstrapper
+- uid: Dapplo.Addons.IBootstrapper.InitializeAsync(CancellationToken)
+  name: InitializeAsync(CancellationToken)
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_InitializeAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.IBootstrapper.InitializeAsync(CancellationToken)
+  fullName: Dapplo.Addons.IBootstrapper.InitializeAsync(CancellationToken)
+  nameWithType: IBootstrapper.InitializeAsync(CancellationToken)
+- uid: Dapplo.Addons.IBootstrapper.InitializeAsync*
+  name: InitializeAsync
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_InitializeAsync_
+  commentId: Overload:Dapplo.Addons.IBootstrapper.InitializeAsync
+  fullName: Dapplo.Addons.IBootstrapper.InitializeAsync
+  nameWithType: IBootstrapper.InitializeAsync
+- uid: Dapplo.Addons.IBootstrapper.IsInitialized
+  name: IsInitialized
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_IsInitialized
+  commentId: P:Dapplo.Addons.IBootstrapper.IsInitialized
+  fullName: Dapplo.Addons.IBootstrapper.IsInitialized
+  nameWithType: IBootstrapper.IsInitialized
+- uid: Dapplo.Addons.IBootstrapper.IsInitialized*
+  name: IsInitialized
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_IsInitialized_
+  commentId: Overload:Dapplo.Addons.IBootstrapper.IsInitialized
+  fullName: Dapplo.Addons.IBootstrapper.IsInitialized
+  nameWithType: IBootstrapper.IsInitialized
+- uid: Dapplo.Addons.IBootstrapper.RegisterForDisposal(IDisposable)
+  name: RegisterForDisposal(IDisposable)
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_RegisterForDisposal_IDisposable_
+  commentId: M:Dapplo.Addons.IBootstrapper.RegisterForDisposal(IDisposable)
+  fullName: Dapplo.Addons.IBootstrapper.RegisterForDisposal(IDisposable)
+  nameWithType: IBootstrapper.RegisterForDisposal(IDisposable)
+- uid: Dapplo.Addons.IBootstrapper.RegisterForDisposal*
+  name: RegisterForDisposal
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_RegisterForDisposal_
+  commentId: Overload:Dapplo.Addons.IBootstrapper.RegisterForDisposal
+  fullName: Dapplo.Addons.IBootstrapper.RegisterForDisposal
+  nameWithType: IBootstrapper.RegisterForDisposal
+- uid: Dapplo.Addons.IBootstrapper.RunAsync(CancellationToken)
+  name: RunAsync(CancellationToken)
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_RunAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.IBootstrapper.RunAsync(CancellationToken)
+  fullName: Dapplo.Addons.IBootstrapper.RunAsync(CancellationToken)
+  nameWithType: IBootstrapper.RunAsync(CancellationToken)
+- uid: Dapplo.Addons.IBootstrapper.RunAsync*
+  name: RunAsync
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_RunAsync_
+  commentId: Overload:Dapplo.Addons.IBootstrapper.RunAsync
+  fullName: Dapplo.Addons.IBootstrapper.RunAsync
+  nameWithType: IBootstrapper.RunAsync
+- uid: Dapplo.Addons.IBootstrapper.StopAsync(CancellationToken)
+  name: StopAsync(CancellationToken)
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_StopAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.IBootstrapper.StopAsync(CancellationToken)
+  fullName: Dapplo.Addons.IBootstrapper.StopAsync(CancellationToken)
+  nameWithType: IBootstrapper.StopAsync(CancellationToken)
+- uid: Dapplo.Addons.IBootstrapper.StopAsync*
+  name: StopAsync
+  href: api/Dapplo.Addons.IBootstrapper.html#Dapplo_Addons_IBootstrapper_StopAsync_
+  commentId: Overload:Dapplo.Addons.IBootstrapper.StopAsync
+  fullName: Dapplo.Addons.IBootstrapper.StopAsync
+  nameWithType: IBootstrapper.StopAsync
+- uid: Dapplo.Addons.IDependencyProvider
+  name: IDependencyProvider
+  href: api/Dapplo.Addons.IDependencyProvider.html
+  commentId: T:Dapplo.Addons.IDependencyProvider
+  fullName: Dapplo.Addons.IDependencyProvider
+  nameWithType: IDependencyProvider
+- uid: Dapplo.Addons.IDependencyProvider.ProvideDependencies(System.Object)
+  name: ProvideDependencies(Object)
+  href: api/Dapplo.Addons.IDependencyProvider.html#Dapplo_Addons_IDependencyProvider_ProvideDependencies_System_Object_
+  commentId: M:Dapplo.Addons.IDependencyProvider.ProvideDependencies(System.Object)
+  fullName: Dapplo.Addons.IDependencyProvider.ProvideDependencies(System.Object)
+  nameWithType: IDependencyProvider.ProvideDependencies(Object)
+- uid: Dapplo.Addons.IDependencyProvider.ProvideDependencies*
+  name: ProvideDependencies
+  href: api/Dapplo.Addons.IDependencyProvider.html#Dapplo_Addons_IDependencyProvider_ProvideDependencies_
+  commentId: Overload:Dapplo.Addons.IDependencyProvider.ProvideDependencies
+  fullName: Dapplo.Addons.IDependencyProvider.ProvideDependencies
+  nameWithType: IDependencyProvider.ProvideDependencies
+- uid: Dapplo.Addons.IMefServiceLocator
+  name: IMefServiceLocator
+  href: api/Dapplo.Addons.IMefServiceLocator.html
+  commentId: T:Dapplo.Addons.IMefServiceLocator
+  fullName: Dapplo.Addons.IMefServiceLocator
+  nameWithType: IMefServiceLocator
+- uid: Dapplo.Addons.IMefServiceLocator.GetExport(Type,System.String)
+  name: GetExport(Type, String)
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExport_Type_System_String_
+  commentId: M:Dapplo.Addons.IMefServiceLocator.GetExport(Type,System.String)
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExport(Type, System.String)
+  nameWithType: IMefServiceLocator.GetExport(Type, String)
+- uid: Dapplo.Addons.IMefServiceLocator.GetExport*
+  name: GetExport
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExport_
+  commentId: Overload:Dapplo.Addons.IMefServiceLocator.GetExport
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExport
+  nameWithType: IMefServiceLocator.GetExport
+- uid: Dapplo.Addons.IMefServiceLocator.GetExport``1(System.String)
+  name: GetExport<T>(String)
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExport__1_System_String_
+  commentId: M:Dapplo.Addons.IMefServiceLocator.GetExport``1(System.String)
+  name.vb: GetExport(Of T)(String)
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExport<T>(System.String)
+  fullName.vb: Dapplo.Addons.IMefServiceLocator.GetExport(Of T)(System.String)
+  nameWithType: IMefServiceLocator.GetExport<T>(String)
+  nameWithType.vb: IMefServiceLocator.GetExport(Of T)(String)
+- uid: Dapplo.Addons.IMefServiceLocator.GetExport``2(System.String)
+  name: GetExport<T, TMetaData>(String)
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExport__2_System_String_
+  commentId: M:Dapplo.Addons.IMefServiceLocator.GetExport``2(System.String)
+  name.vb: GetExport(Of T, TMetaData)(String)
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExport<T, TMetaData>(System.String)
+  fullName.vb: Dapplo.Addons.IMefServiceLocator.GetExport(Of T, TMetaData)(System.String)
+  nameWithType: IMefServiceLocator.GetExport<T, TMetaData>(String)
+  nameWithType.vb: IMefServiceLocator.GetExport(Of T, TMetaData)(String)
+- uid: Dapplo.Addons.IMefServiceLocator.GetExports(Type,System.String)
+  name: GetExports(Type, String)
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExports_Type_System_String_
+  commentId: M:Dapplo.Addons.IMefServiceLocator.GetExports(Type,System.String)
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExports(Type, System.String)
+  nameWithType: IMefServiceLocator.GetExports(Type, String)
+- uid: Dapplo.Addons.IMefServiceLocator.GetExports*
+  name: GetExports
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExports_
+  commentId: Overload:Dapplo.Addons.IMefServiceLocator.GetExports
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExports
+  nameWithType: IMefServiceLocator.GetExports
+- uid: Dapplo.Addons.IMefServiceLocator.GetExports``1(System.String)
+  name: GetExports<T>(String)
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExports__1_System_String_
+  commentId: M:Dapplo.Addons.IMefServiceLocator.GetExports``1(System.String)
+  name.vb: GetExports(Of T)(String)
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExports<T>(System.String)
+  fullName.vb: Dapplo.Addons.IMefServiceLocator.GetExports(Of T)(System.String)
+  nameWithType: IMefServiceLocator.GetExports<T>(String)
+  nameWithType.vb: IMefServiceLocator.GetExports(Of T)(String)
+- uid: Dapplo.Addons.IMefServiceLocator.GetExports``2(System.String)
+  name: GetExports<T, TMetaData>(String)
+  href: api/Dapplo.Addons.IMefServiceLocator.html#Dapplo_Addons_IMefServiceLocator_GetExports__2_System_String_
+  commentId: M:Dapplo.Addons.IMefServiceLocator.GetExports``2(System.String)
+  name.vb: GetExports(Of T, TMetaData)(String)
+  fullName: Dapplo.Addons.IMefServiceLocator.GetExports<T, TMetaData>(System.String)
+  fullName.vb: Dapplo.Addons.IMefServiceLocator.GetExports(Of T, TMetaData)(System.String)
+  nameWithType: IMefServiceLocator.GetExports<T, TMetaData>(String)
+  nameWithType.vb: IMefServiceLocator.GetExports(Of T, TMetaData)(String)
+- uid: Dapplo.Addons.IModule
+  name: IModule
+  href: api/Dapplo.Addons.IModule.html
+  commentId: T:Dapplo.Addons.IModule
+  fullName: Dapplo.Addons.IModule
+  nameWithType: IModule
+- uid: Dapplo.Addons.IServiceExporter
+  name: IServiceExporter
+  href: api/Dapplo.Addons.IServiceExporter.html
+  commentId: T:Dapplo.Addons.IServiceExporter
+  fullName: Dapplo.Addons.IServiceExporter
+  nameWithType: IServiceExporter
+- uid: Dapplo.Addons.IServiceExporter.Export(Type,System.Object,IDictionary{System.String,System.Object})
+  name: Export(Type, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_Export_Type_System_Object_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.IServiceExporter.Export(Type,System.Object,IDictionary{System.String,System.Object})
+  name.vb: Export(Type, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.IServiceExporter.Export(Type, System.Object, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.IServiceExporter.Export(Type, System.Object, IDictionary(Of System.String, System.Object))
+  nameWithType: IServiceExporter.Export(Type, Object, IDictionary<String, Object>)
+  nameWithType.vb: IServiceExporter.Export(Type, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.IServiceExporter.Export(Type,System.String,System.Object,IDictionary{System.String,System.Object})
+  name: Export(Type, String, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_Export_Type_System_String_System_Object_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.IServiceExporter.Export(Type,System.String,System.Object,IDictionary{System.String,System.Object})
+  name.vb: Export(Type, String, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.IServiceExporter.Export(Type, System.String, System.Object, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.IServiceExporter.Export(Type, System.String, System.Object, IDictionary(Of System.String, System.Object))
+  nameWithType: IServiceExporter.Export(Type, String, Object, IDictionary<String, Object>)
+  nameWithType.vb: IServiceExporter.Export(Type, String, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.IServiceExporter.Export*
+  name: Export
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_Export_
+  commentId: Overload:Dapplo.Addons.IServiceExporter.Export
+  fullName: Dapplo.Addons.IServiceExporter.Export
+  nameWithType: IServiceExporter.Export
+- uid: Dapplo.Addons.IServiceExporter.Export``1(``0,IDictionary{System.String,System.Object})
+  name: Export<T>(T, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_Export__1___0_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.IServiceExporter.Export``1(``0,IDictionary{System.String,System.Object})
+  name.vb: Export(Of T)(T, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.IServiceExporter.Export<T>(T, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.IServiceExporter.Export(Of T)(T, IDictionary(Of System.String, System.Object))
+  nameWithType: IServiceExporter.Export<T>(T, IDictionary<String, Object>)
+  nameWithType.vb: IServiceExporter.Export(Of T)(T, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.IServiceExporter.Export``1(System.String,``0,IDictionary{System.String,System.Object})
+  name: Export<T>(String, T, IDictionary<String, Object>)
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_Export__1_System_String___0_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Addons.IServiceExporter.Export``1(System.String,``0,IDictionary{System.String,System.Object})
+  name.vb: Export(Of T)(String, T, IDictionary(Of String, Object))
+  fullName: Dapplo.Addons.IServiceExporter.Export<T>(System.String, T, IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Addons.IServiceExporter.Export(Of T)(System.String, T, IDictionary(Of System.String, System.Object))
+  nameWithType: IServiceExporter.Export<T>(String, T, IDictionary<String, Object>)
+  nameWithType.vb: IServiceExporter.Export(Of T)(String, T, IDictionary(Of String, Object))
+- uid: Dapplo.Addons.IServiceExporter.ExportProviders
+  name: ExportProviders
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_ExportProviders
+  commentId: P:Dapplo.Addons.IServiceExporter.ExportProviders
+  fullName: Dapplo.Addons.IServiceExporter.ExportProviders
+  nameWithType: IServiceExporter.ExportProviders
+- uid: Dapplo.Addons.IServiceExporter.ExportProviders*
+  name: ExportProviders
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_ExportProviders_
+  commentId: Overload:Dapplo.Addons.IServiceExporter.ExportProviders
+  fullName: Dapplo.Addons.IServiceExporter.ExportProviders
+  nameWithType: IServiceExporter.ExportProviders
+- uid: Dapplo.Addons.IServiceExporter.Release(ComposablePart)
+  name: Release(ComposablePart)
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_Release_ComposablePart_
+  commentId: M:Dapplo.Addons.IServiceExporter.Release(ComposablePart)
+  fullName: Dapplo.Addons.IServiceExporter.Release(ComposablePart)
+  nameWithType: IServiceExporter.Release(ComposablePart)
+- uid: Dapplo.Addons.IServiceExporter.Release*
+  name: Release
+  href: api/Dapplo.Addons.IServiceExporter.html#Dapplo_Addons_IServiceExporter_Release_
+  commentId: Overload:Dapplo.Addons.IServiceExporter.Release
+  fullName: Dapplo.Addons.IServiceExporter.Release
+  nameWithType: IServiceExporter.Release
+- uid: Dapplo.Addons.IServiceRepository
+  name: IServiceRepository
+  href: api/Dapplo.Addons.IServiceRepository.html
+  commentId: T:Dapplo.Addons.IServiceRepository
+  fullName: Dapplo.Addons.IServiceRepository
+  nameWithType: IServiceRepository
+- uid: Dapplo.Addons.IServiceRepository.Add(Assembly)
+  name: Add(Assembly)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_Add_Assembly_
+  commentId: M:Dapplo.Addons.IServiceRepository.Add(Assembly)
+  fullName: Dapplo.Addons.IServiceRepository.Add(Assembly)
+  nameWithType: IServiceRepository.Add(Assembly)
+- uid: Dapplo.Addons.IServiceRepository.Add(AssemblyCatalog)
+  name: Add(AssemblyCatalog)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_Add_AssemblyCatalog_
+  commentId: M:Dapplo.Addons.IServiceRepository.Add(AssemblyCatalog)
+  fullName: Dapplo.Addons.IServiceRepository.Add(AssemblyCatalog)
+  nameWithType: IServiceRepository.Add(AssemblyCatalog)
+- uid: Dapplo.Addons.IServiceRepository.Add(Type)
+  name: Add(Type)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_Add_Type_
+  commentId: M:Dapplo.Addons.IServiceRepository.Add(Type)
+  fullName: Dapplo.Addons.IServiceRepository.Add(Type)
+  nameWithType: IServiceRepository.Add(Type)
+- uid: Dapplo.Addons.IServiceRepository.Add*
+  name: Add
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_Add_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.Add
+  fullName: Dapplo.Addons.IServiceRepository.Add
+  nameWithType: IServiceRepository.Add
+- uid: Dapplo.Addons.IServiceRepository.AddScanDirectories(IEnumerable{System.String})
+  name: AddScanDirectories(IEnumerable<String>)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_AddScanDirectories_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.IServiceRepository.AddScanDirectories(IEnumerable{System.String})
+  name.vb: AddScanDirectories(IEnumerable(Of String))
+  fullName: Dapplo.Addons.IServiceRepository.AddScanDirectories(IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.IServiceRepository.AddScanDirectories(IEnumerable(Of System.String))
+  nameWithType: IServiceRepository.AddScanDirectories(IEnumerable<String>)
+  nameWithType.vb: IServiceRepository.AddScanDirectories(IEnumerable(Of String))
+- uid: Dapplo.Addons.IServiceRepository.AddScanDirectories*
+  name: AddScanDirectories
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_AddScanDirectories_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.AddScanDirectories
+  fullName: Dapplo.Addons.IServiceRepository.AddScanDirectories
+  nameWithType: IServiceRepository.AddScanDirectories
+- uid: Dapplo.Addons.IServiceRepository.AddScanDirectory(System.String)
+  name: AddScanDirectory(String)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_AddScanDirectory_System_String_
+  commentId: M:Dapplo.Addons.IServiceRepository.AddScanDirectory(System.String)
+  fullName: Dapplo.Addons.IServiceRepository.AddScanDirectory(System.String)
+  nameWithType: IServiceRepository.AddScanDirectory(String)
+- uid: Dapplo.Addons.IServiceRepository.AddScanDirectory*
+  name: AddScanDirectory
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_AddScanDirectory_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.AddScanDirectory
+  fullName: Dapplo.Addons.IServiceRepository.AddScanDirectory
+  nameWithType: IServiceRepository.AddScanDirectory
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(IEnumerable{System.String},Regex,System.Boolean)
+  name: FindAndLoadAssemblies(IEnumerable<String>, Regex, Boolean)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssemblies_IEnumerable_System_String__Regex_System_Boolean_
+  commentId: M:Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(IEnumerable{System.String},Regex,System.Boolean)
+  name.vb: FindAndLoadAssemblies(IEnumerable(Of String), Regex, Boolean)
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(IEnumerable<System.String>, Regex, System.Boolean)
+  fullName.vb: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(IEnumerable(Of System.String), Regex, System.Boolean)
+  nameWithType: IServiceRepository.FindAndLoadAssemblies(IEnumerable<String>, Regex, Boolean)
+  nameWithType.vb: IServiceRepository.FindAndLoadAssemblies(IEnumerable(Of String), Regex, Boolean)
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(System.String,System.Boolean,IEnumerable{System.String})
+  name: FindAndLoadAssemblies(String, Boolean, IEnumerable<String>)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssemblies_System_String_System_Boolean_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(System.String,System.Boolean,IEnumerable{System.String})
+  name.vb: FindAndLoadAssemblies(String, Boolean, IEnumerable(Of String))
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(System.String, System.Boolean, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies(System.String, System.Boolean, IEnumerable(Of System.String))
+  nameWithType: IServiceRepository.FindAndLoadAssemblies(String, Boolean, IEnumerable<String>)
+  nameWithType.vb: IServiceRepository.FindAndLoadAssemblies(String, Boolean, IEnumerable(Of String))
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies*
+  name: FindAndLoadAssemblies
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssemblies_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssemblies
+  nameWithType: IServiceRepository.FindAndLoadAssemblies
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory(System.String,Regex,System.Boolean)
+  name: FindAndLoadAssembliesFromDirectory(String, Regex, Boolean)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssembliesFromDirectory_System_String_Regex_System_Boolean_
+  commentId: M:Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory(System.String,Regex,System.Boolean)
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory(System.String, Regex, System.Boolean)
+  nameWithType: IServiceRepository.FindAndLoadAssembliesFromDirectory(String, Regex, Boolean)
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory(System.String,System.String,System.Boolean,IEnumerable{System.String})
+  name: FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable<String>)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssembliesFromDirectory_System_String_System_String_System_Boolean_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory(System.String,System.String,System.Boolean,IEnumerable{System.String})
+  name.vb: FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable(Of String))
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory(System.String, System.String, System.Boolean, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory(System.String, System.String, System.Boolean, IEnumerable(Of System.String))
+  nameWithType: IServiceRepository.FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable<String>)
+  nameWithType.vb: IServiceRepository.FindAndLoadAssembliesFromDirectory(String, String, Boolean, IEnumerable(Of String))
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory*
+  name: FindAndLoadAssembliesFromDirectory
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssembliesFromDirectory_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssembliesFromDirectory
+  nameWithType: IServiceRepository.FindAndLoadAssembliesFromDirectory
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssembly(System.String,IEnumerable{System.String})
+  name: FindAndLoadAssembly(String, IEnumerable<String>)
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssembly_System_String_IEnumerable_System_String__
+  commentId: M:Dapplo.Addons.IServiceRepository.FindAndLoadAssembly(System.String,IEnumerable{System.String})
+  name.vb: FindAndLoadAssembly(String, IEnumerable(Of String))
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssembly(System.String, IEnumerable<System.String>)
+  fullName.vb: Dapplo.Addons.IServiceRepository.FindAndLoadAssembly(System.String, IEnumerable(Of System.String))
+  nameWithType: IServiceRepository.FindAndLoadAssembly(String, IEnumerable<String>)
+  nameWithType.vb: IServiceRepository.FindAndLoadAssembly(String, IEnumerable(Of String))
+- uid: Dapplo.Addons.IServiceRepository.FindAndLoadAssembly*
+  name: FindAndLoadAssembly
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_FindAndLoadAssembly_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.FindAndLoadAssembly
+  fullName: Dapplo.Addons.IServiceRepository.FindAndLoadAssembly
+  nameWithType: IServiceRepository.FindAndLoadAssembly
+- uid: Dapplo.Addons.IServiceRepository.KnownAssemblies
+  name: KnownAssemblies
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_KnownAssemblies
+  commentId: P:Dapplo.Addons.IServiceRepository.KnownAssemblies
+  fullName: Dapplo.Addons.IServiceRepository.KnownAssemblies
+  nameWithType: IServiceRepository.KnownAssemblies
+- uid: Dapplo.Addons.IServiceRepository.KnownAssemblies*
+  name: KnownAssemblies
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_KnownAssemblies_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.KnownAssemblies
+  fullName: Dapplo.Addons.IServiceRepository.KnownAssemblies
+  nameWithType: IServiceRepository.KnownAssemblies
+- uid: Dapplo.Addons.IServiceRepository.KnownFiles
+  name: KnownFiles
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_KnownFiles
+  commentId: P:Dapplo.Addons.IServiceRepository.KnownFiles
+  fullName: Dapplo.Addons.IServiceRepository.KnownFiles
+  nameWithType: IServiceRepository.KnownFiles
+- uid: Dapplo.Addons.IServiceRepository.KnownFiles*
+  name: KnownFiles
+  href: api/Dapplo.Addons.IServiceRepository.html#Dapplo_Addons_IServiceRepository_KnownFiles_
+  commentId: Overload:Dapplo.Addons.IServiceRepository.KnownFiles
+  fullName: Dapplo.Addons.IServiceRepository.KnownFiles
+  nameWithType: IServiceRepository.KnownFiles
+- uid: Dapplo.Addons.IShutdownAction
+  name: IShutdownAction
+  href: api/Dapplo.Addons.IShutdownAction.html
+  commentId: T:Dapplo.Addons.IShutdownAction
+  fullName: Dapplo.Addons.IShutdownAction
+  nameWithType: IShutdownAction
+- uid: Dapplo.Addons.IShutdownAction.Shutdown
+  name: Shutdown()
+  href: api/Dapplo.Addons.IShutdownAction.html#Dapplo_Addons_IShutdownAction_Shutdown
+  commentId: M:Dapplo.Addons.IShutdownAction.Shutdown
+  fullName: Dapplo.Addons.IShutdownAction.Shutdown()
+  nameWithType: IShutdownAction.Shutdown()
+- uid: Dapplo.Addons.IShutdownAction.Shutdown*
+  name: Shutdown
+  href: api/Dapplo.Addons.IShutdownAction.html#Dapplo_Addons_IShutdownAction_Shutdown_
+  commentId: Overload:Dapplo.Addons.IShutdownAction.Shutdown
+  fullName: Dapplo.Addons.IShutdownAction.Shutdown
+  nameWithType: IShutdownAction.Shutdown
+- uid: Dapplo.Addons.IShutdownMetadata
+  name: IShutdownMetadata
+  href: api/Dapplo.Addons.IShutdownMetadata.html
+  commentId: T:Dapplo.Addons.IShutdownMetadata
+  fullName: Dapplo.Addons.IShutdownMetadata
+  nameWithType: IShutdownMetadata
+- uid: Dapplo.Addons.IShutdownMetadata.ShutdownOrder
+  name: ShutdownOrder
+  href: api/Dapplo.Addons.IShutdownMetadata.html#Dapplo_Addons_IShutdownMetadata_ShutdownOrder
+  commentId: P:Dapplo.Addons.IShutdownMetadata.ShutdownOrder
+  fullName: Dapplo.Addons.IShutdownMetadata.ShutdownOrder
+  nameWithType: IShutdownMetadata.ShutdownOrder
+- uid: Dapplo.Addons.IShutdownMetadata.ShutdownOrder*
+  name: ShutdownOrder
+  href: api/Dapplo.Addons.IShutdownMetadata.html#Dapplo_Addons_IShutdownMetadata_ShutdownOrder_
+  commentId: Overload:Dapplo.Addons.IShutdownMetadata.ShutdownOrder
+  fullName: Dapplo.Addons.IShutdownMetadata.ShutdownOrder
+  nameWithType: IShutdownMetadata.ShutdownOrder
+- uid: Dapplo.Addons.IShutdownModule
+  name: IShutdownModule
+  href: api/Dapplo.Addons.IShutdownModule.html
+  commentId: T:Dapplo.Addons.IShutdownModule
+  fullName: Dapplo.Addons.IShutdownModule
+  nameWithType: IShutdownModule
+- uid: Dapplo.Addons.IStartupAction
+  name: IStartupAction
+  href: api/Dapplo.Addons.IStartupAction.html
+  commentId: T:Dapplo.Addons.IStartupAction
+  fullName: Dapplo.Addons.IStartupAction
+  nameWithType: IStartupAction
+- uid: Dapplo.Addons.IStartupAction.Start
+  name: Start()
+  href: api/Dapplo.Addons.IStartupAction.html#Dapplo_Addons_IStartupAction_Start
+  commentId: M:Dapplo.Addons.IStartupAction.Start
+  fullName: Dapplo.Addons.IStartupAction.Start()
+  nameWithType: IStartupAction.Start()
+- uid: Dapplo.Addons.IStartupAction.Start*
+  name: Start
+  href: api/Dapplo.Addons.IStartupAction.html#Dapplo_Addons_IStartupAction_Start_
+  commentId: Overload:Dapplo.Addons.IStartupAction.Start
+  fullName: Dapplo.Addons.IStartupAction.Start
+  nameWithType: IStartupAction.Start
+- uid: Dapplo.Addons.IStartupMetadata
+  name: IStartupMetadata
+  href: api/Dapplo.Addons.IStartupMetadata.html
+  commentId: T:Dapplo.Addons.IStartupMetadata
+  fullName: Dapplo.Addons.IStartupMetadata
+  nameWithType: IStartupMetadata
+- uid: Dapplo.Addons.IStartupMetadata.AwaitStart
+  name: AwaitStart
+  href: api/Dapplo.Addons.IStartupMetadata.html#Dapplo_Addons_IStartupMetadata_AwaitStart
+  commentId: P:Dapplo.Addons.IStartupMetadata.AwaitStart
+  fullName: Dapplo.Addons.IStartupMetadata.AwaitStart
+  nameWithType: IStartupMetadata.AwaitStart
+- uid: Dapplo.Addons.IStartupMetadata.AwaitStart*
+  name: AwaitStart
+  href: api/Dapplo.Addons.IStartupMetadata.html#Dapplo_Addons_IStartupMetadata_AwaitStart_
+  commentId: Overload:Dapplo.Addons.IStartupMetadata.AwaitStart
+  fullName: Dapplo.Addons.IStartupMetadata.AwaitStart
+  nameWithType: IStartupMetadata.AwaitStart
+- uid: Dapplo.Addons.IStartupMetadata.StartupOrder
+  name: StartupOrder
+  href: api/Dapplo.Addons.IStartupMetadata.html#Dapplo_Addons_IStartupMetadata_StartupOrder
+  commentId: P:Dapplo.Addons.IStartupMetadata.StartupOrder
+  fullName: Dapplo.Addons.IStartupMetadata.StartupOrder
+  nameWithType: IStartupMetadata.StartupOrder
+- uid: Dapplo.Addons.IStartupMetadata.StartupOrder*
+  name: StartupOrder
+  href: api/Dapplo.Addons.IStartupMetadata.html#Dapplo_Addons_IStartupMetadata_StartupOrder_
+  commentId: Overload:Dapplo.Addons.IStartupMetadata.StartupOrder
+  fullName: Dapplo.Addons.IStartupMetadata.StartupOrder
+  nameWithType: IStartupMetadata.StartupOrder
+- uid: Dapplo.Addons.IStartupModule
+  name: IStartupModule
+  href: api/Dapplo.Addons.IStartupModule.html
+  commentId: T:Dapplo.Addons.IStartupModule
+  fullName: Dapplo.Addons.IStartupModule
+  nameWithType: IStartupModule
+- uid: Dapplo.Addons.ModuleAttribute
+  name: ModuleAttribute
+  href: api/Dapplo.Addons.ModuleAttribute.html
+  commentId: T:Dapplo.Addons.ModuleAttribute
+  fullName: Dapplo.Addons.ModuleAttribute
+  nameWithType: ModuleAttribute
+- uid: Dapplo.Addons.ModuleAttribute.#ctor(System.String,Type)
+  name: ModuleAttribute(String, Type)
+  href: api/Dapplo.Addons.ModuleAttribute.html#Dapplo_Addons_ModuleAttribute__ctor_System_String_Type_
+  commentId: M:Dapplo.Addons.ModuleAttribute.#ctor(System.String,Type)
+  fullName: Dapplo.Addons.ModuleAttribute.ModuleAttribute(System.String, Type)
+  nameWithType: ModuleAttribute.ModuleAttribute(String, Type)
+- uid: Dapplo.Addons.ModuleAttribute.#ctor(Type)
+  name: ModuleAttribute(Type)
+  href: api/Dapplo.Addons.ModuleAttribute.html#Dapplo_Addons_ModuleAttribute__ctor_Type_
+  commentId: M:Dapplo.Addons.ModuleAttribute.#ctor(Type)
+  fullName: Dapplo.Addons.ModuleAttribute.ModuleAttribute(Type)
+  nameWithType: ModuleAttribute.ModuleAttribute(Type)
+- uid: Dapplo.Addons.ModuleAttribute.#ctor*
+  name: ModuleAttribute
+  href: api/Dapplo.Addons.ModuleAttribute.html#Dapplo_Addons_ModuleAttribute__ctor_
+  commentId: Overload:Dapplo.Addons.ModuleAttribute.#ctor
+  fullName: Dapplo.Addons.ModuleAttribute.ModuleAttribute
+  nameWithType: ModuleAttribute.ModuleAttribute
+- uid: Dapplo.Addons.NuGet
+  name: Dapplo.Addons.NuGet
+  href: api/Dapplo.Addons.NuGet.html
+  commentId: N:Dapplo.Addons.NuGet
+  fullName: Dapplo.Addons.NuGet
+  nameWithType: Dapplo.Addons.NuGet
+- uid: Dapplo.Addons.NuGet.AppDomainExtensions
+  name: AppDomainExtensions
+  href: api/Dapplo.Addons.NuGet.AppDomainExtensions.html
+  commentId: T:Dapplo.Addons.NuGet.AppDomainExtensions
+  fullName: Dapplo.Addons.NuGet.AppDomainExtensions
+  nameWithType: AppDomainExtensions
+- uid: Dapplo.Addons.NuGet.AppDomainExtensions.AttachNugetResolver(AppDomain,System.String,System.String)
+  name: AttachNugetResolver(AppDomain, String, String)
+  href: api/Dapplo.Addons.NuGet.AppDomainExtensions.html#Dapplo_Addons_NuGet_AppDomainExtensions_AttachNugetResolver_AppDomain_System_String_System_String_
+  commentId: M:Dapplo.Addons.NuGet.AppDomainExtensions.AttachNugetResolver(AppDomain,System.String,System.String)
+  fullName: Dapplo.Addons.NuGet.AppDomainExtensions.AttachNugetResolver(AppDomain, System.String, System.String)
+  nameWithType: AppDomainExtensions.AttachNugetResolver(AppDomain, String, String)
+- uid: Dapplo.Addons.NuGet.AppDomainExtensions.AttachNugetResolver*
+  name: AttachNugetResolver
+  href: api/Dapplo.Addons.NuGet.AppDomainExtensions.html#Dapplo_Addons_NuGet_AppDomainExtensions_AttachNugetResolver_
+  commentId: Overload:Dapplo.Addons.NuGet.AppDomainExtensions.AttachNugetResolver
+  fullName: Dapplo.Addons.NuGet.AppDomainExtensions.AttachNugetResolver
+  nameWithType: AppDomainExtensions.AttachNugetResolver
+- uid: Dapplo.Addons.ShutdownActionAttribute
+  name: ShutdownActionAttribute
+  href: api/Dapplo.Addons.ShutdownActionAttribute.html
+  commentId: T:Dapplo.Addons.ShutdownActionAttribute
+  fullName: Dapplo.Addons.ShutdownActionAttribute
+  nameWithType: ShutdownActionAttribute
+- uid: Dapplo.Addons.ShutdownActionAttribute.#ctor
+  name: ShutdownActionAttribute()
+  href: api/Dapplo.Addons.ShutdownActionAttribute.html#Dapplo_Addons_ShutdownActionAttribute__ctor
+  commentId: M:Dapplo.Addons.ShutdownActionAttribute.#ctor
+  fullName: Dapplo.Addons.ShutdownActionAttribute.ShutdownActionAttribute()
+  nameWithType: ShutdownActionAttribute.ShutdownActionAttribute()
+- uid: Dapplo.Addons.ShutdownActionAttribute.#ctor(System.String)
+  name: ShutdownActionAttribute(String)
+  href: api/Dapplo.Addons.ShutdownActionAttribute.html#Dapplo_Addons_ShutdownActionAttribute__ctor_System_String_
+  commentId: M:Dapplo.Addons.ShutdownActionAttribute.#ctor(System.String)
+  fullName: Dapplo.Addons.ShutdownActionAttribute.ShutdownActionAttribute(System.String)
+  nameWithType: ShutdownActionAttribute.ShutdownActionAttribute(String)
+- uid: Dapplo.Addons.ShutdownActionAttribute.#ctor*
+  name: ShutdownActionAttribute
+  href: api/Dapplo.Addons.ShutdownActionAttribute.html#Dapplo_Addons_ShutdownActionAttribute__ctor_
+  commentId: Overload:Dapplo.Addons.ShutdownActionAttribute.#ctor
+  fullName: Dapplo.Addons.ShutdownActionAttribute.ShutdownActionAttribute
+  nameWithType: ShutdownActionAttribute.ShutdownActionAttribute
+- uid: Dapplo.Addons.ShutdownActionAttribute.ShutdownOrder
+  name: ShutdownOrder
+  href: api/Dapplo.Addons.ShutdownActionAttribute.html#Dapplo_Addons_ShutdownActionAttribute_ShutdownOrder
+  commentId: P:Dapplo.Addons.ShutdownActionAttribute.ShutdownOrder
+  fullName: Dapplo.Addons.ShutdownActionAttribute.ShutdownOrder
+  nameWithType: ShutdownActionAttribute.ShutdownOrder
+- uid: Dapplo.Addons.ShutdownActionAttribute.ShutdownOrder*
+  name: ShutdownOrder
+  href: api/Dapplo.Addons.ShutdownActionAttribute.html#Dapplo_Addons_ShutdownActionAttribute_ShutdownOrder_
+  commentId: Overload:Dapplo.Addons.ShutdownActionAttribute.ShutdownOrder
+  fullName: Dapplo.Addons.ShutdownActionAttribute.ShutdownOrder
+  nameWithType: ShutdownActionAttribute.ShutdownOrder
+- uid: Dapplo.Addons.StartupActionAttribute
+  name: StartupActionAttribute
+  href: api/Dapplo.Addons.StartupActionAttribute.html
+  commentId: T:Dapplo.Addons.StartupActionAttribute
+  fullName: Dapplo.Addons.StartupActionAttribute
+  nameWithType: StartupActionAttribute
+- uid: Dapplo.Addons.StartupActionAttribute.#ctor
+  name: StartupActionAttribute()
+  href: api/Dapplo.Addons.StartupActionAttribute.html#Dapplo_Addons_StartupActionAttribute__ctor
+  commentId: M:Dapplo.Addons.StartupActionAttribute.#ctor
+  fullName: Dapplo.Addons.StartupActionAttribute.StartupActionAttribute()
+  nameWithType: StartupActionAttribute.StartupActionAttribute()
+- uid: Dapplo.Addons.StartupActionAttribute.#ctor(System.String)
+  name: StartupActionAttribute(String)
+  href: api/Dapplo.Addons.StartupActionAttribute.html#Dapplo_Addons_StartupActionAttribute__ctor_System_String_
+  commentId: M:Dapplo.Addons.StartupActionAttribute.#ctor(System.String)
+  fullName: Dapplo.Addons.StartupActionAttribute.StartupActionAttribute(System.String)
+  nameWithType: StartupActionAttribute.StartupActionAttribute(String)
+- uid: Dapplo.Addons.StartupActionAttribute.#ctor*
+  name: StartupActionAttribute
+  href: api/Dapplo.Addons.StartupActionAttribute.html#Dapplo_Addons_StartupActionAttribute__ctor_
+  commentId: Overload:Dapplo.Addons.StartupActionAttribute.#ctor
+  fullName: Dapplo.Addons.StartupActionAttribute.StartupActionAttribute
+  nameWithType: StartupActionAttribute.StartupActionAttribute
+- uid: Dapplo.Addons.StartupActionAttribute.AwaitStart
+  name: AwaitStart
+  href: api/Dapplo.Addons.StartupActionAttribute.html#Dapplo_Addons_StartupActionAttribute_AwaitStart
+  commentId: P:Dapplo.Addons.StartupActionAttribute.AwaitStart
+  fullName: Dapplo.Addons.StartupActionAttribute.AwaitStart
+  nameWithType: StartupActionAttribute.AwaitStart
+- uid: Dapplo.Addons.StartupActionAttribute.AwaitStart*
+  name: AwaitStart
+  href: api/Dapplo.Addons.StartupActionAttribute.html#Dapplo_Addons_StartupActionAttribute_AwaitStart_
+  commentId: Overload:Dapplo.Addons.StartupActionAttribute.AwaitStart
+  fullName: Dapplo.Addons.StartupActionAttribute.AwaitStart
+  nameWithType: StartupActionAttribute.AwaitStart
+- uid: Dapplo.Addons.StartupActionAttribute.StartupOrder
+  name: StartupOrder
+  href: api/Dapplo.Addons.StartupActionAttribute.html#Dapplo_Addons_StartupActionAttribute_StartupOrder
+  commentId: P:Dapplo.Addons.StartupActionAttribute.StartupOrder
+  fullName: Dapplo.Addons.StartupActionAttribute.StartupOrder
+  nameWithType: StartupActionAttribute.StartupOrder
+- uid: Dapplo.Addons.StartupActionAttribute.StartupOrder*
+  name: StartupOrder
+  href: api/Dapplo.Addons.StartupActionAttribute.html#Dapplo_Addons_StartupActionAttribute_StartupOrder_
+  commentId: Overload:Dapplo.Addons.StartupActionAttribute.StartupOrder
+  fullName: Dapplo.Addons.StartupActionAttribute.StartupOrder
+  nameWithType: StartupActionAttribute.StartupOrder
+- uid: Dapplo.Addons.StartupException
+  name: StartupException
+  href: api/Dapplo.Addons.StartupException.html
+  commentId: T:Dapplo.Addons.StartupException
+  fullName: Dapplo.Addons.StartupException
+  nameWithType: StartupException
+- uid: Dapplo.Addons.StartupException.#ctor(SerializationInfo,StreamingContext)
+  name: StartupException(SerializationInfo, StreamingContext)
+  href: api/Dapplo.Addons.StartupException.html#Dapplo_Addons_StartupException__ctor_SerializationInfo_StreamingContext_
+  commentId: M:Dapplo.Addons.StartupException.#ctor(SerializationInfo,StreamingContext)
+  fullName: Dapplo.Addons.StartupException.StartupException(SerializationInfo, StreamingContext)
+  nameWithType: StartupException.StartupException(SerializationInfo, StreamingContext)
+- uid: Dapplo.Addons.StartupException.#ctor(System.String)
+  name: StartupException(String)
+  href: api/Dapplo.Addons.StartupException.html#Dapplo_Addons_StartupException__ctor_System_String_
+  commentId: M:Dapplo.Addons.StartupException.#ctor(System.String)
+  fullName: Dapplo.Addons.StartupException.StartupException(System.String)
+  nameWithType: StartupException.StartupException(String)
+- uid: Dapplo.Addons.StartupException.#ctor(System.String,Exception)
+  name: StartupException(String, Exception)
+  href: api/Dapplo.Addons.StartupException.html#Dapplo_Addons_StartupException__ctor_System_String_Exception_
+  commentId: M:Dapplo.Addons.StartupException.#ctor(System.String,Exception)
+  fullName: Dapplo.Addons.StartupException.StartupException(System.String, Exception)
+  nameWithType: StartupException.StartupException(String, Exception)
+- uid: Dapplo.Addons.StartupException.#ctor*
+  name: StartupException
+  href: api/Dapplo.Addons.StartupException.html#Dapplo_Addons_StartupException__ctor_
+  commentId: Overload:Dapplo.Addons.StartupException.#ctor
+  fullName: Dapplo.Addons.StartupException.StartupException
+  nameWithType: StartupException.StartupException
+- uid: Dapplo.Addons.TestAddon
+  name: Dapplo.Addons.TestAddon
+  href: api/Dapplo.Addons.TestAddon.html
+  commentId: N:Dapplo.Addons.TestAddon
+  fullName: Dapplo.Addons.TestAddon
+  nameWithType: Dapplo.Addons.TestAddon
+- uid: Dapplo.Addons.TestAddon.AnotherAddon
+  name: AnotherAddon
+  href: api/Dapplo.Addons.TestAddon.AnotherAddon.html
+  commentId: T:Dapplo.Addons.TestAddon.AnotherAddon
+  fullName: Dapplo.Addons.TestAddon.AnotherAddon
+  nameWithType: AnotherAddon
+- uid: Dapplo.Addons.TestAddon.AnotherAddon.#ctor(Dapplo.Addons.TestAddon.IThisIsSubConfiguration)
+  name: AnotherAddon(IThisIsSubConfiguration)
+  href: api/Dapplo.Addons.TestAddon.AnotherAddon.html#Dapplo_Addons_TestAddon_AnotherAddon__ctor_Dapplo_Addons_TestAddon_IThisIsSubConfiguration_
+  commentId: M:Dapplo.Addons.TestAddon.AnotherAddon.#ctor(Dapplo.Addons.TestAddon.IThisIsSubConfiguration)
+  fullName: Dapplo.Addons.TestAddon.AnotherAddon.AnotherAddon(Dapplo.Addons.TestAddon.IThisIsSubConfiguration)
+  nameWithType: AnotherAddon.AnotherAddon(IThisIsSubConfiguration)
+- uid: Dapplo.Addons.TestAddon.AnotherAddon.#ctor*
+  name: AnotherAddon
+  href: api/Dapplo.Addons.TestAddon.AnotherAddon.html#Dapplo_Addons_TestAddon_AnotherAddon__ctor_
+  commentId: Overload:Dapplo.Addons.TestAddon.AnotherAddon.#ctor
+  fullName: Dapplo.Addons.TestAddon.AnotherAddon.AnotherAddon
+  nameWithType: AnotherAddon.AnotherAddon
+- uid: Dapplo.Addons.TestAddon.AnotherAddon.ShutdownAsync(CancellationToken)
+  name: ShutdownAsync(CancellationToken)
+  href: api/Dapplo.Addons.TestAddon.AnotherAddon.html#Dapplo_Addons_TestAddon_AnotherAddon_ShutdownAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.TestAddon.AnotherAddon.ShutdownAsync(CancellationToken)
+  fullName: Dapplo.Addons.TestAddon.AnotherAddon.ShutdownAsync(CancellationToken)
+  nameWithType: AnotherAddon.ShutdownAsync(CancellationToken)
+- uid: Dapplo.Addons.TestAddon.AnotherAddon.ShutdownAsync*
+  name: ShutdownAsync
+  href: api/Dapplo.Addons.TestAddon.AnotherAddon.html#Dapplo_Addons_TestAddon_AnotherAddon_ShutdownAsync_
+  commentId: Overload:Dapplo.Addons.TestAddon.AnotherAddon.ShutdownAsync
+  fullName: Dapplo.Addons.TestAddon.AnotherAddon.ShutdownAsync
+  nameWithType: AnotherAddon.ShutdownAsync
+- uid: Dapplo.Addons.TestAddon.AnotherAddon.StartAsync(CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/Dapplo.Addons.TestAddon.AnotherAddon.html#Dapplo_Addons_TestAddon_AnotherAddon_StartAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.TestAddon.AnotherAddon.StartAsync(CancellationToken)
+  fullName: Dapplo.Addons.TestAddon.AnotherAddon.StartAsync(CancellationToken)
+  nameWithType: AnotherAddon.StartAsync(CancellationToken)
+- uid: Dapplo.Addons.TestAddon.AnotherAddon.StartAsync*
+  name: StartAsync
+  href: api/Dapplo.Addons.TestAddon.AnotherAddon.html#Dapplo_Addons_TestAddon_AnotherAddon_StartAsync_
+  commentId: Overload:Dapplo.Addons.TestAddon.AnotherAddon.StartAsync
+  fullName: Dapplo.Addons.TestAddon.AnotherAddon.StartAsync
+  nameWithType: AnotherAddon.StartAsync
+- uid: Dapplo.Addons.TestAddon.IThisIsConfiguration
+  name: IThisIsConfiguration
+  href: api/Dapplo.Addons.TestAddon.IThisIsConfiguration.html
+  commentId: T:Dapplo.Addons.TestAddon.IThisIsConfiguration
+  fullName: Dapplo.Addons.TestAddon.IThisIsConfiguration
+  nameWithType: IThisIsConfiguration
+- uid: Dapplo.Addons.TestAddon.IThisIsConfiguration.Name
+  name: Name
+  href: api/Dapplo.Addons.TestAddon.IThisIsConfiguration.html#Dapplo_Addons_TestAddon_IThisIsConfiguration_Name
+  commentId: P:Dapplo.Addons.TestAddon.IThisIsConfiguration.Name
+  fullName: Dapplo.Addons.TestAddon.IThisIsConfiguration.Name
+  nameWithType: IThisIsConfiguration.Name
+- uid: Dapplo.Addons.TestAddon.IThisIsConfiguration.Name*
+  name: Name
+  href: api/Dapplo.Addons.TestAddon.IThisIsConfiguration.html#Dapplo_Addons_TestAddon_IThisIsConfiguration_Name_
+  commentId: Overload:Dapplo.Addons.TestAddon.IThisIsConfiguration.Name
+  fullName: Dapplo.Addons.TestAddon.IThisIsConfiguration.Name
+  nameWithType: IThisIsConfiguration.Name
+- uid: Dapplo.Addons.TestAddon.IThisIsSubConfiguration
+  name: IThisIsSubConfiguration
+  href: api/Dapplo.Addons.TestAddon.IThisIsSubConfiguration.html
+  commentId: T:Dapplo.Addons.TestAddon.IThisIsSubConfiguration
+  fullName: Dapplo.Addons.TestAddon.IThisIsSubConfiguration
+  nameWithType: IThisIsSubConfiguration
+- uid: Dapplo.Addons.TestAddon.IThisIsSubConfiguration.Company
+  name: Company
+  href: api/Dapplo.Addons.TestAddon.IThisIsSubConfiguration.html#Dapplo_Addons_TestAddon_IThisIsSubConfiguration_Company
+  commentId: P:Dapplo.Addons.TestAddon.IThisIsSubConfiguration.Company
+  fullName: Dapplo.Addons.TestAddon.IThisIsSubConfiguration.Company
+  nameWithType: IThisIsSubConfiguration.Company
+- uid: Dapplo.Addons.TestAddon.IThisIsSubConfiguration.Company*
+  name: Company
+  href: api/Dapplo.Addons.TestAddon.IThisIsSubConfiguration.html#Dapplo_Addons_TestAddon_IThisIsSubConfiguration_Company_
+  commentId: Overload:Dapplo.Addons.TestAddon.IThisIsSubConfiguration.Company
+  fullName: Dapplo.Addons.TestAddon.IThisIsSubConfiguration.Company
+  nameWithType: IThisIsSubConfiguration.Company
+- uid: Dapplo.Addons.TestAddon.SomeAddon
+  name: SomeAddon
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html
+  commentId: T:Dapplo.Addons.TestAddon.SomeAddon
+  fullName: Dapplo.Addons.TestAddon.SomeAddon
+  nameWithType: SomeAddon
+- uid: Dapplo.Addons.TestAddon.SomeAddon.MyConfig
+  name: MyConfig
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_MyConfig
+  commentId: P:Dapplo.Addons.TestAddon.SomeAddon.MyConfig
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.MyConfig
+  nameWithType: SomeAddon.MyConfig
+- uid: Dapplo.Addons.TestAddon.SomeAddon.MyConfig*
+  name: MyConfig
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_MyConfig_
+  commentId: Overload:Dapplo.Addons.TestAddon.SomeAddon.MyConfig
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.MyConfig
+  nameWithType: SomeAddon.MyConfig
+- uid: Dapplo.Addons.TestAddon.SomeAddon.MyConfigs
+  name: MyConfigs
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_MyConfigs
+  commentId: P:Dapplo.Addons.TestAddon.SomeAddon.MyConfigs
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.MyConfigs
+  nameWithType: SomeAddon.MyConfigs
+- uid: Dapplo.Addons.TestAddon.SomeAddon.MyConfigs*
+  name: MyConfigs
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_MyConfigs_
+  commentId: Overload:Dapplo.Addons.TestAddon.SomeAddon.MyConfigs
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.MyConfigs
+  nameWithType: SomeAddon.MyConfigs
+- uid: Dapplo.Addons.TestAddon.SomeAddon.MysubConfig
+  name: MysubConfig
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_MysubConfig
+  commentId: P:Dapplo.Addons.TestAddon.SomeAddon.MysubConfig
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.MysubConfig
+  nameWithType: SomeAddon.MysubConfig
+- uid: Dapplo.Addons.TestAddon.SomeAddon.MysubConfig*
+  name: MysubConfig
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_MysubConfig_
+  commentId: Overload:Dapplo.Addons.TestAddon.SomeAddon.MysubConfig
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.MysubConfig
+  nameWithType: SomeAddon.MysubConfig
+- uid: Dapplo.Addons.TestAddon.SomeAddon.ShutdownAsync(CancellationToken)
+  name: ShutdownAsync(CancellationToken)
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_ShutdownAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.TestAddon.SomeAddon.ShutdownAsync(CancellationToken)
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.ShutdownAsync(CancellationToken)
+  nameWithType: SomeAddon.ShutdownAsync(CancellationToken)
+- uid: Dapplo.Addons.TestAddon.SomeAddon.ShutdownAsync*
+  name: ShutdownAsync
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_ShutdownAsync_
+  commentId: Overload:Dapplo.Addons.TestAddon.SomeAddon.ShutdownAsync
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.ShutdownAsync
+  nameWithType: SomeAddon.ShutdownAsync
+- uid: Dapplo.Addons.TestAddon.SomeAddon.StartAsync(CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_StartAsync_CancellationToken_
+  commentId: M:Dapplo.Addons.TestAddon.SomeAddon.StartAsync(CancellationToken)
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.StartAsync(CancellationToken)
+  nameWithType: SomeAddon.StartAsync(CancellationToken)
+- uid: Dapplo.Addons.TestAddon.SomeAddon.StartAsync*
+  name: StartAsync
+  href: api/Dapplo.Addons.TestAddon.SomeAddon.html#Dapplo_Addons_TestAddon_SomeAddon_StartAsync_
+  commentId: Overload:Dapplo.Addons.TestAddon.SomeAddon.StartAsync
+  fullName: Dapplo.Addons.TestAddon.SomeAddon.StartAsync
+  nameWithType: SomeAddon.StartAsync
+- uid: Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon
+  name: StartupExceptionThrowingAddon
+  href: api/Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.html
+  commentId: T:Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon
+  fullName: Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon
+  nameWithType: StartupExceptionThrowingAddon
+- uid: Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.Start
+  name: Start()
+  href: api/Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.html#Dapplo_Addons_TestAddon_StartupExceptionThrowingAddon_Start
+  commentId: M:Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.Start
+  fullName: Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.Start()
+  nameWithType: StartupExceptionThrowingAddon.Start()
+- uid: Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.Start*
+  name: Start
+  href: api/Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.html#Dapplo_Addons_TestAddon_StartupExceptionThrowingAddon_Start_
+  commentId: Overload:Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.Start
+  fullName: Dapplo.Addons.TestAddon.StartupExceptionThrowingAddon.Start
+  nameWithType: StartupExceptionThrowingAddon.Start
