@@ -161,10 +161,10 @@ a:hover {
   transform-origin: bottom left;
 }
 
-/* Main Content Grid */
+/* Main Content Layout */
 #main {
-  display: grid !important;
-  grid-template-columns: 1fr;
+  display: flex !important;
+  flex-direction: column;
   gap: 2.5rem;
   max-width: 1200px !important;
   margin: 2.5rem auto !important;
@@ -176,21 +176,32 @@ a:hover {
 
 @media (min-width: 900px) {
   #main {
-    grid-template-columns: 240px 1fr !important;
+    flex-direction: row !important;
+    align-items: flex-start;
+  }
+  
+  .article-author-side {
+    display: block !important;
+    width: 250px !important;
+    flex-shrink: 0;
+  }
+  
+  article.page, article.post, #index {
+    flex-grow: 1;
+    min-width: 0; /* Prevents flexbox overflow */
   }
 }
 
 /* Author Sidebar Card styling */
 .article-author-side {
+  display: none !important;
   float: none !important;
   width: 100% !important;
-  display: block !important;
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   padding: 1.5rem !important;
   box-sizing: border-box;
-  align-self: start;
 }
 
 .article-author-side .bio-photo {
