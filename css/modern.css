@@ -10,13 +10,13 @@
   
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-muted: #8ea0b4;
   
   --accent-blue: #38bdf8;
-  --accent-indigo: #6366f1;
+  --accent-indigo: #818cf8;
   --accent-pink: #ec4899;
-  --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #6366f1 100%);
-  --accent-gradient-hover: linear-gradient(135deg, #0ea5e9 0%, #4f46e5 100%);
+  --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
   
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   
@@ -679,4 +679,54 @@ article h1 {
 #iubenda_policy a:hover,
 #iubenda_policy a:hover * {
   color: var(--accent-indigo) !important;
+}
+
+/* Accessibility Focus Rings */
+a:focus-visible,
+button:focus-visible,
+details summary:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent-blue) !important;
+  outline-offset: 4px !important;
+}
+
+/* Fallback for older browsers */
+a:focus,
+button:focus,
+details summary:focus,
+[role="button"]:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 4px;
+}
+
+/* Skip to main content link */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+
+.skip-to-content:focus-visible {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-gradient);
+  color: var(--text-primary) !important;
+  border-radius: var(--radius-md);
+  z-index: 1000;
+  font-weight: 600;
+  box-shadow: var(--shadow-xl);
+  outline: none;
 }
