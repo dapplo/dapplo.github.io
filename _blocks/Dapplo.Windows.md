@@ -3,7 +3,7 @@ layout: block
 sort_id: 3
 github_project: Dapplo.Windows
 appveyor_id: n99jafhbbp74n2w7
-tags: work_in_progress
+tags: live
 ---
 
 This repository contains a Microsoft Visual Studio solution for C# .NET with one dapplo building block project and a test case project which is used for testing the code and also serves as example code. The building block was created to simplify accessing native Windows.

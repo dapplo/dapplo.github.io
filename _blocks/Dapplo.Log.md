@@ -3,7 +3,7 @@ layout: block
 sort_id: 0
 github_project: Dapplo.Log
 appveyor_id: 5s97m6ha9niupt1y
-tags: work_in_progress
+tags: live
 ---
 
 # Dapplo.Log
