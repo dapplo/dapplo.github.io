@@ -41,7 +41,7 @@ titlecase: true
 # Collections
 collections:
  blocks:
-  output: true
+  output: false
  faqs:
   output: false
 
