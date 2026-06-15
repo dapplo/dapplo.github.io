@@ -636,3 +636,47 @@ article h1 {
     justify-content: center;
   }
 }
+
+/* Iubenda Dark Mode Compatibility Overrides */
+#iubenda_policy,
+#iubenda_policy * {
+  background-color: transparent !important;
+  color: var(--text-secondary) !important;
+}
+
+#iubenda_policy .box_primary,
+#iubenda_policy .box_secondary,
+#iubenda_policy .box_tertiary,
+#iubenda_policy .accordion-content,
+#iubenda_policy .accordion-handle,
+#iubenda_policy .accordion-wrapper,
+#iubenda_policy .iub_container,
+#iubenda_policy .iub_content {
+  background-color: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-secondary) !important;
+  border-radius: var(--radius-md) !important;
+}
+
+#iubenda_policy h1,
+#iubenda_policy h2,
+#iubenda_policy h3,
+#iubenda_policy h4,
+#iubenda_policy h5,
+#iubenda_policy h6,
+#iubenda_policy strong,
+#iubenda_policy b,
+#iubenda_policy .accordion-handle .accordion-title {
+  color: var(--text-primary) !important;
+}
+
+#iubenda_policy a,
+#iubenda_policy a * {
+  color: var(--accent-blue) !important;
+  background-color: transparent !important;
+}
+
+#iubenda_policy a:hover,
+#iubenda_policy a:hover * {
+  color: var(--accent-indigo) !important;
+}
