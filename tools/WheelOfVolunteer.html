@@ -113,9 +113,8 @@
     color: var(--accent);
   }
 
-  textarea, .text-input {
+  .text-input {
     width: 100%;
-    resize: vertical;
     padding: 12px 14px;
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -126,7 +125,11 @@
     line-height: 1.5;
   }
 
-  textarea { min-height: clamp(160px, 30vh, 480px); }
+  .participant-list { display: grid; gap: 8px; }
+  .participant-row { display: flex; align-items: center; gap: 8px; }
+  .participant-row .text-input { flex: 1; min-width: 0; }
+  .participate-label { display: flex; align-items: center; gap: 4px; color: var(--muted); font-size: 0.8rem; }
+  .remove-participant { padding: 8px 12px; font-size: 1.2rem; }
 
   .field-label {
     display: block;
@@ -137,7 +140,7 @@
 
   .roles-field { margin-bottom: 14px; }
 
-  textarea:focus, .text-input:focus {
+  .text-input:focus {
     outline: none;
     border-color: var(--accent);
     box-shadow: 0 0 0 3px rgba(77, 225, 255, 0.15);
@@ -461,17 +464,15 @@
 <main class="layout">
   <section class="panel" aria-labelledby="participants-title">
     <h2 id="participants-title">Participants</h2>
-    <label for="names-input" class="visually-hidden">Participant names, one per line</label>
-    <textarea id="names-input" spellcheck="false"
-      placeholder="Paste names here, one per line&#10;&#10;Ada Lovelace&#10;Alan Turing&#10;Grace Hopper&#10;Katherine Johnson"></textarea>
+    <div id="participant-list" class="participant-list"></div>
     <div class="row">
-      <button type="button" class="btn btn-primary" id="update-btn">Update Wheel</button>
+      <button type="button" class="btn btn-primary" id="add-btn">Add participant</button>
       <button type="button" class="btn" id="sort-btn">Sort A–Z</button>
       <button type="button" class="btn" id="share-btn" title="Copy a link that opens this page with the current names and roles">Copy link</button>
     </div>
     <p class="status" id="status" role="status"></p>
     <p class="hint">
-      Duplicate names are merged so everyone has an equal chance.
+      Names must be unique. Uncheck Participate to exclude someone for this session.
       Press <kbd>Space</kbd> to spin.
       Everything stays in this browser.
     </p>
@@ -523,8 +524,8 @@
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   const els = {
-    names: document.getElementById('names-input'),
-    update: document.getElementById('update-btn'),
+    participantList: document.getElementById('participant-list'),
+    add: document.getElementById('add-btn'),
     sort: document.getElementById('sort-btn'),
     share: document.getElementById('share-btn'),
     roles: document.getElementById('roles-input'),
@@ -549,7 +550,7 @@
 
   // Persisted state. Names are unique (case-insensitive), so they double as ids.
   // roles[i] is the role given to the (i+1)-th chosen person.
-  const state = { participants: [], chosen: [], roles: [] };
+  const state = { participants: [], chosen: [], roles: [], excluded: [] };
 
   // View state
   let wheelNames = [];      // names currently drawn on the wheel
@@ -605,7 +606,8 @@
 
   function remainingNames() {
     const chosen = new Set(state.chosen);
-    return state.participants.filter(name => !chosen.has(name));
+    const excluded = new Set(state.excluded);
+    return state.participants.filter(name => !chosen.has(name) && !excluded.has(name));
   }
 
   // Reads #names=...&roles=... (or the same as query string); values separated by newlines, commas or semicolons.
@@ -644,6 +646,7 @@
         const known = new Set(state.participants);
         state.chosen = data.chosen.filter(n => known.has(n));
         if (Array.isArray(data.roles)) state.roles = data.roles.filter(r => typeof r === 'string');
+        if (Array.isArray(data.excluded)) state.excluded = [...new Set(data.excluded.filter(n => known.has(n)))];
       }
     } catch {
       // Ignore corrupt or inaccessible storage.
@@ -727,7 +730,9 @@
     g.textAlign = 'center';
     g.textBaseline = 'middle';
     g.font = `500 ${r * 0.065}px ${FONT}`;
-    const message = state.participants.length ? 'Everyone has been chosen' : 'Add names to begin';
+    const message = !state.participants.length ? 'Add names to begin'
+      : state.participants.length === state.excluded.length ? 'No participants enabled'
+      : 'Everyone has been chosen';
     g.fillText(message, 0, r * 0.5);
   }
 
@@ -1078,7 +1083,7 @@
   }
 
   function updateStats() {
-    const total = state.participants.length;
+    const total = state.participants.length - state.excluded.length;
     const left = remainingNames().length;
     els.stats.innerHTML = '';
     const strong = document.createElement('strong');
@@ -1091,14 +1096,16 @@
     const hasChosen = state.chosen.length > 0;
     els.spin.disabled = spinning || !hasRemaining;
     els.spin.classList.toggle('busy', spinning);
-    els.update.disabled = spinning;
+    els.add.disabled = spinning;
     els.sort.disabled = spinning;
     els.share.disabled = spinning || !state.participants.length;
     els.copyResults.disabled = !hasChosen;
     els.undo.disabled = spinning || !hasChosen;
     els.reset.disabled = spinning || !hasChosen;
     els.clear.disabled = spinning;
-    els.names.readOnly = spinning;
+    els.participantList.querySelectorAll('input, button').forEach(control => {
+      control.disabled = spinning || (control.type === 'checkbox' && !control.dataset.name);
+    });
   }
 
   // Rebuild the wheel from the current state (drops any winner highlight).
@@ -1114,27 +1121,92 @@
 
   // ---------- Actions ----------
 
-  function updateFromTextarea() {
-    if (spinning) return;
-    const { names, duplicates } = parseNames(els.names.value);
-    state.participants = names;
-    const known = new Set(names);
-    state.chosen = state.chosen.filter(n => known.has(n));
+  function participantsChanged() {
     save();
-    els.names.value = names.join('\n');
     refreshWheel();
-    setResult(names.length ? 'Press SPIN to choose a volunteer' : 'Add some names to get started', '');
-    let message = `${names.length} ${names.length === 1 ? 'name' : 'names'} on the wheel.`;
-    if (duplicates) message += ` ${duplicates} duplicate${duplicates === 1 ? '' : 's'} removed.`;
-    setStatus(message);
+    setResult(state.participants.length ? 'Press SPIN to choose a volunteer' : 'Add some names to get started', '');
+  }
+
+  function addParticipantRow(initialName = '') {
+    let name = initialName;
+    const row = document.createElement('div');
+    row.className = 'participant-row';
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'text-input';
+    input.spellcheck = false;
+    input.placeholder = 'Participant name';
+    input.setAttribute('aria-label', 'Participant name');
+    input.value = name;
+    const label = document.createElement('label');
+    label.className = 'participate-label';
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = !state.excluded.includes(name);
+    checkbox.dataset.name = name;
+    checkbox.disabled = !name;
+    label.append(checkbox, 'Participate');
+    const remove = document.createElement('button');
+    remove.type = 'button';
+    remove.className = 'btn remove-participant';
+    remove.textContent = '×';
+    const updateLabels = () => {
+      checkbox.setAttribute('aria-label', `Participate: ${name || 'new participant'}`);
+      remove.setAttribute('aria-label', `Remove ${name || 'new participant'}`);
+    };
+    updateLabels();
+    input.addEventListener('change', () => {
+      const newName = input.value.trim().replace(/\s+/g, ' ');
+      if (!newName || state.participants.some(n => n !== name && n.toLocaleLowerCase() === newName.toLocaleLowerCase())) {
+        input.value = name;
+        if (newName) setStatus('Names must be unique.');
+        return;
+      }
+      if (name) {
+        state.participants[state.participants.indexOf(name)] = newName;
+        state.chosen = state.chosen.map(n => n === name ? newName : n);
+        state.excluded = state.excluded.map(n => n === name ? newName : n);
+      } else {
+        state.participants.push(newName);
+      }
+      name = newName;
+      input.value = name;
+      checkbox.dataset.name = name;
+      checkbox.disabled = false;
+      updateLabels();
+      setStatus('');
+      participantsChanged();
+    });
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { e.preventDefault(); input.blur(); }
+    });
+    checkbox.addEventListener('change', () => {
+      state.excluded = state.excluded.filter(n => n !== name);
+      if (!checkbox.checked) state.excluded.push(name);
+      participantsChanged();
+    });
+    remove.addEventListener('click', () => {
+      state.participants = state.participants.filter(n => n !== name);
+      state.chosen = state.chosen.filter(n => n !== name);
+      state.excluded = state.excluded.filter(n => n !== name);
+      row.remove();
+      participantsChanged();
+    });
+    row.append(input, label, remove);
+    els.participantList.append(row);
+    return input;
+  }
+
+  function renderParticipants() {
+    els.participantList.replaceChildren();
+    state.participants.forEach(name => addParticipantRow(name));
   }
 
   function sortNames() {
     if (spinning) return;
-    const { names } = parseNames(els.names.value);
-    names.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
-    els.names.value = names.join('\n');
-    updateFromTextarea();
+    state.participants.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+    renderParticipants();
+    participantsChanged();
   }
 
   function updateRoles() {
@@ -1171,7 +1243,8 @@
     state.participants = [];
     state.chosen = [];
     state.roles = [];
-    els.names.value = '';
+    state.excluded = [];
+    renderParticipants();
     els.roles.value = '';
     refreshWheel();
     setResult('Add some names to get started', '');
@@ -1222,16 +1295,17 @@
     if (fromUrl.names && fromUrl.names.length && !sameList(fromUrl.names, state.participants)) {
       state.participants = fromUrl.names;
       state.chosen = [];
+      state.excluded = [];
       setStatus(`Loaded ${fromUrl.names.length} names from the link.`);
     }
     if (fromUrl.roles) state.roles = fromUrl.roles;
     save();
 
-    els.names.value = state.participants.join('\n');
+    renderParticipants();
     els.roles.value = state.roles.join(', ');
     if (!state.participants.length) setResult('Add some names to get started', '');
 
-    els.update.addEventListener('click', updateFromTextarea);
+    els.add.addEventListener('click', () => addParticipantRow().focus());
     els.sort.addEventListener('click', sortNames);
     els.share.addEventListener('click', copyShareLink);
     els.roles.addEventListener('input', updateRoles);
@@ -1240,13 +1314,6 @@
     els.undo.addEventListener('click', undoLast);
     els.reset.addEventListener('click', resetAll);
     els.clear.addEventListener('click', clearSavedState);
-
-    els.names.addEventListener('keydown', e => {
-      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
-        e.preventDefault();
-        updateFromTextarea();
-      }
-    });
 
     document.addEventListener('keydown', e => {
       if (e.code !== 'Space' || e.repeat) return;
