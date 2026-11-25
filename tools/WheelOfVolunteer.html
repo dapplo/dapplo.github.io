@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fully offline: no network requests of any kind are allowed, so names can never leave the browser. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<title>Wheel of Volunteer</title>
+<style>
+  :root {
+    --bg: #050914;
+    --panel: rgba(14, 22, 46, 0.72);
+    --border: rgba(120, 170, 255, 0.16);
+    --text: #e8f0ff;
+    --muted: #8a9cc2;
+    --accent: #4de1ff;
+    --accent-2: #8b7bff;
+    --danger: #ff6b8a;
+    --radius: 16px;
+    --font: "Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body { min-height: 100%; }
+
+  body {
+    margin: 0;
+    font-family: var(--font);
+    color: var(--text);
+    background:
+      radial-gradient(1200px 800px at 50% 40%, rgba(60, 90, 200, 0.18), transparent 60%),
+      radial-gradient(900px 600px at 85% 10%, rgba(139, 123, 255, 0.12), transparent 60%),
+      linear-gradient(180deg, #060b1a, #03060f);
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100svh;
+    overflow-x: hidden;
+  }
+
+  /* Faint futuristic grid */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+      linear-gradient(rgba(120, 170, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(120, 170, 255, 0.05) 1px, transparent 1px);
+    background-size: 48px 48px;
+    -webkit-mask-image: radial-gradient(circle at 50% 45%, #000 0%, transparent 75%);
+    mask-image: radial-gradient(circle at 50% 45%, #000 0%, transparent 75%);
+  }
+
+  header {
+    position: relative;
+    text-align: center;
+    flex: none;
+    padding: clamp(10px, 2vh, 24px) 16px 0;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(1.6rem, 1rem + 2vw, 3rem);
+    font-weight: 300;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+  }
+
+  h1 strong {
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .layout {
+    position: relative;
+    display: grid;
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    grid-template-columns: minmax(240px, 340px) minmax(0, 1fr) minmax(240px, 340px);
+    grid-template-rows: minmax(0, 1fr);
+    gap: clamp(16px, 2vw, 40px);
+    padding: clamp(12px, 2vw, 32px);
+    align-items: start;
+    max-width: 2400px;
+    margin: 0 auto;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    max-height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  }
+
+  .panel h2 {
+    margin: 0 0 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  textarea, .text-input {
+    width: 100%;
+    resize: vertical;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: rgba(3, 7, 18, 0.7);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  textarea { min-height: clamp(160px, 30vh, 480px); }
+
+  .field-label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .roles-field { margin-bottom: 14px; }
+
+  textarea:focus, .text-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(77, 225, 255, 0.15);
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .btn {
+    appearance: none;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .btn:hover:not(:disabled) {
+    border-color: rgba(77, 225, 255, 0.5);
+    background: rgba(77, 225, 255, 0.08);
+  }
+
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .btn-primary {
+    flex: 1;
+    border-color: rgba(77, 225, 255, 0.45);
+    background: linear-gradient(90deg, rgba(77, 225, 255, 0.22), rgba(139, 123, 255, 0.22));
+  }
+
+  .btn-primary:hover:not(:disabled) { box-shadow: 0 0 18px rgba(77, 225, 255, 0.25); }
+
+  .btn-link {
+    padding: 0;
+    border: none;
+    background: none;
+    color: var(--muted);
+    font: inherit;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .btn-link:hover:not(:disabled) { color: var(--danger); }
+  .btn-link:disabled { opacity: 0.4; cursor: not-allowed; }
+  .btn-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .hint, .status, .stats {
+    margin: 10px 0 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+
+  .status { color: var(--accent); min-height: 1.2em; }
+
+  .stats strong { color: var(--text); }
+
+  /* ---------- Wheel stage ---------- */
+  .stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(6px, 1vh, 16px);
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .result {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: clamp(56px, 9vh, 130px);
+    text-align: center;
+  }
+
+  /* Sized container: the wheel takes the largest square that fits in the remaining space. */
+  .wheel-area {
+    display: grid;
+    flex: 1;
+    place-items: center;
+    width: 100%;
+    min-height: 0;
+    padding-top: 1%;
+    container-type: size;
+  }
+
+  .result-label {
+    color: var(--muted);
+    font-size: clamp(0.75rem, 0.6rem + 0.4vw, 1.1rem);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .result-name {
+    --glow: var(--accent);
+    min-height: 1.2em;
+    margin-top: 0.1em;
+    font-size: clamp(1.8rem, 1rem + 3vw, 4.5rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-shadow: 0 0 28px var(--glow), 0 0 4px rgba(255, 255, 255, 0.6);
+  }
+
+  .result-name.pop { animation: pop 0.6s cubic-bezier(0.2, 1.4, 0.4, 1); }
+
+  @keyframes pop {
+    from { transform: scale(0.6); opacity: 0; }
+    to   { transform: scale(1);   opacity: 1; }
+  }
+
+  .wheel-wrap {
+    position: relative;
+    width: min(100cqw, 100cqh);
+    aspect-ratio: 1;
+    container-type: inline-size;
+  }
+
+  .wheel-wrap canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .wheel-wrap.celebrate canvas { animation: wheel-glow 1.8s ease-out; }
+
+  @keyframes wheel-glow {
+    0%   { filter: drop-shadow(0 0 0 rgba(77, 225, 255, 0)); }
+    30%  { filter: drop-shadow(0 0 40px rgba(77, 225, 255, 0.6)); }
+    100% { filter: drop-shadow(0 0 0 rgba(77, 225, 255, 0)); }
+  }
+
+  .pointer {
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    z-index: 2;
+    width: 7%;
+    height: 9%;
+    transform: translateX(-50%);
+    filter: drop-shadow(0 0 8px rgba(77, 225, 255, 0.8)) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.6));
+  }
+
+  .pointer-shape {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #ffffff, #bff4ff 40%, var(--accent));
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    transform-origin: 50% 15%;
+  }
+
+  .spin-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    width: 23%;
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #ffffff, #9eefff 35%, var(--accent) 60%, #1b8fb5);
+    color: #04101f;
+    font: inherit;
+    font-size: 4.6cqw;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    cursor: pointer;
+    box-shadow:
+      0 0 0 0.8cqw rgba(5, 10, 25, 0.9),
+      0 0 0 1.2cqw rgba(77, 225, 255, 0.5),
+      0 0 4cqw rgba(77, 225, 255, 0.55);
+    transition: transform 0.15s, filter 0.2s;
+  }
+
+  .spin-btn:hover:not(:disabled)  { transform: translate(-50%, -50%) scale(1.05); }
+  .spin-btn:active:not(:disabled) { transform: translate(-50%, -50%) scale(0.97); }
+  .spin-btn:focus-visible { outline: 3px solid #ffffff; outline-offset: 4px; }
+  .spin-btn:disabled { cursor: not-allowed; filter: grayscale(0.7) brightness(0.6); }
+  .spin-btn.busy:disabled { cursor: progress; filter: none; }
+
+  kbd {
+    padding: 1px 6px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.9em;
+  }
+
+  /* ---------- Chosen list ---------- */
+  .chosen-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: clamp(160px, 40vh, 640px);
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    list-style: none;
+  }
+
+  .chosen-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    overflow-wrap: anywhere;
+  }
+
+  .chosen-list li.latest {
+    border-color: rgba(77, 225, 255, 0.5);
+    box-shadow: 0 0 18px rgba(77, 225, 255, 0.15);
+    animation: slide-in 0.5s ease-out;
+  }
+
+  .chosen-list li.empty {
+    justify-content: center;
+    border-style: dashed;
+    background: none;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .chosen-list .num {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .chosen-list .who { display: flex; flex-direction: column; min-width: 0; }
+
+  .chosen-list .role {
+    color: var(--accent);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  @keyframes slide-in {
+    from { transform: translateX(16px); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+  }
+
+  .danger-zone {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  #fx {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (min-width: 1900px) {
+    html { font-size: 20px; }
+  }
+
+  @media (max-width: 1100px) {
+    body { height: auto; min-height: 100vh; }
+    .layout { flex: none; grid-template-columns: 1fr 1fr; grid-template-rows: none; }
+    .panel { max-height: none; }
+    .stage { grid-column: 1 / -1; order: -1; height: auto; }
+    .wheel-area { flex: none; height: max(280px, min(calc(100vw - 40px), calc(100svh - 170px))); }
+  }
+
+  @media (max-width: 680px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .result-name.pop,
+    .chosen-list li.latest,
+    .wheel-wrap.celebrate canvas { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Wheel of <strong>Volunteer</strong></h1>
+</header>
+
+<main class="layout">
+  <section class="panel" aria-labelledby="participants-title">
+    <h2 id="participants-title">Participants</h2>
+    <label for="names-input" class="visually-hidden">Participant names, one per line</label>
+    <textarea id="names-input" spellcheck="false"
+      placeholder="Paste names here, one per line&#10;&#10;Ada Lovelace&#10;Alan Turing&#10;Grace Hopper&#10;Katherine Johnson"></textarea>
+    <div class="row">
+      <button type="button" class="btn btn-primary" id="update-btn">Update Wheel</button>
+      <button type="button" class="btn" id="sort-btn">Sort A–Z</button>
+      <button type="button" class="btn" id="share-btn" title="Copy a link that opens this page with the current names and roles">Copy link</button>
+    </div>
+    <p class="status" id="status" role="status"></p>
+    <p class="hint">
+      Duplicate names are merged so everyone has an equal chance.
+      Press <kbd>Space</kbd> to spin.
+      Everything stays in this browser.
+    </p>
+  </section>
+
+  <section class="stage" aria-label="Wheel">
+    <div class="result" aria-live="polite">
+      <span class="result-label" id="result-label">Press SPIN to choose a volunteer</span>
+      <span class="result-name" id="result-name"></span>
+    </div>
+
+    <div class="wheel-area">
+      <div class="wheel-wrap" id="wheel-wrap">
+        <div class="pointer" aria-hidden="true"><div class="pointer-shape" id="pointer-shape"></div></div>
+        <canvas id="wheel" role="img" aria-label="Wheel of names"></canvas>
+        <button type="button" class="spin-btn" id="spin-btn">SPIN</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="chosen-title">
+    <h2 id="chosen-title">Chosen</h2>
+    <div class="roles-field">
+      <label for="roles-input" class="field-label">Roles, in order of selection (comma-separated)</label>
+      <input type="text" id="roles-input" class="text-input" spellcheck="false" placeholder="e.g. Moderator, Backup">
+    </div>
+    <ol class="chosen-list" id="chosen-list"></ol>
+    <p class="stats" id="stats"></p>
+    <div class="row">
+      <button type="button" class="btn" id="undo-btn">Undo last selection</button>
+      <button type="button" class="btn" id="reset-btn">Reset</button>
+      <button type="button" class="btn" id="copy-results-btn">Copy results</button>
+    </div>
+    <div class="danger-zone">
+      <button type="button" class="btn-link" id="clear-btn">Clear saved state</button>
+    </div>
+  </section>
+</main>
+
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<script>
+(() => {
+  'use strict';
+
+  const STORAGE_KEY = 'wheelOfFuture.state.v1';
+  const TAU = Math.PI * 2;
+  const WHEEL_START_ANGLE = -Math.PI / 2; // segment 0 starts at the top (pointer)
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  const els = {
+    names: document.getElementById('names-input'),
+    update: document.getElementById('update-btn'),
+    sort: document.getElementById('sort-btn'),
+    share: document.getElementById('share-btn'),
+    roles: document.getElementById('roles-input'),
+    copyResults: document.getElementById('copy-results-btn'),
+    status: document.getElementById('status'),
+    resultLabel: document.getElementById('result-label'),
+    resultName: document.getElementById('result-name'),
+    wheelWrap: document.getElementById('wheel-wrap'),
+    canvas: document.getElementById('wheel'),
+    pointerShape: document.getElementById('pointer-shape'),
+    spin: document.getElementById('spin-btn'),
+    chosenList: document.getElementById('chosen-list'),
+    stats: document.getElementById('stats'),
+    undo: document.getElementById('undo-btn'),
+    reset: document.getElementById('reset-btn'),
+    clear: document.getElementById('clear-btn'),
+    fx: document.getElementById('fx'),
+  };
+
+  const ctx = els.canvas.getContext('2d');
+  const FONT = getComputedStyle(document.body).fontFamily;
+
+  // Persisted state. Names are unique (case-insensitive), so they double as ids.
+  // roles[i] is the role given to the (i+1)-th chosen person.
+  const state = { participants: [], chosen: [], roles: [] };
+
+  // View state
+  let wheelNames = [];      // names currently drawn on the wheel
+  let highlightIndex = -1;  // index in wheelNames of the latest winner
+  let rotation = 0;         // radians, clockwise
+  let spinning = false;
+  let wheelImage = null;    // offscreen canvas with the pre-rendered (unrotated) wheel
+  let lastPointerSegment = -1;
+
+  // ---------- Randomness ----------
+
+  // Uniform integer in [0, max) using rejection sampling to avoid modulo bias.
+  function secureRandomInt(max) {
+    const limit = Math.floor(0x100000000 / max) * max;
+    const buf = new Uint32Array(1);
+    do {
+      crypto.getRandomValues(buf);
+    } while (buf[0] >= limit);
+    return buf[0] % max;
+  }
+
+  function secureRandomFloat() {
+    const buf = new Uint32Array(1);
+    crypto.getRandomValues(buf);
+    return buf[0] / 0x100000000;
+  }
+
+  // ---------- Names ----------
+
+  function parseNames(text) {
+    const seen = new Set();
+    const names = [];
+    let duplicates = 0;
+    for (const raw of text.split(/\r?\n/)) {
+      const name = raw.trim().replace(/\s+/g, ' ');
+      if (!name) continue;
+      const key = name.toLocaleLowerCase();
+      if (seen.has(key)) { duplicates++; continue; }
+      seen.add(key);
+      names.push(name);
+    }
+    return { names, duplicates };
+  }
+
+  function parseRoles(text) {
+    return text.split(/[\r\n,;]/).map(r => r.trim().replace(/\s+/g, ' ')).filter(Boolean);
+  }
+
+  // Role for the n-th chosen person (0-based), falling back to its number.
+  function placeLabel(index) {
+    return state.roles[index] || String(index + 1);
+  }
+
+  function remainingNames() {
+    const chosen = new Set(state.chosen);
+    return state.participants.filter(name => !chosen.has(name));
+  }
+
+  // Reads #names=...&roles=... (or the same as query string); values separated by newlines, commas or semicolons.
+  function configFromUrl() {
+    for (const source of [location.hash.slice(1), location.search.slice(1)]) {
+      const params = new URLSearchParams(source);
+      if (!params.has('names') && !params.has('roles')) continue;
+      const toLines = v => (v.includes('\n') ? v : v.replace(/[,;]/g, '\n'));
+      return {
+        names: params.has('names') ? parseNames(toLines(params.get('names'))).names : null,
+        roles: params.has('roles') ? parseRoles(params.get('roles')) : null,
+      };
+    }
+    return { names: null, roles: null };
+  }
+
+  function sameList(a, b) {
+    return a.length === b.length && a.every((name, i) => name === b[i]);
+  }
+
+  // ---------- Persistence ----------
+
+  function save() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch {
+      // Storage can be unavailable (e.g. private mode); the app still works for this session.
+    }
+  }
+
+  function load() {
+    try {
+      const data = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (data && Array.isArray(data.participants) && Array.isArray(data.chosen)) {
+        state.participants = data.participants.filter(n => typeof n === 'string');
+        const known = new Set(state.participants);
+        state.chosen = data.chosen.filter(n => known.has(n));
+        if (Array.isArray(data.roles)) state.roles = data.roles.filter(r => typeof r === 'string');
+      }
+    } catch {
+      // Ignore corrupt or inaccessible storage.
+    }
+  }
+
+  // ---------- Colors ----------
+
+  function relativeLuminance(h, s, l) {
+    const a = s * Math.min(l, 1 - l);
+    const channel = n => {
+      const k = (n + h / 30) % 12;
+      return l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+    };
+    const lin = c => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4);
+    return 0.2126 * lin(channel(0)) + 0.7152 * lin(channel(8)) + 0.0722 * lin(channel(4));
+  }
+
+  // Colour is tied to the person's position in the full list, so it stays stable between spins.
+  // Golden-angle hue steps keep neighbouring segments clearly distinct.
+  function colorFor(name) {
+    const i = Math.max(0, state.participants.indexOf(name));
+    const h = (195 + i * 137.508) % 360;
+    const s = 0.78;
+    const l = i % 2 ? 0.5 : 0.6;
+    return {
+      fill: `hsl(${h.toFixed(1)}, ${s * 100}%, ${l * 100}%)`,
+      text: relativeLuminance(h, s, l) > 0.22 ? '#07101f' : '#ffffff',
+    };
+  }
+
+  // ---------- Wheel rendering ----------
+
+  function geometry() {
+    const size = els.canvas.width;
+    return { size, c: size / 2, r: (size / 2) * 0.9 };
+  }
+
+  function wedgePath(g, r, i, n) {
+    g.beginPath();
+    if (n === 1) {
+      g.arc(0, 0, r, 0, TAU);
+      return;
+    }
+    const seg = TAU / n;
+    g.moveTo(0, 0);
+    g.arc(0, 0, r, WHEEL_START_ANGLE + i * seg, WHEEL_START_ANGLE + (i + 1) * seg);
+    g.closePath();
+  }
+
+  function fitText(g, text, maxWidth) {
+    if (g.measureText(text).width <= maxWidth) return text;
+    let lo = 0;
+    let hi = text.length;
+    while (lo < hi) {
+      const mid = (lo + hi + 1) >> 1;
+      if (g.measureText(text.slice(0, mid) + '…').width <= maxWidth) lo = mid;
+      else hi = mid - 1;
+    }
+    return text.slice(0, lo) + '…';
+  }
+
+  function drawEmptyWheel(g, r) {
+    const bg = g.createRadialGradient(0, 0, 0, 0, 0, r);
+    bg.addColorStop(0, '#0d1733');
+    bg.addColorStop(1, '#070d1f');
+    g.fillStyle = bg;
+    g.beginPath();
+    g.arc(0, 0, r, 0, TAU);
+    g.fill();
+
+    g.setLineDash([r * 0.03, r * 0.03]);
+    g.lineWidth = Math.max(1, r * 0.006);
+    g.strokeStyle = 'rgba(77, 225, 255, 0.35)';
+    g.beginPath();
+    g.arc(0, 0, r * 0.82, 0, TAU);
+    g.stroke();
+    g.setLineDash([]);
+
+    g.fillStyle = '#8a9cc2';
+    g.textAlign = 'center';
+    g.textBaseline = 'middle';
+    g.font = `500 ${r * 0.065}px ${FONT}`;
+    const message = state.participants.length ? 'Everyone has been chosen' : 'Add names to begin';
+    g.fillText(message, 0, r * 0.5);
+  }
+
+  // Pre-render the wheel once per change; each animation frame only rotates this image.
+  function renderWheelImage() {
+    const { size, c, r } = geometry();
+    if (!wheelImage) wheelImage = document.createElement('canvas');
+    wheelImage.width = size;
+    wheelImage.height = size;
+    const g = wheelImage.getContext('2d');
+    g.clearRect(0, 0, size, size);
+    g.save();
+    g.translate(c, c);
+
+    const n = wheelNames.length;
+    if (!n) {
+      drawEmptyWheel(g, r);
+      g.restore();
+      return;
+    }
+
+    const seg = TAU / n;
+    const colors = wheelNames.map(colorFor);
+    const hasWinner = highlightIndex >= 0;
+
+    // Segments
+    for (let i = 0; i < n; i++) {
+      wedgePath(g, r, i, n);
+      g.fillStyle = colors[i].fill;
+      g.fill();
+    }
+
+    // Depth shading
+    const shade = g.createRadialGradient(0, 0, 0, 0, 0, r);
+    shade.addColorStop(0, 'rgba(3, 6, 15, 0.45)');
+    shade.addColorStop(0.35, 'rgba(3, 6, 15, 0.1)');
+    shade.addColorStop(0.85, 'rgba(255, 255, 255, 0)');
+    shade.addColorStop(1, 'rgba(255, 255, 255, 0.12)');
+    g.fillStyle = shade;
+    g.beginPath();
+    g.arc(0, 0, r, 0, TAU);
+    g.fill();
+
+    // Dim everyone except the winner
+    if (hasWinner) {
+      g.fillStyle = 'rgba(3, 6, 15, 0.6)';
+      for (let i = 0; i < n; i++) {
+        if (i === highlightIndex) continue;
+        wedgePath(g, r, i, n);
+        g.fill();
+      }
+    }
+
+    // Separators
+    if (n > 1) {
+      g.strokeStyle = 'rgba(4, 8, 20, 0.55)';
+      g.lineWidth = Math.max(1, r * 0.006);
+      for (let i = 0; i < n; i++) {
+        const a = WHEEL_START_ANGLE + i * seg;
+        g.beginPath();
+        g.moveTo(0, 0);
+        g.lineTo(Math.cos(a) * r, Math.sin(a) * r);
+        g.stroke();
+      }
+    }
+
+    // Labels, written along the radius towards the rim
+    const chordAtLabel = 2 * r * 0.6 * Math.sin(Math.min(seg, Math.PI) / 2);
+    const fontSize = Math.max(r * 0.028, Math.min(r * 0.085, chordAtLabel * 0.6));
+    const outer = r * 0.9;
+    const maxWidth = r * 0.58;
+    g.font = `600 ${fontSize}px ${FONT}`;
+    g.textAlign = 'right';
+    g.textBaseline = 'middle';
+    for (let i = 0; i < n; i++) {
+      const dimmed = hasWinner && i !== highlightIndex;
+      g.save();
+      g.rotate(WHEEL_START_ANGLE + (i + 0.5) * seg);
+      g.globalAlpha = dimmed ? 0.45 : 1;
+      g.fillStyle = dimmed ? '#ffffff' : colors[i].text;
+      g.fillText(fitText(g, wheelNames[i], maxWidth), outer, 0);
+      g.restore();
+    }
+
+    // Winner outline
+    if (hasWinner) {
+      g.save();
+      wedgePath(g, r, highlightIndex, n);
+      g.lineWidth = r * 0.014;
+      g.strokeStyle = '#ffffff';
+      g.shadowColor = 'rgba(77, 225, 255, 0.9)';
+      g.shadowBlur = r * 0.06;
+      g.stroke();
+      g.restore();
+    }
+
+    g.restore();
+  }
+
+  function draw() {
+    const { size, c, r } = geometry();
+    ctx.clearRect(0, 0, size, size);
+    ctx.save();
+    ctx.translate(c, c);
+
+    // Outer frame with glow
+    ctx.beginPath();
+    ctx.arc(0, 0, r * 1.04, 0, TAU);
+    ctx.fillStyle = '#070d1f';
+    ctx.shadowColor = 'rgba(77, 225, 255, 0.35)';
+    ctx.shadowBlur = r * 0.08;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+    ctx.lineWidth = Math.max(1, r * 0.006);
+    ctx.strokeStyle = 'rgba(77, 225, 255, 0.55)';
+    ctx.stroke();
+
+    // Rotating wheel
+    ctx.save();
+    ctx.rotate(rotation);
+    ctx.drawImage(wheelImage, -c, -c);
+    ctx.restore();
+
+    // Rim lights
+    const lights = 48;
+    for (let i = 0; i < lights; i++) {
+      const a = (i / lights) * TAU;
+      ctx.beginPath();
+      ctx.arc(Math.cos(a) * r * 1.02, Math.sin(a) * r * 1.02, Math.max(1, r * 0.006), 0, TAU);
+      ctx.fillStyle = i % 2 ? 'rgba(77, 225, 255, 0.85)' : 'rgba(139, 123, 255, 0.6)';
+      ctx.fill();
+    }
+
+    // Hub behind the SPIN button
+    ctx.beginPath();
+    ctx.arc(0, 0, r * 0.28, 0, TAU);
+    ctx.fillStyle = 'rgba(6, 11, 24, 0.92)';
+    ctx.fill();
+    ctx.lineWidth = Math.max(1, r * 0.008);
+    ctx.strokeStyle = 'rgba(77, 225, 255, 0.4)';
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  function resizeCanvas() {
+    const rect = els.canvas.getBoundingClientRect();
+    const dpr = Math.min(window.devicePixelRatio || 1, 3);
+    const size = Math.max(1, Math.round(rect.width * dpr));
+    els.canvas.width = size;
+    els.canvas.height = size;
+    renderWheelImage();
+    draw();
+  }
+
+  // ---------- Spin ----------
+
+  const mod = (a, m) => ((a % m) + m) % m;
+  const easeOutQuart = t => 1 - (1 - t) ** 4;
+
+  function segmentUnderPointer() {
+    const n = wheelNames.length;
+    return n ? Math.floor(mod(-rotation, TAU) / (TAU / n)) : -1;
+  }
+
+  function flickPointer() {
+    if (reducedMotion.matches || !els.pointerShape.animate) return;
+    els.pointerShape.animate(
+      [{ transform: 'rotate(0deg)' }, { transform: 'rotate(-18deg)' }, { transform: 'rotate(0deg)' }],
+      { duration: 140, easing: 'ease-out' }
+    );
+  }
+
+  function spin() {
+    if (spinning) return;
+    const names = remainingNames();
+    if (!names.length) return;
+
+    spinning = true;
+    wheelNames = names;
+    highlightIndex = -1;
+    renderWheelImage();
+    updateControls();
+    setResult('Spinning…', '');
+
+    // The winner is decided up front; the animation is then steered to land on it.
+    const n = names.length;
+    const seg = TAU / n;
+    const winnerIndex = secureRandomInt(n);
+    const positionInSegment = 0.15 + secureRandomFloat() * 0.7; // never land right on a border
+    const targetRotation = mod(-(winnerIndex + positionInSegment) * seg, TAU);
+    const startRotation = rotation;
+    const extraTurns = 5 + secureRandomInt(3);
+    const endRotation = startRotation + mod(targetRotation - startRotation, TAU) + extraTurns * TAU;
+    const duration = 4000 + secureRandomFloat() * 2000;
+    const startTime = performance.now();
+    lastPointerSegment = segmentUnderPointer();
+
+    const frame = now => {
+      const t = Math.min(1, (now - startTime) / duration);
+      rotation = startRotation + (endRotation - startRotation) * easeOutQuart(t);
+      draw();
+
+      const current = segmentUnderPointer();
+      if (current !== lastPointerSegment) {
+        lastPointerSegment = current;
+        flickPointer();
+      }
+
+      if (t < 1) requestAnimationFrame(frame);
+      else finishSpin(names[winnerIndex], winnerIndex, endRotation);
+    };
+    requestAnimationFrame(frame);
+  }
+
+  function finishSpin(winner, winnerIndex, endRotation) {
+    rotation = mod(endRotation, TAU);
+    spinning = false;
+    highlightIndex = winnerIndex;
+    state.chosen.push(winner);
+    save();
+    const place = state.chosen.length - 1;
+
+    renderWheelImage();
+    draw();
+    renderChosen(true);
+    updateStats();
+    updateControls();
+    setResult(state.roles[place] || `#${place + 1}`, winner, colorFor(winner).fill);
+    celebrate(colorFor(winner).fill);
+  }
+
+  // ---------- Celebration ----------
+
+  function celebrate(winnerColor) {
+    if (reducedMotion.matches) return;
+
+    els.wheelWrap.classList.remove('celebrate');
+    void els.wheelWrap.offsetWidth; // restart the CSS animation
+    els.wheelWrap.classList.add('celebrate');
+
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const fx = els.fx;
+    fx.width = Math.round(window.innerWidth * dpr);
+    fx.height = Math.round(window.innerHeight * dpr);
+    const g = fx.getContext('2d');
+
+    const rect = els.wheelWrap.getBoundingClientRect();
+    const cx = (rect.left + rect.width / 2) * dpr;
+    const cy = (rect.top + rect.height / 2) * dpr;
+    const radius = (rect.width / 2) * 0.9 * dpr;
+    const palette = [winnerColor, '#4de1ff', '#8b7bff', '#ffffff'];
+
+    // Visual-only randomness; Math.random is fine here.
+    const particles = Array.from({ length: 140 }, () => {
+      const angle = Math.random() * TAU;
+      const speed = (2 + Math.random() * 5) * dpr;
+      return {
+        x: cx + Math.cos(angle) * radius,
+        y: cy + Math.sin(angle) * radius,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - 1.5 * dpr,
+        size: (3 + Math.random() * 4) * dpr,
+        spin: Math.random() * TAU,
+        spinSpeed: (Math.random() - 0.5) * 0.3,
+        life: 0,
+        maxLife: 70 + Math.random() * 60,
+        color: palette[Math.floor(Math.random() * palette.length)],
+      };
+    });
+
+    const step = () => {
+      g.clearRect(0, 0, fx.width, fx.height);
+      let alive = false;
+      for (const p of particles) {
+        if (p.life >= p.maxLife) continue;
+        alive = true;
+        p.life++;
+        p.vx *= 0.985;
+        p.vy = p.vy * 0.985 + 0.08 * dpr;
+        p.x += p.vx;
+        p.y += p.vy;
+        p.spin += p.spinSpeed;
+        g.save();
+        g.globalAlpha = 1 - p.life / p.maxLife;
+        g.translate(p.x, p.y);
+        g.rotate(p.spin);
+        g.fillStyle = p.color;
+        g.shadowColor = p.color;
+        g.shadowBlur = 8 * dpr;
+        g.fillRect(-p.size / 2, -p.size / 4, p.size, p.size / 2);
+        g.restore();
+      }
+      if (alive) requestAnimationFrame(step);
+      else g.clearRect(0, 0, fx.width, fx.height);
+    };
+    requestAnimationFrame(step);
+  }
+
+  // ---------- UI ----------
+
+  function setResult(label, name, glowColor) {
+    els.resultLabel.textContent = label;
+    els.resultName.textContent = name;
+    els.resultName.style.setProperty('--glow', glowColor || 'var(--accent)');
+    els.resultName.classList.remove('pop');
+    if (name) {
+      void els.resultName.offsetWidth;
+      els.resultName.classList.add('pop');
+    }
+  }
+
+  function setStatus(message) {
+    els.status.textContent = message;
+  }
+
+  function renderChosen(markLatest = false) {
+    els.chosenList.replaceChildren();
+    if (!state.chosen.length) {
+      const li = document.createElement('li');
+      li.className = 'empty';
+      li.textContent = 'No one chosen yet';
+      els.chosenList.append(li);
+      return;
+    }
+    state.chosen.forEach((name, i) => {
+      const color = colorFor(name);
+      const li = document.createElement('li');
+      const num = document.createElement('span');
+      num.className = 'num';
+      num.textContent = String(i + 1);
+      num.style.background = color.fill;
+      num.style.color = color.text;
+      const label = document.createElement('span');
+      label.className = 'who';
+      if (state.roles[i]) {
+        const role = document.createElement('span');
+        role.className = 'role';
+        role.textContent = state.roles[i];
+        label.append(role);
+      }
+      label.append(name);
+      li.append(num, label);
+      if (markLatest && i === state.chosen.length - 1) li.classList.add('latest');
+      els.chosenList.append(li);
+    });
+    if (markLatest) els.chosenList.scrollTop = els.chosenList.scrollHeight;
+  }
+
+  function updateStats() {
+    const total = state.participants.length;
+    const left = remainingNames().length;
+    els.stats.innerHTML = '';
+    const strong = document.createElement('strong');
+    strong.textContent = String(left);
+    els.stats.append(strong, ` of ${total} still on the wheel`);
+  }
+
+  function updateControls() {
+    const hasRemaining = remainingNames().length > 0;
+    const hasChosen = state.chosen.length > 0;
+    els.spin.disabled = spinning || !hasRemaining;
+    els.spin.classList.toggle('busy', spinning);
+    els.update.disabled = spinning;
+    els.sort.disabled = spinning;
+    els.share.disabled = spinning || !state.participants.length;
+    els.copyResults.disabled = !hasChosen;
+    els.undo.disabled = spinning || !hasChosen;
+    els.reset.disabled = spinning || !hasChosen;
+    els.clear.disabled = spinning;
+    els.names.readOnly = spinning;
+  }
+
+  // Rebuild the wheel from the current state (drops any winner highlight).
+  function refreshWheel() {
+    wheelNames = remainingNames();
+    highlightIndex = -1;
+    renderWheelImage();
+    draw();
+    renderChosen();
+    updateStats();
+    updateControls();
+  }
+
+  // ---------- Actions ----------
+
+  function updateFromTextarea() {
+    if (spinning) return;
+    const { names, duplicates } = parseNames(els.names.value);
+    state.participants = names;
+    const known = new Set(names);
+    state.chosen = state.chosen.filter(n => known.has(n));
+    save();
+    els.names.value = names.join('\n');
+    refreshWheel();
+    setResult(names.length ? 'Press SPIN to choose a volunteer' : 'Add some names to get started', '');
+    let message = `${names.length} ${names.length === 1 ? 'name' : 'names'} on the wheel.`;
+    if (duplicates) message += ` ${duplicates} duplicate${duplicates === 1 ? '' : 's'} removed.`;
+    setStatus(message);
+  }
+
+  function sortNames() {
+    if (spinning) return;
+    const { names } = parseNames(els.names.value);
+    names.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+    els.names.value = names.join('\n');
+    updateFromTextarea();
+  }
+
+  function updateRoles() {
+    state.roles = parseRoles(els.roles.value);
+    save();
+    renderChosen();
+  }
+
+  function undoLast() {
+    if (spinning || !state.chosen.length) return;
+    const name = state.chosen.pop();
+    save();
+    refreshWheel();
+    setResult(`${name} is back on the wheel`, '');
+  }
+
+  function resetAll() {
+    if (spinning || !state.chosen.length) return;
+    if (!confirm('Put everyone back on the wheel and clear the chosen list?')) return;
+    state.chosen = [];
+    save();
+    refreshWheel();
+    setResult('Everyone is back on the wheel', '');
+  }
+
+  function clearSavedState() {
+    if (spinning) return;
+    if (!confirm('Remove the saved participant list and selections from this browser?')) return;
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch {
+      // Nothing to clear if storage is unavailable.
+    }
+    state.participants = [];
+    state.chosen = [];
+    state.roles = [];
+    els.names.value = '';
+    els.roles.value = '';
+    refreshWheel();
+    setResult('Add some names to get started', '');
+    setStatus('Saved state cleared.');
+  }
+
+  async function copyText(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // Clipboard API can be blocked (e.g. some browsers on file://); fall back to a hidden textarea.
+      const area = document.createElement('textarea');
+      area.value = text;
+      area.setAttribute('readonly', '');
+      area.style.position = 'fixed';
+      area.style.opacity = '0';
+      document.body.append(area);
+      area.select();
+      const ok = document.execCommand('copy');
+      area.remove();
+      return ok;
+    }
+  }
+
+  async function copyShareLink() {
+    const base = location.href.split(/[?#]/)[0];
+    const params = new URLSearchParams({ names: state.participants.join('\n') });
+    if (state.roles.length) params.set('roles', state.roles.join(','));
+    const url = `${base}#${params.toString().replace(/\+/g, '%20')}`;
+    if (await copyText(url)) setStatus('Link copied. Opening it preloads these names and roles.');
+    else prompt('Copy this link:', url);
+  }
+
+  async function copyResults() {
+    const text = state.chosen.map((name, i) => `${placeLabel(i)}: ${name}`).join('\n');
+    const original = els.copyResults.textContent;
+    els.copyResults.textContent = (await copyText(text)) ? 'Copied!' : 'Copy failed';
+    setTimeout(() => { els.copyResults.textContent = original; }, 1500);
+  }
+
+  // ---------- Init ----------
+
+  function init() {
+    load();
+
+    const fromUrl = configFromUrl();
+    if (fromUrl.names && fromUrl.names.length && !sameList(fromUrl.names, state.participants)) {
+      state.participants = fromUrl.names;
+      state.chosen = [];
+      setStatus(`Loaded ${fromUrl.names.length} names from the link.`);
+    }
+    if (fromUrl.roles) state.roles = fromUrl.roles;
+    save();
+
+    els.names.value = state.participants.join('\n');
+    els.roles.value = state.roles.join(', ');
+    if (!state.participants.length) setResult('Add some names to get started', '');
+
+    els.update.addEventListener('click', updateFromTextarea);
+    els.sort.addEventListener('click', sortNames);
+    els.share.addEventListener('click', copyShareLink);
+    els.roles.addEventListener('input', updateRoles);
+    els.copyResults.addEventListener('click', copyResults);
+    els.spin.addEventListener('click', spin);
+    els.undo.addEventListener('click', undoLast);
+    els.reset.addEventListener('click', resetAll);
+    els.clear.addEventListener('click', clearSavedState);
+
+    els.names.addEventListener('keydown', e => {
+      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        updateFromTextarea();
+      }
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.code !== 'Space' || e.repeat) return;
+      if (['TEXTAREA', 'INPUT', 'BUTTON', 'SELECT'].includes(e.target.tagName)) return;
+      e.preventDefault();
+      spin();
+    });
+
+    refreshWheel();
+    new ResizeObserver(resizeCanvas).observe(els.canvas);
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
